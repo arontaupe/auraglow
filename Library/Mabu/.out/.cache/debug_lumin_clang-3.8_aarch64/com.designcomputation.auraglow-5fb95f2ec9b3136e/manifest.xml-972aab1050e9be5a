@@ -1,0 +1,25 @@
+<manifest xmlns:ml="magicleap" ml:package="com.designcomputation.auraglow" ml:version_code="1" ml:version_name="" ml:developer_id="9b39936b-5c2a-4815-9fa9-75a4acd5e13c">
+  <application ml:sdk_version="1.0" ml:visible_name="auraglow" ml:min_api_level="10">
+    <component ml:binary_name="bin/Player.elf" ml:name=".fullscreen" ml:type="Fullscreen" ml:visible_name="auraglow">
+      <icon ml:model_folder="Icon/Model" ml:portal_folder="Icon/Portal" />
+    </component>
+    <uses-privilege ml:name="ControllerPose" />
+    <uses-privilege ml:name="GesturesConfig" />
+    <uses-privilege ml:name="GesturesSubscribe" />
+    <uses-privilege ml:name="HandMesh" />
+    <uses-privilege ml:name="ImuCapture" />
+    <uses-privilege ml:name="Internet" />
+    <uses-privilege ml:name="LowLatencyLightwear" />
+    <uses-privilege ml:name="PcfRead" />
+    <uses-privilege ml:name="WifiStatusRead" />
+    <uses-privilege ml:name="WorldReconstruction" />
+    <uses-privilege ml:name="AddressBookRead" />
+    <uses-privilege ml:name="AddressBookWrite" />
+    <uses-privilege ml:name="LocalAreaNetwork" />
+    <uses-privilege ml:name="ObjectData" />
+    <uses-privilege ml:name="AudioCaptureMic" />
+    <uses-privilege ml:name="CameraCapture" />
+    <uses-privilege ml:name="ComputerVision" />
+    <uses-privilege ml:name="FineLocation" />
+  </application>
+</manifest>

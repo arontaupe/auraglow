@@ -1,0 +1,276 @@
+{
+ "entries": [
+  {
+   "compression": 8,
+   "hash": "5925de9f4d7b83c65d1fd7b25ced5f0bf8c27e73",
+   "pkgpath": "bin/libc++_shared.so",
+   "size": 976832,
+   "src": "/Users/aron/MagicLeap/mlsdk/v0.26.0/lumin/stl/libc++/lib/libc++_shared.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/aron/auraglow/auraglow.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "957ec53aecf297f2c0623ac85dbf7e07a2de6a09",
+   "xfrm_path": "/Users/aron/auraglow/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.designcomputation.auraglow-5fb95f2ec9b3136e/libc++_shared.so-fe614cca547f1d6b",
+   "xfrm_size": 977590
+  },
+  {
+   "compression": 8,
+   "hash": "b6ac59c1080cca6573e37750ffe4fa68cd75477b",
+   "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
+   "size": 2965848,
+   "src": "/Users/aron/auraglow/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "1c9caf74b9865fad2e575b587035a4afe7c152f8",
+   "pkgpath": "bin/libil2cpp.so",
+   "size": 54981648,
+   "src": "/Users/aron/auraglow/Temp/StagingArea/Data/Native/libil2cpp.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/aron/auraglow/auraglow.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "595c6273c9de9a50e92a455dbebdc9e13c2fc7f3",
+   "xfrm_path": "/Users/aron/auraglow/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.designcomputation.auraglow-5fb95f2ec9b3136e/libil2cpp.so-b95b344a49cdfe25",
+   "xfrm_size": 54982406
+  },
+  {
+   "compression": 8,
+   "hash": "5a26e2b548442557439e1ac426928512bb560fa2",
+   "pkgpath": "bin/UnityMagicLeap.so",
+   "size": 3981624,
+   "src": "/Users/aron/auraglow/Temp/StagingArea/Data/Plugins/UnityMagicLeap.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/aron/auraglow/auraglow.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "df624884f50961dbec89c5a25639f7c36f454864",
+   "xfrm_path": "/Users/aron/auraglow/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.designcomputation.auraglow-5fb95f2ec9b3136e/UnityMagicLeap.so-9fdd6b895609e894",
+   "xfrm_size": 3982382
+  },
+  {
+   "compression": 8,
+   "hash": "945947c240a70d048c370a4fa6b0dd415d6c3aab",
+   "pkgpath": "bin/libml_bluetoothle_plugin.so",
+   "size": 14136,
+   "src": "/Users/aron/auraglow/Temp/StagingArea/Data/Plugins/libml_bluetoothle_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/aron/auraglow/auraglow.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "be425d748a028aec73751e9c518fde9abaf825f9",
+   "xfrm_path": "/Users/aron/auraglow/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.designcomputation.auraglow-5fb95f2ec9b3136e/libml_bluetoothle_plugin.so-9fdd6b895609e894",
+   "xfrm_size": 14894
+  },
+  {
+   "compression": 8,
+   "hash": "bf7cac7093aef625f10e45548eabd2b4d3e5472a",
+   "pkgpath": "bin/libml_camera_plugin.so",
+   "size": 14184,
+   "src": "/Users/aron/auraglow/Temp/StagingArea/Data/Plugins/libml_camera_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/aron/auraglow/auraglow.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "61d148aa17814a3502ea51f692fc3f9829131be5",
+   "xfrm_path": "/Users/aron/auraglow/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.designcomputation.auraglow-5fb95f2ec9b3136e/libml_camera_plugin.so-9fdd6b895609e894",
+   "xfrm_size": 14942
+  },
+  {
+   "compression": 8,
+   "hash": "8d79ebf2b331aa9a6dafd21130fc2eea9d604408",
+   "pkgpath": "bin/libml_mediaplayer_plugin.so",
+   "size": 67616,
+   "src": "/Users/aron/auraglow/Temp/StagingArea/Data/Plugins/libml_mediaplayer_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/aron/auraglow/auraglow.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "5eff15c7fc2c19bdaf5eba47e79ccddfa53cd6fe",
+   "xfrm_path": "/Users/aron/auraglow/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.designcomputation.auraglow-5fb95f2ec9b3136e/libml_mediaplayer_plugin.so-9fdd6b895609e894",
+   "xfrm_size": 68374
+  },
+  {
+   "compression": 8,
+   "hash": "e6124da6073b916e29e013cf3ae3f58a4c5fdb0e",
+   "pkgpath": "Data/Resources/mscorlib.dll-resources.dat",
+   "size": 337563,
+   "src": "/Users/aron/auraglow/Temp/StagingArea/Data/Resources/mscorlib.dll-resources.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "2d176531cc32819ce419b30ed2fb07be5256ff61",
+   "pkgpath": "Data/Resources/unity default resources",
+   "size": 4040832,
+   "src": "/Users/aron/auraglow/Temp/StagingArea/Data/Resources/unity default resources"
+  },
+  {
+   "compression": 8,
+   "hash": "ebde03b60aa76d3802db56ca61eb023c870a8b7b",
+   "pkgpath": "Data/Resources/unity_builtin_extra",
+   "size": 657600,
+   "src": "/Users/aron/auraglow/Temp/StagingArea/Data/Resources/unity_builtin_extra"
+  },
+  {
+   "compression": 8,
+   "hash": "af0f326333ed031c607a4cfb908ea59c47681484",
+   "pkgpath": "Data/RuntimeInitializeOnLoads.json",
+   "size": 1547,
+   "src": "/Users/aron/auraglow/Temp/StagingArea/Data/RuntimeInitializeOnLoads.json"
+  },
+  {
+   "compression": 8,
+   "hash": "66b558b851d91d3062fa515eeaf190cb8c640516",
+   "pkgpath": "Data/ScriptingAssemblies.json",
+   "size": 2758,
+   "src": "/Users/aron/auraglow/Temp/StagingArea/Data/ScriptingAssemblies.json"
+  },
+  {
+   "compression": 8,
+   "hash": "778891100a8030ad6096db64784c6e5d67c28378",
+   "pkgpath": "Data/UnitySubsystems/UnityMagicLeap/UnitySubsystemsManifest.json",
+   "size": 417,
+   "src": "/Users/aron/auraglow/Temp/StagingArea/Data/UnitySubsystems/UnityMagicLeap/UnitySubsystemsManifest.json"
+  },
+  {
+   "compression": 8,
+   "hash": "4ee59e5921bfd8dcc0347cbbf587d6ca6b107f05",
+   "pkgpath": "Data/boot.config",
+   "size": 69,
+   "src": "/Users/aron/auraglow/Temp/StagingArea/Data/boot.config"
+  },
+  {
+   "compression": 8,
+   "hash": "5b9d309fe0cfa359f1e5164934733e49a023b20f",
+   "pkgpath": "Data/globalgamemanagers",
+   "size": 56348,
+   "src": "/Users/aron/auraglow/Temp/StagingArea/Data/globalgamemanagers"
+  },
+  {
+   "compression": 8,
+   "hash": "4c5cc8e0ad8be1ea4da546e0e57583ca0364578a",
+   "pkgpath": "Data/globalgamemanagers.assets",
+   "size": 99228,
+   "src": "/Users/aron/auraglow/Temp/StagingArea/Data/globalgamemanagers.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "71fa0c2ad70cfdf9b17b6c2e7370a8f5553617b7",
+   "pkgpath": "Data/globalgamemanagers.assets.resS",
+   "size": 2796224,
+   "src": "/Users/aron/auraglow/Temp/StagingArea/Data/globalgamemanagers.assets.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "002d28d5cc41e308503e197f07918cf69b79f9df",
+   "pkgpath": "Data/level0",
+   "size": 6196,
+   "src": "/Users/aron/auraglow/Temp/StagingArea/Data/level0"
+  },
+  {
+   "compression": 8,
+   "hash": "fb6aaccd07cc9b315da16c57df55695b38191fee",
+   "pkgpath": "Data/level0.resS",
+   "size": 131232,
+   "src": "/Users/aron/auraglow/Temp/StagingArea/Data/level0.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "0166294294ad17951ccc85aed297b8bfd6389e14",
+   "pkgpath": "Data/sharedassets0.assets",
+   "size": 12148824,
+   "src": "/Users/aron/auraglow/Temp/StagingArea/Data/sharedassets0.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "64ed8889269bb706f7f0d096bcb5ffba98b32e07",
+   "pkgpath": "Data/sharedassets0.assets.resS",
+   "size": 2796224,
+   "src": "/Users/aron/auraglow/Temp/StagingArea/Data/sharedassets0.assets.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "8ccaa6b19a57a9c3fa475f0bd7777fbc717d1b97",
+   "pkgpath": "bin/Player.elf",
+   "size": 23183496,
+   "src": "/Users/aron/auraglow/Temp/StagingArea/Player.elf",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "/Users/aron/auraglow/auraglow.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "5d98060b839fff1b50e03ab7b5d76f517c0402d1",
+   "xfrm_path": "/Users/aron/auraglow/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.designcomputation.auraglow-5fb95f2ec9b3136e/Player.elf-972aab1050e9be5a",
+   "xfrm_size": 23184254
+  },
+  {
+   "compression": 8,
+   "hash": "c28c1023d52b64b9570e98a9dbaceae3508cf949",
+   "pkgpath": "manifest.xml",
+   "size": 1334,
+   "src": "/Users/aron/auraglow/Temp/StagingArea/manifest.xml",
+   "xfrm_flags": {
+    "manifest": {
+     "cert_hash": "0521c7c0359dceeaedbc6911c971da92e7b935fd",
+     "developer_id": "9b39936b-5c2a-4815-9fa9-75a4acd5e13c"
+    }
+   },
+   "xfrm_hash": "d24931db5be384e23b360e1692fff264af697ab6",
+   "xfrm_path": "/Users/aron/auraglow/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.designcomputation.auraglow-5fb95f2ec9b3136e/manifest.xml-972aab1050e9be5a",
+   "xfrm_size": 1347
+  }
+ ],
+ "pkgflags": {
+  "signed": {
+   "cert": "/Users/aron/auraglow/auraglow.cert"
+  },
+  "taildata": {
+   "debuggable": true,
+   "devcert": "/Users/aron/auraglow/auraglow.cert",
+   "sbox": "USER",
+   "version": 3
+  }
+ }
+}
