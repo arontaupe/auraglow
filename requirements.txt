@@ -1,0 +1,3 @@
+git
+git-lfs
+unity 2020.3.42.f1
