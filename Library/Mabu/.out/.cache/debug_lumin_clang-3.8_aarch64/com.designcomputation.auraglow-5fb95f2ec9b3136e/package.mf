@@ -22,16 +22,16 @@
   },
   {
    "compression": 8,
-   "hash": "b6ac59c1080cca6573e37750ffe4fa68cd75477b",
+   "hash": "a740e42637cee8986af7fca3a98e222f8c1be0f5",
    "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
-   "size": 2965848,
+   "size": 2972672,
    "src": "/Users/aron/auraglow/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
   },
   {
    "compression": 8,
-   "hash": "1c9caf74b9865fad2e575b587035a4afe7c152f8",
+   "hash": "17b9f73ba12b6d3c2551b49c3c66a03732495f2c",
    "pkgpath": "bin/libil2cpp.so",
-   "size": 54981648,
+   "size": 55067544,
    "src": "/Users/aron/auraglow/Temp/StagingArea/Data/Native/libil2cpp.so",
    "xfrm_flags": {
     "signed": {
@@ -43,9 +43,9 @@
      "version": 3
     }
    },
-   "xfrm_hash": "595c6273c9de9a50e92a455dbebdc9e13c2fc7f3",
+   "xfrm_hash": "f926f1eeb2b32c19b44deeeaab815842386e5c03",
    "xfrm_path": "/Users/aron/auraglow/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.designcomputation.auraglow-5fb95f2ec9b3136e/libil2cpp.so-b95b344a49cdfe25",
-   "xfrm_size": 54982406
+   "xfrm_size": 55068302
   },
   {
    "compression": 8,
@@ -157,9 +157,9 @@
   },
   {
    "compression": 8,
-   "hash": "66b558b851d91d3062fa515eeaf190cb8c640516",
+   "hash": "7bc530373219eb4327477b87ef777623f7c85de6",
    "pkgpath": "Data/ScriptingAssemblies.json",
-   "size": 2758,
+   "size": 2849,
    "src": "/Users/aron/auraglow/Temp/StagingArea/Data/ScriptingAssemblies.json"
   },
   {
@@ -178,16 +178,16 @@
   },
   {
    "compression": 8,
-   "hash": "5b9d309fe0cfa359f1e5164934733e49a023b20f",
+   "hash": "789b126878159944dee5a411e2639d1e966f75c8",
    "pkgpath": "Data/globalgamemanagers",
-   "size": 56348,
+   "size": 56708,
    "src": "/Users/aron/auraglow/Temp/StagingArea/Data/globalgamemanagers"
   },
   {
    "compression": 8,
-   "hash": "4c5cc8e0ad8be1ea4da546e0e57583ca0364578a",
+   "hash": "85733e23785ec9df95b3cc34dd8ef9386fbea8c5",
    "pkgpath": "Data/globalgamemanagers.assets",
-   "size": 99228,
+   "size": 100284,
    "src": "/Users/aron/auraglow/Temp/StagingArea/Data/globalgamemanagers.assets"
   },
   {
@@ -199,9 +199,9 @@
   },
   {
    "compression": 8,
-   "hash": "002d28d5cc41e308503e197f07918cf69b79f9df",
+   "hash": "1e9be0ae1e398d4f326fa7254cefd3625da60d75",
    "pkgpath": "Data/level0",
-   "size": 6196,
+   "size": 7012,
    "src": "/Users/aron/auraglow/Temp/StagingArea/Data/level0"
   },
   {
@@ -213,16 +213,16 @@
   },
   {
    "compression": 8,
-   "hash": "0166294294ad17951ccc85aed297b8bfd6389e14",
+   "hash": "57b782adc7e93bd1561cb800e53130175c1b915c",
    "pkgpath": "Data/sharedassets0.assets",
-   "size": 12148824,
+   "size": 12451368,
    "src": "/Users/aron/auraglow/Temp/StagingArea/Data/sharedassets0.assets"
   },
   {
    "compression": 8,
-   "hash": "64ed8889269bb706f7f0d096bcb5ffba98b32e07",
+   "hash": "2efdd69d127f180e81e13c003ab3019ce16e197d",
    "pkgpath": "Data/sharedassets0.assets.resS",
-   "size": 2796224,
+   "size": 6693984,
    "src": "/Users/aron/auraglow/Temp/StagingArea/Data/sharedassets0.assets.resS"
   },
   {
@@ -247,9 +247,9 @@
   },
   {
    "compression": 8,
-   "hash": "c28c1023d52b64b9570e98a9dbaceae3508cf949",
+   "hash": "3ddea1f68faecea3cc1b8805482f38dc1de8193e",
    "pkgpath": "manifest.xml",
-   "size": 1334,
+   "size": 1333,
    "src": "/Users/aron/auraglow/Temp/StagingArea/manifest.xml",
    "xfrm_flags": {
     "manifest": {
@@ -257,9 +257,9 @@
      "developer_id": "9b39936b-5c2a-4815-9fa9-75a4acd5e13c"
     }
    },
-   "xfrm_hash": "d24931db5be384e23b360e1692fff264af697ab6",
+   "xfrm_hash": "b52611b0480b011b1be0f250d36f58d3c23d0a59",
    "xfrm_path": "/Users/aron/auraglow/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.designcomputation.auraglow-5fb95f2ec9b3136e/manifest.xml-972aab1050e9be5a",
-   "xfrm_size": 1347
+   "xfrm_size": 1346
   }
  ],
  "pkgflags": {

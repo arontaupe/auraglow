@@ -1,7 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 11.00
 # Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.MagicLeap.Samples.InputProviders", "Unity.MagicLeap.Samples.InputProviders.csproj", "{5af7864f-e90a-b634-f7d3-4b1e59ed60f5}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp", "Assembly-CSharp.csproj", "{b6854a53-c3be-4a15-5fb2-78bdcd5c44a4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.MagicLeap.Samples.Rendering", "Unity.MagicLeap.Samples.Rendering.csproj", "{03d23284-0e49-3a09-eb89-537d8ba960a5}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicLeap.SetupTool.Editor", "MagicLeap.SetupTool.Editor.csproj", "{57f1448c-adce-fb0a-8492-b2bec6507d9a}"
 EndProject
@@ -10,8 +14,12 @@ Global
 		Debug|Any CPU = Debug|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5af7864f-e90a-b634-f7d3-4b1e59ed60f5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5af7864f-e90a-b634-f7d3-4b1e59ed60f5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{b6854a53-c3be-4a15-5fb2-78bdcd5c44a4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{b6854a53-c3be-4a15-5fb2-78bdcd5c44a4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{03d23284-0e49-3a09-eb89-537d8ba960a5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{03d23284-0e49-3a09-eb89-537d8ba960a5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57f1448c-adce-fb0a-8492-b2bec6507d9a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{57f1448c-adce-fb0a-8492-b2bec6507d9a}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection

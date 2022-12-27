@@ -36,31 +36,31 @@
     <ImplicitlyExpandDesignTimeFacades>false</ImplicitlyExpandDesignTimeFacades>
   </PropertyGroup>
   <ItemGroup>
-     <Compile Include="Assets/magic-leap-setup-tool/Editor/AutoRunner.cs" />
-     <Compile Include="Assets/magic-leap-setup-tool/Editor/SetupSteps/UpdateGraphicsApiSetupStep.cs" />
-     <Compile Include="Assets/magic-leap-setup-tool/Editor/SetupData.cs" />
-     <Compile Include="Assets/magic-leap-setup-tool/Editor/Styles.cs" />
-     <Compile Include="Assets/magic-leap-setup-tool/Editor/Utilities/TypeUtility.cs" />
-     <Compile Include="Assets/magic-leap-setup-tool/Editor/SetupSteps/BuildTargetSetupStep.cs" />
-     <Compile Include="Assets/magic-leap-setup-tool/Editor/Utilities/EditorKeyUtility.cs" />
-     <Compile Include="Assets/magic-leap-setup-tool/Editor/Utilities/UnityConsoleUtility.cs" />
-     <Compile Include="Assets/magic-leap-setup-tool/Editor/Utilities/PackageUtility.cs" />
-     <Compile Include="Assets/magic-leap-setup-tool/Editor/SetupSteps/InstallPluginSetupStep.cs" />
-     <Compile Include="Assets/magic-leap-setup-tool/Editor/Utilities/MagicLeapLuminPackageUtility.cs" />
-     <Compile Include="Assets/magic-leap-setup-tool/Editor/MLSDKRegistryPackageImporter.cs" />
-     <Compile Include="Assets/magic-leap-setup-tool/Editor/SetupSteps/EnablePluginSetupStep.cs" />
-     <Compile Include="Assets/magic-leap-setup-tool/Editor/SetupSteps/UpdateManifestSetupStep.cs" />
-     <Compile Include="Assets/magic-leap-setup-tool/Editor/Utilities/DefineSymbolsUtility.cs" />
-     <Compile Include="Assets/magic-leap-setup-tool/Editor/CustomGuiContent.cs" />
-     <Compile Include="Assets/magic-leap-setup-tool/Editor/MagicLeapSetupAutoRun.cs" />
-     <Compile Include="Assets/magic-leap-setup-tool/Editor/Interfaces/ISetupStep.cs" />
-     <Compile Include="Assets/magic-leap-setup-tool/Editor/SetupSteps/SetSdkFolderSetupStep.cs" />
-     <Compile Include="Assets/magic-leap-setup-tool/Editor/Utilities/UnityProjectSettingsUtility.cs" />
      <Compile Include="Assets/magic-leap-setup-tool/Editor/MagicLeapSetupWindow.cs" />
-     <Compile Include="Assets/magic-leap-setup-tool/Editor/SetupSteps/ImportMagicLeapSdkSetupStep.cs" />
-     <Compile Include="Assets/magic-leap-setup-tool/Editor/SetupSteps/SetCertificateSetupStep.cs" />
+     <Compile Include="Assets/magic-leap-setup-tool/Editor/SetupData.cs" />
      <Compile Include="Assets/magic-leap-setup-tool/Editor/SetupSteps/ColorSpaceSetupStep.cs" />
+     <Compile Include="Assets/magic-leap-setup-tool/Editor/SetupSteps/UpdateManifestSetupStep.cs" />
+     <Compile Include="Assets/magic-leap-setup-tool/Editor/SetupSteps/ImportMagicLeapSdkSetupStep.cs" />
+     <Compile Include="Assets/magic-leap-setup-tool/Editor/Utilities/UnityProjectSettingsUtility.cs" />
+     <Compile Include="Assets/magic-leap-setup-tool/Editor/MLSDKRegistryPackageImporter.cs" />
+     <Compile Include="Assets/magic-leap-setup-tool/Editor/SetupSteps/InstallPluginSetupStep.cs" />
+     <Compile Include="Assets/magic-leap-setup-tool/Editor/Utilities/UnityConsoleUtility.cs" />
+     <Compile Include="Assets/magic-leap-setup-tool/Editor/SetupSteps/SetCertificateSetupStep.cs" />
+     <Compile Include="Assets/magic-leap-setup-tool/Editor/Styles.cs" />
+     <Compile Include="Assets/magic-leap-setup-tool/Editor/SetupSteps/EnablePluginSetupStep.cs" />
+     <Compile Include="Assets/magic-leap-setup-tool/Editor/SetupSteps/UpdateGraphicsApiSetupStep.cs" />
+     <Compile Include="Assets/magic-leap-setup-tool/Editor/CustomGuiContent.cs" />
+     <Compile Include="Assets/magic-leap-setup-tool/Editor/Utilities/MagicLeapLuminPackageUtility.cs" />
+     <Compile Include="Assets/magic-leap-setup-tool/Editor/SetupSteps/BuildTargetSetupStep.cs" />
      <Compile Include="Assets/magic-leap-setup-tool/Editor/Templates/DefaultPackageTemplate.cs" />
+     <Compile Include="Assets/magic-leap-setup-tool/Editor/Utilities/EditorKeyUtility.cs" />
+     <Compile Include="Assets/magic-leap-setup-tool/Editor/SetupSteps/SetSdkFolderSetupStep.cs" />
+     <Compile Include="Assets/magic-leap-setup-tool/Editor/Interfaces/ISetupStep.cs" />
+     <Compile Include="Assets/magic-leap-setup-tool/Editor/Utilities/PackageUtility.cs" />
+     <Compile Include="Assets/magic-leap-setup-tool/Editor/Utilities/DefineSymbolsUtility.cs" />
+     <Compile Include="Assets/magic-leap-setup-tool/Editor/Utilities/TypeUtility.cs" />
+     <Compile Include="Assets/magic-leap-setup-tool/Editor/AutoRunner.cs" />
+     <Compile Include="Assets/magic-leap-setup-tool/Editor/MagicLeapSetupAutoRun.cs" />
      <None Include="Assets/magic-leap-setup-tool/Editor/MagicLeap.SetupTool.Editor.asmdef" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.42f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -298,18 +298,6 @@
     </Reference>
     <Reference Include="UnityEditor.Lumin.Extensions">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.42f1/PlaybackEngines/LuminSupport/UnityEditor.Lumin.Extensions.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Plastic.Newtonsoft.Json">
-        <HintPath>/Users/aron/auraglow/Library/PackageCache/com.unity.collab-proxy@1.17.6/Lib/Editor/PlasticSCM/Unity.Plastic.Newtonsoft.Json.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Plastic.Antlr3.Runtime">
-        <HintPath>/Users/aron/auraglow/Library/PackageCache/com.unity.collab-proxy@1.17.6/Lib/Editor/PlasticSCM/Unity.Plastic.Antlr3.Runtime.dll</HintPath>
-    </Reference>
-    <Reference Include="unityplastic">
-        <HintPath>/Users/aron/auraglow/Library/PackageCache/com.unity.collab-proxy@1.17.6/Lib/Editor/PlasticSCM/unityplastic.dll</HintPath>
-    </Reference>
-    <Reference Include="log4netPlastic">
-        <HintPath>/Users/aron/auraglow/Library/PackageCache/com.unity.collab-proxy@1.17.6/Lib/Editor/PlasticSCM/log4netPlastic.dll</HintPath>
     </Reference>
     <Reference Include="nunit.framework">
         <HintPath>/Users/aron/auraglow/Library/PackageCache/com.unity.ext.nunit@1.0.6/net35/unity-custom/nunit.framework.dll</HintPath>
@@ -674,11 +662,11 @@
     <Reference Include="Unity.XR.Management.Editor">
         <HintPath>/Users/aron/auraglow/Library/ScriptAssemblies/Unity.XR.Management.Editor.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEngine.UI">
-        <HintPath>/Users/aron/auraglow/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEditor.UI">
         <HintPath>/Users/aron/auraglow/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+        <HintPath>/Users/aron/auraglow/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.TestRunner">
         <HintPath>/Users/aron/auraglow/Library/ScriptAssemblies/UnityEngine.TestRunner.dll</HintPath>

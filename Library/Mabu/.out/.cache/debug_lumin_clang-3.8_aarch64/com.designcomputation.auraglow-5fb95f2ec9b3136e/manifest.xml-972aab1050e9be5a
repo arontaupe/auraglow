@@ -1,5 +1,5 @@
 <manifest xmlns:ml="magicleap" ml:package="com.designcomputation.auraglow" ml:version_code="1" ml:version_name="" ml:developer_id="9b39936b-5c2a-4815-9fa9-75a4acd5e13c">
-  <application ml:sdk_version="1.0" ml:visible_name="auraglow" ml:min_api_level="10">
+  <application ml:sdk_version="1.0" ml:visible_name="auraglow" ml:min_api_level="7">
     <component ml:binary_name="bin/Player.elf" ml:name=".fullscreen" ml:type="Fullscreen" ml:visible_name="auraglow">
       <icon ml:model_folder="Icon/Model" ml:portal_folder="Icon/Portal" />
     </component>

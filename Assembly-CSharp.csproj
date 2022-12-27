@@ -38,6 +38,9 @@
   <ItemGroup>
      <Compile Include="Assets/Aura Effect/Shader/AuraControl.cs" />
      <Compile Include="Assets/Scripts/RotateAround.cs" />
+     <Compile Include="Assets/Scripts/DynamicBeam.cs" />
+     <Compile Include="Assets/Scripts/Raycast.cs" />
+     <Compile Include="Assets/Scripts/ButtonScript.cs" />
      <None Include="Assets/Aura Effect/Shader/AuraEffect.shader" />
     <Reference Include="UnityEngine">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.42f1/Unity.app/Contents/Managed/UnityEngine/UnityEngine.dll</HintPath>
@@ -603,6 +606,9 @@
     <Reference Include="mscorlib">
         <HintPath>/Applications/Unity/Hub/Editor/2020.3.42f1/Unity.app/Contents/NetStandard/compat/2.0.0/shims/netfx/mscorlib.dll</HintPath>
     </Reference>
+    <Reference Include="LuminUnity">
+        <HintPath>/Users/aron/auraglow/Library/ScriptAssemblies/LuminUnity.dll</HintPath>
+    </Reference>
     <Reference Include="Unity.VSCode.Editor">
         <HintPath>/Users/aron/auraglow/Library/ScriptAssemblies/Unity.VSCode.Editor.dll</HintPath>
     </Reference>
@@ -627,12 +633,6 @@
     <Reference Include="UnityEditor.UI">
         <HintPath>/Users/aron/auraglow/Library/ScriptAssemblies/UnityEditor.UI.dll</HintPath>
     </Reference>
-    <Reference Include="Unity.PlasticSCM.Editor">
-        <HintPath>/Users/aron/auraglow/Library/ScriptAssemblies/Unity.PlasticSCM.Editor.dll</HintPath>
-    </Reference>
-    <Reference Include="Unity.Rider.Editor">
-        <HintPath>/Users/aron/auraglow/Library/ScriptAssemblies/Unity.Rider.Editor.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
         <HintPath>/Users/aron/auraglow/Library/ScriptAssemblies/UnityEngine.UI.dll</HintPath>
     </Reference>
@@ -647,6 +647,9 @@
     </Reference>
     <Reference Include="UnityEditor.XR.MagicLeap">
         <HintPath>/Users/aron/auraglow/Library/ScriptAssemblies/UnityEditor.XR.MagicLeap.dll</HintPath>
+    </Reference>
+    <Reference Include="LuminUnity-Editor">
+        <HintPath>/Users/aron/auraglow/Library/ScriptAssemblies/LuminUnity-Editor.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.XR.LegacyInputHelpers">
         <HintPath>/Users/aron/auraglow/Library/ScriptAssemblies/UnityEngine.XR.LegacyInputHelpers.dll</HintPath>
@@ -669,17 +672,19 @@
     <Reference Include="UnityEditor.SpatialTracking">
         <HintPath>/Users/aron/auraglow/Library/ScriptAssemblies/UnityEditor.SpatialTracking.dll</HintPath>
     </Reference>
-    <Reference Include="LuminUnity">
-        <HintPath>/Users/aron/auraglow/Library/ScriptAssemblies/LuminUnity.dll</HintPath>
-    </Reference>
-    <Reference Include="LuminUnity-Editor">
-        <HintPath>/Users/aron/auraglow/Library/ScriptAssemblies/LuminUnity-Editor.dll</HintPath>
-    </Reference>
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="Unity.MagicLeap.Samples.InputProviders.csproj">
+      <Project>{5af7864f-e90a-b634-f7d3-4b1e59ed60f5}</Project>
+      <Name>Unity.MagicLeap.Samples.InputProviders</Name>
+    </ProjectReference>
     <ProjectReference Include="MagicLeap.SetupTool.Editor.csproj">
       <Project>{57f1448c-adce-fb0a-8492-b2bec6507d9a}</Project>
       <Name>MagicLeap.SetupTool.Editor</Name>
+    </ProjectReference>
+    <ProjectReference Include="Unity.MagicLeap.Samples.Rendering.csproj">
+      <Project>{03d23284-0e49-3a09-eb89-537d8ba960a5}</Project>
+      <Name>Unity.MagicLeap.Samples.Rendering</Name>
     </ProjectReference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
