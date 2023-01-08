@@ -1011,7 +1011,10 @@ IL2CPP_EXTERN_C const RuntimeMethod* ColorBlock_get_normalColor_m7C5A73BBE739FFA
 IL2CPP_EXTERN_C const RuntimeMethod* ColorBlock_get_pressedColor_mCEBCE4184CBAE7D33FE3D8AD3FDFA3931FD87C70_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ColorBlock_get_selectedColor_m7C592B6652C94BACF43F0C007AC0093A2543F725_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ColorBlock_set_colorMultiplier_m8A321BF2E07D4D184214014C32F5389C8BE06198_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ColorBlock_set_disabledColor_m0E9C6689B962550D1C3F15275DF2409FD3C28841_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ColorBlock_set_fadeDuration_m51827B5F57CFEF2FF8DFB03687A301E2F1B3CDCE_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ColorBlock_set_highlightedColor_m176DF68369EC1536D089EABD1357AB8EAC33BC88_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* ColorBlock_set_pressedColor_m7F357DD0E16A18A84D2DCF039238ADE6695EB5C0_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ColorTween_AddOnChangedCallback_mABFB32C3DFECB9271E2CECA5FE79567F82D56DCF_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ColorTween_TweenValue_m5F8B59F75D4CE627BC5F6E34A1345D41941FDCC6_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ColorTween_ValidTarget_m1A0F15E461C7359650F9B26BD2CE50EFCA2EA80A_RuntimeMethod_var;
@@ -13195,12 +13198,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Rect__ctor_m12075526A02B55B680716A34AD52
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  ColorBlock_get_normalColor_m7C5A73BBE739FFA030EE1FE10CE78BECB8417126_inline (ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955 * __this, const RuntimeMethod* method);
 // UnityEngine.Color UnityEngine.UI.ColorBlock::get_highlightedColor()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  ColorBlock_get_highlightedColor_mDA12AC25C740DF2AFFF086B62795533B4D2ED336_inline (ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955 * __this, const RuntimeMethod* method);
+// System.Void UnityEngine.UI.ColorBlock::set_highlightedColor(UnityEngine.Color)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ColorBlock_set_highlightedColor_m176DF68369EC1536D089EABD1357AB8EAC33BC88_inline (ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955 * __this, Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  ___value0, const RuntimeMethod* method);
 // UnityEngine.Color UnityEngine.UI.ColorBlock::get_pressedColor()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  ColorBlock_get_pressedColor_mCEBCE4184CBAE7D33FE3D8AD3FDFA3931FD87C70_inline (ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955 * __this, const RuntimeMethod* method);
+// System.Void UnityEngine.UI.ColorBlock::set_pressedColor(UnityEngine.Color)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ColorBlock_set_pressedColor_m7F357DD0E16A18A84D2DCF039238ADE6695EB5C0_inline (ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955 * __this, Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  ___value0, const RuntimeMethod* method);
 // UnityEngine.Color UnityEngine.UI.ColorBlock::get_selectedColor()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  ColorBlock_get_selectedColor_m7C592B6652C94BACF43F0C007AC0093A2543F725_inline (ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955 * __this, const RuntimeMethod* method);
 // UnityEngine.Color UnityEngine.UI.ColorBlock::get_disabledColor()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  ColorBlock_get_disabledColor_mF470FB3FA48E777F5C70F1C18EF218DB673970E9_inline (ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955 * __this, const RuntimeMethod* method);
+// System.Void UnityEngine.UI.ColorBlock::set_disabledColor(UnityEngine.Color)
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ColorBlock_set_disabledColor_m0E9C6689B962550D1C3F15275DF2409FD3C28841_inline (ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955 * __this, Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  ___value0, const RuntimeMethod* method);
 // System.Single UnityEngine.UI.ColorBlock::get_colorMultiplier()
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ColorBlock_get_colorMultiplier_m38A25E26F0AB48B6CB04A7A18EF1EAC2AFD2BA28_inline (ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955 * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.UI.ColorBlock::set_colorMultiplier(System.Single)
@@ -21018,6 +21027,30 @@ IL2CPP_EXTERN_C  Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  ColorBlock_get
 	_returnValue = ColorBlock_get_highlightedColor_mDA12AC25C740DF2AFFF086B62795533B4D2ED336_inline(_thisAdjusted, method);
 	return _returnValue;
 }
+// System.Void UnityEngine.UI.ColorBlock::set_highlightedColor(UnityEngine.Color)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorBlock_set_highlightedColor_m176DF68369EC1536D089EABD1357AB8EAC33BC88 (ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955 * __this, Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ColorBlock_set_highlightedColor_m176DF68369EC1536D089EABD1357AB8EAC33BC88_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	StackTraceSentry _stackTraceSentry(ColorBlock_set_highlightedColor_m176DF68369EC1536D089EABD1357AB8EAC33BC88_RuntimeMethod_var);
+	{
+		// public Color highlightedColor  { get { return m_HighlightedColor; } set { m_HighlightedColor = value; } }
+		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_0 = ___value0;
+		__this->set_m_HighlightedColor_1(L_0);
+		// public Color highlightedColor  { get { return m_HighlightedColor; } set { m_HighlightedColor = value; } }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ColorBlock_set_highlightedColor_m176DF68369EC1536D089EABD1357AB8EAC33BC88_AdjustorThunk (RuntimeObject * __this, Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  ___value0, const RuntimeMethod* method)
+{
+	int32_t _offset = 1;
+	ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955 * _thisAdjusted = reinterpret_cast<ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955 *>(__this + _offset);
+	ColorBlock_set_highlightedColor_m176DF68369EC1536D089EABD1357AB8EAC33BC88_inline(_thisAdjusted, ___value0, method);
+}
 // UnityEngine.Color UnityEngine.UI.ColorBlock::get_pressedColor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  ColorBlock_get_pressedColor_mCEBCE4184CBAE7D33FE3D8AD3FDFA3931FD87C70 (ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955 * __this, const RuntimeMethod* method)
 {
@@ -21041,6 +21074,30 @@ IL2CPP_EXTERN_C  Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  ColorBlock_get
 	Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  _returnValue;
 	_returnValue = ColorBlock_get_pressedColor_mCEBCE4184CBAE7D33FE3D8AD3FDFA3931FD87C70_inline(_thisAdjusted, method);
 	return _returnValue;
+}
+// System.Void UnityEngine.UI.ColorBlock::set_pressedColor(UnityEngine.Color)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorBlock_set_pressedColor_m7F357DD0E16A18A84D2DCF039238ADE6695EB5C0 (ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955 * __this, Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ColorBlock_set_pressedColor_m7F357DD0E16A18A84D2DCF039238ADE6695EB5C0_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	StackTraceSentry _stackTraceSentry(ColorBlock_set_pressedColor_m7F357DD0E16A18A84D2DCF039238ADE6695EB5C0_RuntimeMethod_var);
+	{
+		// public Color pressedColor      { get { return m_PressedColor; } set { m_PressedColor = value; } }
+		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_0 = ___value0;
+		__this->set_m_PressedColor_2(L_0);
+		// public Color pressedColor      { get { return m_PressedColor; } set { m_PressedColor = value; } }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ColorBlock_set_pressedColor_m7F357DD0E16A18A84D2DCF039238ADE6695EB5C0_AdjustorThunk (RuntimeObject * __this, Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  ___value0, const RuntimeMethod* method)
+{
+	int32_t _offset = 1;
+	ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955 * _thisAdjusted = reinterpret_cast<ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955 *>(__this + _offset);
+	ColorBlock_set_pressedColor_m7F357DD0E16A18A84D2DCF039238ADE6695EB5C0_inline(_thisAdjusted, ___value0, method);
 }
 // UnityEngine.Color UnityEngine.UI.ColorBlock::get_selectedColor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  ColorBlock_get_selectedColor_m7C592B6652C94BACF43F0C007AC0093A2543F725 (ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955 * __this, const RuntimeMethod* method)
@@ -21089,6 +21146,30 @@ IL2CPP_EXTERN_C  Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  ColorBlock_get
 	Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  _returnValue;
 	_returnValue = ColorBlock_get_disabledColor_mF470FB3FA48E777F5C70F1C18EF218DB673970E9_inline(_thisAdjusted, method);
 	return _returnValue;
+}
+// System.Void UnityEngine.UI.ColorBlock::set_disabledColor(UnityEngine.Color)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ColorBlock_set_disabledColor_m0E9C6689B962550D1C3F15275DF2409FD3C28841 (ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955 * __this, Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  ___value0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&ColorBlock_set_disabledColor_m0E9C6689B962550D1C3F15275DF2409FD3C28841_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	StackTraceSentry _stackTraceSentry(ColorBlock_set_disabledColor_m0E9C6689B962550D1C3F15275DF2409FD3C28841_RuntimeMethod_var);
+	{
+		// public Color disabledColor     { get { return m_DisabledColor; } set { m_DisabledColor = value; } }
+		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_0 = ___value0;
+		__this->set_m_DisabledColor_4(L_0);
+		// public Color disabledColor     { get { return m_DisabledColor; } set { m_DisabledColor = value; } }
+		return;
+	}
+}
+IL2CPP_EXTERN_C  void ColorBlock_set_disabledColor_m0E9C6689B962550D1C3F15275DF2409FD3C28841_AdjustorThunk (RuntimeObject * __this, Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  ___value0, const RuntimeMethod* method)
+{
+	int32_t _offset = 1;
+	ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955 * _thisAdjusted = reinterpret_cast<ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955 *>(__this + _offset);
+	ColorBlock_set_disabledColor_m0E9C6689B962550D1C3F15275DF2409FD3C28841_inline(_thisAdjusted, ___value0, method);
 }
 // System.Single UnityEngine.UI.ColorBlock::get_colorMultiplier()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float ColorBlock_get_colorMultiplier_m38A25E26F0AB48B6CB04A7A18EF1EAC2AFD2BA28 (ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955 * __this, const RuntimeMethod* method)
@@ -45310,12 +45391,32 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tF40DAF76C04FFECF3FE6024F85
 		return L_0;
 	}
 }
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ColorBlock_set_highlightedColor_m176DF68369EC1536D089EABD1357AB8EAC33BC88_inline (ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955 * __this, Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  ___value0, const RuntimeMethod* method)
+{
+	{
+		// public Color highlightedColor  { get { return m_HighlightedColor; } set { m_HighlightedColor = value; } }
+		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_0 = ___value0;
+		__this->set_m_HighlightedColor_1(L_0);
+		// public Color highlightedColor  { get { return m_HighlightedColor; } set { m_HighlightedColor = value; } }
+		return;
+	}
+}
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  ColorBlock_get_pressedColor_mCEBCE4184CBAE7D33FE3D8AD3FDFA3931FD87C70_inline (ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955 * __this, const RuntimeMethod* method)
 {
 	{
 		// public Color pressedColor      { get { return m_PressedColor; } set { m_PressedColor = value; } }
 		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_0 = __this->get_m_PressedColor_2();
 		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ColorBlock_set_pressedColor_m7F357DD0E16A18A84D2DCF039238ADE6695EB5C0_inline (ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955 * __this, Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  ___value0, const RuntimeMethod* method)
+{
+	{
+		// public Color pressedColor      { get { return m_PressedColor; } set { m_PressedColor = value; } }
+		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_0 = ___value0;
+		__this->set_m_PressedColor_2(L_0);
+		// public Color pressedColor      { get { return m_PressedColor; } set { m_PressedColor = value; } }
+		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  ColorBlock_get_selectedColor_m7C592B6652C94BACF43F0C007AC0093A2543F725_inline (ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955 * __this, const RuntimeMethod* method)
@@ -45332,6 +45433,16 @@ IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR Color_tF40DAF76C04FFECF3FE6024F85
 		// public Color disabledColor     { get { return m_DisabledColor; } set { m_DisabledColor = value; } }
 		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_0 = __this->get_m_DisabledColor_4();
 		return L_0;
+	}
+}
+IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void ColorBlock_set_disabledColor_m0E9C6689B962550D1C3F15275DF2409FD3C28841_inline (ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955 * __this, Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  ___value0, const RuntimeMethod* method)
+{
+	{
+		// public Color disabledColor     { get { return m_DisabledColor; } set { m_DisabledColor = value; } }
+		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_0 = ___value0;
+		__this->set_m_DisabledColor_4(L_0);
+		// public Color disabledColor     { get { return m_DisabledColor; } set { m_DisabledColor = value; } }
+		return;
 	}
 }
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR float ColorBlock_get_colorMultiplier_m38A25E26F0AB48B6CB04A7A18EF1EAC2AFD2BA28_inline (ColorBlock_t04DFBB97B4772D2E00FD17ED2E3E6590E6916955 * __this, const RuntimeMethod* method)

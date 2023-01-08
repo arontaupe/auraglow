@@ -60,6 +60,10 @@ IL2CPP_EXTERN_C const RuntimeMethod* HitInfo_SendMessage_m2D813691948EAB9CDA487A
 IL2CPP_EXTERN_C const RuntimeMethod* HitInfo_op_Implicit_mB02918E7074EE84AE168A8F0F9F161DA6EB29E94_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Input_GetAxisRaw_m6B145732584DA7EDEE6B38BB7F282AA246BD22B7_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Input_GetButtonDown_m118FFE5239B51967E8EE77A3651B53E1E55412BA_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Input_GetKeyDownInt_m396EF11DDAC5212B686E0EA37A90DA28320A6660_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Input_GetKeyDown_m806A477EAE0AE49AA9C5E518A0800A3D80D873DC_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Input_GetKeyInt_m7476381058BB4B167E69B1DE6D0D8D4DE3FA63E4_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Input_GetKey_m34EFCC2F4D8BDDEAC7CE83C0ADE0C4EA812E5900_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Input_GetMouseButtonDown_m689599122AC9F35D1FCCA2BF2414387472B0799F_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Input_GetMouseButtonUp_m72BC7AC98DF3D431D2AD59D0916216D4E31A9503_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Input_GetMouseButton_mEF40689A9E574691E832255C430A9E626B005AF3_RuntimeMethod_var;
@@ -883,6 +887,24 @@ public:
 };
 
 
+// UnityEngine.KeyCode
+struct KeyCode_t1D303F7D061BF4429872E9F109ADDBCB431671F4 
+{
+public:
+	// System.Int32 UnityEngine.KeyCode::value__
+	int32_t ___value___2;
+
+public:
+	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(KeyCode_t1D303F7D061BF4429872E9F109ADDBCB431671F4, ___value___2)); }
+	inline int32_t get_value___2() const { return ___value___2; }
+	inline int32_t* get_address_of_value___2() { return &___value___2; }
+	inline void set_value___2(int32_t value)
+	{
+		___value___2 = value;
+	}
+};
+
+
 // UnityEngine.Object
 struct Object_tF2F3778131EFF286AF62B7B013A170F95A91571A  : public RuntimeObject
 {
@@ -1394,6 +1416,10 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_tC000A2E1A7CF1E10FD7BA08863287C072
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * CameraRaycastHelper_RaycastTry2D_Injected_mE1280DA34FDAFD8DB06175027141C04F1EED1FDF (Camera_tC44E094BAB53AFC8A014C6F9CFCE11F4FC38006C * ___cam0, Ray_t2E9E67CC8B03EE6ED2BBF3D2C9C96DDF70E1D5E6 * ___ray1, float ___distance2, int32_t ___layerMask3, const RuntimeMethod* method);
 // System.Void UnityEngine.Input::GetTouch_Injected(System.Int32,UnityEngine.Touch&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Input_GetTouch_Injected_m170DA89CBB0F2A8146005B93768F46B83C1A9939 (int32_t ___index0, Touch_tDEFED247540BCFA4AD452F1D37EEF4E09B4ACD8C * ___ret1, const RuntimeMethod* method);
+// System.Boolean UnityEngine.Input::GetKeyInt(UnityEngine.KeyCode)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyInt_m7476381058BB4B167E69B1DE6D0D8D4DE3FA63E4 (int32_t ___key0, const RuntimeMethod* method);
+// System.Boolean UnityEngine.Input::GetKeyDownInt(UnityEngine.KeyCode)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyDownInt_m396EF11DDAC5212B686E0EA37A90DA28320A6660 (int32_t ___key0, const RuntimeMethod* method);
 // System.Void UnityEngine.Input::get_mousePosition_Injected(UnityEngine.Vector3&)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Input_get_mousePosition_Injected_m1DDBE51119B9781DAA27852E6DEBAE7F28AF48DE (Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E * ___ret0, const RuntimeMethod* method);
 // System.Void UnityEngine.Input::get_mouseScrollDelta_Injected(UnityEngine.Vector2&)
@@ -1579,6 +1605,40 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GameObject_tC000A2E1A7CF1E10FD7BA08863287C072
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
+// System.Boolean UnityEngine.Input::GetKeyInt(UnityEngine.KeyCode)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyInt_m7476381058BB4B167E69B1DE6D0D8D4DE3FA63E4 (int32_t ___key0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Input_GetKeyInt_m7476381058BB4B167E69B1DE6D0D8D4DE3FA63E4_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	StackTraceSentry _stackTraceSentry(Input_GetKeyInt_m7476381058BB4B167E69B1DE6D0D8D4DE3FA63E4_RuntimeMethod_var);
+	typedef bool (*Input_GetKeyInt_m7476381058BB4B167E69B1DE6D0D8D4DE3FA63E4_ftn) (int32_t);
+	static Input_GetKeyInt_m7476381058BB4B167E69B1DE6D0D8D4DE3FA63E4_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Input_GetKeyInt_m7476381058BB4B167E69B1DE6D0D8D4DE3FA63E4_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Input::GetKeyInt(UnityEngine.KeyCode)");
+	bool icallRetVal = _il2cpp_icall_func(___key0);
+	return icallRetVal;
+}
+// System.Boolean UnityEngine.Input::GetKeyDownInt(UnityEngine.KeyCode)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyDownInt_m396EF11DDAC5212B686E0EA37A90DA28320A6660 (int32_t ___key0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Input_GetKeyDownInt_m396EF11DDAC5212B686E0EA37A90DA28320A6660_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	StackTraceSentry _stackTraceSentry(Input_GetKeyDownInt_m396EF11DDAC5212B686E0EA37A90DA28320A6660_RuntimeMethod_var);
+	typedef bool (*Input_GetKeyDownInt_m396EF11DDAC5212B686E0EA37A90DA28320A6660_ftn) (int32_t);
+	static Input_GetKeyDownInt_m396EF11DDAC5212B686E0EA37A90DA28320A6660_ftn _il2cpp_icall_func;
+	if (!_il2cpp_icall_func)
+	_il2cpp_icall_func = (Input_GetKeyDownInt_m396EF11DDAC5212B686E0EA37A90DA28320A6660_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Input::GetKeyDownInt(UnityEngine.KeyCode)");
+	bool icallRetVal = _il2cpp_icall_func(___key0);
+	return icallRetVal;
+}
 // System.Single UnityEngine.Input::GetAxisRaw(System.String)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR float Input_GetAxisRaw_m6B145732584DA7EDEE6B38BB7F282AA246BD22B7 (String_t* ___axisName0, const RuntimeMethod* method)
 {
@@ -1681,6 +1741,56 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Touch_tDEFED247540BCFA4AD452F1D37EEF4E09B4ACD
 		Input_GetTouch_Injected_m170DA89CBB0F2A8146005B93768F46B83C1A9939(L_0, (Touch_tDEFED247540BCFA4AD452F1D37EEF4E09B4ACD8C *)(&V_0), /*hidden argument*/NULL);
 		Touch_tDEFED247540BCFA4AD452F1D37EEF4E09B4ACD8C  L_1 = V_0;
 		return L_1;
+	}
+}
+// System.Boolean UnityEngine.Input::GetKey(UnityEngine.KeyCode)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKey_m34EFCC2F4D8BDDEAC7CE83C0ADE0C4EA812E5900 (int32_t ___key0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Input_GetKey_m34EFCC2F4D8BDDEAC7CE83C0ADE0C4EA812E5900_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	StackTraceSentry _stackTraceSentry(Input_GetKey_m34EFCC2F4D8BDDEAC7CE83C0ADE0C4EA812E5900_RuntimeMethod_var);
+	bool V_0 = false;
+	{
+		int32_t L_0 = ___key0;
+		bool L_1;
+		L_1 = Input_GetKeyInt_m7476381058BB4B167E69B1DE6D0D8D4DE3FA63E4(L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		bool L_2 = V_0;
+		return L_2;
+	}
+}
+// System.Boolean UnityEngine.Input::GetKeyDown(UnityEngine.KeyCode)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Input_GetKeyDown_m806A477EAE0AE49AA9C5E518A0800A3D80D873DC (int32_t ___key0, const RuntimeMethod* method)
+{
+	static bool s_Il2CppMethodInitialized;
+	if (!s_Il2CppMethodInitialized)
+	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Input_GetKeyDown_m806A477EAE0AE49AA9C5E518A0800A3D80D873DC_RuntimeMethod_var);
+		s_Il2CppMethodInitialized = true;
+	}
+	StackTraceSentry _stackTraceSentry(Input_GetKeyDown_m806A477EAE0AE49AA9C5E518A0800A3D80D873DC_RuntimeMethod_var);
+	bool V_0 = false;
+	{
+		int32_t L_0 = ___key0;
+		bool L_1;
+		L_1 = Input_GetKeyDownInt_m396EF11DDAC5212B686E0EA37A90DA28320A6660(L_0, /*hidden argument*/NULL);
+		V_0 = L_1;
+		goto IL_000a;
+	}
+
+IL_000a:
+	{
+		bool L_2 = V_0;
+		return L_2;
 	}
 }
 // UnityEngine.Vector3 UnityEngine.Input::get_mousePosition()

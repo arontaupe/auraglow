@@ -47,6 +47,7 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_SpatialTracking_CodeGenM
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_SpriteShapeModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_SubsystemsModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TerrainModule_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TextCoreModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TextRenderingModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_TilemapModule_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_UIElementsNativeModule_CodeGenModule;
@@ -62,12 +63,13 @@ IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_UnityEngine_XR_MagicLeap_CodeGenModu
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_MagicLeap_Samples_InputProviders_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_MagicLeap_Samples_Rendering_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_Subsystem_Registration_CodeGenModule;
+IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_TextMeshPro_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_ARSubsystems_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_InteractionSubsystems_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_Unity_XR_Management_CodeGenModule;
 IL2CPP_EXTERN_C_CONST Il2CppCodeGenModule g_mscorlib_CodeGenModule;
 IL2CPP_EXTERN_C const Il2CppCodeGenModule* g_CodeGenModules[];
-const Il2CppCodeGenModule* g_CodeGenModules[48] = 
+const Il2CppCodeGenModule* g_CodeGenModules[50] = 
 {
 	(&g_AssemblyU2DCSharp_CodeGenModule),
 	(&g_LuminUnity_CodeGenModule),
@@ -98,6 +100,7 @@ const Il2CppCodeGenModule* g_CodeGenModules[48] =
 	(&g_UnityEngine_SpriteShapeModule_CodeGenModule),
 	(&g_UnityEngine_SubsystemsModule_CodeGenModule),
 	(&g_UnityEngine_TerrainModule_CodeGenModule),
+	(&g_UnityEngine_TextCoreModule_CodeGenModule),
 	(&g_UnityEngine_TextRenderingModule_CodeGenModule),
 	(&g_UnityEngine_TilemapModule_CodeGenModule),
 	(&g_UnityEngine_UIElementsNativeModule_CodeGenModule),
@@ -113,6 +116,7 @@ const Il2CppCodeGenModule* g_CodeGenModules[48] =
 	(&g_Unity_MagicLeap_Samples_InputProviders_CodeGenModule),
 	(&g_Unity_MagicLeap_Samples_Rendering_CodeGenModule),
 	(&g_Unity_Subsystem_Registration_CodeGenModule),
+	(&g_Unity_TextMeshPro_CodeGenModule),
 	(&g_Unity_XR_ARSubsystems_CodeGenModule),
 	(&g_Unity_XR_InteractionSubsystems_CodeGenModule),
 	(&g_Unity_XR_Management_CodeGenModule),
@@ -123,18 +127,18 @@ const Il2CppCodeRegistration g_CodeRegistration =
 {
 	94,
 	g_ReversePInvokeWrapperPointers,
-	14253,
+	16314,
 	g_Il2CppGenericMethodPointers,
 	g_Il2CppGenericAdjustorThunks,
-	4455,
+	4864,
 	g_Il2CppInvokerPointers,
-	604,
+	635,
 	g_UnresolvedVirtualMethodPointers,
-	540,
+	560,
 	g_Il2CppInteropData,
 	0,
 	NULL,
-	48,
+	50,
 	g_CodeGenModules,
 };
 IL2CPP_EXTERN_C_CONST Il2CppMetadataRegistration g_MetadataRegistration;

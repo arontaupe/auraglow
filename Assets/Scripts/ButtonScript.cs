@@ -2,6 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.MagicLeap;
+using UnityEngine.SceneManagement;
 
 public class ButtonScript : MonoBehaviour {
 
@@ -70,11 +71,8 @@ public class ButtonScript : MonoBehaviour {
     void OnButtonUp(byte controllerId, MLInput.Controller.Button button) {
         if (button == MLInput.Controller.Button.Bumper)
         {
-            _rotation.y = 0;
-        }
-        if (button == MLInput.Controller.Button.HomeTap)
-        {
             _cube.transform.rotation = _originalOrientation;
+            SceneManager.LoadScene("MainMenu");       
         }
     }
 
