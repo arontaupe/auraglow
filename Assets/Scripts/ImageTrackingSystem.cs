@@ -40,6 +40,7 @@
             public Vector3 ImagePos = Vector3.zero;
             public Quaternion ImageRot = Quaternion.identity;
 
+
             #region Unity Method
             private void Awake()
             {

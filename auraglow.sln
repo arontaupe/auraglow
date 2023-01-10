@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.MagicLeap.Samples.Inp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.MagicLeap.Samples.Rendering", "Unity.MagicLeap.Samples.Rendering.csproj", "{03d23284-0e49-3a09-eb89-537d8ba960a5}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Assembly-CSharp-Editor", "Assembly-CSharp-Editor.csproj", "{3843bb47-da95-c979-56e8-a0dc7a3681d8}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MagicLeap.SetupTool.Editor", "MagicLeap.SetupTool.Editor.csproj", "{57f1448c-adce-fb0a-8492-b2bec6507d9a}"
 EndProject
 Global
@@ -20,6 +22,8 @@ Global
 		{5af7864f-e90a-b634-f7d3-4b1e59ed60f5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{03d23284-0e49-3a09-eb89-537d8ba960a5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{03d23284-0e49-3a09-eb89-537d8ba960a5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3843bb47-da95-c979-56e8-a0dc7a3681d8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3843bb47-da95-c979-56e8-a0dc7a3681d8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57f1448c-adce-fb0a-8492-b2bec6507d9a}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{57f1448c-adce-fb0a-8492-b2bec6507d9a}.Debug|Any CPU.Build.0 = Debug|Any CPU
 	EndGlobalSection

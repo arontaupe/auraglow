@@ -353,6 +353,7 @@ GameObject:
   - component: {fileID: 1929411300}
   - component: {fileID: 1929411302}
   - component: {fileID: 1929411301}
+  - component: {fileID: 1929411303}
   m_Layer: 0
   m_Name: Beam
   m_TagString: Untagged
@@ -381,7 +382,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1929411299}
-  m_Enabled: 1
+  m_Enabled: 0
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 7b856c7dadfe64eb7be311bbf5d4d479, type: 3}
   m_Name: 
@@ -486,6 +487,32 @@ LineRenderer:
     generateLightingData: 0
   m_UseWorldSpace: 1
   m_Loop: 0
+--- !u!114 &1929411303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1929411299}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e7f1a45ef2de7eb4fb33ed94b524c563, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  controllerIndex: 0
+  m_LogTrackedPosition: 0
+  bumperPressed:
+    m_PersistentCalls:
+      m_Calls: []
+  homePressed:
+    m_PersistentCalls:
+      m_Calls: []
+  triggerPressed:
+    m_PersistentCalls:
+      m_Calls: []
+  triggerRawValue:
+    m_PersistentCalls:
+      m_Calls: []
 --- !u!1001 &2683538793113945630
 PrefabInstance:
   m_ObjectHideFlags: 0

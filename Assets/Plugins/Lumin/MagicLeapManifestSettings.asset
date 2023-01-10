@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9cf5b356e131a944286fec26d7c40b4e, type: 3}
   m_Name: MagicLeapManifestSettings
   m_EditorClassIdentifier: 
-  m_MinimumAPILevel: 7
-  m_AllowBackgroundMusicService: 0
+  m_MinimumAPILevel: 10
+  m_AllowBackgroundMusicService: 1
   m_PrivilegeGroups:
   - m_Name: Autogranted
     m_Privileges:
@@ -78,7 +78,7 @@ MonoBehaviour:
       m_Enabled: 1
       m_Name: LowLatencyLightwear
     - m_ApiLevel: 1
-      m_Enabled: 0
+      m_Enabled: 1
       m_Name: MusicService
     - m_ApiLevel: 1
       m_Enabled: 0
@@ -125,7 +125,7 @@ MonoBehaviour:
       m_Enabled: 1
       m_Name: AddressBookWrite
     - m_ApiLevel: 4
-      m_Enabled: 0
+      m_Enabled: 1
       m_Name: CoarseLocation
     - m_ApiLevel: 8
       m_Enabled: 0
@@ -142,7 +142,7 @@ MonoBehaviour:
       m_Enabled: 1
       m_Name: AudioCaptureMic
     - m_ApiLevel: 1
-      m_Enabled: 0
+      m_Enabled: 1
       m_Name: AudioRecognizer
     - m_ApiLevel: 1
       m_Enabled: 1
@@ -151,14 +151,14 @@ MonoBehaviour:
       m_Enabled: 1
       m_Name: ComputerVision
     - m_ApiLevel: 8
-      m_Enabled: 0
+      m_Enabled: 1
       m_Name: ConnectionAudioCaptureStreaming
     - m_ApiLevel: 8
-      m_Enabled: 0
+      m_Enabled: 1
       m_Name: ConnectionVideoCaptureStreaming
     - m_ApiLevel: 7
       m_Enabled: 1
       m_Name: FineLocation
     - m_ApiLevel: 1
-      m_Enabled: 0
+      m_Enabled: 1
       m_Name: VoiceInput
