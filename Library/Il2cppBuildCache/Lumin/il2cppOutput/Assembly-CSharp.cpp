@@ -787,6 +787,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709
 IL2CPP_EXTERN_C String_t* _stringLiteralDB2EAD9CC8413D68B23F81B2DB7C8748F96F77DF;
 IL2CPP_EXTERN_C String_t* _stringLiteralDC055C72FCE9500188F210EC2F54BA63968B86DB;
 IL2CPP_EXTERN_C String_t* _stringLiteralDDA173CBE8DB13BFC0AF64212221E87DAE7ED8C0;
+IL2CPP_EXTERN_C String_t* _stringLiteralE1D1CF376CC1D978E40044D6CA8997BA86618511;
 IL2CPP_EXTERN_C String_t* _stringLiteralE3C4AB0A74320F23D9462467857F326EF81AD938;
 IL2CPP_EXTERN_C String_t* _stringLiteralF07956A759EDB6FBBDB6B00B2575301EB3963A7E;
 IL2CPP_EXTERN_C String_t* _stringLiteralF20B316A873DD8DF640B2FC953EB94600137C396;
@@ -28166,6 +28167,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DistanceCalculator_Update_m610622B63A4AF
 	if (!s_Il2CppMethodInitialized)
 	{
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DistanceCalculator_Update_m610622B63A4AF44FBEDD0D00CB089AAB1F2391B0_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE1D1CF376CC1D978E40044D6CA8997BA86618511);
 		s_Il2CppMethodInitialized = true;
 	}
 	StackTraceSentry _stackTraceSentry(DistanceCalculator_Update_m610622B63A4AF44FBEDD0D00CB089AAB1F2391B0_RuntimeMethod_var);
@@ -28188,12 +28190,19 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void DistanceCalculator_Update_m610622B63A4AF
 		float L_5;
 		L_5 = Vector3_get_magnitude_mDDD40612220D8104E77E993E18A101A69A944991((Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E *)(&V_1), /*hidden argument*/NULL);
 		V_0 = L_5;
-		// DistanceText.text = distance.ToString();
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_6 = __this->get_DistanceText_4();
-		String_t* L_7;
-		L_7 = Single_ToString_m80E7ABED4F4D73F2BE19DDB80D3D92FCD8DFA010((float*)(&V_0), /*hidden argument*/NULL);
-		NullCheck(L_6);
-		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_6, L_7);
+		// distance = Mathf.Round(distance * 10.0f) * 0.1f;
+		float L_6 = V_0;
+		float L_7;
+		L_7 = bankers_roundf(((float)il2cpp_codegen_multiply((float)L_6, (float)(10.0f))));
+		V_0 = ((float)il2cpp_codegen_multiply((float)L_7, (float)(0.100000001f)));
+		// DistanceText.text = distance.ToString() + " m";
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_8 = __this->get_DistanceText_4();
+		String_t* L_9;
+		L_9 = Single_ToString_m80E7ABED4F4D73F2BE19DDB80D3D92FCD8DFA010((float*)(&V_0), /*hidden argument*/NULL);
+		String_t* L_10;
+		L_10 = String_Concat_m10758B01687A2181C8727AD9FD9CCF5325C61C2A(L_9, _stringLiteralE1D1CF376CC1D978E40044D6CA8997BA86618511, /*hidden argument*/NULL);
+		NullCheck(L_8);
+		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_8, L_10);
 		// }
 		return;
 	}
@@ -32848,44 +32857,48 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTrackingSystem_HandleImageTracked_m
 
 IL_000f:
 	{
+		// TrackedImageFollower.SetActive(true);
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_4 = __this->get_TrackedImageFollower_4();
+		NullCheck(L_4);
+		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_4, (bool)1, /*hidden argument*/NULL);
 		// ImagePos = imageTargetResult.Position;
-		Result_t62DDE919B95F6BFDE1DD6E480F0225B7912290A2  L_4 = ___imageTargetResult1;
-		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_5 = L_4.get_Position_0();
-		__this->set_ImagePos_9(L_5);
+		Result_t62DDE919B95F6BFDE1DD6E480F0225B7912290A2  L_5 = ___imageTargetResult1;
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_6 = L_5.get_Position_0();
+		__this->set_ImagePos_9(L_6);
 		// ImageRot = imageTargetResult.Rotation;
-		Result_t62DDE919B95F6BFDE1DD6E480F0225B7912290A2  L_6 = ___imageTargetResult1;
-		Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4  L_7 = L_6.get_Rotation_1();
-		__this->set_ImageRot_10(L_7);
+		Result_t62DDE919B95F6BFDE1DD6E480F0225B7912290A2  L_7 = ___imageTargetResult1;
+		Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4  L_8 = L_7.get_Rotation_1();
+		__this->set_ImageRot_10(L_8);
 		// if (TrackedImageFollower != null)
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_8 = __this->get_TrackedImageFollower_4();
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_9 = __this->get_TrackedImageFollower_4();
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
-		bool L_9;
-		L_9 = Object_op_Inequality_mDCB4E958808E725D0612CCABF340B284085F03D6(L_8, (Object_tF2F3778131EFF286AF62B7B013A170F95A91571A *)NULL, /*hidden argument*/NULL);
-		if (!L_9)
+		bool L_10;
+		L_10 = Object_op_Inequality_mDCB4E958808E725D0612CCABF340B284085F03D6(L_9, (Object_tF2F3778131EFF286AF62B7B013A170F95A91571A *)NULL, /*hidden argument*/NULL);
+		if (!L_10)
 		{
-			goto IL_0061;
+			goto IL_006d;
 		}
 	}
 	{
 		// TrackedImageFollower.transform.position = ImagePos;
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_10 = __this->get_TrackedImageFollower_4();
-		NullCheck(L_10);
-		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_11;
-		L_11 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_10, /*hidden argument*/NULL);
-		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_12 = __this->get_ImagePos_9();
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_11 = __this->get_TrackedImageFollower_4();
 		NullCheck(L_11);
-		Transform_set_position_mB169E52D57EEAC1E3F22C5395968714E4F00AC91(L_11, L_12, /*hidden argument*/NULL);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_12;
+		L_12 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_11, /*hidden argument*/NULL);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_13 = __this->get_ImagePos_9();
+		NullCheck(L_12);
+		Transform_set_position_mB169E52D57EEAC1E3F22C5395968714E4F00AC91(L_12, L_13, /*hidden argument*/NULL);
 		// TrackedImageFollower.transform.rotation = ImageRot;
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_13 = __this->get_TrackedImageFollower_4();
-		NullCheck(L_13);
-		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_14;
-		L_14 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_13, /*hidden argument*/NULL);
-		Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4  L_15 = __this->get_ImageRot_10();
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_14 = __this->get_TrackedImageFollower_4();
 		NullCheck(L_14);
-		Transform_set_rotation_m1B5F3D4CE984AB31254615C9C71B0E54978583B4(L_14, L_15, /*hidden argument*/NULL);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_15;
+		L_15 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_14, /*hidden argument*/NULL);
+		Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4  L_16 = __this->get_ImageRot_10();
+		NullCheck(L_15);
+		Transform_set_rotation_m1B5F3D4CE984AB31254615C9C71B0E54978583B4(L_15, L_16, /*hidden argument*/NULL);
 	}
 
-IL_0061:
+IL_006d:
 	{
 		// }
 		return;

@@ -27,9 +27,14 @@ public class UIManager : MonoBehaviour
         if(controller.TriggerValue > 0.5f){
             RaycastHit hit;
             if(Physics.Raycast(controllerInput.transform.position,      controllerInput.transform.forward, out hit)){
+                
                 if(hit.transform.gameObject.name == "StartButton"){
                     StartApp();
                 }
+                if(hit.transform.gameObject.name == "MarkerButton"){
+                    StartMarker();
+                }
+
                 if(hit.transform.gameObject.name == "RecognitionButton"){
                     StartRecognition();
                 }
@@ -40,23 +45,26 @@ public class UIManager : MonoBehaviour
             }
         }
     }
-    void StartApp()
-    {
+    void StartMarker(){
+        HeadlockedCanvas.SetActive(false);
+        SceneManager.LoadScene("ArUcoTrackingScene");
+        Scene scene = SceneManager.GetActiveScene();
+        Debug.Log(scene.name);
+    }
+    void StartApp(){
         HeadlockedCanvas.SetActive(false);
         SceneManager.LoadScene("DemoScene");
         Scene scene = SceneManager.GetActiveScene();
         Debug.Log(scene.name);
     }
-    void StartRecognition()
-    {
+    void StartRecognition(){
         HeadlockedCanvas.SetActive(false);
         SceneManager.LoadScene("ImageTrackingScene");
         Scene scene = SceneManager.GetActiveScene();
         Debug.Log(scene.name);
     }
 
-    void QuitApp()
-    {
+    void QuitApp(){
         HeadlockedCanvas.SetActive(false);
         Application.Quit();
     }

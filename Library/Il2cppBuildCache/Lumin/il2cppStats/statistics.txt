@@ -55,26 +55,26 @@
 
 ----- il2cpp Statistics -----
 General:
-	Conversion Time: 19.263 s
+	Conversion Time: 16.659 s
 	Job Count: 8
 	Processor Count: 8
 	Files Written: 302
-	String Literals: 5803
+	String Literals: 5806
 Methods:
-	Total Methods: 43711
-	Non-Generic Methods: 25007
+	Total Methods: 43712
+	Non-Generic Methods: 25008
 	Generic Type Methods: 15424
 	Generic Methods: 3280
 	Shared Methods: 18680
 	Methods with Tail Calls : 0
 Metadata:
-	Total: 3,332.61 kb
-	String Literals: 45.34 kb
-	String Literal Data: 196.26 kb
-	Metadata Strings: 551.42 kb
+	Total: 3,332.70 kb
+	String Literals: 45.36 kb
+	String Literal Data: 196.29 kb
+	Metadata Strings: 551.43 kb
 	Events: 6.47 kb
 	Properties: 89.49 kb
-	Methods: 860.38 kb
+	Methods: 860.41 kb
 	Parameter Default Values: 3.39 kb
 	Field Default Values: 71.60 kb
 	Field and Parameter Default Values Data: 82.74 kb
@@ -101,7 +101,7 @@ Metadata:
 	Windows Runtime strings: 0.00 kb
 	Exported Types: 3.42 kb
 Codegen:
-	NullChecks : 72388
+	NullChecks : 72392
 Interop:
 	Windows Runtime boxed types : 0
 	Windows Runtime types with names : 0
@@ -113,9 +113,9 @@ Interop:
 	COM callable wrapper methods that were forwarded to call base class method : 0
 Compilation:
 	Total Files: 334
-	Files Compiled: 11
-	Cache Hits: 323
-	Cache Hit %: 96
+	Files Compiled: 5
+	Cache Hits: 329
+	Cache Hit %: 98
 
 
 ----Assembly Conversion Times----
@@ -128,10 +128,10 @@ Compilation:
 
 ----Generated Files----
 Assembly-CSharp_Attr.cpp	464398
-Assembly-CSharp.cpp	2345257
+Assembly-CSharp.cpp	2346151
 Assembly-CSharp1.cpp	2051139
 Assembly-CSharp2.cpp	2994994
-Assembly-CSharp3.cpp	1424860
+Assembly-CSharp3.cpp	1428731
 GenericMethods.cpp	2843580
 GenericMethods1.cpp	2707110
 GenericMethods2.cpp	3522733

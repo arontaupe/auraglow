@@ -14,6 +14,9 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ImageTrackingScene.unity
     guid: 67d786c83641945a48e91e5797eba005
+  - enabled: 1
+    path: Assets/Scenes/ArUcoTrackingScene.unity
+    guid: 250aa9c0bc5cb48eb9edc1956cf08486
   m_configObjects:
     com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 988056e407635421486fb9f5b4c6af43, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3305b7792f8c44adeb138916a63b8659, type: 2}

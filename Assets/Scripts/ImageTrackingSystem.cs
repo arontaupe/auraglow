@@ -1,6 +1,6 @@
         using UnityEngine;
         using UnityEngine.XR.MagicLeap;
-
+        
         //This creates a class that exposes image target variables to the inspector
         [System.Serializable]
         public class ImageTargetInfo
@@ -8,6 +8,7 @@
             public string Name;
             public Texture2D Image;
             public float LongerDimension;
+
         }
 
         //This contains the four possible statuses we can encounter while trying to use the tracker.
@@ -27,6 +28,7 @@
 
             // The image target built from the ImageTargetInfo object
             private MLImageTracker.Target _imageTarget;
+  
 
             //The inspector field where we assign our target images
             public ImageTargetInfo TargetInfo;
@@ -142,6 +144,7 @@
                         // Add the target image to the tracker and set the callback
                         _imageTarget = MLImageTracker.AddTarget(TargetInfo.Name, TargetInfo.Image,
                         TargetInfo.LongerDimension, HandleImageTracked);
+
                         UpdateImageTrackingStatus(ImageTrackingStatus.ImageTrackingActive);
                     }
                     else
@@ -176,6 +179,7 @@
             * This is where the magic happens, anything that you want to happen upon detection or movement of an image, include it here.
             *
             */
+
             private void HandleImageTracked(MLImageTracker.Target imageTarget,
                                             MLImageTracker.Target.Result imageTargetResult)
             {
@@ -183,6 +187,7 @@
                 switch (imageTargetResult.Status)
                 {
                     case MLImageTracker.Target.TrackingStatus.Tracked:
+                        TrackedImageFollower.SetActive(true);
 
                         ImagePos = imageTargetResult.Position;
                         ImageRot = imageTargetResult.Rotation;
@@ -196,6 +201,8 @@
 
                     case MLImageTracker.Target.TrackingStatus.NotTracked:
                         // Additional Logic can be added here for when the image is not detected
+                        //yield return new WaitForSeconds(5);
+                        //TrackedImageFollower.SetActive(false);
                         break;
                 }
             }

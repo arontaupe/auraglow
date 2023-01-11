@@ -168,7 +168,7 @@
      <Compile Include="Assets/MagicLeap-Tools/Code/Utilities/NetworkUtilities.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Examples/RuntimeConsole/Code/Logic/RuntimeConsoleExample.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Code/Input/Hands/Visualizers/KeyPointVisualizer.cs" />
-     <Compile Include="Assets/DistanceCalculator.cs" />
+     <Compile Include="Assets/Scripts/DistanceCalculator.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/MagicLeap-Tools/Art/Shaders/RampLighting/RampTexture.shader" />
