@@ -29,7 +29,7 @@
   },
   {
    "compression": 8,
-   "hash": "7ef8385ed75db0e074b093952d0daa38ebe2c072",
+   "hash": "6fa594aa690fbfbf58165c9be1b8cab1dede3dae",
    "pkgpath": "bin/libil2cpp.so",
    "size": 66520552,
    "src": "/Users/aron/auraglow/Temp/StagingArea/Data/Native/libil2cpp.so",
@@ -43,7 +43,7 @@
      "version": 3
     }
    },
-   "xfrm_hash": "1d9b85311c048378a4403ab09890757524acf207",
+   "xfrm_hash": "65ba30183ae7fe21f5e6b3a7820b07dd44a5fc2d",
    "xfrm_path": "/Users/aron/auraglow/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.designcomputation.auraglow-5fb95f2ec9b3136e/libil2cpp.so-b95b344a49cdfe25",
    "xfrm_size": 66521310
   },
@@ -178,7 +178,7 @@
   },
   {
    "compression": 8,
-   "hash": "b57a5b793d9924f62f81464fc96f9f46e3dcdd7d",
+   "hash": "578d481ad59a9b4d5c5fcf27811f9f84dc293f16",
    "pkgpath": "Data/globalgamemanagers",
    "size": 64572,
    "src": "/Users/aron/auraglow/Temp/StagingArea/Data/globalgamemanagers"
@@ -227,7 +227,7 @@
   },
   {
    "compression": 8,
-   "hash": "1391a9ee867bfff59b79dc602ea996e2e0bf5b9c",
+   "hash": "87d24fe527b15408e0853ffbf4dbbe08e511baac",
    "pkgpath": "Data/level2",
    "size": 71156,
    "src": "/Users/aron/auraglow/Temp/StagingArea/Data/level2"

@@ -32857,48 +32857,44 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void ImageTrackingSystem_HandleImageTracked_m
 
 IL_000f:
 	{
-		// TrackedImageFollower.SetActive(true);
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_4 = __this->get_TrackedImageFollower_4();
-		NullCheck(L_4);
-		GameObject_SetActive_mCF1EEF2A314F3AE85DA581FF52EB06ACEF2FFF86(L_4, (bool)1, /*hidden argument*/NULL);
 		// ImagePos = imageTargetResult.Position;
-		Result_t62DDE919B95F6BFDE1DD6E480F0225B7912290A2  L_5 = ___imageTargetResult1;
-		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_6 = L_5.get_Position_0();
-		__this->set_ImagePos_9(L_6);
+		Result_t62DDE919B95F6BFDE1DD6E480F0225B7912290A2  L_4 = ___imageTargetResult1;
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_5 = L_4.get_Position_0();
+		__this->set_ImagePos_9(L_5);
 		// ImageRot = imageTargetResult.Rotation;
-		Result_t62DDE919B95F6BFDE1DD6E480F0225B7912290A2  L_7 = ___imageTargetResult1;
-		Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4  L_8 = L_7.get_Rotation_1();
-		__this->set_ImageRot_10(L_8);
+		Result_t62DDE919B95F6BFDE1DD6E480F0225B7912290A2  L_6 = ___imageTargetResult1;
+		Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4  L_7 = L_6.get_Rotation_1();
+		__this->set_ImageRot_10(L_7);
 		// if (TrackedImageFollower != null)
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_9 = __this->get_TrackedImageFollower_4();
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_8 = __this->get_TrackedImageFollower_4();
 		IL2CPP_RUNTIME_CLASS_INIT(Object_tF2F3778131EFF286AF62B7B013A170F95A91571A_il2cpp_TypeInfo_var);
-		bool L_10;
-		L_10 = Object_op_Inequality_mDCB4E958808E725D0612CCABF340B284085F03D6(L_9, (Object_tF2F3778131EFF286AF62B7B013A170F95A91571A *)NULL, /*hidden argument*/NULL);
-		if (!L_10)
+		bool L_9;
+		L_9 = Object_op_Inequality_mDCB4E958808E725D0612CCABF340B284085F03D6(L_8, (Object_tF2F3778131EFF286AF62B7B013A170F95A91571A *)NULL, /*hidden argument*/NULL);
+		if (!L_9)
 		{
-			goto IL_006d;
+			goto IL_0061;
 		}
 	}
 	{
 		// TrackedImageFollower.transform.position = ImagePos;
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_11 = __this->get_TrackedImageFollower_4();
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_10 = __this->get_TrackedImageFollower_4();
+		NullCheck(L_10);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_11;
+		L_11 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_10, /*hidden argument*/NULL);
+		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_12 = __this->get_ImagePos_9();
 		NullCheck(L_11);
-		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_12;
-		L_12 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_11, /*hidden argument*/NULL);
-		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_13 = __this->get_ImagePos_9();
-		NullCheck(L_12);
-		Transform_set_position_mB169E52D57EEAC1E3F22C5395968714E4F00AC91(L_12, L_13, /*hidden argument*/NULL);
+		Transform_set_position_mB169E52D57EEAC1E3F22C5395968714E4F00AC91(L_11, L_12, /*hidden argument*/NULL);
 		// TrackedImageFollower.transform.rotation = ImageRot;
-		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_14 = __this->get_TrackedImageFollower_4();
+		GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319 * L_13 = __this->get_TrackedImageFollower_4();
+		NullCheck(L_13);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_14;
+		L_14 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_13, /*hidden argument*/NULL);
+		Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4  L_15 = __this->get_ImageRot_10();
 		NullCheck(L_14);
-		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_15;
-		L_15 = GameObject_get_transform_m16A80BB92B6C8C5AB696E447014D45EDF1E4DE34(L_14, /*hidden argument*/NULL);
-		Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4  L_16 = __this->get_ImageRot_10();
-		NullCheck(L_15);
-		Transform_set_rotation_m1B5F3D4CE984AB31254615C9C71B0E54978583B4(L_15, L_16, /*hidden argument*/NULL);
+		Transform_set_rotation_m1B5F3D4CE984AB31254615C9C71B0E54978583B4(L_14, L_15, /*hidden argument*/NULL);
 	}
 
-IL_006d:
+IL_0061:
 	{
 		// }
 		return;
