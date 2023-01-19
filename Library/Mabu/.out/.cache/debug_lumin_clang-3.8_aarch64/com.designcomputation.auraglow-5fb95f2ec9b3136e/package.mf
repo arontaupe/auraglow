@@ -178,7 +178,7 @@
   },
   {
    "compression": 8,
-   "hash": "578d481ad59a9b4d5c5fcf27811f9f84dc293f16",
+   "hash": "4d1baa8887c435c40a0d548bdf81a1170bb914e5",
    "pkgpath": "Data/globalgamemanagers",
    "size": 64572,
    "src": "/Users/aron/auraglow/Temp/StagingArea/Data/globalgamemanagers"
@@ -227,9 +227,9 @@
   },
   {
    "compression": 8,
-   "hash": "87d24fe527b15408e0853ffbf4dbbe08e511baac",
+   "hash": "7b535765522d52e26d071ad08f4c798160739d17",
    "pkgpath": "Data/level2",
-   "size": 71156,
+   "size": 79380,
    "src": "/Users/aron/auraglow/Temp/StagingArea/Data/level2"
   },
   {
@@ -297,21 +297,21 @@
   },
   {
    "compression": 8,
-   "hash": "5055284e9150ea6422bd166b301b4ee427160dcb",
+   "hash": "a2e11f187580893cc20c12e10032c0cee63064f0",
    "pkgpath": "Data/sharedassets2.assets",
-   "size": 17481716,
+   "size": 17481916,
    "src": "/Users/aron/auraglow/Temp/StagingArea/Data/sharedassets2.assets"
   },
   {
    "compression": 8,
-   "hash": "9957ab31c0840315f9670ccf01a00924e8f691e0",
+   "hash": "2f9671ff7b490edda48b11a3f92b80310c10af41",
    "pkgpath": "Data/sharedassets2.assets.resS",
-   "size": 699072,
+   "size": 873856,
    "src": "/Users/aron/auraglow/Temp/StagingArea/Data/sharedassets2.assets.resS"
   },
   {
    "compression": 8,
-   "hash": "a138594879bb75ad3655aad8221c8a1723e6a16f",
+   "hash": "dc1a130a2cec1cde7c41c88a21973345de8bdeec",
    "pkgpath": "Data/sharedassets3.assets",
    "size": 14072,
    "src": "/Users/aron/auraglow/Temp/StagingArea/Data/sharedassets3.assets"
