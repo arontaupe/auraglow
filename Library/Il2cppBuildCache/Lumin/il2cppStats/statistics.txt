@@ -55,53 +55,53 @@
 
 ----- il2cpp Statistics -----
 General:
-	Conversion Time: 19.973 s
+	Conversion Time: 12.426 s
 	Job Count: 8
 	Processor Count: 8
 	Files Written: 302
-	String Literals: 5806
+	String Literals: 5816
 Methods:
-	Total Methods: 43712
-	Non-Generic Methods: 25008
+	Total Methods: 43750
+	Non-Generic Methods: 25046
 	Generic Type Methods: 15424
 	Generic Methods: 3280
 	Shared Methods: 18680
 	Methods with Tail Calls : 0
 Metadata:
-	Total: 3,332.70 kb
-	String Literals: 45.36 kb
-	String Literal Data: 196.29 kb
-	Metadata Strings: 551.43 kb
+	Total: 3,336.84 kb
+	String Literals: 45.44 kb
+	String Literal Data: 196.49 kb
+	Metadata Strings: 552.14 kb
 	Events: 6.47 kb
-	Properties: 89.49 kb
-	Methods: 860.41 kb
-	Parameter Default Values: 3.39 kb
-	Field Default Values: 71.60 kb
-	Field and Parameter Default Values Data: 82.74 kb
+	Properties: 89.61 kb
+	Methods: 861.59 kb
+	Parameter Default Values: 3.45 kb
+	Field Default Values: 71.65 kb
+	Field and Parameter Default Values Data: 82.78 kb
 	Field Marshaled Sizes: 15.32 kb
-	Parameters: 359.71 kb
-	Fields: 213.77 kb
+	Parameters: 360.02 kb
+	Fields: 214.15 kb
 	Generic Parameters: 15.00 kb
 	Generic Parameter Constraints: 0.59 kb
 	Generic Containers: 8.98 kb
-	Nested Types: 7.36 kb
+	Nested Types: 7.37 kb
 	Interfaces: 4.72 kb
-	VTables: 182.30 kb
-	Interface Offsets: 34.45 kb
-	Type Definitions: 412.93 kb
+	VTables: 182.49 kb
+	Interface Offsets: 34.48 kb
+	Type Definitions: 413.53 kb
 	Images: 1.95 kb
 	Assemblies: 3.12 kb
 	Field Refs: 0.91 kb
 	Referenced Assemblies: 1.05 kb
-	Attribute Types Ranges: 90.62 kb
-	Attribute Types: 55.60 kb
+	Attribute Types Ranges: 90.75 kb
+	Attribute Types: 55.64 kb
 	Unresolved Virtual Call Parameter Types: 8.39 kb
 	Unresolved Virtual Call Parameter Ranges: 5.33 kb
 	Windows Runtime type names: 0.00 kb
 	Windows Runtime strings: 0.00 kb
-	Exported Types: 3.42 kb
+	Exported Types: 3.43 kb
 Codegen:
-	NullChecks : 72391
+	NullChecks : 72443
 Interop:
 	Windows Runtime boxed types : 0
 	Windows Runtime types with names : 0
@@ -113,8 +113,8 @@ Interop:
 	COM callable wrapper methods that were forwarded to call base class method : 0
 Compilation:
 	Total Files: 334
-	Files Compiled: 1
-	Cache Hits: 333
+	Files Compiled: 2
+	Cache Hits: 332
 	Cache Hit %: 99
 
 
@@ -128,8 +128,8 @@ Compilation:
 
 ----Generated Files----
 Assembly-CSharp_Attr.cpp	464398
-Assembly-CSharp.cpp	2345881
-Assembly-CSharp1.cpp	2051139
+Assembly-CSharp.cpp	2471538
+Assembly-CSharp1.cpp	2121041
 Assembly-CSharp2.cpp	2994994
 Assembly-CSharp3.cpp	1428731
 GenericMethods.cpp	2843580
@@ -164,12 +164,12 @@ Generics6.cpp	1700771
 Generics7.cpp	1745629
 Generics8.cpp	4995852
 Generics9.cpp	2760436
-Il2CppCCalculateFieldValues.cpp	7760670
-Il2CppCCalculateFieldValues1.cpp	3529300
-Il2CppCCalculateTypeValues.cpp	9246412
-Il2CppCCalculateTypeValues1.cpp	1532323
-Il2CppCCFieldValuesTable.cpp	255692
-Il2CppCCTypeValuesTable.cpp	454457
+Il2CppCCalculateFieldValues.cpp	7756349
+Il2CppCCalculateFieldValues1.cpp	3556932
+Il2CppCCalculateTypeValues.cpp	9246132
+Il2CppCCalculateTypeValues1.cpp	1554228
+Il2CppCCFieldValuesTable.cpp	256266
+Il2CppCCTypeValuesTable.cpp	455122
 Il2CppCodeRegistration.cpp	7895
 Il2CppGenericAdjustorThunkTable.cpp	840463
 Il2CppGenericComDefinitions.cpp	153
@@ -230,11 +230,11 @@ Il2CppGenericComDefinitions7.cpp	153
 Il2CppGenericComDefinitions8.cpp	153
 Il2CppGenericComDefinitions9.cpp	153
 Il2CppGenericMethodPointerTable.cpp	4598020
-Il2CppInteropDataTable.cpp	404664
-Il2CppInvokerTable.cpp	6282306
+Il2CppInteropDataTable.cpp	405557
+Il2CppInvokerTable.cpp	6290773
 Il2CppReversePInvokeWrapperTable.cpp	49000
 LuminUnity_Attr.cpp	1349364
-LuminUnity.cpp	3267943
+LuminUnity.cpp	3271255
 LuminUnity1.cpp	3252141
 LuminUnity2.cpp	2665538
 LuminUnity3.cpp	3097087
@@ -256,7 +256,7 @@ mscorlib15.cpp	1674063
 mscorlib16.cpp	2295586
 mscorlib17.cpp	1393979
 mscorlib2.cpp	2236076
-mscorlib3.cpp	2194968
+mscorlib3.cpp	2197514
 mscorlib4.cpp	2393103
 mscorlib5.cpp	2362223
 mscorlib6.cpp	2382735
@@ -307,9 +307,9 @@ UnityEngine.AssetBundleModule_Attr.cpp	84591
 UnityEngine.AssetBundleModule.cpp	38331
 UnityEngine.AudioModule_Attr.cpp	149156
 UnityEngine.AudioModule.cpp	168533
-UnityEngine.CoreModule_Attr.cpp	1120887
-UnityEngine.CoreModule.cpp	2540879
-UnityEngine.CoreModule1.cpp	2721994
+UnityEngine.CoreModule_Attr.cpp	1122674
+UnityEngine.CoreModule.cpp	2543913
+UnityEngine.CoreModule1.cpp	2724713
 UnityEngine.CoreModule2.cpp	226309
 UnityEngine.cpp	781
 UnityEngine.DirectorModule_Attr.cpp	89171
@@ -326,8 +326,8 @@ UnityEngine.JSONSerializeModule_Attr.cpp	89042
 UnityEngine.JSONSerializeModule.cpp	46300
 UnityEngine.LuminModule_Attr.cpp	98652
 UnityEngine.LuminModule.cpp	59479
-UnityEngine.ParticleSystemModule_Attr.cpp	128523
-UnityEngine.ParticleSystemModule.cpp	82393
+UnityEngine.ParticleSystemModule_Attr.cpp	140278
+UnityEngine.ParticleSystemModule.cpp	116948
 UnityEngine.Physics2DModule_Attr.cpp	159486
 UnityEngine.Physics2DModule.cpp	197751
 UnityEngine.PhysicsModule_Attr.cpp	174150

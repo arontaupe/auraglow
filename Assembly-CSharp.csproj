@@ -45,7 +45,6 @@
      <Compile Include="Assets/MagicLeap-Tools/Code/Input/Hands/Objects/InteractionPoint.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Code/Networking/Transmission/Messages/Internal/GlobalBoolChangedMessage.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Code/Input/Hands/Visualizers/GraspVisualizer.cs" />
-     <Compile Include="Assets/Scripts/DistanceCalculator.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Code/Networking/Transmission/Transmission.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Examples/SurfaceDetails/Code/Logic/SurfaceDetailsExample.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Code/Input/Hands/Objects/ManagedHandGesture.cs" />
@@ -89,6 +88,7 @@
      <Compile Include="Assets/MagicLeap-Tools/Code/Networking/Transmission/Messages/BoolMessage.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Code/Input/Hands/Objects/ManagedKeypoint.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Code/Networking/Transmission/Messages/Internal/TransformSyncMessage.cs" />
+     <Compile Include="Assets/Scripts/DistanceCalculatorCamObj.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Code/Input/Hands/Inputs/DirectManipulation.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Code/Networking/Transmission/Messages/RPCMessage.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Examples/SimpleHandPointer/Code/Logic/SimpleHandPointerExample.cs" />
@@ -110,6 +110,7 @@
      <Compile Include="Assets/MagicLeap-Tools/Code/Presentation/Billboard/Billboard.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Code/Utilities/MathUtilities.cs" />
      <Compile Include="Assets/Aura Effect/Shader/AuraControl.cs" />
+     <Compile Include="Assets/Scripts/ArUcoTrackingManager.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Code/Networking/Transmission/Messages/Internal/OwnershipTransferenceDeniedMessage.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Code/Networking/Transmission/Messages/Vector2ArrayMessage.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Code/Debugging/RuntimeConsole/RuntimeConsole.cs" />
@@ -143,6 +144,7 @@
      <Compile Include="Assets/Scripts/UIManager.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Code/Input/Control/ControlHaptics.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Code/Visuals/AxisVisualizer.cs" />
+     <Compile Include="Assets/Scripts/DistanceCalculatorSimilarObj.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Code/Presentation/PlaceOnFloor/PlaceOnFloor.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Code/Input/Hands/Visualizers/HandAxisVisualizer.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Code/Utilities/TransformUtilities.cs" />
@@ -169,6 +171,8 @@
      <Compile Include="Assets/MagicLeap-Tools/Code/Utilities/NetworkUtilities.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Examples/RuntimeConsole/Code/Logic/RuntimeConsoleExample.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Code/Input/Hands/Visualizers/KeyPointVisualizer.cs" />
+     <Compile Include="Assets/Scripts/InputManager.cs" />
+     <Compile Include="Assets/LightTracking.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/MagicLeap-Tools/Art/Shaders/RampLighting/RampTexture.shader" />
@@ -192,6 +196,7 @@
      <None Include="Assets/TextMesh Pro/Shaders/TMPro_Surface.cginc" />
      <None Include="Assets/TextMesh Pro/Resources/LineBreaking Following Characters.txt" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Masking.shader" />
+     <None Include="Assets/Little_Ghost2/Documentation/Documentation.txt" />
      <None Include="Assets/Hovl Studio/Procedural fire/Shaders/FireSphere.shader" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF Overlay.shader" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_Bitmap-Mobile.shader" />

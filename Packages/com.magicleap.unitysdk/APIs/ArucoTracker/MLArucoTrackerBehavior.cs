@@ -27,6 +27,10 @@ namespace MagicLeap.Core
 
         private MLArucoTracker.Marker _marker = null;
 
+        public float smoothTime = 0.3F;
+        private Vector3 velocity = Vector3.zero;
+
+
         void Start()
         {
 #if PLATFORM_LUMIN
@@ -52,7 +56,8 @@ namespace MagicLeap.Core
             }
             else
             {
-                transform.position = _marker.Position;
+                transform.position = Vector3.SmoothDamp(transform.position, _marker.Position, ref velocity, smoothTime);
+                //transform.position = _marker.Position;
                 transform.rotation = _marker.Rotation;
             }
         }
@@ -64,7 +69,6 @@ namespace MagicLeap.Core
             {
                 _marker.OnStatusChange -= OnMarkerStatusChange;
             }
-
             #endif
         }
     }
