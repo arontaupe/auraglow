@@ -40,10 +40,6 @@ public class ImageTrackingSystem : MonoBehaviour
     public Vector3 ImagePos = Vector3.zero;
     public Quaternion ImageRot = Quaternion.identity;
 
-    public float timeToPause = 30.0f
-    private gameObject aura;
-    private float time;
-
     #region Unity Method
     private void Awake()
     {
@@ -192,7 +188,6 @@ public class ImageTrackingSystem : MonoBehaviour
 
                 if (TrackedImageFollower != null)
                 {
-                    gameObject.Find("Aura").SetActive(true);
                     TrackedImageFollower.transform.position = ImagePos;
                     TrackedImageFollower.transform.rotation = ImageRot;
                 }
