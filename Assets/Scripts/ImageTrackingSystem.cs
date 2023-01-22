@@ -40,10 +40,14 @@ public class ImageTrackingSystem : MonoBehaviour
     public Vector3 ImagePos = Vector3.zero;
     public Quaternion ImageRot = Quaternion.identity;
 
+    public float timeToPause = 30.0f
+    private gameObject aura;
+    private float time;
+
     #region Unity Method
     private void Awake()
     {
-        UpdateImageTrackingStatus(ImageTrackingStatus.Inactive);
+        UpdateImageTrackingStatus(ImageTrackingStatus.Inactive);    
     }
 
     private void OnApplicationPause(bool pauseStatus)
@@ -188,6 +192,7 @@ public class ImageTrackingSystem : MonoBehaviour
 
                 if (TrackedImageFollower != null)
                 {
+                    gameObject.Find("Aura").SetActive(true);
                     TrackedImageFollower.transform.position = ImagePos;
                     TrackedImageFollower.transform.rotation = ImageRot;
                 }
@@ -195,6 +200,7 @@ public class ImageTrackingSystem : MonoBehaviour
 
             case MLImageTracker.Target.TrackingStatus.NotTracked:
                 // Additional Logic can be added here for when the image is not detected
+
                 break;
         }
     }
