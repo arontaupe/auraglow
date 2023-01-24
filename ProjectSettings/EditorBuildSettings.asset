@@ -17,6 +17,12 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/ArUcoTrackingScene.unity
     guid: 250aa9c0bc5cb48eb9edc1956cf08486
+  - enabled: 1
+    path: Assets/Scenes/LightningScene.unity
+    guid: e60b51d8c48784bb0ad8fe74ace3e6ee
+  - enabled: 1
+    path: Assets/Scenes/PlanesScene.unity
+    guid: 629cb5bb4508648b2b26f432f7758403
   m_configObjects:
     com.unity.xr.magicleap.magic_leap_settings: {fileID: 11400000, guid: 988056e407635421486fb9f5b4c6af43, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 3305b7792f8c44adeb138916a63b8659, type: 2}

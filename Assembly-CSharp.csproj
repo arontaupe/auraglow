@@ -100,6 +100,7 @@
      <Compile Include="Assets/MagicLeap-Tools/Code/Networking/Transmission/Messages/Internal/TransmissionMessage.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Code/Manipulators/RotationManipulator.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Code/Networking/Transmission/Messages/Internal/SpawnMessage.cs" />
+     <Compile Include="Assets/Scripts/LightTracking.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Code/Input/InputDrivers/Base/InputDriver.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Examples/SpatialAlignment/Code/Logic/SpatialAlignmentExample.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Code/Input/Hands/Interfaces/IDirectManipulation.cs" />
@@ -128,6 +129,7 @@
      <Compile Include="Assets/Scripts/TouchpadGestures.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Code/Rendering/RampLighting/RampLight.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Code/Networking/SpatialAlignment/SpatialAlignment.cs" />
+     <Compile Include="Assets/Scripts/InputManager.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Code/Networking/Transmission/Messages/Internal/OnDisabledMessage.cs" />
      <Compile Include="Assets/Scripts/RotateAround.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Code/Networking/Transmission/Messages/Internal/OnEnabledMessage.cs" />
@@ -148,6 +150,7 @@
      <Compile Include="Assets/MagicLeap-Tools/Code/Presentation/PlaceOnFloor/PlaceOnFloor.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Code/Input/Hands/Visualizers/HandAxisVisualizer.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Code/Utilities/TransformUtilities.cs" />
+     <Compile Include="Assets/Scripts/PlanesFinder.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Code/Networking/Transmission/Messages/Internal/DespawnMessage.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Code/Input/InputDrivers/SimpleHandInputDriver.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Code/Manipulators/ScaleManipulator.cs" />
@@ -171,8 +174,7 @@
      <Compile Include="Assets/MagicLeap-Tools/Code/Utilities/NetworkUtilities.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Examples/RuntimeConsole/Code/Logic/RuntimeConsoleExample.cs" />
      <Compile Include="Assets/MagicLeap-Tools/Code/Input/Hands/Visualizers/KeyPointVisualizer.cs" />
-     <Compile Include="Assets/Scripts/InputManager.cs" />
-     <Compile Include="Assets/LightTracking.cs" />
+     <Compile Include="Assets/EyeTracking.cs" />
      <None Include="Assets/TextMesh Pro/Shaders/TMPro.cginc" />
      <None Include="Assets/TextMesh Pro/Shaders/TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets/MagicLeap-Tools/Art/Shaders/RampLighting/RampTexture.shader" />

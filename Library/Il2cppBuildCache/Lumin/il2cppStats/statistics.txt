@@ -55,40 +55,40 @@
 
 ----- il2cpp Statistics -----
 General:
-	Conversion Time: 12.426 s
+	Conversion Time: 12.79 s
 	Job Count: 8
 	Processor Count: 8
 	Files Written: 302
-	String Literals: 5816
+	String Literals: 5823
 Methods:
-	Total Methods: 43750
-	Non-Generic Methods: 25046
+	Total Methods: 43762
+	Non-Generic Methods: 25058
 	Generic Type Methods: 15424
 	Generic Methods: 3280
 	Shared Methods: 18680
 	Methods with Tail Calls : 0
 Metadata:
-	Total: 3,336.84 kb
-	String Literals: 45.44 kb
-	String Literal Data: 196.49 kb
-	Metadata Strings: 552.14 kb
+	Total: 3,337.90 kb
+	String Literals: 45.49 kb
+	String Literal Data: 196.59 kb
+	Metadata Strings: 552.31 kb
 	Events: 6.47 kb
 	Properties: 89.61 kb
-	Methods: 861.59 kb
+	Methods: 861.97 kb
 	Parameter Default Values: 3.45 kb
 	Field Default Values: 71.65 kb
 	Field and Parameter Default Values Data: 82.78 kb
 	Field Marshaled Sizes: 15.32 kb
-	Parameters: 360.02 kb
-	Fields: 214.15 kb
+	Parameters: 360.06 kb
+	Fields: 214.28 kb
 	Generic Parameters: 15.00 kb
 	Generic Parameter Constraints: 0.59 kb
 	Generic Containers: 8.98 kb
 	Nested Types: 7.37 kb
 	Interfaces: 4.72 kb
-	VTables: 182.49 kb
+	VTables: 182.52 kb
 	Interface Offsets: 34.48 kb
-	Type Definitions: 413.53 kb
+	Type Definitions: 413.70 kb
 	Images: 1.95 kb
 	Assemblies: 3.12 kb
 	Field Refs: 0.91 kb
@@ -101,7 +101,7 @@ Metadata:
 	Windows Runtime strings: 0.00 kb
 	Exported Types: 3.43 kb
 Codegen:
-	NullChecks : 72443
+	NullChecks : 72460
 Interop:
 	Windows Runtime boxed types : 0
 	Windows Runtime types with names : 0
@@ -128,10 +128,10 @@ Compilation:
 
 ----Generated Files----
 Assembly-CSharp_Attr.cpp	464398
-Assembly-CSharp.cpp	2471538
-Assembly-CSharp1.cpp	2121041
+Assembly-CSharp.cpp	2484199
+Assembly-CSharp1.cpp	2150456
 Assembly-CSharp2.cpp	2994994
-Assembly-CSharp3.cpp	1428731
+Assembly-CSharp3.cpp	1436492
 GenericMethods.cpp	2843580
 GenericMethods1.cpp	2707110
 GenericMethods2.cpp	3522733
@@ -165,11 +165,11 @@ Generics7.cpp	1745629
 Generics8.cpp	4995852
 Generics9.cpp	2760436
 Il2CppCCalculateFieldValues.cpp	7756349
-Il2CppCCalculateFieldValues1.cpp	3556932
+Il2CppCCalculateFieldValues1.cpp	3565537
 Il2CppCCalculateTypeValues.cpp	9246132
-Il2CppCCalculateTypeValues1.cpp	1554228
-Il2CppCCFieldValuesTable.cpp	256266
-Il2CppCCTypeValuesTable.cpp	455122
+Il2CppCCalculateTypeValues1.cpp	1562140
+Il2CppCCFieldValuesTable.cpp	256430
+Il2CppCCTypeValuesTable.cpp	455312
 Il2CppCodeRegistration.cpp	7895
 Il2CppGenericAdjustorThunkTable.cpp	840463
 Il2CppGenericComDefinitions.cpp	153

@@ -38,16 +38,35 @@ public class UIManager : MonoBehaviour
                 if(hit.transform.gameObject.name == "RecognitionButton"){
                     StartRecognition();
                 }
+                
+                if(hit.transform.gameObject.name == "LightningButton"){
+                    StartLuminance();
+                }
 
                 if(hit.transform.gameObject.name == "QuitButton"){
                     QuitApp();
                 }
+                                if(hit.transform.gameObject.name == "PlanesButton"){
+                    StartPlanes();
+                }
             }
         }
+    }
+    void StartPlanes(){
+        HeadlockedCanvas.SetActive(false);
+        SceneManager.LoadScene("PlanesScene");
+        Scene scene = SceneManager.GetActiveScene();
+        Debug.Log(scene.name);
     }
     void StartMarker(){
         HeadlockedCanvas.SetActive(false);
         SceneManager.LoadScene("ArUcoTrackingScene");
+        Scene scene = SceneManager.GetActiveScene();
+        Debug.Log(scene.name);
+    }
+        void StartLuminance(){
+        HeadlockedCanvas.SetActive(false);
+        SceneManager.LoadScene("LuminanceScene");
         Scene scene = SceneManager.GetActiveScene();
         Debug.Log(scene.name);
     }
