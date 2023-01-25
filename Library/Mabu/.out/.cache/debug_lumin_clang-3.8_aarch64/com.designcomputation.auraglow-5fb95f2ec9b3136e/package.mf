@@ -22,16 +22,16 @@
   },
   {
    "compression": 8,
-   "hash": "d68a7041aa061f343e7c41cc26619e30b12dcc28",
+   "hash": "80f978609b9126ecc0a82786f99fba35c87149ed",
    "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
-   "size": 3418264,
+   "size": 3419692,
    "src": "/Users/aron/auraglow/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
   },
   {
    "compression": 8,
-   "hash": "5e332137b9680675aea6d3185bd1f85712b5295f",
+   "hash": "0f885b917189a21b262afc5272d430aa92199b62",
    "pkgpath": "bin/libil2cpp.so",
-   "size": 66592864,
+   "size": 66609976,
    "src": "/Users/aron/auraglow/Temp/StagingArea/Data/Native/libil2cpp.so",
    "xfrm_flags": {
     "signed": {
@@ -43,9 +43,9 @@
      "version": 3
     }
    },
-   "xfrm_hash": "0c3d3ac1e3a5fb645e50b9afdaf18af05e230704",
+   "xfrm_hash": "59a8bbe18cda1e23015d727af12d534c9328d9bd",
    "xfrm_path": "/Users/aron/auraglow/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.designcomputation.auraglow-5fb95f2ec9b3136e/libil2cpp.so-b95b344a49cdfe25",
-   "xfrm_size": 66593622
+   "xfrm_size": 66610734
   },
   {
    "compression": 8,
@@ -178,14 +178,14 @@
   },
   {
    "compression": 8,
-   "hash": "36e9e9f77724a2096606c48d7e33707e373f0246",
+   "hash": "9258332b20c42ad8470654c90e1df8e5e3e9d8d1",
    "pkgpath": "Data/globalgamemanagers",
    "size": 65004,
    "src": "/Users/aron/auraglow/Temp/StagingArea/Data/globalgamemanagers"
   },
   {
    "compression": 8,
-   "hash": "a8cce628bf90cadeb45ee80842c79db3cdf9024a",
+   "hash": "8ac11a69f3a9a9ac4de41939dc39fb7cec9f645f",
    "pkgpath": "Data/globalgamemanagers.assets",
    "size": 117564,
    "src": "/Users/aron/auraglow/Temp/StagingArea/Data/globalgamemanagers.assets"
@@ -213,7 +213,7 @@
   },
   {
    "compression": 8,
-   "hash": "b6674cd2c4419c841d238e08c92fa1a0198054f4",
+   "hash": "0f45e7a710fbfba036a115708dc55c69d79f6dbb",
    "pkgpath": "Data/level1",
    "size": 10536,
    "src": "/Users/aron/auraglow/Temp/StagingArea/Data/level1"
@@ -227,9 +227,9 @@
   },
   {
    "compression": 8,
-   "hash": "7e5e8d4e104e30d905b3844241127fa8a2b1d8ef",
+   "hash": "369b6da03cb65898c4d1707dd9f68ee124a7f822",
    "pkgpath": "Data/level2",
-   "size": 20152,
+   "size": 20248,
    "src": "/Users/aron/auraglow/Temp/StagingArea/Data/level2"
   },
   {
@@ -241,9 +241,9 @@
   },
   {
    "compression": 8,
-   "hash": "22bff94b275cc770ad3942436cfc220f754e619a",
+   "hash": "c01f5ab03346d0d922f550cb51862c30d406a9ac",
    "pkgpath": "Data/level3",
-   "size": 27980,
+   "size": 12120,
    "src": "/Users/aron/auraglow/Temp/StagingArea/Data/level3"
   },
   {
@@ -255,9 +255,9 @@
   },
   {
    "compression": 8,
-   "hash": "36a6526b8669b1c5dbf38f5c957895414f364045",
+   "hash": "e256e1f527b0055e5080d9778dba4b6b22855f41",
    "pkgpath": "Data/level4",
-   "size": 11368,
+   "size": 12104,
    "src": "/Users/aron/auraglow/Temp/StagingArea/Data/level4"
   },
   {
@@ -269,9 +269,9 @@
   },
   {
    "compression": 8,
-   "hash": "ceae463731632f8905efad8b25e0786d0ad238f5",
+   "hash": "6b91feed9af5612b57257a5a7da619f6a609ace7",
    "pkgpath": "Data/level5",
-   "size": 15072,
+   "size": 16008,
    "src": "/Users/aron/auraglow/Temp/StagingArea/Data/level5"
   },
   {
@@ -325,9 +325,9 @@
   },
   {
    "compression": 8,
-   "hash": "8e49a03b6bbe91281829349d2f223abba629dfef",
+   "hash": "5ae0878ad3e7f5737b7e2733cff0f2164840e30f",
    "pkgpath": "Data/sharedassets2.assets",
-   "size": 12031014,
+   "size": 12031030,
    "src": "/Users/aron/auraglow/Temp/StagingArea/Data/sharedassets2.assets"
   },
   {
@@ -339,9 +339,9 @@
   },
   {
    "compression": 8,
-   "hash": "728cf60acd593933d9cf4c112c03b136f93d2a21",
+   "hash": "9ed374f244ec3be207bab6530b1e25b6a62d2af6",
    "pkgpath": "Data/sharedassets3.assets",
-   "size": 4697,
+   "size": 13092,
    "src": "/Users/aron/auraglow/Temp/StagingArea/Data/sharedassets3.assets"
   },
   {

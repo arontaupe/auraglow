@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 467427227211302003}
   - component: {fileID: 1418083038}
   - component: {fileID: 1418083042}
+  - component: {fileID: 8551225553353090743}
   m_Layer: 0
   m_Name: Aura
   m_TagString: aura
@@ -4835,9 +4836,19 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eae42fbee033d436ab1b008993052c98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  DistanceText: {fileID: 0}
-  EmissionRate: {fileID: 0}
-  CameraTransform: {fileID: 0}
+  EmissionRateLimit: 10
+--- !u!114 &8551225553353090743
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4614399170846671743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0659df13d0d4104aa403c95b98d1b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
   EmissionRateLimit: 10
 --- !u!1 &5220146943525297302
 GameObject:
@@ -4851,6 +4862,8 @@ GameObject:
   - component: {fileID: 7644797989140641980}
   - component: {fileID: 5918913142064880015}
   - component: {fileID: 5571726835750641095}
+  - component: {fileID: 8372542682561452048}
+  - component: {fileID: 7882688520892810731}
   m_Layer: 0
   m_Name: Center
   m_TagString: Untagged
@@ -4867,7 +4880,7 @@ Transform:
   m_GameObject: {fileID: 5220146943525297302}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
+  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
   m_Children: []
   m_Father: {fileID: 2255058736833943068}
   m_RootOrder: 0
@@ -4934,3 +4947,29 @@ SphereCollider:
   serializedVersion: 2
   m_Radius: 0.5
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &8372542682561452048
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5220146943525297302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: eae42fbee033d436ab1b008993052c98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EmissionRateLimit: 20
+--- !u!114 &7882688520892810731
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5220146943525297302}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ab0659df13d0d4104aa403c95b98d1b6, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  EmissionRateLimit: 20

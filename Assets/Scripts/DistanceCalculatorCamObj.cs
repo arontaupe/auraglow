@@ -7,12 +7,12 @@ using UnityEngine.XR.MagicLeap;
 
 public class DistanceCalculatorCamObj : MonoBehaviour
 {
-    public Text DistanceText;
-    public Text EmissionRate;
-    public Transform CameraTransform;
+    private Text DistanceCamText;
+    private Text EmissionRate;
+    private Transform CameraTransform;
     private Transform TargetTransform;
-    ParticleSystem aura;
-    ParticleSystem.EmissionModule emissionModule;
+    private ParticleSystem aura;
+    private ParticleSystem.EmissionModule emissionModule;
     public float EmissionRateLimit = 20.0f;
 
     
@@ -22,6 +22,9 @@ public class DistanceCalculatorCamObj : MonoBehaviour
         aura = GetComponent<ParticleSystem>();
         emissionModule = aura.emission;
         TargetTransform = gameObject.transform;
+        CameraTransform = GameObject.Find("Main Camera").transform;
+        DistanceCamText = GameObject.Find("DistanceCam").GetComponent<Text> ();
+        EmissionRate = GameObject.Find("EmissionRate").GetComponent<Text> ();
         
     }
 
@@ -38,7 +41,7 @@ public class DistanceCalculatorCamObj : MonoBehaviour
     {
         float distance = (TargetTransform.position - CameraTransform.position).magnitude;
         distance = Mathf.Round(distance * 10.0f) * 0.1f;
-        DistanceText.text = distance.ToString() + " m";  
+        DistanceCamText.text = distance.ToString() + " m";  
         SetValue(0.0f,max: EmissionRateLimit/distance );     
     }
 }

@@ -70,6 +70,7 @@ using System.Collections.Generic;
                     arucoBehavior.MarkerDictionary = MLArucoTracker.TrackerSettings.Dictionary;
                     //Add the markerId so we don't do this again
                     _arucoMarkerIds.Add(marker.Id);
+                    Debug.Log(string.Format("Found Marker {0}", marker.Id ));
                 }
                 else if (_arucoMarkerIds.Contains(marker.Id))
                 {

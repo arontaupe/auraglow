@@ -8,50 +8,50 @@ using System.Linq;
 
 public class DistanceCalculatorSimilarObj : MonoBehaviour
 {
-    public Text DistanceText;
-    public Text EmissionRate;
-    private Transform thisTransform;
-    ParticleSystem aura;
-    ParticleSystem.EmissionModule emissionModule;
-    public float EmissionRateLimit = 20.0f;
+    private Text DistanceSimilarText;
+    private Text ColorText;
+    private ParticleSystem aura;
+    private ParticleSystem.MainModule mainModule;
+    public float EmissionRateLimit = 10.0f;
     private GameObject[] similars;
-
+    private float average = 1.0f;
 
     
     // Start is called before the first frame update
     void Start(){
         aura = GetComponent<ParticleSystem>();
-        emissionModule = aura.emission;
-        thisTransform = gameObject.transform;
+        mainModule = aura.main;
+        DistanceSimilarText = GameObject.Find("DistanceSimilar").GetComponent<Text>();
+        ColorText = GameObject.Find("Color").GetComponent<Text> ();
     }
 
     private float CalculateAvgDistance(string tag = "aura"){
         if (similars == null){
             similars = GameObject.FindGameObjectsWithTag(tag);
         }
+        
+        if (similars.Any()){
+            List<float> distances = new List<float>();
 
-        List<float> distances = new List<float>();
-
-        foreach (GameObject similar in similars)
-        {
-            float distance = (similar.transform.position - thisTransform.position).magnitude;
-            distances.Add(distance);
+            foreach (GameObject similar in similars)
+            {
+                float distance = (similar.transform.position - transform.position).magnitude;
+                distances.Add(distance);
+            }
+            average = distances.Average();
         }
-        float average = distances.Average();
         return average;
     }
-    void SetValue(float min = 0.0f, float max = 10.0f)
-    {
-        emissionModule.rateOverTime = new ParticleSystem.MinMaxCurve(min, max);
-        emissionModule.rate = max;
-        EmissionRate.text = string.Format("min {0} max {1}.", emissionModule.rateOverTime.constantMin, emissionModule.rateOverTime.constantMax);
+
+    void SetValue(float hue = 1.0f){
+        hue = Mathf.Clamp(hue, 0.0f, 5.0f) / 5.0f;
+        mainModule.startColor = Color.HSVToRGB(hue, 1.0f, 1.0f);
+        ColorText.text = string.Format("hue {0} ", hue);
     }
     
-
     // Update is called once per frame
-    void Update()
-    {
+    void Update(){
         float average = CalculateAvgDistance();
-        SetValue(0.0f,average);
+        SetValue(average);
     }
 }
