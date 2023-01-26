@@ -34565,40 +34565,41 @@ IL_0034:
 			uint32_t L_11 = sizeof(intptr_t);
 			if ((uintptr_t)((uintptr_t)((int32_t)((int32_t)(((RuntimeArray*)L_10)->max_length)))) * (uintptr_t)L_11 > (uintptr_t)kIl2CppUIntPtrMax)
 				IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), WaitHandle_WaitMultiple_m1EAA97D1007A03242AB2C44F86AF976CC100BE05_RuntimeMethod_var);
-			int8_t* L_12 = (int8_t*) alloca(((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)((int32_t)((int32_t)(((RuntimeArray*)L_10)->max_length)))), (int32_t)L_11)));
-			memset(L_12, 0, ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)((int32_t)((int32_t)(((RuntimeArray*)L_10)->max_length)))), (int32_t)L_11)));
-			V_3 = (intptr_t*)(L_12);
+			intptr_t L_12 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)((int32_t)((int32_t)(((RuntimeArray*)L_10)->max_length)))), (int32_t)L_11));
+			int8_t* L_13 = (int8_t*) (L_12 ? alloca(L_12) : NULL);
+			memset(L_13, 0, L_12);
+			V_3 = (intptr_t*)(L_13);
 			V_4 = 0;
 			goto IL_0068;
 		}
 
 IL_0047:
 		{
-			intptr_t* L_13 = V_3;
-			int32_t L_14 = V_4;
-			uint32_t L_15 = sizeof(intptr_t);
-			WaitHandleU5BU5D_tACEEA554C9A6F05F45B5DA50A892B808B67462E3* L_16 = ___waitHandles0;
-			int32_t L_17 = V_4;
-			NullCheck(L_16);
-			int32_t L_18 = L_17;
-			WaitHandle_t1D7DD8480FD5DA4E3AF92F569890FB972D9B1842 * L_19 = (L_16)->GetAt(static_cast<il2cpp_array_size_t>(L_18));
-			NullCheck(L_19);
-			SafeWaitHandle_tF37EACEDF9C6F350EB4ABC1E1F869EECB0B5ABB1 * L_20;
-			L_20 = WaitHandle_get_SafeWaitHandle_m717C1858CFA382DDCE9CF9629195BCCDB0FEBA7E(L_19, /*hidden argument*/NULL);
+			intptr_t* L_14 = V_3;
+			int32_t L_15 = V_4;
+			uint32_t L_16 = sizeof(intptr_t);
+			WaitHandleU5BU5D_tACEEA554C9A6F05F45B5DA50A892B808B67462E3* L_17 = ___waitHandles0;
+			int32_t L_18 = V_4;
+			NullCheck(L_17);
+			int32_t L_19 = L_18;
+			WaitHandle_t1D7DD8480FD5DA4E3AF92F569890FB972D9B1842 * L_20 = (L_17)->GetAt(static_cast<il2cpp_array_size_t>(L_19));
 			NullCheck(L_20);
-			intptr_t L_21;
-			L_21 = SafeHandle_DangerousGetHandle_mEB7C6F9EC43E5A3483027A9B1B8D660D2F7E2CDB_inline(L_20, /*hidden argument*/NULL);
-			*((intptr_t*)((intptr_t*)il2cpp_codegen_add((intptr_t)L_13, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_14), (int32_t)L_15))))) = (intptr_t)L_21;
-			int32_t L_22 = V_4;
-			V_4 = ((int32_t)il2cpp_codegen_add((int32_t)L_22, (int32_t)1));
+			SafeWaitHandle_tF37EACEDF9C6F350EB4ABC1E1F869EECB0B5ABB1 * L_21;
+			L_21 = WaitHandle_get_SafeWaitHandle_m717C1858CFA382DDCE9CF9629195BCCDB0FEBA7E(L_20, /*hidden argument*/NULL);
+			NullCheck(L_21);
+			intptr_t L_22;
+			L_22 = SafeHandle_DangerousGetHandle_mEB7C6F9EC43E5A3483027A9B1B8D660D2F7E2CDB_inline(L_21, /*hidden argument*/NULL);
+			*((intptr_t*)((intptr_t*)il2cpp_codegen_add((intptr_t)L_14, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_15), (int32_t)L_16))))) = (intptr_t)L_22;
+			int32_t L_23 = V_4;
+			V_4 = ((int32_t)il2cpp_codegen_add((int32_t)L_23, (int32_t)1));
 		}
 
 IL_0068:
 		{
-			int32_t L_23 = V_4;
-			WaitHandleU5BU5D_tACEEA554C9A6F05F45B5DA50A892B808B67462E3* L_24 = ___waitHandles0;
-			NullCheck(L_24);
-			if ((((int32_t)L_23) < ((int32_t)((int32_t)((int32_t)(((RuntimeArray*)L_24)->max_length))))))
+			int32_t L_24 = V_4;
+			WaitHandleU5BU5D_tACEEA554C9A6F05F45B5DA50A892B808B67462E3* L_25 = ___waitHandles0;
+			NullCheck(L_25);
+			if ((((int32_t)L_24) < ((int32_t)((int32_t)((int32_t)(((RuntimeArray*)L_25)->max_length))))))
 			{
 				goto IL_0047;
 			}
@@ -34606,15 +34607,15 @@ IL_0068:
 
 IL_006f:
 		{
-			intptr_t* L_25 = V_3;
-			WaitHandleU5BU5D_tACEEA554C9A6F05F45B5DA50A892B808B67462E3* L_26 = ___waitHandles0;
-			NullCheck(L_26);
-			bool L_27 = ___WaitAll3;
-			int32_t L_28 = ___millisecondsTimeout1;
+			intptr_t* L_26 = V_3;
+			WaitHandleU5BU5D_tACEEA554C9A6F05F45B5DA50A892B808B67462E3* L_27 = ___waitHandles0;
+			NullCheck(L_27);
+			bool L_28 = ___WaitAll3;
+			int32_t L_29 = ___millisecondsTimeout1;
 			IL2CPP_RUNTIME_CLASS_INIT(WaitHandle_t1D7DD8480FD5DA4E3AF92F569890FB972D9B1842_il2cpp_TypeInfo_var);
-			int32_t L_29;
-			L_29 = WaitHandle_Wait_internal_m1C392D8EAD13F4EE8782D828FC97E6B6FA364319((intptr_t*)(intptr_t*)L_25, ((int32_t)((int32_t)(((RuntimeArray*)L_26)->max_length))), L_27, L_28, /*hidden argument*/NULL);
-			V_5 = L_29;
+			int32_t L_30;
+			L_30 = WaitHandle_Wait_internal_m1C392D8EAD13F4EE8782D828FC97E6B6FA364319((intptr_t*)(intptr_t*)L_26, ((int32_t)((int32_t)(((RuntimeArray*)L_27)->max_length))), L_28, L_29, /*hidden argument*/NULL);
+			V_5 = L_30;
 			IL2CPP_LEAVE(0x9D, FINALLY_007e);
 		}
 	} // end try (depth: 1)
@@ -34627,31 +34628,31 @@ IL_006f:
 FINALLY_007e:
 	{ // begin finally (depth: 1)
 		{
-			int32_t L_30 = V_0;
-			V_6 = L_30;
+			int32_t L_31 = V_0;
+			V_6 = L_31;
 			goto IL_0097;
 		}
 
 IL_0083:
 		{
-			WaitHandleU5BU5D_tACEEA554C9A6F05F45B5DA50A892B808B67462E3* L_31 = ___waitHandles0;
-			int32_t L_32 = V_6;
-			NullCheck(L_31);
-			int32_t L_33 = L_32;
-			WaitHandle_t1D7DD8480FD5DA4E3AF92F569890FB972D9B1842 * L_34 = (L_31)->GetAt(static_cast<il2cpp_array_size_t>(L_33));
-			NullCheck(L_34);
-			SafeWaitHandle_tF37EACEDF9C6F350EB4ABC1E1F869EECB0B5ABB1 * L_35;
-			L_35 = WaitHandle_get_SafeWaitHandle_m717C1858CFA382DDCE9CF9629195BCCDB0FEBA7E(L_34, /*hidden argument*/NULL);
+			WaitHandleU5BU5D_tACEEA554C9A6F05F45B5DA50A892B808B67462E3* L_32 = ___waitHandles0;
+			int32_t L_33 = V_6;
+			NullCheck(L_32);
+			int32_t L_34 = L_33;
+			WaitHandle_t1D7DD8480FD5DA4E3AF92F569890FB972D9B1842 * L_35 = (L_32)->GetAt(static_cast<il2cpp_array_size_t>(L_34));
 			NullCheck(L_35);
-			SafeHandle_DangerousRelease_mD38F583FAFD30A50547FAA163FBE3C1D466174D4(L_35, /*hidden argument*/NULL);
-			int32_t L_36 = V_6;
-			V_6 = ((int32_t)il2cpp_codegen_subtract((int32_t)L_36, (int32_t)1));
+			SafeWaitHandle_tF37EACEDF9C6F350EB4ABC1E1F869EECB0B5ABB1 * L_36;
+			L_36 = WaitHandle_get_SafeWaitHandle_m717C1858CFA382DDCE9CF9629195BCCDB0FEBA7E(L_35, /*hidden argument*/NULL);
+			NullCheck(L_36);
+			SafeHandle_DangerousRelease_mD38F583FAFD30A50547FAA163FBE3C1D466174D4(L_36, /*hidden argument*/NULL);
+			int32_t L_37 = V_6;
+			V_6 = ((int32_t)il2cpp_codegen_subtract((int32_t)L_37, (int32_t)1));
 		}
 
 IL_0097:
 		{
-			int32_t L_37 = V_6;
-			if ((((int32_t)L_37) >= ((int32_t)0)))
+			int32_t L_38 = V_6;
+			if ((((int32_t)L_38) >= ((int32_t)0)))
 			{
 				goto IL_0083;
 			}
@@ -34670,8 +34671,8 @@ IL_009c:
 
 IL_009d:
 	{
-		int32_t L_38 = V_5;
-		return L_38;
+		int32_t L_39 = V_5;
+		return L_39;
 	}
 }
 // System.Int32 System.Threading.WaitHandle::WaitOneNative(System.Runtime.InteropServices.SafeHandle,System.UInt32,System.Boolean,System.Boolean)

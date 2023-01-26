@@ -7,6 +7,7 @@ TagManager:
   - dreamfusion
   - aura
   - chair
+  - overlay
   layers:
   - Default
   - TransparentFX

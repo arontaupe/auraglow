@@ -19,7 +19,7 @@
     },
     {
       "Annotation": "Il2Cpp /Users/aron/auraglow/Library/Il2cppBuildCache/Lumin/Native/libil2cpp.so",
-      "Action": "\"/Applications/Unity/Hub/Editor/2020.3.42f1/Unity.app/Contents/il2cpp/build/deploy/netcoreapp3.1/il2cpp\" --convert-to-cpp --emit-null-checks --enable-stacktrace --enable-array-bounds-check --dotnetprofile=\"unityaot\" --compile-cpp --libil2cpp-static --platform=\"Lumin\" --architecture=\"ARM64\" --configuration=\"Release\" --outputpath=\"/Users/aron/auraglow/Library/Il2cppBuildCache/Lumin/Native/libil2cpp.so\" --cachedirectory=\"/Users/aron/auraglow/Assets/../Library/il2cpp_cache/il2cpp_cache\" --baselib-directory=\"/Applications/Unity/Hub/Editor/2020.3.42f1/PlaybackEngines/LuminSupport/Variations/il2cpp/Release/arm64\" --avoid-dynamic-library-copy --verbose --enable-stats --stats-output-dir=\"/Users/aron/auraglow/Assets/../Library/il2cpp_stats\" --incremental-g-c-time-slice=3 --profiler-report --map-file-parser=\"/Applications/Unity/Hub/Editor/2020.3.42f1/Unity.app/Contents/Tools/MapFileParser/MapFileParser\" --directory=\"/Users/aron/auraglow/Temp/StagingArea/Data/Managed\" --generatedcppdir=\"/Users/aron/auraglow/Library/Il2cppBuildCache/Lumin/il2cppOutput\" --stats-output-dir=\"/Users/aron/auraglow/Library/Il2cppBuildCache/Lumin/il2cppStats\"",
+      "Action": "\"/Applications/Unity/Hub/Editor/2020.3.44f1/Unity.app/Contents/il2cpp/build/deploy/netcoreapp3.1/il2cpp\" --convert-to-cpp --emit-null-checks --enable-stacktrace --enable-array-bounds-check --dotnetprofile=\"unityaot\" --compile-cpp --libil2cpp-static --platform=\"Lumin\" --architecture=\"ARM64\" --configuration=\"Release\" --outputpath=\"/Users/aron/auraglow/Library/Il2cppBuildCache/Lumin/Native/libil2cpp.so\" --cachedirectory=\"/Users/aron/auraglow/Assets/../Library/il2cpp_cache/il2cpp_cache\" --baselib-directory=\"/Applications/Unity/Hub/Editor/2020.3.44f1/PlaybackEngines/LuminSupport/Variations/il2cpp/Release/arm64\" --avoid-dynamic-library-copy --verbose --enable-stats --stats-output-dir=\"/Users/aron/auraglow/Assets/../Library/il2cpp_stats\" --incremental-g-c-time-slice=3 --profiler-report --map-file-parser=\"/Applications/Unity/Hub/Editor/2020.3.44f1/Unity.app/Contents/Tools/MapFileParser/MapFileParser\" --directory=\"/Users/aron/auraglow/Temp/StagingArea/Data/Managed\" --generatedcppdir=\"/Users/aron/auraglow/Library/Il2cppBuildCache/Lumin/il2cppOutput\" --stats-output-dir=\"/Users/aron/auraglow/Library/Il2cppBuildCache/Lumin/il2cppStats\"",
       "Inputs": [
         "/Users/aron/auraglow/Temp/StagingArea/Data/Managed",
         "/Users/aron/auraglow/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll",
@@ -72,9 +72,9 @@
         "/Users/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.XRModule.dll",
         "/Users/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.dll",
         "/Users/aron/auraglow/Temp/StagingArea/Data/Managed/mscorlib.dll",
-        "/Applications/Unity/Hub/Editor/2020.3.42f1/Unity.app/Contents/Tools/MapFileParser/MapFileParser",
-        "/Applications/Unity/Hub/Editor/2020.3.42f1/PlaybackEngines/LuminSupport/Variations/il2cpp/Release/arm64/baselib.a",
-        "\"/Applications/Unity/Hub/Editor/2020.3.42f1/Unity.app/Contents/il2cpp/build/deploy/netcoreapp3.1/il2cpp\""
+        "/Applications/Unity/Hub/Editor/2020.3.44f1/Unity.app/Contents/Tools/MapFileParser/MapFileParser",
+        "/Applications/Unity/Hub/Editor/2020.3.44f1/PlaybackEngines/LuminSupport/Variations/il2cpp/Release/arm64/baselib.a",
+        "\"/Applications/Unity/Hub/Editor/2020.3.44f1/Unity.app/Contents/il2cpp/build/deploy/netcoreapp3.1/il2cpp\""
       ],
       "Outputs": [
         "/Users/aron/auraglow/Library/Il2cppBuildCache/Lumin/Native/libil2cpp.so"
@@ -92,7 +92,7 @@
   ],
   "FileSignatures": [
     {
-      "File": "../../../../../../Applications/Unity/Hub/Editor/2020.3.42f1/PlaybackEngines/LuminSupport/Variations/il2cpp/Release/arm64"
+      "File": "../../../../../../Applications/Unity/Hub/Editor/2020.3.44f1/PlaybackEngines/LuminSupport/Variations/il2cpp/Release/arm64"
     },
     {
       "File": "../../../../Library"
@@ -115,7 +115,7 @@
       "Path": "../../../Temp/StagingArea/Data/Managed"
     },
     {
-      "Path": "../../../../../../Applications/Unity/Hub/Editor/2020.3.42f1/PlaybackEngines/LuminSupport/Variations/il2cpp/Release/arm64",
+      "Path": "../../../../../../Applications/Unity/Hub/Editor/2020.3.44f1/PlaybackEngines/LuminSupport/Variations/il2cpp/Release/arm64",
       "Recurse": 1
     }
   ],

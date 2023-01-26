@@ -22087,48 +22087,49 @@ IL_01c0:
 		uint16_t L_119 = V_0;
 		if ((uintptr_t)((uintptr_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_118, (int32_t)L_119))) * (uintptr_t)2 > (uintptr_t)kIl2CppUIntPtrMax)
 			IL2CPP_RAISE_MANAGED_EXCEPTION(il2cpp_codegen_get_overflow_exception(), Uri_ParseSchemeCheckImplicitFile_m54C6CFD37CC5A5C24E502E44AA44112AF7B50BFD_RuntimeMethod_var);
-		int8_t* L_120 = (int8_t*) alloca(((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_118, (int32_t)L_119))), (int32_t)2)));
-		memset(L_120, 0, ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_118, (int32_t)L_119))), (int32_t)2)));
-		V_2 = (Il2CppChar*)(L_120);
+		intptr_t L_120 = ((intptr_t)il2cpp_codegen_multiply((intptr_t)((uintptr_t)((int32_t)il2cpp_codegen_subtract((int32_t)L_118, (int32_t)L_119))), (int32_t)2));
+		int8_t* L_121 = (int8_t*) (L_120 ? alloca(L_120) : NULL);
+		memset(L_121, 0, L_120);
+		V_2 = (Il2CppChar*)(L_121);
 		___length1 = (uint16_t)0;
 		goto IL_01e7;
 	}
 
 IL_01ce:
 	{
-		Il2CppChar* L_121 = V_2;
-		uint16_t L_122 = ___length1;
-		uint16_t L_123 = L_122;
-		___length1 = (uint16_t)((int32_t)((uint16_t)((int32_t)il2cpp_codegen_add((int32_t)L_123, (int32_t)1))));
-		Il2CppChar* L_124 = ___uriString0;
-		uint16_t L_125 = V_0;
-		int32_t L_126 = *((uint16_t*)((Il2CppChar*)il2cpp_codegen_add((intptr_t)L_124, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_125), (int32_t)2)))));
-		*((int16_t*)((Il2CppChar*)il2cpp_codegen_add((intptr_t)L_121, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_123), (int32_t)2))))) = (int16_t)L_126;
-		uint16_t L_127 = V_0;
-		V_0 = (uint16_t)((int32_t)((uint16_t)((int32_t)il2cpp_codegen_add((int32_t)L_127, (int32_t)1))));
+		Il2CppChar* L_122 = V_2;
+		uint16_t L_123 = ___length1;
+		uint16_t L_124 = L_123;
+		___length1 = (uint16_t)((int32_t)((uint16_t)((int32_t)il2cpp_codegen_add((int32_t)L_124, (int32_t)1))));
+		Il2CppChar* L_125 = ___uriString0;
+		uint16_t L_126 = V_0;
+		int32_t L_127 = *((uint16_t*)((Il2CppChar*)il2cpp_codegen_add((intptr_t)L_125, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_126), (int32_t)2)))));
+		*((int16_t*)((Il2CppChar*)il2cpp_codegen_add((intptr_t)L_122, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_124), (int32_t)2))))) = (int16_t)L_127;
+		uint16_t L_128 = V_0;
+		V_0 = (uint16_t)((int32_t)((uint16_t)((int32_t)il2cpp_codegen_add((int32_t)L_128, (int32_t)1))));
 	}
 
 IL_01e7:
 	{
-		uint16_t L_128 = V_0;
-		uint16_t L_129 = V_1;
-		if ((((int32_t)L_128) < ((int32_t)L_129)))
+		uint16_t L_129 = V_0;
+		uint16_t L_130 = V_1;
+		if ((((int32_t)L_129) < ((int32_t)L_130)))
 		{
 			goto IL_01ce;
 		}
 	}
 	{
-		int32_t* L_130 = ___err2;
-		Il2CppChar* L_131 = V_2;
-		uint16_t L_132 = ___length1;
-		UriParser_t6DEBE5C6CDC3C29C9019CD951C7ECEBD6A5D3E3A ** L_133 = ___syntax4;
+		int32_t* L_131 = ___err2;
+		Il2CppChar* L_132 = V_2;
+		uint16_t L_133 = ___length1;
+		UriParser_t6DEBE5C6CDC3C29C9019CD951C7ECEBD6A5D3E3A ** L_134 = ___syntax4;
 		IL2CPP_RUNTIME_CLASS_INIT(Uri_t4A915E1CC15B2C650F478099AD448E9466CBF612_il2cpp_TypeInfo_var);
-		int32_t L_134;
-		L_134 = Uri_CheckSchemeSyntax_m2390F44FEDD9E7489EF8F607B862B6210A9DC404((Il2CppChar*)(Il2CppChar*)L_131, L_132, (UriParser_t6DEBE5C6CDC3C29C9019CD951C7ECEBD6A5D3E3A **)L_133, /*hidden argument*/NULL);
-		*((int32_t*)L_130) = (int32_t)L_134;
-		int32_t* L_135 = ___err2;
-		int32_t L_136 = *((int32_t*)L_135);
-		if (!L_136)
+		int32_t L_135;
+		L_135 = Uri_CheckSchemeSyntax_m2390F44FEDD9E7489EF8F607B862B6210A9DC404((Il2CppChar*)(Il2CppChar*)L_132, L_133, (UriParser_t6DEBE5C6CDC3C29C9019CD951C7ECEBD6A5D3E3A **)L_134, /*hidden argument*/NULL);
+		*((int32_t*)L_131) = (int32_t)L_135;
+		int32_t* L_136 = ___err2;
+		int32_t L_137 = *((int32_t*)L_136);
+		if (!L_137)
 		{
 			goto IL_01fc;
 		}
@@ -22139,8 +22140,8 @@ IL_01e7:
 
 IL_01fc:
 	{
-		uint16_t L_137 = V_1;
-		return (uint16_t)((int32_t)((uint16_t)((int32_t)il2cpp_codegen_add((int32_t)L_137, (int32_t)1))));
+		uint16_t L_138 = V_1;
+		return (uint16_t)((int32_t)((uint16_t)((int32_t)il2cpp_codegen_add((int32_t)L_138, (int32_t)1))));
 	}
 }
 // System.Boolean System.Uri::CheckKnownSchemes(System.Int64*,System.UInt16,System.UriParser&)

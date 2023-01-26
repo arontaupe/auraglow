@@ -66,7 +66,7 @@ public class UIManager : MonoBehaviour
     }
         void StartLuminance(){
         HeadlockedCanvas.SetActive(false);
-        SceneManager.LoadScene("LuminanceScene");
+        SceneManager.LoadScene("LightningScene");
         Scene scene = SceneManager.GetActiveScene();
         Debug.Log(scene.name);
     }

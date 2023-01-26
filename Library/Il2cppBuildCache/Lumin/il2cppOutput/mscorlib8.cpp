@@ -15561,37 +15561,38 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Decimal_t2978B229CA86D3B7BA66A0AEEE014E0DE4F9
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271_il2cpp_TypeInfo_var);
 		int32_t L_0 = ((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271_StaticFields*)il2cpp_codegen_static_fields_for(NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271_il2cpp_TypeInfo_var))->get_NumberBufferBytes_0();
-		int8_t* L_1 = (int8_t*) alloca(((uintptr_t)L_0));
-		memset(L_1, 0, ((uintptr_t)L_0));
-		V_0 = (uint8_t*)(L_1);
-		uint8_t* L_2 = V_0;
-		NumberBuffer__ctor_m974731F7F82979DC89F09CC5450E3EB91D4F6ACC((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (uint8_t*)(uint8_t*)L_2, /*hidden argument*/NULL);
+		uintptr_t L_1 = ((uintptr_t)L_0);
+		int8_t* L_2 = (int8_t*) (L_1 ? alloca(L_1) : NULL);
+		memset(L_2, 0, L_1);
+		V_0 = (uint8_t*)(L_2);
+		uint8_t* L_3 = V_0;
+		NumberBuffer__ctor_m974731F7F82979DC89F09CC5450E3EB91D4F6ACC((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (uint8_t*)(uint8_t*)L_3, /*hidden argument*/NULL);
 		il2cpp_codegen_initobj((&V_2), sizeof(Decimal_t2978B229CA86D3B7BA66A0AEEE014E0DE4F940D7 ));
-		String_t* L_3 = ___value0;
-		int32_t L_4 = ___options1;
-		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_5 = ___numfmt2;
-		Number_StringToNumber_mC5E4B43EBC8088A12D8BAA8EE8C2428AE6CD7948(L_3, L_4, (NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), L_5, (bool)1, /*hidden argument*/NULL);
-		uint8_t* L_6;
-		L_6 = NumberBuffer_PackForNative_mEC599EE4E3DCCB7FAE394D8FEFE520E6D0CEE116((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), /*hidden argument*/NULL);
-		bool L_7;
-		L_7 = Number_NumberBufferToDecimal_mD8155CF8E3028157EC1A6135C7415C1AD86E3EE0((uint8_t*)(uint8_t*)L_6, (Decimal_t2978B229CA86D3B7BA66A0AEEE014E0DE4F940D7 *)(&V_2), /*hidden argument*/NULL);
-		if (L_7)
+		String_t* L_4 = ___value0;
+		int32_t L_5 = ___options1;
+		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_6 = ___numfmt2;
+		Number_StringToNumber_mC5E4B43EBC8088A12D8BAA8EE8C2428AE6CD7948(L_4, L_5, (NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), L_6, (bool)1, /*hidden argument*/NULL);
+		uint8_t* L_7;
+		L_7 = NumberBuffer_PackForNative_mEC599EE4E3DCCB7FAE394D8FEFE520E6D0CEE116((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), /*hidden argument*/NULL);
+		bool L_8;
+		L_8 = Number_NumberBufferToDecimal_mD8155CF8E3028157EC1A6135C7415C1AD86E3EE0((uint8_t*)(uint8_t*)L_7, (Decimal_t2978B229CA86D3B7BA66A0AEEE014E0DE4F940D7 *)(&V_2), /*hidden argument*/NULL);
+		if (L_8)
 		{
 			goto IL_0044;
 		}
 	}
 	{
-		String_t* L_8;
-		L_8 = Environment_GetResourceString_m050B47F93963088693F4FCC93D69DB02603A623D(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral20A65E8B0FCDA72F219167444B51ADE0AE75CCE4)), /*hidden argument*/NULL);
-		OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 * L_9 = (OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9_il2cpp_TypeInfo_var)));
-		OverflowException__ctor_m93384109E3514E1EB7F97A50893B1B617D21F91E(L_9, L_8, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_9, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Number_ParseDecimal_mF58D2B1F7ECAEFE719D6235D2A21A6F110ABE180_RuntimeMethod_var)));
+		String_t* L_9;
+		L_9 = Environment_GetResourceString_m050B47F93963088693F4FCC93D69DB02603A623D(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral20A65E8B0FCDA72F219167444B51ADE0AE75CCE4)), /*hidden argument*/NULL);
+		OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 * L_10 = (OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9_il2cpp_TypeInfo_var)));
+		OverflowException__ctor_m93384109E3514E1EB7F97A50893B1B617D21F91E(L_10, L_9, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_10, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Number_ParseDecimal_mF58D2B1F7ECAEFE719D6235D2A21A6F110ABE180_RuntimeMethod_var)));
 	}
 
 IL_0044:
 	{
-		Decimal_t2978B229CA86D3B7BA66A0AEEE014E0DE4F940D7  L_10 = V_2;
-		return L_10;
+		Decimal_t2978B229CA86D3B7BA66A0AEEE014E0DE4F940D7  L_11 = V_2;
+		return L_11;
 	}
 }
 // System.Double System.Number::ParseDouble(System.String,System.Globalization.NumberStyles,System.Globalization.NumberFormatInfo)
@@ -15627,37 +15628,38 @@ IL_000e:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271_il2cpp_TypeInfo_var);
 		int32_t L_2 = ((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271_StaticFields*)il2cpp_codegen_static_fields_for(NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271_il2cpp_TypeInfo_var))->get_NumberBufferBytes_0();
-		int8_t* L_3 = (int8_t*) alloca(((uintptr_t)L_2));
-		memset(L_3, 0, ((uintptr_t)L_2));
-		V_0 = (uint8_t*)(L_3);
-		uint8_t* L_4 = V_0;
-		NumberBuffer__ctor_m974731F7F82979DC89F09CC5450E3EB91D4F6ACC((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (uint8_t*)(uint8_t*)L_4, /*hidden argument*/NULL);
+		uintptr_t L_3 = ((uintptr_t)L_2);
+		int8_t* L_4 = (int8_t*) (L_3 ? alloca(L_3) : NULL);
+		memset(L_4, 0, L_3);
+		V_0 = (uint8_t*)(L_4);
+		uint8_t* L_5 = V_0;
+		NumberBuffer__ctor_m974731F7F82979DC89F09CC5450E3EB91D4F6ACC((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (uint8_t*)(uint8_t*)L_5, /*hidden argument*/NULL);
 		V_2 = (0.0);
-		String_t* L_5 = ___value0;
-		int32_t L_6 = ___options1;
-		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_7 = ___numfmt2;
-		bool L_8;
-		L_8 = Number_TryStringToNumber_m8451F74A23EEEEDC9EABEF1B363AEC78979EDC49(L_5, L_6, (NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), L_7, (bool)0, /*hidden argument*/NULL);
-		if (L_8)
+		String_t* L_6 = ___value0;
+		int32_t L_7 = ___options1;
+		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_8 = ___numfmt2;
+		bool L_9;
+		L_9 = Number_TryStringToNumber_m8451F74A23EEEEDC9EABEF1B363AEC78979EDC49(L_6, L_7, (NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), L_8, (bool)0, /*hidden argument*/NULL);
+		if (L_9)
 		{
 			goto IL_0095;
 		}
 	}
 	{
-		String_t* L_9 = ___value0;
-		NullCheck(L_9);
-		String_t* L_10;
-		L_10 = String_Trim_m3FEC641D7046124B7F381701903B50B5171DE0A2(L_9, /*hidden argument*/NULL);
-		V_3 = L_10;
-		String_t* L_11 = V_3;
-		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_12 = ___numfmt2;
+		String_t* L_10 = ___value0;
+		NullCheck(L_10);
+		String_t* L_11;
+		L_11 = String_Trim_m3FEC641D7046124B7F381701903B50B5171DE0A2(L_10, /*hidden argument*/NULL);
+		V_3 = L_11;
+		String_t* L_12 = V_3;
+		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_13 = ___numfmt2;
+		NullCheck(L_13);
+		String_t* L_14;
+		L_14 = NumberFormatInfo_get_PositiveInfinitySymbol_m2D383E17BC89FD57DD36226DB976754A8411121A_inline(L_13, /*hidden argument*/NULL);
 		NullCheck(L_12);
-		String_t* L_13;
-		L_13 = NumberFormatInfo_get_PositiveInfinitySymbol_m2D383E17BC89FD57DD36226DB976754A8411121A_inline(L_12, /*hidden argument*/NULL);
-		NullCheck(L_11);
-		bool L_14;
-		L_14 = String_Equals_m8A062B96B61A7D652E7D73C9B3E904F6B0E5F41D(L_11, L_13, /*hidden argument*/NULL);
-		if (!L_14)
+		bool L_15;
+		L_15 = String_Equals_m8A062B96B61A7D652E7D73C9B3E904F6B0E5F41D(L_12, L_14, /*hidden argument*/NULL);
+		if (!L_15)
 		{
 			goto IL_0055;
 		}
@@ -15668,15 +15670,15 @@ IL_000e:
 
 IL_0055:
 	{
-		String_t* L_15 = V_3;
-		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_16 = ___numfmt2;
+		String_t* L_16 = V_3;
+		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_17 = ___numfmt2;
+		NullCheck(L_17);
+		String_t* L_18;
+		L_18 = NumberFormatInfo_get_NegativeInfinitySymbol_mDF8D9ECB3594CC33EEA0AD61C06C34290D10CDC2_inline(L_17, /*hidden argument*/NULL);
 		NullCheck(L_16);
-		String_t* L_17;
-		L_17 = NumberFormatInfo_get_NegativeInfinitySymbol_mDF8D9ECB3594CC33EEA0AD61C06C34290D10CDC2_inline(L_16, /*hidden argument*/NULL);
-		NullCheck(L_15);
-		bool L_18;
-		L_18 = String_Equals_m8A062B96B61A7D652E7D73C9B3E904F6B0E5F41D(L_15, L_17, /*hidden argument*/NULL);
-		if (!L_18)
+		bool L_19;
+		L_19 = String_Equals_m8A062B96B61A7D652E7D73C9B3E904F6B0E5F41D(L_16, L_18, /*hidden argument*/NULL);
+		if (!L_19)
 		{
 			goto IL_006d;
 		}
@@ -15687,15 +15689,15 @@ IL_0055:
 
 IL_006d:
 	{
-		String_t* L_19 = V_3;
-		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_20 = ___numfmt2;
+		String_t* L_20 = V_3;
+		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_21 = ___numfmt2;
+		NullCheck(L_21);
+		String_t* L_22;
+		L_22 = NumberFormatInfo_get_NaNSymbol_m83FA48B93442FFBB0D1479F1A090A6675B23E6DD_inline(L_21, /*hidden argument*/NULL);
 		NullCheck(L_20);
-		String_t* L_21;
-		L_21 = NumberFormatInfo_get_NaNSymbol_m83FA48B93442FFBB0D1479F1A090A6675B23E6DD_inline(L_20, /*hidden argument*/NULL);
-		NullCheck(L_19);
-		bool L_22;
-		L_22 = String_Equals_m8A062B96B61A7D652E7D73C9B3E904F6B0E5F41D(L_19, L_21, /*hidden argument*/NULL);
-		if (!L_22)
+		bool L_23;
+		L_23 = String_Equals_m8A062B96B61A7D652E7D73C9B3E904F6B0E5F41D(L_20, L_22, /*hidden argument*/NULL);
+		if (!L_23)
 		{
 			goto IL_0085;
 		}
@@ -15706,36 +15708,36 @@ IL_006d:
 
 IL_0085:
 	{
-		String_t* L_23;
-		L_23 = Environment_GetResourceString_m050B47F93963088693F4FCC93D69DB02603A623D(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral7ED71F768C05670E3698EF09100E41C9E3AC8113)), /*hidden argument*/NULL);
-		FormatException_t119BB207B54B4B1BC28D9B1783C4625AE23D4759 * L_24 = (FormatException_t119BB207B54B4B1BC28D9B1783C4625AE23D4759 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&FormatException_t119BB207B54B4B1BC28D9B1783C4625AE23D4759_il2cpp_TypeInfo_var)));
-		FormatException__ctor_mB8F9A26F985EF9A6C0C082F7D70CFDF2DBDBB23B(L_24, L_23, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_24, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Number_ParseDouble_m4E8FB5584D13FB250F360FFFF0E4FA290B385396_RuntimeMethod_var)));
+		String_t* L_24;
+		L_24 = Environment_GetResourceString_m050B47F93963088693F4FCC93D69DB02603A623D(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral7ED71F768C05670E3698EF09100E41C9E3AC8113)), /*hidden argument*/NULL);
+		FormatException_t119BB207B54B4B1BC28D9B1783C4625AE23D4759 * L_25 = (FormatException_t119BB207B54B4B1BC28D9B1783C4625AE23D4759 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&FormatException_t119BB207B54B4B1BC28D9B1783C4625AE23D4759_il2cpp_TypeInfo_var)));
+		FormatException__ctor_mB8F9A26F985EF9A6C0C082F7D70CFDF2DBDBB23B(L_25, L_24, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_25, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Number_ParseDouble_m4E8FB5584D13FB250F360FFFF0E4FA290B385396_RuntimeMethod_var)));
 	}
 
 IL_0095:
 	{
-		uint8_t* L_25;
-		L_25 = NumberBuffer_PackForNative_mEC599EE4E3DCCB7FAE394D8FEFE520E6D0CEE116((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), /*hidden argument*/NULL);
-		bool L_26;
-		L_26 = Number_NumberBufferToDouble_m965162BF726D20C825D5B9DA716566514504F982((uint8_t*)(uint8_t*)L_25, (double*)(&V_2), /*hidden argument*/NULL);
-		if (L_26)
+		uint8_t* L_26;
+		L_26 = NumberBuffer_PackForNative_mEC599EE4E3DCCB7FAE394D8FEFE520E6D0CEE116((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), /*hidden argument*/NULL);
+		bool L_27;
+		L_27 = Number_NumberBufferToDouble_m965162BF726D20C825D5B9DA716566514504F982((uint8_t*)(uint8_t*)L_26, (double*)(&V_2), /*hidden argument*/NULL);
+		if (L_27)
 		{
 			goto IL_00b5;
 		}
 	}
 	{
-		String_t* L_27;
-		L_27 = Environment_GetResourceString_m050B47F93963088693F4FCC93D69DB02603A623D(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral44A1F87CEE2CFE29FBA8D80F0031691EF9B184B0)), /*hidden argument*/NULL);
-		OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 * L_28 = (OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9_il2cpp_TypeInfo_var)));
-		OverflowException__ctor_m93384109E3514E1EB7F97A50893B1B617D21F91E(L_28, L_27, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_28, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Number_ParseDouble_m4E8FB5584D13FB250F360FFFF0E4FA290B385396_RuntimeMethod_var)));
+		String_t* L_28;
+		L_28 = Environment_GetResourceString_m050B47F93963088693F4FCC93D69DB02603A623D(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral44A1F87CEE2CFE29FBA8D80F0031691EF9B184B0)), /*hidden argument*/NULL);
+		OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 * L_29 = (OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9_il2cpp_TypeInfo_var)));
+		OverflowException__ctor_m93384109E3514E1EB7F97A50893B1B617D21F91E(L_29, L_28, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_29, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Number_ParseDouble_m4E8FB5584D13FB250F360FFFF0E4FA290B385396_RuntimeMethod_var)));
 	}
 
 IL_00b5:
 	{
-		double L_29 = V_2;
-		return L_29;
+		double L_30 = V_2;
+		return L_30;
 	}
 }
 // System.Int32 System.Number::ParseInt32(System.String,System.Globalization.NumberStyles,System.Globalization.NumberFormatInfo)
@@ -15756,59 +15758,60 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Number_ParseInt32_m2A91DF005BA67155AD
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271_il2cpp_TypeInfo_var);
 		int32_t L_0 = ((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271_StaticFields*)il2cpp_codegen_static_fields_for(NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271_il2cpp_TypeInfo_var))->get_NumberBufferBytes_0();
-		int8_t* L_1 = (int8_t*) alloca(((uintptr_t)L_0));
-		memset(L_1, 0, ((uintptr_t)L_0));
-		V_0 = (uint8_t*)(L_1);
-		uint8_t* L_2 = V_0;
-		NumberBuffer__ctor_m974731F7F82979DC89F09CC5450E3EB91D4F6ACC((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (uint8_t*)(uint8_t*)L_2, /*hidden argument*/NULL);
+		uintptr_t L_1 = ((uintptr_t)L_0);
+		int8_t* L_2 = (int8_t*) (L_1 ? alloca(L_1) : NULL);
+		memset(L_2, 0, L_1);
+		V_0 = (uint8_t*)(L_2);
+		uint8_t* L_3 = V_0;
+		NumberBuffer__ctor_m974731F7F82979DC89F09CC5450E3EB91D4F6ACC((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (uint8_t*)(uint8_t*)L_3, /*hidden argument*/NULL);
 		V_2 = 0;
-		String_t* L_3 = ___s0;
-		int32_t L_4 = ___style1;
-		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_5 = ___info2;
-		Number_StringToNumber_mC5E4B43EBC8088A12D8BAA8EE8C2428AE6CD7948(L_3, L_4, (NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), L_5, (bool)0, /*hidden argument*/NULL);
-		int32_t L_6 = ___style1;
-		if (!((int32_t)((int32_t)L_6&(int32_t)((int32_t)512))))
+		String_t* L_4 = ___s0;
+		int32_t L_5 = ___style1;
+		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_6 = ___info2;
+		Number_StringToNumber_mC5E4B43EBC8088A12D8BAA8EE8C2428AE6CD7948(L_4, L_5, (NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), L_6, (bool)0, /*hidden argument*/NULL);
+		int32_t L_7 = ___style1;
+		if (!((int32_t)((int32_t)L_7&(int32_t)((int32_t)512))))
 		{
 			goto IL_0042;
 		}
 	}
 	{
-		bool L_7;
-		L_7 = Number_HexNumberToInt32_m94F6D25A43628AA616FD22D9A422EE625F17E5FC((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (int32_t*)(&V_2), /*hidden argument*/NULL);
-		if (L_7)
+		bool L_8;
+		L_8 = Number_HexNumberToInt32_m94F6D25A43628AA616FD22D9A422EE625F17E5FC((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (int32_t*)(&V_2), /*hidden argument*/NULL);
+		if (L_8)
 		{
 			goto IL_005d;
 		}
 	}
 	{
-		String_t* L_8;
-		L_8 = Environment_GetResourceString_m050B47F93963088693F4FCC93D69DB02603A623D(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral4DD3DE8CCECA489C7DDD3362FC292A3BE39B68F1)), /*hidden argument*/NULL);
-		OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 * L_9 = (OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9_il2cpp_TypeInfo_var)));
-		OverflowException__ctor_m93384109E3514E1EB7F97A50893B1B617D21F91E(L_9, L_8, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_9, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Number_ParseInt32_m2A91DF005BA67155ADDC88187A1B4EFB00C18ABB_RuntimeMethod_var)));
+		String_t* L_9;
+		L_9 = Environment_GetResourceString_m050B47F93963088693F4FCC93D69DB02603A623D(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral4DD3DE8CCECA489C7DDD3362FC292A3BE39B68F1)), /*hidden argument*/NULL);
+		OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 * L_10 = (OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9_il2cpp_TypeInfo_var)));
+		OverflowException__ctor_m93384109E3514E1EB7F97A50893B1B617D21F91E(L_10, L_9, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_10, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Number_ParseInt32_m2A91DF005BA67155ADDC88187A1B4EFB00C18ABB_RuntimeMethod_var)));
 	}
 
 IL_0042:
 	{
-		bool L_10;
-		L_10 = Number_NumberToInt32_mEFBB1439FF5B0D137C91956B236CCEB5AA017962((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (int32_t*)(&V_2), /*hidden argument*/NULL);
-		if (L_10)
+		bool L_11;
+		L_11 = Number_NumberToInt32_mEFBB1439FF5B0D137C91956B236CCEB5AA017962((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (int32_t*)(&V_2), /*hidden argument*/NULL);
+		if (L_11)
 		{
 			goto IL_005d;
 		}
 	}
 	{
-		String_t* L_11;
-		L_11 = Environment_GetResourceString_m050B47F93963088693F4FCC93D69DB02603A623D(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral4DD3DE8CCECA489C7DDD3362FC292A3BE39B68F1)), /*hidden argument*/NULL);
-		OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 * L_12 = (OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9_il2cpp_TypeInfo_var)));
-		OverflowException__ctor_m93384109E3514E1EB7F97A50893B1B617D21F91E(L_12, L_11, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_12, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Number_ParseInt32_m2A91DF005BA67155ADDC88187A1B4EFB00C18ABB_RuntimeMethod_var)));
+		String_t* L_12;
+		L_12 = Environment_GetResourceString_m050B47F93963088693F4FCC93D69DB02603A623D(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral4DD3DE8CCECA489C7DDD3362FC292A3BE39B68F1)), /*hidden argument*/NULL);
+		OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 * L_13 = (OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9_il2cpp_TypeInfo_var)));
+		OverflowException__ctor_m93384109E3514E1EB7F97A50893B1B617D21F91E(L_13, L_12, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_13, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Number_ParseInt32_m2A91DF005BA67155ADDC88187A1B4EFB00C18ABB_RuntimeMethod_var)));
 	}
 
 IL_005d:
 	{
-		int32_t L_13 = V_2;
-		return L_13;
+		int32_t L_14 = V_2;
+		return L_14;
 	}
 }
 // System.Int64 System.Number::ParseInt64(System.String,System.Globalization.NumberStyles,System.Globalization.NumberFormatInfo)
@@ -15829,59 +15832,60 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int64_t Number_ParseInt64_m9DBAD91E9E7E09A3D2
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271_il2cpp_TypeInfo_var);
 		int32_t L_0 = ((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271_StaticFields*)il2cpp_codegen_static_fields_for(NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271_il2cpp_TypeInfo_var))->get_NumberBufferBytes_0();
-		int8_t* L_1 = (int8_t*) alloca(((uintptr_t)L_0));
-		memset(L_1, 0, ((uintptr_t)L_0));
-		V_0 = (uint8_t*)(L_1);
-		uint8_t* L_2 = V_0;
-		NumberBuffer__ctor_m974731F7F82979DC89F09CC5450E3EB91D4F6ACC((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (uint8_t*)(uint8_t*)L_2, /*hidden argument*/NULL);
+		uintptr_t L_1 = ((uintptr_t)L_0);
+		int8_t* L_2 = (int8_t*) (L_1 ? alloca(L_1) : NULL);
+		memset(L_2, 0, L_1);
+		V_0 = (uint8_t*)(L_2);
+		uint8_t* L_3 = V_0;
+		NumberBuffer__ctor_m974731F7F82979DC89F09CC5450E3EB91D4F6ACC((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (uint8_t*)(uint8_t*)L_3, /*hidden argument*/NULL);
 		V_2 = ((int64_t)((int64_t)0));
-		String_t* L_3 = ___value0;
-		int32_t L_4 = ___options1;
-		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_5 = ___numfmt2;
-		Number_StringToNumber_mC5E4B43EBC8088A12D8BAA8EE8C2428AE6CD7948(L_3, L_4, (NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), L_5, (bool)0, /*hidden argument*/NULL);
-		int32_t L_6 = ___options1;
-		if (!((int32_t)((int32_t)L_6&(int32_t)((int32_t)512))))
+		String_t* L_4 = ___value0;
+		int32_t L_5 = ___options1;
+		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_6 = ___numfmt2;
+		Number_StringToNumber_mC5E4B43EBC8088A12D8BAA8EE8C2428AE6CD7948(L_4, L_5, (NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), L_6, (bool)0, /*hidden argument*/NULL);
+		int32_t L_7 = ___options1;
+		if (!((int32_t)((int32_t)L_7&(int32_t)((int32_t)512))))
 		{
 			goto IL_0043;
 		}
 	}
 	{
-		bool L_7;
-		L_7 = Number_HexNumberToInt64_mE39E391E9FAD16FDEBC633287A401DF2C004AD2B((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (int64_t*)(&V_2), /*hidden argument*/NULL);
-		if (L_7)
+		bool L_8;
+		L_8 = Number_HexNumberToInt64_mE39E391E9FAD16FDEBC633287A401DF2C004AD2B((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (int64_t*)(&V_2), /*hidden argument*/NULL);
+		if (L_8)
 		{
 			goto IL_005e;
 		}
 	}
 	{
-		String_t* L_8;
-		L_8 = Environment_GetResourceString_m050B47F93963088693F4FCC93D69DB02603A623D(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral93FFE29C2506591FD366855C12526B4678FB1953)), /*hidden argument*/NULL);
-		OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 * L_9 = (OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9_il2cpp_TypeInfo_var)));
-		OverflowException__ctor_m93384109E3514E1EB7F97A50893B1B617D21F91E(L_9, L_8, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_9, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Number_ParseInt64_m9DBAD91E9E7E09A3D2103E1C7B209B5598C6B6CC_RuntimeMethod_var)));
+		String_t* L_9;
+		L_9 = Environment_GetResourceString_m050B47F93963088693F4FCC93D69DB02603A623D(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral93FFE29C2506591FD366855C12526B4678FB1953)), /*hidden argument*/NULL);
+		OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 * L_10 = (OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9_il2cpp_TypeInfo_var)));
+		OverflowException__ctor_m93384109E3514E1EB7F97A50893B1B617D21F91E(L_10, L_9, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_10, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Number_ParseInt64_m9DBAD91E9E7E09A3D2103E1C7B209B5598C6B6CC_RuntimeMethod_var)));
 	}
 
 IL_0043:
 	{
-		bool L_10;
-		L_10 = Number_NumberToInt64_mEA7A164E5A8D79A4785F6DC44C33D68EDDD528A6((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (int64_t*)(&V_2), /*hidden argument*/NULL);
-		if (L_10)
+		bool L_11;
+		L_11 = Number_NumberToInt64_mEA7A164E5A8D79A4785F6DC44C33D68EDDD528A6((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (int64_t*)(&V_2), /*hidden argument*/NULL);
+		if (L_11)
 		{
 			goto IL_005e;
 		}
 	}
 	{
-		String_t* L_11;
-		L_11 = Environment_GetResourceString_m050B47F93963088693F4FCC93D69DB02603A623D(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral93FFE29C2506591FD366855C12526B4678FB1953)), /*hidden argument*/NULL);
-		OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 * L_12 = (OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9_il2cpp_TypeInfo_var)));
-		OverflowException__ctor_m93384109E3514E1EB7F97A50893B1B617D21F91E(L_12, L_11, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_12, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Number_ParseInt64_m9DBAD91E9E7E09A3D2103E1C7B209B5598C6B6CC_RuntimeMethod_var)));
+		String_t* L_12;
+		L_12 = Environment_GetResourceString_m050B47F93963088693F4FCC93D69DB02603A623D(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral93FFE29C2506591FD366855C12526B4678FB1953)), /*hidden argument*/NULL);
+		OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 * L_13 = (OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9_il2cpp_TypeInfo_var)));
+		OverflowException__ctor_m93384109E3514E1EB7F97A50893B1B617D21F91E(L_13, L_12, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_13, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Number_ParseInt64_m9DBAD91E9E7E09A3D2103E1C7B209B5598C6B6CC_RuntimeMethod_var)));
 	}
 
 IL_005e:
 	{
-		int64_t L_13 = V_2;
-		return L_13;
+		int64_t L_14 = V_2;
+		return L_14;
 	}
 }
 // System.Boolean System.Number::ParseNumber(System.Char*&,System.Globalization.NumberStyles,System.Number/NumberBuffer&,System.Text.StringBuilder,System.Globalization.NumberFormatInfo,System.Boolean)
@@ -17095,37 +17099,38 @@ IL_000e:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271_il2cpp_TypeInfo_var);
 		int32_t L_2 = ((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271_StaticFields*)il2cpp_codegen_static_fields_for(NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271_il2cpp_TypeInfo_var))->get_NumberBufferBytes_0();
-		int8_t* L_3 = (int8_t*) alloca(((uintptr_t)L_2));
-		memset(L_3, 0, ((uintptr_t)L_2));
-		V_0 = (uint8_t*)(L_3);
-		uint8_t* L_4 = V_0;
-		NumberBuffer__ctor_m974731F7F82979DC89F09CC5450E3EB91D4F6ACC((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (uint8_t*)(uint8_t*)L_4, /*hidden argument*/NULL);
+		uintptr_t L_3 = ((uintptr_t)L_2);
+		int8_t* L_4 = (int8_t*) (L_3 ? alloca(L_3) : NULL);
+		memset(L_4, 0, L_3);
+		V_0 = (uint8_t*)(L_4);
+		uint8_t* L_5 = V_0;
+		NumberBuffer__ctor_m974731F7F82979DC89F09CC5450E3EB91D4F6ACC((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (uint8_t*)(uint8_t*)L_5, /*hidden argument*/NULL);
 		V_2 = (0.0);
-		String_t* L_5 = ___value0;
-		int32_t L_6 = ___options1;
-		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_7 = ___numfmt2;
-		bool L_8;
-		L_8 = Number_TryStringToNumber_m8451F74A23EEEEDC9EABEF1B363AEC78979EDC49(L_5, L_6, (NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), L_7, (bool)0, /*hidden argument*/NULL);
-		if (L_8)
+		String_t* L_6 = ___value0;
+		int32_t L_7 = ___options1;
+		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_8 = ___numfmt2;
+		bool L_9;
+		L_9 = Number_TryStringToNumber_m8451F74A23EEEEDC9EABEF1B363AEC78979EDC49(L_6, L_7, (NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), L_8, (bool)0, /*hidden argument*/NULL);
+		if (L_9)
 		{
 			goto IL_0089;
 		}
 	}
 	{
-		String_t* L_9 = ___value0;
-		NullCheck(L_9);
-		String_t* L_10;
-		L_10 = String_Trim_m3FEC641D7046124B7F381701903B50B5171DE0A2(L_9, /*hidden argument*/NULL);
-		V_3 = L_10;
-		String_t* L_11 = V_3;
-		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_12 = ___numfmt2;
+		String_t* L_10 = ___value0;
+		NullCheck(L_10);
+		String_t* L_11;
+		L_11 = String_Trim_m3FEC641D7046124B7F381701903B50B5171DE0A2(L_10, /*hidden argument*/NULL);
+		V_3 = L_11;
+		String_t* L_12 = V_3;
+		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_13 = ___numfmt2;
+		NullCheck(L_13);
+		String_t* L_14;
+		L_14 = NumberFormatInfo_get_PositiveInfinitySymbol_m2D383E17BC89FD57DD36226DB976754A8411121A_inline(L_13, /*hidden argument*/NULL);
 		NullCheck(L_12);
-		String_t* L_13;
-		L_13 = NumberFormatInfo_get_PositiveInfinitySymbol_m2D383E17BC89FD57DD36226DB976754A8411121A_inline(L_12, /*hidden argument*/NULL);
-		NullCheck(L_11);
-		bool L_14;
-		L_14 = String_Equals_m8A062B96B61A7D652E7D73C9B3E904F6B0E5F41D(L_11, L_13, /*hidden argument*/NULL);
-		if (!L_14)
+		bool L_15;
+		L_15 = String_Equals_m8A062B96B61A7D652E7D73C9B3E904F6B0E5F41D(L_12, L_14, /*hidden argument*/NULL);
+		if (!L_15)
 		{
 			goto IL_0051;
 		}
@@ -17136,15 +17141,15 @@ IL_000e:
 
 IL_0051:
 	{
-		String_t* L_15 = V_3;
-		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_16 = ___numfmt2;
+		String_t* L_16 = V_3;
+		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_17 = ___numfmt2;
+		NullCheck(L_17);
+		String_t* L_18;
+		L_18 = NumberFormatInfo_get_NegativeInfinitySymbol_mDF8D9ECB3594CC33EEA0AD61C06C34290D10CDC2_inline(L_17, /*hidden argument*/NULL);
 		NullCheck(L_16);
-		String_t* L_17;
-		L_17 = NumberFormatInfo_get_NegativeInfinitySymbol_mDF8D9ECB3594CC33EEA0AD61C06C34290D10CDC2_inline(L_16, /*hidden argument*/NULL);
-		NullCheck(L_15);
-		bool L_18;
-		L_18 = String_Equals_m8A062B96B61A7D652E7D73C9B3E904F6B0E5F41D(L_15, L_17, /*hidden argument*/NULL);
-		if (!L_18)
+		bool L_19;
+		L_19 = String_Equals_m8A062B96B61A7D652E7D73C9B3E904F6B0E5F41D(L_16, L_18, /*hidden argument*/NULL);
+		if (!L_19)
 		{
 			goto IL_0065;
 		}
@@ -17155,15 +17160,15 @@ IL_0051:
 
 IL_0065:
 	{
-		String_t* L_19 = V_3;
-		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_20 = ___numfmt2;
+		String_t* L_20 = V_3;
+		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_21 = ___numfmt2;
+		NullCheck(L_21);
+		String_t* L_22;
+		L_22 = NumberFormatInfo_get_NaNSymbol_m83FA48B93442FFBB0D1479F1A090A6675B23E6DD_inline(L_21, /*hidden argument*/NULL);
 		NullCheck(L_20);
-		String_t* L_21;
-		L_21 = NumberFormatInfo_get_NaNSymbol_m83FA48B93442FFBB0D1479F1A090A6675B23E6DD_inline(L_20, /*hidden argument*/NULL);
-		NullCheck(L_19);
-		bool L_22;
-		L_22 = String_Equals_m8A062B96B61A7D652E7D73C9B3E904F6B0E5F41D(L_19, L_21, /*hidden argument*/NULL);
-		if (!L_22)
+		bool L_23;
+		L_23 = String_Equals_m8A062B96B61A7D652E7D73C9B3E904F6B0E5F41D(L_20, L_22, /*hidden argument*/NULL);
+		if (!L_23)
 		{
 			goto IL_0079;
 		}
@@ -17174,51 +17179,51 @@ IL_0065:
 
 IL_0079:
 	{
-		String_t* L_23;
-		L_23 = Environment_GetResourceString_m050B47F93963088693F4FCC93D69DB02603A623D(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral7ED71F768C05670E3698EF09100E41C9E3AC8113)), /*hidden argument*/NULL);
-		FormatException_t119BB207B54B4B1BC28D9B1783C4625AE23D4759 * L_24 = (FormatException_t119BB207B54B4B1BC28D9B1783C4625AE23D4759 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&FormatException_t119BB207B54B4B1BC28D9B1783C4625AE23D4759_il2cpp_TypeInfo_var)));
-		FormatException__ctor_mB8F9A26F985EF9A6C0C082F7D70CFDF2DBDBB23B(L_24, L_23, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_24, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Number_ParseSingle_m1CFAE09023409CED9DE737187B6549B53883FD23_RuntimeMethod_var)));
+		String_t* L_24;
+		L_24 = Environment_GetResourceString_m050B47F93963088693F4FCC93D69DB02603A623D(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral7ED71F768C05670E3698EF09100E41C9E3AC8113)), /*hidden argument*/NULL);
+		FormatException_t119BB207B54B4B1BC28D9B1783C4625AE23D4759 * L_25 = (FormatException_t119BB207B54B4B1BC28D9B1783C4625AE23D4759 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&FormatException_t119BB207B54B4B1BC28D9B1783C4625AE23D4759_il2cpp_TypeInfo_var)));
+		FormatException__ctor_mB8F9A26F985EF9A6C0C082F7D70CFDF2DBDBB23B(L_25, L_24, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_25, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Number_ParseSingle_m1CFAE09023409CED9DE737187B6549B53883FD23_RuntimeMethod_var)));
 	}
 
 IL_0089:
 	{
-		uint8_t* L_25;
-		L_25 = NumberBuffer_PackForNative_mEC599EE4E3DCCB7FAE394D8FEFE520E6D0CEE116((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), /*hidden argument*/NULL);
-		bool L_26;
-		L_26 = Number_NumberBufferToDouble_m965162BF726D20C825D5B9DA716566514504F982((uint8_t*)(uint8_t*)L_25, (double*)(&V_2), /*hidden argument*/NULL);
-		if (L_26)
+		uint8_t* L_26;
+		L_26 = NumberBuffer_PackForNative_mEC599EE4E3DCCB7FAE394D8FEFE520E6D0CEE116((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), /*hidden argument*/NULL);
+		bool L_27;
+		L_27 = Number_NumberBufferToDouble_m965162BF726D20C825D5B9DA716566514504F982((uint8_t*)(uint8_t*)L_26, (double*)(&V_2), /*hidden argument*/NULL);
+		if (L_27)
 		{
 			goto IL_00a9;
 		}
 	}
 	{
-		String_t* L_27;
-		L_27 = Environment_GetResourceString_m050B47F93963088693F4FCC93D69DB02603A623D(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral0BDF77CDA7A223D514308395C8D7EB31DC67D38F)), /*hidden argument*/NULL);
-		OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 * L_28 = (OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9_il2cpp_TypeInfo_var)));
-		OverflowException__ctor_m93384109E3514E1EB7F97A50893B1B617D21F91E(L_28, L_27, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_28, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Number_ParseSingle_m1CFAE09023409CED9DE737187B6549B53883FD23_RuntimeMethod_var)));
+		String_t* L_28;
+		L_28 = Environment_GetResourceString_m050B47F93963088693F4FCC93D69DB02603A623D(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral0BDF77CDA7A223D514308395C8D7EB31DC67D38F)), /*hidden argument*/NULL);
+		OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 * L_29 = (OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9_il2cpp_TypeInfo_var)));
+		OverflowException__ctor_m93384109E3514E1EB7F97A50893B1B617D21F91E(L_29, L_28, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_29, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Number_ParseSingle_m1CFAE09023409CED9DE737187B6549B53883FD23_RuntimeMethod_var)));
 	}
 
 IL_00a9:
 	{
-		double L_29 = V_2;
-		float L_30 = ((float)((float)L_29));
-		bool L_31;
-		L_31 = Single_IsInfinity_m688D881718D05186AEA51763E7FE6E43FF5580F3(L_30, /*hidden argument*/NULL);
-		G_B13_0 = L_30;
-		if (!L_31)
+		double L_30 = V_2;
+		float L_31 = ((float)((float)L_30));
+		bool L_32;
+		L_32 = Single_IsInfinity_m688D881718D05186AEA51763E7FE6E43FF5580F3(L_31, /*hidden argument*/NULL);
+		G_B13_0 = L_31;
+		if (!L_32)
 		{
-			G_B14_0 = L_30;
+			G_B14_0 = L_31;
 			goto IL_00c3;
 		}
 	}
 	{
-		String_t* L_32;
-		L_32 = Environment_GetResourceString_m050B47F93963088693F4FCC93D69DB02603A623D(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral0BDF77CDA7A223D514308395C8D7EB31DC67D38F)), /*hidden argument*/NULL);
-		OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 * L_33 = (OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9_il2cpp_TypeInfo_var)));
-		OverflowException__ctor_m93384109E3514E1EB7F97A50893B1B617D21F91E(L_33, L_32, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_33, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Number_ParseSingle_m1CFAE09023409CED9DE737187B6549B53883FD23_RuntimeMethod_var)));
+		String_t* L_33;
+		L_33 = Environment_GetResourceString_m050B47F93963088693F4FCC93D69DB02603A623D(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral0BDF77CDA7A223D514308395C8D7EB31DC67D38F)), /*hidden argument*/NULL);
+		OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 * L_34 = (OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9_il2cpp_TypeInfo_var)));
+		OverflowException__ctor_m93384109E3514E1EB7F97A50893B1B617D21F91E(L_34, L_33, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_34, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Number_ParseSingle_m1CFAE09023409CED9DE737187B6549B53883FD23_RuntimeMethod_var)));
 	}
 
 IL_00c3:
@@ -17244,59 +17249,60 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint32_t Number_ParseUInt32_mB84242D537173A5A
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271_il2cpp_TypeInfo_var);
 		int32_t L_0 = ((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271_StaticFields*)il2cpp_codegen_static_fields_for(NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271_il2cpp_TypeInfo_var))->get_NumberBufferBytes_0();
-		int8_t* L_1 = (int8_t*) alloca(((uintptr_t)L_0));
-		memset(L_1, 0, ((uintptr_t)L_0));
-		V_0 = (uint8_t*)(L_1);
-		uint8_t* L_2 = V_0;
-		NumberBuffer__ctor_m974731F7F82979DC89F09CC5450E3EB91D4F6ACC((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (uint8_t*)(uint8_t*)L_2, /*hidden argument*/NULL);
+		uintptr_t L_1 = ((uintptr_t)L_0);
+		int8_t* L_2 = (int8_t*) (L_1 ? alloca(L_1) : NULL);
+		memset(L_2, 0, L_1);
+		V_0 = (uint8_t*)(L_2);
+		uint8_t* L_3 = V_0;
+		NumberBuffer__ctor_m974731F7F82979DC89F09CC5450E3EB91D4F6ACC((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (uint8_t*)(uint8_t*)L_3, /*hidden argument*/NULL);
 		V_2 = 0;
-		String_t* L_3 = ___value0;
-		int32_t L_4 = ___options1;
-		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_5 = ___numfmt2;
-		Number_StringToNumber_mC5E4B43EBC8088A12D8BAA8EE8C2428AE6CD7948(L_3, L_4, (NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), L_5, (bool)0, /*hidden argument*/NULL);
-		int32_t L_6 = ___options1;
-		if (!((int32_t)((int32_t)L_6&(int32_t)((int32_t)512))))
+		String_t* L_4 = ___value0;
+		int32_t L_5 = ___options1;
+		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_6 = ___numfmt2;
+		Number_StringToNumber_mC5E4B43EBC8088A12D8BAA8EE8C2428AE6CD7948(L_4, L_5, (NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), L_6, (bool)0, /*hidden argument*/NULL);
+		int32_t L_7 = ___options1;
+		if (!((int32_t)((int32_t)L_7&(int32_t)((int32_t)512))))
 		{
 			goto IL_0042;
 		}
 	}
 	{
-		bool L_7;
-		L_7 = Number_HexNumberToUInt32_mAC0BE60D0BEF5E6B7D2865F24CD25845AE65582B((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (uint32_t*)(&V_2), /*hidden argument*/NULL);
-		if (L_7)
+		bool L_8;
+		L_8 = Number_HexNumberToUInt32_mAC0BE60D0BEF5E6B7D2865F24CD25845AE65582B((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (uint32_t*)(&V_2), /*hidden argument*/NULL);
+		if (L_8)
 		{
 			goto IL_005d;
 		}
 	}
 	{
-		String_t* L_8;
-		L_8 = Environment_GetResourceString_m050B47F93963088693F4FCC93D69DB02603A623D(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralF072EABB286891F7AE6ED11AF63686B8B0F5023E)), /*hidden argument*/NULL);
-		OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 * L_9 = (OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9_il2cpp_TypeInfo_var)));
-		OverflowException__ctor_m93384109E3514E1EB7F97A50893B1B617D21F91E(L_9, L_8, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_9, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Number_ParseUInt32_mB84242D537173A5A676ED9BC4028C2F78D6DE433_RuntimeMethod_var)));
+		String_t* L_9;
+		L_9 = Environment_GetResourceString_m050B47F93963088693F4FCC93D69DB02603A623D(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralF072EABB286891F7AE6ED11AF63686B8B0F5023E)), /*hidden argument*/NULL);
+		OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 * L_10 = (OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9_il2cpp_TypeInfo_var)));
+		OverflowException__ctor_m93384109E3514E1EB7F97A50893B1B617D21F91E(L_10, L_9, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_10, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Number_ParseUInt32_mB84242D537173A5A676ED9BC4028C2F78D6DE433_RuntimeMethod_var)));
 	}
 
 IL_0042:
 	{
-		bool L_10;
-		L_10 = Number_NumberToUInt32_mFAD2FBD60B734FC639FBFCEA18777458CDD75624((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (uint32_t*)(&V_2), /*hidden argument*/NULL);
-		if (L_10)
+		bool L_11;
+		L_11 = Number_NumberToUInt32_mFAD2FBD60B734FC639FBFCEA18777458CDD75624((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (uint32_t*)(&V_2), /*hidden argument*/NULL);
+		if (L_11)
 		{
 			goto IL_005d;
 		}
 	}
 	{
-		String_t* L_11;
-		L_11 = Environment_GetResourceString_m050B47F93963088693F4FCC93D69DB02603A623D(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralF072EABB286891F7AE6ED11AF63686B8B0F5023E)), /*hidden argument*/NULL);
-		OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 * L_12 = (OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9_il2cpp_TypeInfo_var)));
-		OverflowException__ctor_m93384109E3514E1EB7F97A50893B1B617D21F91E(L_12, L_11, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_12, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Number_ParseUInt32_mB84242D537173A5A676ED9BC4028C2F78D6DE433_RuntimeMethod_var)));
+		String_t* L_12;
+		L_12 = Environment_GetResourceString_m050B47F93963088693F4FCC93D69DB02603A623D(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteralF072EABB286891F7AE6ED11AF63686B8B0F5023E)), /*hidden argument*/NULL);
+		OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 * L_13 = (OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9_il2cpp_TypeInfo_var)));
+		OverflowException__ctor_m93384109E3514E1EB7F97A50893B1B617D21F91E(L_13, L_12, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_13, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Number_ParseUInt32_mB84242D537173A5A676ED9BC4028C2F78D6DE433_RuntimeMethod_var)));
 	}
 
 IL_005d:
 	{
-		uint32_t L_13 = V_2;
-		return L_13;
+		uint32_t L_14 = V_2;
+		return L_14;
 	}
 }
 // System.UInt64 System.Number::ParseUInt64(System.String,System.Globalization.NumberStyles,System.Globalization.NumberFormatInfo)
@@ -17317,59 +17323,60 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint64_t Number_ParseUInt64_m360FE06410C32462
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271_il2cpp_TypeInfo_var);
 		int32_t L_0 = ((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271_StaticFields*)il2cpp_codegen_static_fields_for(NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271_il2cpp_TypeInfo_var))->get_NumberBufferBytes_0();
-		int8_t* L_1 = (int8_t*) alloca(((uintptr_t)L_0));
-		memset(L_1, 0, ((uintptr_t)L_0));
-		V_0 = (uint8_t*)(L_1);
-		uint8_t* L_2 = V_0;
-		NumberBuffer__ctor_m974731F7F82979DC89F09CC5450E3EB91D4F6ACC((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (uint8_t*)(uint8_t*)L_2, /*hidden argument*/NULL);
+		uintptr_t L_1 = ((uintptr_t)L_0);
+		int8_t* L_2 = (int8_t*) (L_1 ? alloca(L_1) : NULL);
+		memset(L_2, 0, L_1);
+		V_0 = (uint8_t*)(L_2);
+		uint8_t* L_3 = V_0;
+		NumberBuffer__ctor_m974731F7F82979DC89F09CC5450E3EB91D4F6ACC((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (uint8_t*)(uint8_t*)L_3, /*hidden argument*/NULL);
 		V_2 = ((int64_t)((int64_t)0));
-		String_t* L_3 = ___value0;
-		int32_t L_4 = ___options1;
-		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_5 = ___numfmt2;
-		Number_StringToNumber_mC5E4B43EBC8088A12D8BAA8EE8C2428AE6CD7948(L_3, L_4, (NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), L_5, (bool)0, /*hidden argument*/NULL);
-		int32_t L_6 = ___options1;
-		if (!((int32_t)((int32_t)L_6&(int32_t)((int32_t)512))))
+		String_t* L_4 = ___value0;
+		int32_t L_5 = ___options1;
+		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_6 = ___numfmt2;
+		Number_StringToNumber_mC5E4B43EBC8088A12D8BAA8EE8C2428AE6CD7948(L_4, L_5, (NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), L_6, (bool)0, /*hidden argument*/NULL);
+		int32_t L_7 = ___options1;
+		if (!((int32_t)((int32_t)L_7&(int32_t)((int32_t)512))))
 		{
 			goto IL_0043;
 		}
 	}
 	{
-		bool L_7;
-		L_7 = Number_HexNumberToUInt64_mDAB9669AED868BF62E342B939C02324DF89ADAC6((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (uint64_t*)(&V_2), /*hidden argument*/NULL);
-		if (L_7)
+		bool L_8;
+		L_8 = Number_HexNumberToUInt64_mDAB9669AED868BF62E342B939C02324DF89ADAC6((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (uint64_t*)(&V_2), /*hidden argument*/NULL);
+		if (L_8)
 		{
 			goto IL_005e;
 		}
 	}
 	{
-		String_t* L_8;
-		L_8 = Environment_GetResourceString_m050B47F93963088693F4FCC93D69DB02603A623D(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral1E7A8A503AFD36DF33873AAF1E540F2FC2BC00F1)), /*hidden argument*/NULL);
-		OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 * L_9 = (OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9_il2cpp_TypeInfo_var)));
-		OverflowException__ctor_m93384109E3514E1EB7F97A50893B1B617D21F91E(L_9, L_8, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_9, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Number_ParseUInt64_m360FE06410C3246248D3FE5223B60FDC9B1C191E_RuntimeMethod_var)));
+		String_t* L_9;
+		L_9 = Environment_GetResourceString_m050B47F93963088693F4FCC93D69DB02603A623D(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral1E7A8A503AFD36DF33873AAF1E540F2FC2BC00F1)), /*hidden argument*/NULL);
+		OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 * L_10 = (OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9_il2cpp_TypeInfo_var)));
+		OverflowException__ctor_m93384109E3514E1EB7F97A50893B1B617D21F91E(L_10, L_9, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_10, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Number_ParseUInt64_m360FE06410C3246248D3FE5223B60FDC9B1C191E_RuntimeMethod_var)));
 	}
 
 IL_0043:
 	{
-		bool L_10;
-		L_10 = Number_NumberToUInt64_m063C230D0F5F25F33CF46D75EB045448F66E5A3E((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (uint64_t*)(&V_2), /*hidden argument*/NULL);
-		if (L_10)
+		bool L_11;
+		L_11 = Number_NumberToUInt64_m063C230D0F5F25F33CF46D75EB045448F66E5A3E((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (uint64_t*)(&V_2), /*hidden argument*/NULL);
+		if (L_11)
 		{
 			goto IL_005e;
 		}
 	}
 	{
-		String_t* L_11;
-		L_11 = Environment_GetResourceString_m050B47F93963088693F4FCC93D69DB02603A623D(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral1E7A8A503AFD36DF33873AAF1E540F2FC2BC00F1)), /*hidden argument*/NULL);
-		OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 * L_12 = (OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9_il2cpp_TypeInfo_var)));
-		OverflowException__ctor_m93384109E3514E1EB7F97A50893B1B617D21F91E(L_12, L_11, /*hidden argument*/NULL);
-		IL2CPP_RAISE_MANAGED_EXCEPTION(L_12, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Number_ParseUInt64_m360FE06410C3246248D3FE5223B60FDC9B1C191E_RuntimeMethod_var)));
+		String_t* L_12;
+		L_12 = Environment_GetResourceString_m050B47F93963088693F4FCC93D69DB02603A623D(((String_t*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&_stringLiteral1E7A8A503AFD36DF33873AAF1E540F2FC2BC00F1)), /*hidden argument*/NULL);
+		OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 * L_13 = (OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9 *)il2cpp_codegen_object_new(((RuntimeClass*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&OverflowException_tD1FBF4E54D81EC98EEF386B69344D336D1EC1AB9_il2cpp_TypeInfo_var)));
+		OverflowException__ctor_m93384109E3514E1EB7F97A50893B1B617D21F91E(L_13, L_12, /*hidden argument*/NULL);
+		IL2CPP_RAISE_MANAGED_EXCEPTION(L_13, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Number_ParseUInt64_m360FE06410C3246248D3FE5223B60FDC9B1C191E_RuntimeMethod_var)));
 	}
 
 IL_005e:
 	{
-		uint64_t L_13 = V_2;
-		return L_13;
+		uint64_t L_14 = V_2;
+		return L_14;
 	}
 }
 // System.Void System.Number::StringToNumber(System.String,System.Globalization.NumberStyles,System.Number/NumberBuffer&,System.Globalization.NumberFormatInfo,System.Boolean)
@@ -17543,19 +17550,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Number_TryParseDouble_m1A192E53DC1C871BD
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271_il2cpp_TypeInfo_var);
 		int32_t L_0 = ((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271_StaticFields*)il2cpp_codegen_static_fields_for(NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271_il2cpp_TypeInfo_var))->get_NumberBufferBytes_0();
-		int8_t* L_1 = (int8_t*) alloca(((uintptr_t)L_0));
-		memset(L_1, 0, ((uintptr_t)L_0));
-		V_0 = (uint8_t*)(L_1);
-		uint8_t* L_2 = V_0;
-		NumberBuffer__ctor_m974731F7F82979DC89F09CC5450E3EB91D4F6ACC((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (uint8_t*)(uint8_t*)L_2, /*hidden argument*/NULL);
-		double* L_3 = ___result3;
-		*((double*)L_3) = (double)(0.0);
-		String_t* L_4 = ___value0;
-		int32_t L_5 = ___options1;
-		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_6 = ___numfmt2;
-		bool L_7;
-		L_7 = Number_TryStringToNumber_m8451F74A23EEEEDC9EABEF1B363AEC78979EDC49(L_4, L_5, (NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), L_6, (bool)0, /*hidden argument*/NULL);
-		if (L_7)
+		uintptr_t L_1 = ((uintptr_t)L_0);
+		int8_t* L_2 = (int8_t*) (L_1 ? alloca(L_1) : NULL);
+		memset(L_2, 0, L_1);
+		V_0 = (uint8_t*)(L_2);
+		uint8_t* L_3 = V_0;
+		NumberBuffer__ctor_m974731F7F82979DC89F09CC5450E3EB91D4F6ACC((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (uint8_t*)(uint8_t*)L_3, /*hidden argument*/NULL);
+		double* L_4 = ___result3;
+		*((double*)L_4) = (double)(0.0);
+		String_t* L_5 = ___value0;
+		int32_t L_6 = ___options1;
+		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_7 = ___numfmt2;
+		bool L_8;
+		L_8 = Number_TryStringToNumber_m8451F74A23EEEEDC9EABEF1B363AEC78979EDC49(L_5, L_6, (NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), L_7, (bool)0, /*hidden argument*/NULL);
+		if (L_8)
 		{
 			goto IL_002b;
 		}
@@ -17566,12 +17574,12 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Number_TryParseDouble_m1A192E53DC1C871BD
 
 IL_002b:
 	{
-		uint8_t* L_8;
-		L_8 = NumberBuffer_PackForNative_mEC599EE4E3DCCB7FAE394D8FEFE520E6D0CEE116((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), /*hidden argument*/NULL);
-		double* L_9 = ___result3;
-		bool L_10;
-		L_10 = Number_NumberBufferToDouble_m965162BF726D20C825D5B9DA716566514504F982((uint8_t*)(uint8_t*)L_8, (double*)L_9, /*hidden argument*/NULL);
-		if (L_10)
+		uint8_t* L_9;
+		L_9 = NumberBuffer_PackForNative_mEC599EE4E3DCCB7FAE394D8FEFE520E6D0CEE116((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), /*hidden argument*/NULL);
+		double* L_10 = ___result3;
+		bool L_11;
+		L_11 = Number_NumberBufferToDouble_m965162BF726D20C825D5B9DA716566514504F982((uint8_t*)(uint8_t*)L_9, (double*)L_10, /*hidden argument*/NULL);
+		if (L_11)
 		{
 			goto IL_003c;
 		}
@@ -17602,19 +17610,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Number_TryParseInt64_m963CE33F8E01B4D2FD
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271_il2cpp_TypeInfo_var);
 		int32_t L_0 = ((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271_StaticFields*)il2cpp_codegen_static_fields_for(NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271_il2cpp_TypeInfo_var))->get_NumberBufferBytes_0();
-		int8_t* L_1 = (int8_t*) alloca(((uintptr_t)L_0));
-		memset(L_1, 0, ((uintptr_t)L_0));
-		V_0 = (uint8_t*)(L_1);
-		uint8_t* L_2 = V_0;
-		NumberBuffer__ctor_m974731F7F82979DC89F09CC5450E3EB91D4F6ACC((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (uint8_t*)(uint8_t*)L_2, /*hidden argument*/NULL);
-		int64_t* L_3 = ___result3;
-		*((int64_t*)L_3) = (int64_t)((int64_t)((int64_t)0));
-		String_t* L_4 = ___s0;
-		int32_t L_5 = ___style1;
-		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_6 = ___info2;
-		bool L_7;
-		L_7 = Number_TryStringToNumber_m8451F74A23EEEEDC9EABEF1B363AEC78979EDC49(L_4, L_5, (NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), L_6, (bool)0, /*hidden argument*/NULL);
-		if (L_7)
+		uintptr_t L_1 = ((uintptr_t)L_0);
+		int8_t* L_2 = (int8_t*) (L_1 ? alloca(L_1) : NULL);
+		memset(L_2, 0, L_1);
+		V_0 = (uint8_t*)(L_2);
+		uint8_t* L_3 = V_0;
+		NumberBuffer__ctor_m974731F7F82979DC89F09CC5450E3EB91D4F6ACC((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (uint8_t*)(uint8_t*)L_3, /*hidden argument*/NULL);
+		int64_t* L_4 = ___result3;
+		*((int64_t*)L_4) = (int64_t)((int64_t)((int64_t)0));
+		String_t* L_5 = ___s0;
+		int32_t L_6 = ___style1;
+		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_7 = ___info2;
+		bool L_8;
+		L_8 = Number_TryStringToNumber_m8451F74A23EEEEDC9EABEF1B363AEC78979EDC49(L_5, L_6, (NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), L_7, (bool)0, /*hidden argument*/NULL);
+		if (L_8)
 		{
 			goto IL_0024;
 		}
@@ -17625,17 +17634,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Number_TryParseInt64_m963CE33F8E01B4D2FD
 
 IL_0024:
 	{
-		int32_t L_8 = ___style1;
-		if (!((int32_t)((int32_t)L_8&(int32_t)((int32_t)512))))
+		int32_t L_9 = ___style1;
+		if (!((int32_t)((int32_t)L_9&(int32_t)((int32_t)512))))
 		{
 			goto IL_0039;
 		}
 	}
 	{
-		int64_t* L_9 = ___result3;
-		bool L_10;
-		L_10 = Number_HexNumberToInt64_mE39E391E9FAD16FDEBC633287A401DF2C004AD2B((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (int64_t*)L_9, /*hidden argument*/NULL);
-		if (L_10)
+		int64_t* L_10 = ___result3;
+		bool L_11;
+		L_11 = Number_HexNumberToInt64_mE39E391E9FAD16FDEBC633287A401DF2C004AD2B((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (int64_t*)L_10, /*hidden argument*/NULL);
+		if (L_11)
 		{
 			goto IL_0045;
 		}
@@ -17646,10 +17655,10 @@ IL_0024:
 
 IL_0039:
 	{
-		int64_t* L_11 = ___result3;
-		bool L_12;
-		L_12 = Number_NumberToInt64_mEA7A164E5A8D79A4785F6DC44C33D68EDDD528A6((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (int64_t*)L_11, /*hidden argument*/NULL);
-		if (L_12)
+		int64_t* L_12 = ___result3;
+		bool L_13;
+		L_13 = Number_NumberToInt64_mEA7A164E5A8D79A4785F6DC44C33D68EDDD528A6((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (int64_t*)L_12, /*hidden argument*/NULL);
+		if (L_13)
 		{
 			goto IL_0045;
 		}
@@ -17680,19 +17689,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Number_TryParseUInt32_mC9E3622FA3A196B1E
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271_il2cpp_TypeInfo_var);
 		int32_t L_0 = ((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271_StaticFields*)il2cpp_codegen_static_fields_for(NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271_il2cpp_TypeInfo_var))->get_NumberBufferBytes_0();
-		int8_t* L_1 = (int8_t*) alloca(((uintptr_t)L_0));
-		memset(L_1, 0, ((uintptr_t)L_0));
-		V_0 = (uint8_t*)(L_1);
-		uint8_t* L_2 = V_0;
-		NumberBuffer__ctor_m974731F7F82979DC89F09CC5450E3EB91D4F6ACC((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (uint8_t*)(uint8_t*)L_2, /*hidden argument*/NULL);
-		uint32_t* L_3 = ___result3;
-		*((int32_t*)L_3) = (int32_t)0;
-		String_t* L_4 = ___s0;
-		int32_t L_5 = ___style1;
-		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_6 = ___info2;
-		bool L_7;
-		L_7 = Number_TryStringToNumber_m8451F74A23EEEEDC9EABEF1B363AEC78979EDC49(L_4, L_5, (NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), L_6, (bool)0, /*hidden argument*/NULL);
-		if (L_7)
+		uintptr_t L_1 = ((uintptr_t)L_0);
+		int8_t* L_2 = (int8_t*) (L_1 ? alloca(L_1) : NULL);
+		memset(L_2, 0, L_1);
+		V_0 = (uint8_t*)(L_2);
+		uint8_t* L_3 = V_0;
+		NumberBuffer__ctor_m974731F7F82979DC89F09CC5450E3EB91D4F6ACC((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (uint8_t*)(uint8_t*)L_3, /*hidden argument*/NULL);
+		uint32_t* L_4 = ___result3;
+		*((int32_t*)L_4) = (int32_t)0;
+		String_t* L_5 = ___s0;
+		int32_t L_6 = ___style1;
+		NumberFormatInfo_t58780B43B6A840C38FD10C50CDFE2128884CAD1D * L_7 = ___info2;
+		bool L_8;
+		L_8 = Number_TryStringToNumber_m8451F74A23EEEEDC9EABEF1B363AEC78979EDC49(L_5, L_6, (NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), L_7, (bool)0, /*hidden argument*/NULL);
+		if (L_8)
 		{
 			goto IL_0023;
 		}
@@ -17703,17 +17713,17 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Number_TryParseUInt32_mC9E3622FA3A196B1E
 
 IL_0023:
 	{
-		int32_t L_8 = ___style1;
-		if (!((int32_t)((int32_t)L_8&(int32_t)((int32_t)512))))
+		int32_t L_9 = ___style1;
+		if (!((int32_t)((int32_t)L_9&(int32_t)((int32_t)512))))
 		{
 			goto IL_0038;
 		}
 	}
 	{
-		uint32_t* L_9 = ___result3;
-		bool L_10;
-		L_10 = Number_HexNumberToUInt32_mAC0BE60D0BEF5E6B7D2865F24CD25845AE65582B((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (uint32_t*)L_9, /*hidden argument*/NULL);
-		if (L_10)
+		uint32_t* L_10 = ___result3;
+		bool L_11;
+		L_11 = Number_HexNumberToUInt32_mAC0BE60D0BEF5E6B7D2865F24CD25845AE65582B((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (uint32_t*)L_10, /*hidden argument*/NULL);
+		if (L_11)
 		{
 			goto IL_0044;
 		}
@@ -17724,10 +17734,10 @@ IL_0023:
 
 IL_0038:
 	{
-		uint32_t* L_11 = ___result3;
-		bool L_12;
-		L_12 = Number_NumberToUInt32_mFAD2FBD60B734FC639FBFCEA18777458CDD75624((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (uint32_t*)L_11, /*hidden argument*/NULL);
-		if (L_12)
+		uint32_t* L_12 = ___result3;
+		bool L_13;
+		L_13 = Number_NumberToUInt32_mFAD2FBD60B734FC639FBFCEA18777458CDD75624((NumberBuffer_t5EC5B27BA4105EA147F2DE7CE7B96D7E9EAC9271 *)(&V_1), (uint32_t*)L_12, /*hidden argument*/NULL);
+		if (L_13)
 		{
 			goto IL_0044;
 		}

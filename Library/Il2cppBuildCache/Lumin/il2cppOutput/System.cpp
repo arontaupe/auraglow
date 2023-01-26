@@ -18763,120 +18763,121 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* IPAddress_ToString_m4CFA8A08819BEDF
 IL_0040:
 	{
 		V_1 = ((int32_t)15);
-		int8_t* L_5 = (int8_t*) alloca(((uintptr_t)((int32_t)30)));
-		memset(L_5, 0, ((uintptr_t)((int32_t)30)));
-		V_2 = (Il2CppChar*)(L_5);
-		int64_t L_6 = __this->get_m_Address_5();
-		V_3 = ((int32_t)((int32_t)((int64_t)((int64_t)((int64_t)((int64_t)L_6>>(int32_t)((int32_t)24)))&(int64_t)((int64_t)((int64_t)((int32_t)255)))))));
+		uintptr_t L_5 = ((uintptr_t)((int32_t)30));
+		int8_t* L_6 = (int8_t*) (L_5 ? alloca(L_5) : NULL);
+		memset(L_6, 0, L_5);
+		V_2 = (Il2CppChar*)(L_6);
+		int64_t L_7 = __this->get_m_Address_5();
+		V_3 = ((int32_t)((int32_t)((int64_t)((int64_t)((int64_t)((int64_t)L_7>>(int32_t)((int32_t)24)))&(int64_t)((int64_t)((int64_t)((int32_t)255)))))));
 	}
 
 IL_005b:
 	{
-		Il2CppChar* L_7 = V_2;
-		int32_t L_8 = V_1;
-		int32_t L_9 = ((int32_t)il2cpp_codegen_subtract((int32_t)L_8, (int32_t)1));
-		V_1 = L_9;
-		int32_t L_10 = V_3;
-		*((int16_t*)((Il2CppChar*)il2cpp_codegen_add((intptr_t)L_7, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_9), (int32_t)2))))) = (int16_t)((int32_t)((uint16_t)((int32_t)il2cpp_codegen_add((int32_t)((int32_t)48), (int32_t)((int32_t)((int32_t)L_10%(int32_t)((int32_t)10)))))));
+		Il2CppChar* L_8 = V_2;
+		int32_t L_9 = V_1;
+		int32_t L_10 = ((int32_t)il2cpp_codegen_subtract((int32_t)L_9, (int32_t)1));
+		V_1 = L_10;
 		int32_t L_11 = V_3;
-		V_3 = ((int32_t)((int32_t)L_11/(int32_t)((int32_t)10)));
+		*((int16_t*)((Il2CppChar*)il2cpp_codegen_add((intptr_t)L_8, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_10), (int32_t)2))))) = (int16_t)((int32_t)((uint16_t)((int32_t)il2cpp_codegen_add((int32_t)((int32_t)48), (int32_t)((int32_t)((int32_t)L_11%(int32_t)((int32_t)10)))))));
 		int32_t L_12 = V_3;
-		if ((((int32_t)L_12) > ((int32_t)0)))
+		V_3 = ((int32_t)((int32_t)L_12/(int32_t)((int32_t)10)));
+		int32_t L_13 = V_3;
+		if ((((int32_t)L_13) > ((int32_t)0)))
 		{
 			goto IL_005b;
 		}
 	}
 	{
-		Il2CppChar* L_13 = V_2;
-		int32_t L_14 = V_1;
-		int32_t L_15 = ((int32_t)il2cpp_codegen_subtract((int32_t)L_14, (int32_t)1));
-		V_1 = L_15;
-		*((int16_t*)((Il2CppChar*)il2cpp_codegen_add((intptr_t)L_13, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_15), (int32_t)2))))) = (int16_t)((int32_t)46);
-		int64_t L_16 = __this->get_m_Address_5();
-		V_3 = ((int32_t)((int32_t)((int64_t)((int64_t)((int64_t)((int64_t)L_16>>(int32_t)((int32_t)16)))&(int64_t)((int64_t)((int64_t)((int32_t)255)))))));
+		Il2CppChar* L_14 = V_2;
+		int32_t L_15 = V_1;
+		int32_t L_16 = ((int32_t)il2cpp_codegen_subtract((int32_t)L_15, (int32_t)1));
+		V_1 = L_16;
+		*((int16_t*)((Il2CppChar*)il2cpp_codegen_add((intptr_t)L_14, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_16), (int32_t)2))))) = (int16_t)((int32_t)46);
+		int64_t L_17 = __this->get_m_Address_5();
+		V_3 = ((int32_t)((int32_t)((int64_t)((int64_t)((int64_t)((int64_t)L_17>>(int32_t)((int32_t)16)))&(int64_t)((int64_t)((int64_t)((int32_t)255)))))));
 	}
 
 IL_0096:
 	{
-		Il2CppChar* L_17 = V_2;
-		int32_t L_18 = V_1;
-		int32_t L_19 = ((int32_t)il2cpp_codegen_subtract((int32_t)L_18, (int32_t)1));
-		V_1 = L_19;
-		int32_t L_20 = V_3;
-		*((int16_t*)((Il2CppChar*)il2cpp_codegen_add((intptr_t)L_17, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_19), (int32_t)2))))) = (int16_t)((int32_t)((uint16_t)((int32_t)il2cpp_codegen_add((int32_t)((int32_t)48), (int32_t)((int32_t)((int32_t)L_20%(int32_t)((int32_t)10)))))));
+		Il2CppChar* L_18 = V_2;
+		int32_t L_19 = V_1;
+		int32_t L_20 = ((int32_t)il2cpp_codegen_subtract((int32_t)L_19, (int32_t)1));
+		V_1 = L_20;
 		int32_t L_21 = V_3;
-		V_3 = ((int32_t)((int32_t)L_21/(int32_t)((int32_t)10)));
+		*((int16_t*)((Il2CppChar*)il2cpp_codegen_add((intptr_t)L_18, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_20), (int32_t)2))))) = (int16_t)((int32_t)((uint16_t)((int32_t)il2cpp_codegen_add((int32_t)((int32_t)48), (int32_t)((int32_t)((int32_t)L_21%(int32_t)((int32_t)10)))))));
 		int32_t L_22 = V_3;
-		if ((((int32_t)L_22) > ((int32_t)0)))
+		V_3 = ((int32_t)((int32_t)L_22/(int32_t)((int32_t)10)));
+		int32_t L_23 = V_3;
+		if ((((int32_t)L_23) > ((int32_t)0)))
 		{
 			goto IL_0096;
 		}
 	}
 	{
-		Il2CppChar* L_23 = V_2;
-		int32_t L_24 = V_1;
-		int32_t L_25 = ((int32_t)il2cpp_codegen_subtract((int32_t)L_24, (int32_t)1));
-		V_1 = L_25;
-		*((int16_t*)((Il2CppChar*)il2cpp_codegen_add((intptr_t)L_23, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_25), (int32_t)2))))) = (int16_t)((int32_t)46);
-		int64_t L_26 = __this->get_m_Address_5();
-		V_3 = ((int32_t)((int32_t)((int64_t)((int64_t)((int64_t)((int64_t)L_26>>(int32_t)8))&(int64_t)((int64_t)((int64_t)((int32_t)255)))))));
+		Il2CppChar* L_24 = V_2;
+		int32_t L_25 = V_1;
+		int32_t L_26 = ((int32_t)il2cpp_codegen_subtract((int32_t)L_25, (int32_t)1));
+		V_1 = L_26;
+		*((int16_t*)((Il2CppChar*)il2cpp_codegen_add((intptr_t)L_24, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_26), (int32_t)2))))) = (int16_t)((int32_t)46);
+		int64_t L_27 = __this->get_m_Address_5();
+		V_3 = ((int32_t)((int32_t)((int64_t)((int64_t)((int64_t)((int64_t)L_27>>(int32_t)8))&(int64_t)((int64_t)((int64_t)((int32_t)255)))))));
 	}
 
 IL_00d0:
 	{
-		Il2CppChar* L_27 = V_2;
-		int32_t L_28 = V_1;
-		int32_t L_29 = ((int32_t)il2cpp_codegen_subtract((int32_t)L_28, (int32_t)1));
-		V_1 = L_29;
-		int32_t L_30 = V_3;
-		*((int16_t*)((Il2CppChar*)il2cpp_codegen_add((intptr_t)L_27, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_29), (int32_t)2))))) = (int16_t)((int32_t)((uint16_t)((int32_t)il2cpp_codegen_add((int32_t)((int32_t)48), (int32_t)((int32_t)((int32_t)L_30%(int32_t)((int32_t)10)))))));
+		Il2CppChar* L_28 = V_2;
+		int32_t L_29 = V_1;
+		int32_t L_30 = ((int32_t)il2cpp_codegen_subtract((int32_t)L_29, (int32_t)1));
+		V_1 = L_30;
 		int32_t L_31 = V_3;
-		V_3 = ((int32_t)((int32_t)L_31/(int32_t)((int32_t)10)));
+		*((int16_t*)((Il2CppChar*)il2cpp_codegen_add((intptr_t)L_28, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_30), (int32_t)2))))) = (int16_t)((int32_t)((uint16_t)((int32_t)il2cpp_codegen_add((int32_t)((int32_t)48), (int32_t)((int32_t)((int32_t)L_31%(int32_t)((int32_t)10)))))));
 		int32_t L_32 = V_3;
-		if ((((int32_t)L_32) > ((int32_t)0)))
+		V_3 = ((int32_t)((int32_t)L_32/(int32_t)((int32_t)10)));
+		int32_t L_33 = V_3;
+		if ((((int32_t)L_33) > ((int32_t)0)))
 		{
 			goto IL_00d0;
 		}
 	}
 	{
-		Il2CppChar* L_33 = V_2;
-		int32_t L_34 = V_1;
-		int32_t L_35 = ((int32_t)il2cpp_codegen_subtract((int32_t)L_34, (int32_t)1));
-		V_1 = L_35;
-		*((int16_t*)((Il2CppChar*)il2cpp_codegen_add((intptr_t)L_33, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_35), (int32_t)2))))) = (int16_t)((int32_t)46);
-		int64_t L_36 = __this->get_m_Address_5();
-		V_3 = ((int32_t)((int32_t)((int64_t)((int64_t)L_36&(int64_t)((int64_t)((int64_t)((int32_t)255)))))));
+		Il2CppChar* L_34 = V_2;
+		int32_t L_35 = V_1;
+		int32_t L_36 = ((int32_t)il2cpp_codegen_subtract((int32_t)L_35, (int32_t)1));
+		V_1 = L_36;
+		*((int16_t*)((Il2CppChar*)il2cpp_codegen_add((intptr_t)L_34, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_36), (int32_t)2))))) = (int16_t)((int32_t)46);
+		int64_t L_37 = __this->get_m_Address_5();
+		V_3 = ((int32_t)((int32_t)((int64_t)((int64_t)L_37&(int64_t)((int64_t)((int64_t)((int32_t)255)))))));
 	}
 
 IL_0108:
 	{
-		Il2CppChar* L_37 = V_2;
-		int32_t L_38 = V_1;
-		int32_t L_39 = ((int32_t)il2cpp_codegen_subtract((int32_t)L_38, (int32_t)1));
-		V_1 = L_39;
-		int32_t L_40 = V_3;
-		*((int16_t*)((Il2CppChar*)il2cpp_codegen_add((intptr_t)L_37, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_39), (int32_t)2))))) = (int16_t)((int32_t)((uint16_t)((int32_t)il2cpp_codegen_add((int32_t)((int32_t)48), (int32_t)((int32_t)((int32_t)L_40%(int32_t)((int32_t)10)))))));
+		Il2CppChar* L_38 = V_2;
+		int32_t L_39 = V_1;
+		int32_t L_40 = ((int32_t)il2cpp_codegen_subtract((int32_t)L_39, (int32_t)1));
+		V_1 = L_40;
 		int32_t L_41 = V_3;
-		V_3 = ((int32_t)((int32_t)L_41/(int32_t)((int32_t)10)));
+		*((int16_t*)((Il2CppChar*)il2cpp_codegen_add((intptr_t)L_38, (intptr_t)((intptr_t)il2cpp_codegen_multiply((intptr_t)((intptr_t)L_40), (int32_t)2))))) = (int16_t)((int32_t)((uint16_t)((int32_t)il2cpp_codegen_add((int32_t)((int32_t)48), (int32_t)((int32_t)((int32_t)L_41%(int32_t)((int32_t)10)))))));
 		int32_t L_42 = V_3;
-		if ((((int32_t)L_42) > ((int32_t)0)))
+		V_3 = ((int32_t)((int32_t)L_42/(int32_t)((int32_t)10)));
+		int32_t L_43 = V_3;
+		if ((((int32_t)L_43) > ((int32_t)0)))
 		{
 			goto IL_0108;
 		}
 	}
 	{
-		Il2CppChar* L_43 = V_2;
-		int32_t L_44 = V_1;
+		Il2CppChar* L_44 = V_2;
 		int32_t L_45 = V_1;
-		String_t* L_46;
-		L_46 = String_CreateString_m854F19B67F5E1B63737E096BF53CC56AB12AF777(NULL, (Il2CppChar*)(Il2CppChar*)L_43, L_44, ((int32_t)il2cpp_codegen_subtract((int32_t)((int32_t)15), (int32_t)L_45)), /*hidden argument*/NULL);
-		__this->set_m_ToString_6(L_46);
+		int32_t L_46 = V_1;
+		String_t* L_47;
+		L_47 = String_CreateString_m854F19B67F5E1B63737E096BF53CC56AB12AF777(NULL, (Il2CppChar*)(Il2CppChar*)L_44, L_45, ((int32_t)il2cpp_codegen_subtract((int32_t)((int32_t)15), (int32_t)L_46)), /*hidden argument*/NULL);
+		__this->set_m_ToString_6(L_47);
 	}
 
 IL_0135:
 	{
-		String_t* L_47 = __this->get_m_ToString_6();
-		return L_47;
+		String_t* L_48 = __this->get_m_ToString_6();
+		return L_48;
 	}
 }
 // System.Boolean System.Net.IPAddress::get_IsBroadcast()
@@ -19719,65 +19720,66 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* IPv4AddressHelper_ParseCanonicalNam
 	StackTraceSentry _stackTraceSentry(IPv4AddressHelper_ParseCanonicalName_mA2417EA51555DA5053E4B52BEEB7E020235AA6EE_RuntimeMethod_var);
 	uint8_t* V_0 = NULL;
 	{
-		int8_t* L_0 = (int8_t*) alloca(((uintptr_t)4));
-		memset(L_0, 0, ((uintptr_t)4));
-		V_0 = (uint8_t*)(L_0);
-		bool* L_1 = ___isLoopback3;
-		String_t* L_2 = ___str0;
-		uint8_t* L_3 = V_0;
-		int32_t L_4 = ___start1;
-		int32_t L_5 = ___end2;
-		bool L_6;
-		L_6 = IPv4AddressHelper_Parse_m750A31F9765760704CA85B87BCD11118FFE20C51(L_2, (uint8_t*)(uint8_t*)L_3, L_4, L_5, /*hidden argument*/NULL);
-		*((int8_t*)L_1) = (int8_t)L_6;
-		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_7 = (ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)(ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)SZArrayNew(ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE_il2cpp_TypeInfo_var, (uint32_t)7);
-		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_8 = L_7;
-		uint8_t* L_9 = V_0;
-		int32_t L_10 = *((uint8_t*)L_9);
-		uint8_t L_11 = ((uint8_t)L_10);
-		RuntimeObject * L_12 = Box(Byte_t0111FAB8B8685667EDDAF77683F0D8F86B659056_il2cpp_TypeInfo_var, &L_11);
-		NullCheck(L_8);
-		ArrayElementTypeCheck (L_8, L_12);
-		(L_8)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject *)L_12);
-		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_13 = L_8;
-		NullCheck(L_13);
-		ArrayElementTypeCheck (L_13, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D);
-		(L_13)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject *)_stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D);
-		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_14 = L_13;
-		uint8_t* L_15 = V_0;
-		int32_t L_16 = *((uint8_t*)((uint8_t*)il2cpp_codegen_add((intptr_t)L_15, (int32_t)1)));
-		uint8_t L_17 = ((uint8_t)L_16);
-		RuntimeObject * L_18 = Box(Byte_t0111FAB8B8685667EDDAF77683F0D8F86B659056_il2cpp_TypeInfo_var, &L_17);
+		uintptr_t L_0 = ((uintptr_t)4);
+		int8_t* L_1 = (int8_t*) (L_0 ? alloca(L_0) : NULL);
+		memset(L_1, 0, L_0);
+		V_0 = (uint8_t*)(L_1);
+		bool* L_2 = ___isLoopback3;
+		String_t* L_3 = ___str0;
+		uint8_t* L_4 = V_0;
+		int32_t L_5 = ___start1;
+		int32_t L_6 = ___end2;
+		bool L_7;
+		L_7 = IPv4AddressHelper_Parse_m750A31F9765760704CA85B87BCD11118FFE20C51(L_3, (uint8_t*)(uint8_t*)L_4, L_5, L_6, /*hidden argument*/NULL);
+		*((int8_t*)L_2) = (int8_t)L_7;
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_8 = (ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)(ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE*)SZArrayNew(ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE_il2cpp_TypeInfo_var, (uint32_t)7);
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_9 = L_8;
+		uint8_t* L_10 = V_0;
+		int32_t L_11 = *((uint8_t*)L_10);
+		uint8_t L_12 = ((uint8_t)L_11);
+		RuntimeObject * L_13 = Box(Byte_t0111FAB8B8685667EDDAF77683F0D8F86B659056_il2cpp_TypeInfo_var, &L_12);
+		NullCheck(L_9);
+		ArrayElementTypeCheck (L_9, L_13);
+		(L_9)->SetAt(static_cast<il2cpp_array_size_t>(0), (RuntimeObject *)L_13);
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_14 = L_9;
 		NullCheck(L_14);
-		ArrayElementTypeCheck (L_14, L_18);
-		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject *)L_18);
-		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_19 = L_14;
-		NullCheck(L_19);
-		ArrayElementTypeCheck (L_19, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D);
-		(L_19)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject *)_stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D);
-		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_20 = L_19;
-		uint8_t* L_21 = V_0;
-		int32_t L_22 = *((uint8_t*)((uint8_t*)il2cpp_codegen_add((intptr_t)L_21, (int32_t)2)));
-		uint8_t L_23 = ((uint8_t)L_22);
-		RuntimeObject * L_24 = Box(Byte_t0111FAB8B8685667EDDAF77683F0D8F86B659056_il2cpp_TypeInfo_var, &L_23);
+		ArrayElementTypeCheck (L_14, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D);
+		(L_14)->SetAt(static_cast<il2cpp_array_size_t>(1), (RuntimeObject *)_stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D);
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_15 = L_14;
+		uint8_t* L_16 = V_0;
+		int32_t L_17 = *((uint8_t*)((uint8_t*)il2cpp_codegen_add((intptr_t)L_16, (int32_t)1)));
+		uint8_t L_18 = ((uint8_t)L_17);
+		RuntimeObject * L_19 = Box(Byte_t0111FAB8B8685667EDDAF77683F0D8F86B659056_il2cpp_TypeInfo_var, &L_18);
+		NullCheck(L_15);
+		ArrayElementTypeCheck (L_15, L_19);
+		(L_15)->SetAt(static_cast<il2cpp_array_size_t>(2), (RuntimeObject *)L_19);
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_20 = L_15;
 		NullCheck(L_20);
-		ArrayElementTypeCheck (L_20, L_24);
-		(L_20)->SetAt(static_cast<il2cpp_array_size_t>(4), (RuntimeObject *)L_24);
-		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_25 = L_20;
-		NullCheck(L_25);
-		ArrayElementTypeCheck (L_25, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D);
-		(L_25)->SetAt(static_cast<il2cpp_array_size_t>(5), (RuntimeObject *)_stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D);
-		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_26 = L_25;
-		uint8_t* L_27 = V_0;
-		int32_t L_28 = *((uint8_t*)((uint8_t*)il2cpp_codegen_add((intptr_t)L_27, (int32_t)3)));
-		uint8_t L_29 = ((uint8_t)L_28);
-		RuntimeObject * L_30 = Box(Byte_t0111FAB8B8685667EDDAF77683F0D8F86B659056_il2cpp_TypeInfo_var, &L_29);
+		ArrayElementTypeCheck (L_20, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D);
+		(L_20)->SetAt(static_cast<il2cpp_array_size_t>(3), (RuntimeObject *)_stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D);
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_21 = L_20;
+		uint8_t* L_22 = V_0;
+		int32_t L_23 = *((uint8_t*)((uint8_t*)il2cpp_codegen_add((intptr_t)L_22, (int32_t)2)));
+		uint8_t L_24 = ((uint8_t)L_23);
+		RuntimeObject * L_25 = Box(Byte_t0111FAB8B8685667EDDAF77683F0D8F86B659056_il2cpp_TypeInfo_var, &L_24);
+		NullCheck(L_21);
+		ArrayElementTypeCheck (L_21, L_25);
+		(L_21)->SetAt(static_cast<il2cpp_array_size_t>(4), (RuntimeObject *)L_25);
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_26 = L_21;
 		NullCheck(L_26);
-		ArrayElementTypeCheck (L_26, L_30);
-		(L_26)->SetAt(static_cast<il2cpp_array_size_t>(6), (RuntimeObject *)L_30);
-		String_t* L_31;
-		L_31 = String_Concat_mCA053C6F9F80091150799BA7B4EDE7E4A3262E77(L_26, /*hidden argument*/NULL);
-		return L_31;
+		ArrayElementTypeCheck (L_26, _stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D);
+		(L_26)->SetAt(static_cast<il2cpp_array_size_t>(5), (RuntimeObject *)_stringLiteralF3E84B722399601AD7E281754E917478AA9AD48D);
+		ObjectU5BU5D_tC1F4EE0DB0B7300255F5FD4AF64FE4C585CF5ADE* L_27 = L_26;
+		uint8_t* L_28 = V_0;
+		int32_t L_29 = *((uint8_t*)((uint8_t*)il2cpp_codegen_add((intptr_t)L_28, (int32_t)3)));
+		uint8_t L_30 = ((uint8_t)L_29);
+		RuntimeObject * L_31 = Box(Byte_t0111FAB8B8685667EDDAF77683F0D8F86B659056_il2cpp_TypeInfo_var, &L_30);
+		NullCheck(L_27);
+		ArrayElementTypeCheck (L_27, L_31);
+		(L_27)->SetAt(static_cast<il2cpp_array_size_t>(6), (RuntimeObject *)L_31);
+		String_t* L_32;
+		L_32 = String_Concat_mCA053C6F9F80091150799BA7B4EDE7E4A3262E77(L_27, /*hidden argument*/NULL);
+		return L_32;
 	}
 }
 // System.Int32 System.IPv4AddressHelper::ParseHostNumber(System.String,System.Int32,System.Int32)
@@ -19792,24 +19794,25 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t IPv4AddressHelper_ParseHostNumber_m69
 	StackTraceSentry _stackTraceSentry(IPv4AddressHelper_ParseHostNumber_m692F37F43732F30533E07772167EDBEF183BE00E_RuntimeMethod_var);
 	uint8_t* V_0 = NULL;
 	{
-		int8_t* L_0 = (int8_t*) alloca(((uintptr_t)4));
-		memset(L_0, 0, ((uintptr_t)4));
-		V_0 = (uint8_t*)(L_0);
-		String_t* L_1 = ___str0;
-		uint8_t* L_2 = V_0;
-		int32_t L_3 = ___start1;
-		int32_t L_4 = ___end2;
-		bool L_5;
-		L_5 = IPv4AddressHelper_ParseCanonical_mC43B64CB8FA8C32DE76C5A268FED65F908206642(L_1, (uint8_t*)(uint8_t*)L_2, L_3, L_4, /*hidden argument*/NULL);
-		uint8_t* L_6 = V_0;
-		int32_t L_7 = *((uint8_t*)L_6);
-		uint8_t* L_8 = V_0;
-		int32_t L_9 = *((uint8_t*)((uint8_t*)il2cpp_codegen_add((intptr_t)L_8, (int32_t)1)));
-		uint8_t* L_10 = V_0;
-		int32_t L_11 = *((uint8_t*)((uint8_t*)il2cpp_codegen_add((intptr_t)L_10, (int32_t)2)));
-		uint8_t* L_12 = V_0;
-		int32_t L_13 = *((uint8_t*)((uint8_t*)il2cpp_codegen_add((intptr_t)L_12, (int32_t)3)));
-		return ((int32_t)il2cpp_codegen_add((int32_t)((int32_t)il2cpp_codegen_add((int32_t)((int32_t)il2cpp_codegen_add((int32_t)((int32_t)((int32_t)L_7<<(int32_t)((int32_t)24))), (int32_t)((int32_t)((int32_t)L_9<<(int32_t)((int32_t)16))))), (int32_t)((int32_t)((int32_t)L_11<<(int32_t)8)))), (int32_t)L_13));
+		uintptr_t L_0 = ((uintptr_t)4);
+		int8_t* L_1 = (int8_t*) (L_0 ? alloca(L_0) : NULL);
+		memset(L_1, 0, L_0);
+		V_0 = (uint8_t*)(L_1);
+		String_t* L_2 = ___str0;
+		uint8_t* L_3 = V_0;
+		int32_t L_4 = ___start1;
+		int32_t L_5 = ___end2;
+		bool L_6;
+		L_6 = IPv4AddressHelper_ParseCanonical_mC43B64CB8FA8C32DE76C5A268FED65F908206642(L_2, (uint8_t*)(uint8_t*)L_3, L_4, L_5, /*hidden argument*/NULL);
+		uint8_t* L_7 = V_0;
+		int32_t L_8 = *((uint8_t*)L_7);
+		uint8_t* L_9 = V_0;
+		int32_t L_10 = *((uint8_t*)((uint8_t*)il2cpp_codegen_add((intptr_t)L_9, (int32_t)1)));
+		uint8_t* L_11 = V_0;
+		int32_t L_12 = *((uint8_t*)((uint8_t*)il2cpp_codegen_add((intptr_t)L_11, (int32_t)2)));
+		uint8_t* L_13 = V_0;
+		int32_t L_14 = *((uint8_t*)((uint8_t*)il2cpp_codegen_add((intptr_t)L_13, (int32_t)3)));
+		return ((int32_t)il2cpp_codegen_add((int32_t)((int32_t)il2cpp_codegen_add((int32_t)((int32_t)il2cpp_codegen_add((int32_t)((int32_t)((int32_t)L_8<<(int32_t)((int32_t)24))), (int32_t)((int32_t)((int32_t)L_10<<(int32_t)((int32_t)16))))), (int32_t)((int32_t)((int32_t)L_12<<(int32_t)8)))), (int32_t)L_14));
 	}
 }
 // System.Boolean System.IPv4AddressHelper::IsValid(System.Char*,System.Int32,System.Int32&,System.Boolean,System.Boolean,System.Boolean)
@@ -21416,27 +21419,28 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* IPv6AddressHelper_ParseCanonicalNam
 	StackTraceSentry _stackTraceSentry(IPv6AddressHelper_ParseCanonicalName_mC503B03E3789401C8ECF2DC00C0F8CE7AEDF6DD5_RuntimeMethod_var);
 	uint16_t* V_0 = NULL;
 	{
-		int8_t* L_0 = (int8_t*) alloca(((uintptr_t)((int32_t)16)));
-		memset(L_0, 0, ((uintptr_t)((int32_t)16)));
-		V_0 = (uint16_t*)(L_0);
-		uint16_t* L_1 = V_0;
-		*((int64_t*)L_1) = (int64_t)((int64_t)((int64_t)0));
+		uintptr_t L_0 = ((uintptr_t)((int32_t)16));
+		int8_t* L_1 = (int8_t*) (L_0 ? alloca(L_0) : NULL);
+		memset(L_1, 0, L_0);
+		V_0 = (uint16_t*)(L_1);
 		uint16_t* L_2 = V_0;
-		*((int64_t*)((uint16_t*)il2cpp_codegen_add((intptr_t)L_2, (int32_t)8))) = (int64_t)((int64_t)((int64_t)0));
-		bool* L_3 = ___isLoopback2;
-		String_t* L_4 = ___str0;
-		uint16_t* L_5 = V_0;
-		int32_t L_6 = ___start1;
-		String_t** L_7 = ___scopeId3;
-		bool L_8;
-		L_8 = IPv6AddressHelper_Parse_mEE8034CEF61D227A11D95A1D386EAFE1C415F35E(L_4, (uint16_t*)(uint16_t*)L_5, L_6, (String_t**)L_7, /*hidden argument*/NULL);
-		*((int8_t*)L_3) = (int8_t)L_8;
-		uint16_t* L_9 = V_0;
-		String_t* L_10;
-		L_10 = IPv6AddressHelper_CreateCanonicalName_mC4D2285C3C75F324F12D032512587F978C896DBB((uint16_t*)(uint16_t*)L_9, /*hidden argument*/NULL);
+		*((int64_t*)L_2) = (int64_t)((int64_t)((int64_t)0));
+		uint16_t* L_3 = V_0;
+		*((int64_t*)((uint16_t*)il2cpp_codegen_add((intptr_t)L_3, (int32_t)8))) = (int64_t)((int64_t)((int64_t)0));
+		bool* L_4 = ___isLoopback2;
+		String_t* L_5 = ___str0;
+		uint16_t* L_6 = V_0;
+		int32_t L_7 = ___start1;
+		String_t** L_8 = ___scopeId3;
+		bool L_9;
+		L_9 = IPv6AddressHelper_Parse_mEE8034CEF61D227A11D95A1D386EAFE1C415F35E(L_5, (uint16_t*)(uint16_t*)L_6, L_7, (String_t**)L_8, /*hidden argument*/NULL);
+		*((int8_t*)L_4) = (int8_t)L_9;
+		uint16_t* L_10 = V_0;
 		String_t* L_11;
-		L_11 = String_Concat_mC41740F000A5A48F8D313FB4CEE0E35E207A2632(_stringLiteralD9691C4FD8A1F6B09DB1147CA32B442772FB46A1, L_10, _stringLiteralE166C9564FBDE461738077E3B1B506525EB6ACCC, /*hidden argument*/NULL);
-		return L_11;
+		L_11 = IPv6AddressHelper_CreateCanonicalName_mC4D2285C3C75F324F12D032512587F978C896DBB((uint16_t*)(uint16_t*)L_10, /*hidden argument*/NULL);
+		String_t* L_12;
+		L_12 = String_Concat_mC41740F000A5A48F8D313FB4CEE0E35E207A2632(_stringLiteralD9691C4FD8A1F6B09DB1147CA32B442772FB46A1, L_11, _stringLiteralE166C9564FBDE461738077E3B1B506525EB6ACCC, /*hidden argument*/NULL);
+		return L_12;
 	}
 }
 // System.String System.IPv6AddressHelper::CreateCanonicalName(System.UInt16*)

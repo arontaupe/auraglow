@@ -51,7 +51,7 @@ public class DistanceCalculatorSimilarObj : MonoBehaviour
     
     // Update is called once per frame
     void Update(){
-        float average = CalculateAvgDistance();
+        average = CalculateAvgDistance();
         SetValue(average);
     }
 }

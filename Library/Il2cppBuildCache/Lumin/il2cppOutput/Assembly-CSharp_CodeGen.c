@@ -28,248 +28,248 @@ extern void AuraControl_UpdateAura_m47A5CEFB448F39951AA27EC0534AAEDE9E4E5B59 (vo
 extern void AuraControl_RevertAura_mDEB6883F1E5EBE63EA5A4CB93CBCEAED98E28D68 (void);
 // 0x0000000B System.Void AuraControl::.ctor()
 extern void AuraControl__ctor_m3C3A1909A039A66C55F69B48CD155CBF3DD42908 (void);
-// 0x0000000C System.Void EyeTracking::Start()
-extern void EyeTracking_Start_m7EA35A08338281C78615CFA7E02801F8D1CE65C9 (void);
-// 0x0000000D System.Void EyeTracking::OnDisable()
-extern void EyeTracking_OnDisable_m1DC6F818F3AFB029E3492389DBC3BC7B254DC542 (void);
-// 0x0000000E System.Void EyeTracking::Update()
-extern void EyeTracking_Update_m081DE685D93D1388CEC343FEE6F0CF8D3582D0B1 (void);
-// 0x0000000F System.Void EyeTracking::.ctor()
-extern void EyeTracking__ctor_m046E27C12E645F7F0631322398D1FE9156E9AA41 (void);
-// 0x00000010 System.Void Triangulator::.ctor(UnityEngine.Vector2[])
+// 0x0000000C System.Void Triangulator::.ctor(UnityEngine.Vector2[])
 extern void Triangulator__ctor_m09B7DD11A47B21877B3F5F55EB63191883E2FCD8 (void);
-// 0x00000011 System.Int32[] Triangulator::Triangulate()
+// 0x0000000D System.Int32[] Triangulator::Triangulate()
 extern void Triangulator_Triangulate_m1EAA2FFE8D2F79453EAF8EA10FDF3666E7254957 (void);
-// 0x00000012 System.Single Triangulator::Area()
+// 0x0000000E System.Single Triangulator::Area()
 extern void Triangulator_Area_m48AB236FC8A5108C6D7707BF48BD205AA9EB4A46 (void);
-// 0x00000013 System.Boolean Triangulator::Snip(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32[])
+// 0x0000000F System.Boolean Triangulator::Snip(System.Int32,System.Int32,System.Int32,System.Int32,System.Int32[])
 extern void Triangulator_Snip_m0A9426D542F753A5510976E4FC207731C8F67446 (void);
-// 0x00000014 System.Boolean Triangulator::InsideTriangle(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
+// 0x00000010 System.Boolean Triangulator::InsideTriangle(UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2,UnityEngine.Vector2)
 extern void Triangulator_InsideTriangle_m47CF19E50408172DA49A9FA5C53E4E3097816B30 (void);
-// 0x00000015 System.Void GuiFadeIn::OnEnable()
+// 0x00000011 System.Void GuiFadeIn::OnEnable()
 extern void GuiFadeIn_OnEnable_m72766DB4AF22E59593375FE948D7D107210C8F1D (void);
-// 0x00000016 System.Void GuiFadeIn::.ctor()
+// 0x00000012 System.Void GuiFadeIn::.ctor()
 extern void GuiFadeIn__ctor_m4574BED6DBCF7EEC926498733E7E1F2377C65EBC (void);
-// 0x00000017 System.Void ControlInputExample::Awake()
+// 0x00000013 System.Void ControlInputExample::Awake()
 extern void ControlInputExample_Awake_m568CF1B4319FDD68FE55B0F1151622A023A08E04 (void);
-// 0x00000018 System.Void ControlInputExample::Update()
+// 0x00000014 System.Void ControlInputExample::Update()
 extern void ControlInputExample_Update_mB01858B7C3DDFDA3E9C8C6443CD3BF847E311823 (void);
-// 0x00000019 System.Void ControlInputExample::HandleControlConnected()
+// 0x00000015 System.Void ControlInputExample::HandleControlConnected()
 extern void ControlInputExample_HandleControlConnected_m4D86164A54C1BF196BD90B68AAAA4E49693EBFE0 (void);
-// 0x0000001A System.Void ControlInputExample::HandleControlDisconnected()
+// 0x00000016 System.Void ControlInputExample::HandleControlDisconnected()
 extern void ControlInputExample_HandleControlDisconnected_m2996A48233FB3C44921FAAF03D4FFF01EEA0DFAB (void);
-// 0x0000001B System.Void ControlInputExample::HandleTriggerPressBegan()
+// 0x00000017 System.Void ControlInputExample::HandleTriggerPressBegan()
 extern void ControlInputExample_HandleTriggerPressBegan_m6393F9CE4BCB4E4D11BCB4AD34F19E6656FF6239 (void);
-// 0x0000001C System.Void ControlInputExample::HandleTriggerMove(System.Single)
+// 0x00000018 System.Void ControlInputExample::HandleTriggerMove(System.Single)
 extern void ControlInputExample_HandleTriggerMove_m39E19B5A12564AEE67561BBC5F0B07423DB1681E (void);
-// 0x0000001D System.Void ControlInputExample::HandleTriggerDown()
+// 0x00000019 System.Void ControlInputExample::HandleTriggerDown()
 extern void ControlInputExample_HandleTriggerDown_m1DA1085B3CE1E11310827CA3453F3F9CF95028FE (void);
-// 0x0000001E System.Void ControlInputExample::HandleTriggerHold()
+// 0x0000001A System.Void ControlInputExample::HandleTriggerHold()
 extern void ControlInputExample_HandleTriggerHold_m821B711D3A77C3A48F91A2A4469408296F83D1FE (void);
-// 0x0000001F System.Void ControlInputExample::HandleTriggerUp()
+// 0x0000001B System.Void ControlInputExample::HandleTriggerUp()
 extern void ControlInputExample_HandleTriggerUp_m45C1996B18E73E64DDD7C5958828B9A0392EB80A (void);
-// 0x00000020 System.Void ControlInputExample::HandleTriggerReleased()
+// 0x0000001C System.Void ControlInputExample::HandleTriggerReleased()
 extern void ControlInputExample_HandleTriggerReleased_m4ACBD11FD74F463838B71BCE56B9312FC6684342 (void);
-// 0x00000021 System.Void ControlInputExample::HandleDoubleTrigger()
+// 0x0000001D System.Void ControlInputExample::HandleDoubleTrigger()
 extern void ControlInputExample_HandleDoubleTrigger_m82A3BA1A0966F13A6E4DDC6C88D3C99F00C83515 (void);
-// 0x00000022 System.Void ControlInputExample::HandleBumperDown()
+// 0x0000001E System.Void ControlInputExample::HandleBumperDown()
 extern void ControlInputExample_HandleBumperDown_m1C3D948B44E5E920BEBB955C5986A1059FF657C3 (void);
-// 0x00000023 System.Void ControlInputExample::HandleBumperHold()
+// 0x0000001F System.Void ControlInputExample::HandleBumperHold()
 extern void ControlInputExample_HandleBumperHold_mCA3313842469AF27386D4AB68A2636224C4ABFD8 (void);
-// 0x00000024 System.Void ControlInputExample::HandleBumperUp()
+// 0x00000020 System.Void ControlInputExample::HandleBumperUp()
 extern void ControlInputExample_HandleBumperUp_m8BFD96C025424544A76147D2B36431FC6B61BD40 (void);
-// 0x00000025 System.Void ControlInputExample::HandleDoubleBumper()
+// 0x00000021 System.Void ControlInputExample::HandleDoubleBumper()
 extern void ControlInputExample_HandleDoubleBumper_m8321F18BBD965B2BE09799994A11FBBDA325CA39 (void);
-// 0x00000026 System.Void ControlInputExample::HandleHomeTap()
+// 0x00000022 System.Void ControlInputExample::HandleHomeTap()
 extern void ControlInputExample_HandleHomeTap_m0111CD44D4D8617771E8BA2D8E4BE212B1A71521 (void);
-// 0x00000027 System.Void ControlInputExample::HandleDoubleHome()
+// 0x00000023 System.Void ControlInputExample::HandleDoubleHome()
 extern void ControlInputExample_HandleDoubleHome_mAA73587D753366635AC4A9A454B1ECC5B155112C (void);
-// 0x00000028 System.Void ControlInputExample::HandleTouchHold()
+// 0x00000024 System.Void ControlInputExample::HandleTouchHold()
 extern void ControlInputExample_HandleTouchHold_m4A9732FC9AACE660F64D6AD18DE5EC1FA0CF79A7 (void);
-// 0x00000029 System.Void ControlInputExample::HandleForceTouchDown()
+// 0x00000025 System.Void ControlInputExample::HandleForceTouchDown()
 extern void ControlInputExample_HandleForceTouchDown_m203460C4D304D48035C587A38218631EAD59CD76 (void);
-// 0x0000002A System.Void ControlInputExample::HandleForceTouchUp()
+// 0x00000026 System.Void ControlInputExample::HandleForceTouchUp()
 extern void ControlInputExample_HandleForceTouchUp_m86D333D771E0F769CB2FF467CD95981604C27FB5 (void);
-// 0x0000002B System.Void ControlInputExample::HandleSwipe(UnityEngine.XR.MagicLeap.MLInput/Controller/TouchpadGesture/GestureDirection)
+// 0x00000027 System.Void ControlInputExample::HandleSwipe(UnityEngine.XR.MagicLeap.MLInput/Controller/TouchpadGesture/GestureDirection)
 extern void ControlInputExample_HandleSwipe_m20ED4C31A695D76790D32E103FEDDA84C76D6579 (void);
-// 0x0000002C System.Void ControlInputExample::HandleTapped(UnityEngine.XR.MagicLeap.MLInput/Controller/TouchpadGesture/GestureDirection)
+// 0x00000028 System.Void ControlInputExample::HandleTapped(UnityEngine.XR.MagicLeap.MLInput/Controller/TouchpadGesture/GestureDirection)
 extern void ControlInputExample_HandleTapped_m702525C3A210F1B56277513392E3DA21F3DFBA78 (void);
-// 0x0000002D System.Void ControlInputExample::HandleTouchBeganMoving()
+// 0x00000029 System.Void ControlInputExample::HandleTouchBeganMoving()
 extern void ControlInputExample_HandleTouchBeganMoving_mAFFA9C079BE14EC6B9F61E12CE29E708D75D91A7 (void);
-// 0x0000002E System.Void ControlInputExample::HandleTouchDown(UnityEngine.Vector4)
+// 0x0000002A System.Void ControlInputExample::HandleTouchDown(UnityEngine.Vector4)
 extern void ControlInputExample_HandleTouchDown_mBDE1742845ACC512296A99D8D7EE644126AA05DE (void);
-// 0x0000002F System.Void ControlInputExample::HandleTouchMove(UnityEngine.Vector4)
+// 0x0000002B System.Void ControlInputExample::HandleTouchMove(UnityEngine.Vector4)
 extern void ControlInputExample_HandleTouchMove_mA47DEA87D78720D45C71F13F78D3D0E4052241B0 (void);
-// 0x00000030 System.Void ControlInputExample::HandleTouchRadialMove(System.Single)
+// 0x0000002C System.Void ControlInputExample::HandleTouchRadialMove(System.Single)
 extern void ControlInputExample_HandleTouchRadialMove_m48843DB279B9289A47F837987D85D863CFD13DCF (void);
-// 0x00000031 System.Void ControlInputExample::HandleTouchUp(UnityEngine.Vector4)
+// 0x0000002D System.Void ControlInputExample::HandleTouchUp(UnityEngine.Vector4)
 extern void ControlInputExample_HandleTouchUp_m513F5C4B73A46F55603C6574E1EAD8A09F81216A (void);
-// 0x00000032 System.Void ControlInputExample::AddEvent(System.String)
+// 0x0000002E System.Void ControlInputExample::AddEvent(System.String)
 extern void ControlInputExample_AddEvent_m0B2D764C152B79B2F255E5A8148BA1C3546F982D (void);
-// 0x00000033 System.Void ControlInputExample::.ctor()
+// 0x0000002F System.Void ControlInputExample::.ctor()
 extern void ControlInputExample__ctor_mD378C59995AC1B02350B22B8F3D9FB00509AD105 (void);
-// 0x00000034 System.Void ControlPointerExample::Awake()
+// 0x00000030 System.Void ControlPointerExample::Awake()
 extern void ControlPointerExample_Awake_m7CF91BA543405FF1241FCB1879A2BF563B4AC3DC (void);
-// 0x00000035 System.Void ControlPointerExample::HandleHomeButton()
+// 0x00000031 System.Void ControlPointerExample::HandleHomeButton()
 extern void ControlPointerExample_HandleHomeButton_m8F62790646643BC8CFBBAC0A89934A12E862F13C (void);
-// 0x00000036 System.Void ControlPointerExample::.ctor()
+// 0x00000032 System.Void ControlPointerExample::.ctor()
 extern void ControlPointerExample__ctor_m5733BE6465FEFCD64099E7A46996C21E4DF02C96 (void);
-// 0x00000037 System.Void HandInputExample::Awake()
+// 0x00000033 System.Void HandInputExample::Awake()
 extern void HandInputExample_Awake_m0F982DDD5A5DC25D0294B03A8D66F09E76510A4A (void);
-// 0x00000038 System.Void HandInputExample::ResetContent()
+// 0x00000034 System.Void HandInputExample::ResetContent()
 extern void HandInputExample_ResetContent_m314A15D257463C229C97FCC2CB9B9D179612266B (void);
-// 0x00000039 System.Void HandInputExample::HandleHandInputReady()
+// 0x00000035 System.Void HandInputExample::HandleHandInputReady()
 extern void HandInputExample_HandleHandInputReady_mE30BABA8BBEDAD00375204F5D0D9C51A6DA2E938 (void);
-// 0x0000003A System.Void HandInputExample::HandleKeyPoseChanged(MagicLeapTools.ManagedHand,UnityEngine.XR.MagicLeap.MLHandTracking/HandKeyPose)
+// 0x00000036 System.Void HandInputExample::HandleKeyPoseChanged(MagicLeapTools.ManagedHand,UnityEngine.XR.MagicLeap.MLHandTracking/HandKeyPose)
 extern void HandInputExample_HandleKeyPoseChanged_mF174597318FAB8509E7966CA9F35DB4F50FEE4B2 (void);
-// 0x0000003B System.Collections.IEnumerator HandInputExample::ThumbsUpReset()
+// 0x00000037 System.Collections.IEnumerator HandInputExample::ThumbsUpReset()
 extern void HandInputExample_ThumbsUpReset_m9C76CAF9AE56FE499AD00C580151F92FED482F1F (void);
-// 0x0000003C System.Void HandInputExample::.ctor()
+// 0x00000038 System.Void HandInputExample::.ctor()
 extern void HandInputExample__ctor_mEDD25920FBFBDDDC086B5CF96601F8A75B2296D2 (void);
-// 0x0000003D System.Void HandInputExample/TransformStatus::.ctor(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3)
+// 0x00000039 System.Void HandInputExample/TransformStatus::.ctor(UnityEngine.Vector3,UnityEngine.Quaternion,UnityEngine.Vector3)
 extern void TransformStatus__ctor_mDC278336903F860F78A78B5684CF52478FCC3479 (void);
-// 0x0000003E System.Void HandInputExample/<ThumbsUpReset>d__8::.ctor(System.Int32)
+// 0x0000003A System.Void HandInputExample/<ThumbsUpReset>d__8::.ctor(System.Int32)
 extern void U3CThumbsUpResetU3Ed__8__ctor_m4F78ECBEB5E27BD836416E088DC0AC3D37D340F4 (void);
-// 0x0000003F System.Void HandInputExample/<ThumbsUpReset>d__8::System.IDisposable.Dispose()
+// 0x0000003B System.Void HandInputExample/<ThumbsUpReset>d__8::System.IDisposable.Dispose()
 extern void U3CThumbsUpResetU3Ed__8_System_IDisposable_Dispose_m704585A607C3FE03DB9955DA22E8CA921E9ED2C3 (void);
-// 0x00000040 System.Boolean HandInputExample/<ThumbsUpReset>d__8::MoveNext()
+// 0x0000003C System.Boolean HandInputExample/<ThumbsUpReset>d__8::MoveNext()
 extern void U3CThumbsUpResetU3Ed__8_MoveNext_mC5CFDB02F92AB76FACDE6E8027D2434F1BFABB2E (void);
-// 0x00000041 System.Object HandInputExample/<ThumbsUpReset>d__8::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x0000003D System.Object HandInputExample/<ThumbsUpReset>d__8::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CThumbsUpResetU3Ed__8_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_m1ECDF5A1A9AAA2AD8207B823357B6F74616C6890 (void);
-// 0x00000042 System.Void HandInputExample/<ThumbsUpReset>d__8::System.Collections.IEnumerator.Reset()
+// 0x0000003E System.Void HandInputExample/<ThumbsUpReset>d__8::System.Collections.IEnumerator.Reset()
 extern void U3CThumbsUpResetU3Ed__8_System_Collections_IEnumerator_Reset_mBD5D123232DD004DACCB12AE4482DF8635CFC250 (void);
-// 0x00000043 System.Object HandInputExample/<ThumbsUpReset>d__8::System.Collections.IEnumerator.get_Current()
+// 0x0000003F System.Object HandInputExample/<ThumbsUpReset>d__8::System.Collections.IEnumerator.get_Current()
 extern void U3CThumbsUpResetU3Ed__8_System_Collections_IEnumerator_get_Current_m4E40AA4D29512B38346D77DB54F7D382077EA35A (void);
-// 0x00000044 System.Void PlayspaceExample::Awake()
+// 0x00000040 System.Void PlayspaceExample::Awake()
 extern void PlayspaceExample_Awake_m287E10017B9AC190742AFC370A8D3FF79F18A2EA (void);
-// 0x00000045 System.Void PlayspaceExample::HandleCleared()
+// 0x00000041 System.Void PlayspaceExample::HandleCleared()
 extern void PlayspaceExample_HandleCleared_mE5AEB368628059CFEC6AD82BCAF5BD5A2DC5C024 (void);
-// 0x00000046 System.Void PlayspaceExample::HandleCompleted()
+// 0x00000042 System.Void PlayspaceExample::HandleCompleted()
 extern void PlayspaceExample_HandleCompleted_mF8B62854DCE1052B9D37EE000AD39F0C65DCD65D (void);
-// 0x00000047 System.Void PlayspaceExample::.ctor()
+// 0x00000043 System.Void PlayspaceExample::.ctor()
 extern void PlayspaceExample__ctor_m4536B6B3E63AE6F0212E052584C3F58514DA8F2E (void);
-// 0x00000048 System.Void RuntimeConsoleExample::Awake()
+// 0x00000044 System.Void RuntimeConsoleExample::Awake()
 extern void RuntimeConsoleExample_Awake_m8EB3C80E86BAE8C9B7DA1C9C42B37FEDB8252361 (void);
-// 0x00000049 System.Void RuntimeConsoleExample::OnDestroy()
+// 0x00000045 System.Void RuntimeConsoleExample::OnDestroy()
 extern void RuntimeConsoleExample_OnDestroy_mCC0A2EE7F5CD0AFCA4E47FC72E15709134E6CB4D (void);
-// 0x0000004A System.Void RuntimeConsoleExample::Update()
+// 0x00000046 System.Void RuntimeConsoleExample::Update()
 extern void RuntimeConsoleExample_Update_mD796799A9DFA083C174D94544D40296DE470B65A (void);
-// 0x0000004B System.Void RuntimeConsoleExample::.ctor()
+// 0x00000047 System.Void RuntimeConsoleExample::.ctor()
 extern void RuntimeConsoleExample__ctor_m064071872943CBAD0CF1810653365C79F8426DBE (void);
-// 0x0000004C System.Void SimpleHandPointerExample::Awake()
+// 0x00000048 System.Void SimpleHandPointerExample::Awake()
 extern void SimpleHandPointerExample_Awake_m6AD877916E48C70F946DDB4D233CF193D2CD85B4 (void);
-// 0x0000004D System.Void SimpleHandPointerExample::HandleHandInputReady()
+// 0x00000049 System.Void SimpleHandPointerExample::HandleHandInputReady()
 extern void SimpleHandPointerExample_HandleHandInputReady_m3F1B7FD53A1EF69A3810E05224E937E949049212 (void);
-// 0x0000004E System.Void SimpleHandPointerExample::HandleKeyPoseChanged(MagicLeapTools.ManagedHand,UnityEngine.XR.MagicLeap.MLHandTracking/HandKeyPose)
+// 0x0000004A System.Void SimpleHandPointerExample::HandleKeyPoseChanged(MagicLeapTools.ManagedHand,UnityEngine.XR.MagicLeap.MLHandTracking/HandKeyPose)
 extern void SimpleHandPointerExample_HandleKeyPoseChanged_m30BDBF4859D7C1991C5986FC2B8D3460C2D7DCB6 (void);
-// 0x0000004F System.Collections.IEnumerator SimpleHandPointerExample::ThumbsUpReset()
+// 0x0000004B System.Collections.IEnumerator SimpleHandPointerExample::ThumbsUpReset()
 extern void SimpleHandPointerExample_ThumbsUpReset_mBB60EC84A81C76A2F5BF2BE396FF6DF5B2E2C826 (void);
-// 0x00000050 System.Void SimpleHandPointerExample::.ctor()
+// 0x0000004C System.Void SimpleHandPointerExample::.ctor()
 extern void SimpleHandPointerExample__ctor_m54C10E81C4AECCC7BF0E4B21600F79FEE233FFE2 (void);
-// 0x00000051 System.Void SimpleHandPointerExample/<ThumbsUpReset>d__5::.ctor(System.Int32)
+// 0x0000004D System.Void SimpleHandPointerExample/<ThumbsUpReset>d__5::.ctor(System.Int32)
 extern void U3CThumbsUpResetU3Ed__5__ctor_m1ED18BD715B0A8AE91BA3DE00EEC1B4BB8CBD068 (void);
-// 0x00000052 System.Void SimpleHandPointerExample/<ThumbsUpReset>d__5::System.IDisposable.Dispose()
+// 0x0000004E System.Void SimpleHandPointerExample/<ThumbsUpReset>d__5::System.IDisposable.Dispose()
 extern void U3CThumbsUpResetU3Ed__5_System_IDisposable_Dispose_m11E3E3DD38ADE1F0A43D5D78E7A5E9E1178F8A68 (void);
-// 0x00000053 System.Boolean SimpleHandPointerExample/<ThumbsUpReset>d__5::MoveNext()
+// 0x0000004F System.Boolean SimpleHandPointerExample/<ThumbsUpReset>d__5::MoveNext()
 extern void U3CThumbsUpResetU3Ed__5_MoveNext_mE2CEE721D969618F4D5CB0BCD365E4D293E8EF57 (void);
-// 0x00000054 System.Object SimpleHandPointerExample/<ThumbsUpReset>d__5::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
+// 0x00000050 System.Object SimpleHandPointerExample/<ThumbsUpReset>d__5::System.Collections.Generic.IEnumerator<System.Object>.get_Current()
 extern void U3CThumbsUpResetU3Ed__5_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mE56945C7AD10A729160BFFD7B319B033A1AB92DE (void);
-// 0x00000055 System.Void SimpleHandPointerExample/<ThumbsUpReset>d__5::System.Collections.IEnumerator.Reset()
+// 0x00000051 System.Void SimpleHandPointerExample/<ThumbsUpReset>d__5::System.Collections.IEnumerator.Reset()
 extern void U3CThumbsUpResetU3Ed__5_System_Collections_IEnumerator_Reset_m046B394505B1C0CD6B84DF4B6ACA652A38DEB998 (void);
-// 0x00000056 System.Object SimpleHandPointerExample/<ThumbsUpReset>d__5::System.Collections.IEnumerator.get_Current()
+// 0x00000052 System.Object SimpleHandPointerExample/<ThumbsUpReset>d__5::System.Collections.IEnumerator.get_Current()
 extern void U3CThumbsUpResetU3Ed__5_System_Collections_IEnumerator_get_Current_m75C43348651DBCD50CCC92D932F04A4259F35710 (void);
-// 0x00000057 System.Void SpatialAlignmentExample::Awake()
+// 0x00000053 System.Void SpatialAlignmentExample::Awake()
 extern void SpatialAlignmentExample_Awake_m10F252EBEB041FEAD19731587E3391A4E4E50BEF (void);
-// 0x00000058 System.Void SpatialAlignmentExample::HandleTriggerDown()
+// 0x00000054 System.Void SpatialAlignmentExample::HandleTriggerDown()
 extern void SpatialAlignmentExample_HandleTriggerDown_m4E8BF6E36913227E9CBD8F69ACE0B14394D4B40F (void);
-// 0x00000059 System.Void SpatialAlignmentExample::HandleBumperDown()
+// 0x00000055 System.Void SpatialAlignmentExample::HandleBumperDown()
 extern void SpatialAlignmentExample_HandleBumperDown_mA7551BF06B60F3D1793DA2383746A6FAB8F10074 (void);
-// 0x0000005A System.Void SpatialAlignmentExample::Update()
+// 0x00000056 System.Void SpatialAlignmentExample::Update()
 extern void SpatialAlignmentExample_Update_m5C5ADB8FA15578EC8814B4F924CD300213091D06 (void);
-// 0x0000005B System.Void SpatialAlignmentExample::.ctor()
+// 0x00000057 System.Void SpatialAlignmentExample::.ctor()
 extern void SpatialAlignmentExample__ctor_mC0BBB84C0506E16D243313350D18C774EE1EB311 (void);
-// 0x0000005C System.Void SurfaceDetailsExample::Awake()
+// 0x00000058 System.Void SurfaceDetailsExample::Awake()
 extern void SurfaceDetailsExample_Awake_m4F8B947C00A0BF0BFAED690F1175D4FD182E8CF7 (void);
-// 0x0000005D System.Void SurfaceDetailsExample::Update()
+// 0x00000059 System.Void SurfaceDetailsExample::Update()
 extern void SurfaceDetailsExample_Update_mBF938ACA82FD4B491AA6BABFFAAD7870B9F19D31 (void);
-// 0x0000005E System.Void SurfaceDetailsExample::.ctor()
+// 0x0000005A System.Void SurfaceDetailsExample::.ctor()
 extern void SurfaceDetailsExample__ctor_mF18E1079D7447284A9D037B76E1FC2360A01EFB6 (void);
-// 0x0000005F System.Void TransmissionExample::Start()
+// 0x0000005B System.Void TransmissionExample::Start()
 extern void TransmissionExample_Start_mD87ABD5653CCF46C04AAADE45C8DE28B544553DE (void);
-// 0x00000060 System.Void TransmissionExample::HandleTriggerDown()
+// 0x0000005C System.Void TransmissionExample::HandleTriggerDown()
 extern void TransmissionExample_HandleTriggerDown_mB593603B1FAFFCA2A29EBA2BCEEF15677CEE14E1 (void);
-// 0x00000061 System.Void TransmissionExample::HandleBumperDown()
+// 0x0000005D System.Void TransmissionExample::HandleBumperDown()
 extern void TransmissionExample_HandleBumperDown_m1172DF7FC270D0F3A6EFBDD5040AACBB22E33E6C (void);
-// 0x00000062 System.Void TransmissionExample::HandleTouchDown(UnityEngine.Vector4)
+// 0x0000005E System.Void TransmissionExample::HandleTouchDown(UnityEngine.Vector4)
 extern void TransmissionExample_HandleTouchDown_m1AE304D90C906EB3F811DEDD263CC54BFA5842AE (void);
-// 0x00000063 System.Void TransmissionExample::HandleStringMessage(MagicLeapTools.StringMessage)
+// 0x0000005F System.Void TransmissionExample::HandleStringMessage(MagicLeapTools.StringMessage)
 extern void TransmissionExample_HandleStringMessage_mDA8E3F03188368840E1B31B8533BDCB48F88CF28 (void);
-// 0x00000064 System.Void TransmissionExample::Update()
+// 0x00000060 System.Void TransmissionExample::Update()
 extern void TransmissionExample_Update_mF5995524C157077C25B55B17625EB336AE952757 (void);
-// 0x00000065 System.Void TransmissionExample::OnGUI()
+// 0x00000061 System.Void TransmissionExample::OnGUI()
 extern void TransmissionExample_OnGUI_m9DC242BB1DD5D77E960FE9CB6B1F009A993755D9 (void);
-// 0x00000066 System.Void TransmissionExample::UpdateGlobalFloat()
+// 0x00000062 System.Void TransmissionExample::UpdateGlobalFloat()
 extern void TransmissionExample_UpdateGlobalFloat_mC1BD58CE97CAD896138CB3EF97B24DE15F32C24F (void);
-// 0x00000067 System.Void TransmissionExample::SendHelloWorld()
+// 0x00000063 System.Void TransmissionExample::SendHelloWorld()
 extern void TransmissionExample_SendHelloWorld_m22144D20BE162A121E5C657364CD9B6CF4CE22F8 (void);
-// 0x00000068 System.Void TransmissionExample::SendRPC()
+// 0x00000064 System.Void TransmissionExample::SendRPC()
 extern void TransmissionExample_SendRPC_m8430D485460102FF9A54752E7A33EC043E2BACAD (void);
-// 0x00000069 System.Void TransmissionExample::ChangeColor()
+// 0x00000065 System.Void TransmissionExample::ChangeColor()
 extern void TransmissionExample_ChangeColor_m1DA1A5E3274C103D13A9516CEAFF3CB191902CC2 (void);
-// 0x0000006A System.Void TransmissionExample::.ctor()
+// 0x00000066 System.Void TransmissionExample::.ctor()
 extern void TransmissionExample__ctor_m5230C2E999C92EFA19C3B0B361D20693F655FD99 (void);
-// 0x0000006B System.Void ArUcoTrackingManager::Start()
+// 0x00000067 System.Void ArUcoTrackingManager::Start()
 extern void ArUcoTrackingManager_Start_m3D98FA46EECA0DBAD4965CF423E81380202C9028 (void);
-// 0x0000006C System.Void ArUcoTrackingManager::OnApplicationPause(System.Boolean)
+// 0x00000068 System.Void ArUcoTrackingManager::OnApplicationPause(System.Boolean)
 extern void ArUcoTrackingManager_OnApplicationPause_mD62C85E58677550318D84F303469A83BACB6B165 (void);
-// 0x0000006D System.Void ArUcoTrackingManager::OnDestroy()
+// 0x00000069 System.Void ArUcoTrackingManager::OnDestroy()
 extern void ArUcoTrackingManager_OnDestroy_mFCF387AC8C6F966E923451D03BCB6546096174A0 (void);
-// 0x0000006E System.Void ArUcoTrackingManager::DisableAruco()
+// 0x0000006A System.Void ArUcoTrackingManager::DisableAruco()
 extern void ArUcoTrackingManager_DisableAruco_m01ACE04F6F86D17E54C1F34029E27B32465AE26E (void);
-// 0x0000006F System.Void ArUcoTrackingManager::EnableAruco()
+// 0x0000006B System.Void ArUcoTrackingManager::EnableAruco()
 extern void ArUcoTrackingManager_EnableAruco_mA32E74EE4A09F0BD76EE7DF4ECC44117876F0963 (void);
-// 0x00000070 System.Void ArUcoTrackingManager::OnMarkerStatusChange(UnityEngine.XR.MagicLeap.MLArucoTracker/Marker,UnityEngine.XR.MagicLeap.MLArucoTracker/Marker/TrackingStatus)
+// 0x0000006C System.Void ArUcoTrackingManager::OnMarkerStatusChange(UnityEngine.XR.MagicLeap.MLArucoTracker/Marker,UnityEngine.XR.MagicLeap.MLArucoTracker/Marker/TrackingStatus)
 extern void ArUcoTrackingManager_OnMarkerStatusChange_m2BA35BF54C63E90281B80CAB39F0F9231C0A2F6E (void);
-// 0x00000071 System.Void ArUcoTrackingManager::.ctor()
+// 0x0000006D System.Void ArUcoTrackingManager::.ctor()
 extern void ArUcoTrackingManager__ctor_mB043CF3B35DF2A96B1659D812F97DD70B01044C5 (void);
-// 0x00000072 System.Void ButtonScript::Start()
+// 0x0000006E System.Void ButtonScript::Start()
 extern void ButtonScript_Start_m667412D1B935EA027E49D2C8A4E3EA28C236D54C (void);
-// 0x00000073 System.Void ButtonScript::OnDestroy()
+// 0x0000006F System.Void ButtonScript::OnDestroy()
 extern void ButtonScript_OnDestroy_m2F388DAB58E789D97E27A16E3817292953D400F4 (void);
-// 0x00000074 System.Void ButtonScript::Update()
+// 0x00000070 System.Void ButtonScript::Update()
 extern void ButtonScript_Update_m97527E784DB58C2B6A49C08FFE8F8E728643417B (void);
-// 0x00000075 System.Void ButtonScript::OnButtonDown(System.Byte,UnityEngine.XR.MagicLeap.MLInput/Controller/Button)
+// 0x00000071 System.Void ButtonScript::OnButtonDown(System.Byte,UnityEngine.XR.MagicLeap.MLInput/Controller/Button)
 extern void ButtonScript_OnButtonDown_mBC5DFEEC1F072F6FEFD8D085A38B5F4A6C634C35 (void);
-// 0x00000076 System.Void ButtonScript::OnButtonUp(System.Byte,UnityEngine.XR.MagicLeap.MLInput/Controller/Button)
+// 0x00000072 System.Void ButtonScript::OnButtonUp(System.Byte,UnityEngine.XR.MagicLeap.MLInput/Controller/Button)
 extern void ButtonScript_OnButtonUp_m84FDB4C125E67A3218B2F5B1447A1C1798B9B06E (void);
-// 0x00000077 System.Void ButtonScript::CheckTrigger()
+// 0x00000073 System.Void ButtonScript::CheckTrigger()
 extern void ButtonScript_CheckTrigger_mA5B6A083525B57C01B050EE4AC6EA273609CADEE (void);
-// 0x00000078 System.Void ButtonScript::.ctor()
+// 0x00000074 System.Void ButtonScript::.ctor()
 extern void ButtonScript__ctor_mF4A9BCC4E47661F057F9B2A7770B635E63C8EC6B (void);
-// 0x00000079 System.Void DistanceCalculatorCamObj::Start()
+// 0x00000075 System.Void DistanceCalculatorCamObj::Start()
 extern void DistanceCalculatorCamObj_Start_mF9520EB4BCBE6884F560096429CB7CFF2FEB7697 (void);
-// 0x0000007A System.Void DistanceCalculatorCamObj::SetValue(System.Single,System.Single)
+// 0x00000076 System.Void DistanceCalculatorCamObj::SetValue(System.Single,System.Single)
 extern void DistanceCalculatorCamObj_SetValue_m3800E02F99CF93163AF147C155DEBD346161D137 (void);
-// 0x0000007B System.Void DistanceCalculatorCamObj::Update()
+// 0x00000077 System.Void DistanceCalculatorCamObj::Update()
 extern void DistanceCalculatorCamObj_Update_m473D92ED3FC6ACAE52A9A4CCACC10E6C35E85D20 (void);
-// 0x0000007C System.Void DistanceCalculatorCamObj::.ctor()
+// 0x00000078 System.Void DistanceCalculatorCamObj::.ctor()
 extern void DistanceCalculatorCamObj__ctor_m8C2261A19402FA19FEE5E9C28D2274D9C4574E51 (void);
-// 0x0000007D System.Void DistanceCalculatorSimilarObj::Start()
+// 0x00000079 System.Void DistanceCalculatorSimilarObj::Start()
 extern void DistanceCalculatorSimilarObj_Start_m52301B587AEA1F44835B6FF9FE4B9381BC341F52 (void);
-// 0x0000007E System.Single DistanceCalculatorSimilarObj::CalculateAvgDistance(System.String)
+// 0x0000007A System.Single DistanceCalculatorSimilarObj::CalculateAvgDistance(System.String)
 extern void DistanceCalculatorSimilarObj_CalculateAvgDistance_mFDEB314A7D74E5023E1A70C919D13BFE174454B1 (void);
-// 0x0000007F System.Void DistanceCalculatorSimilarObj::SetValue(System.Single)
+// 0x0000007B System.Void DistanceCalculatorSimilarObj::SetValue(System.Single)
 extern void DistanceCalculatorSimilarObj_SetValue_m23ADBC51AB3FD96AE745BD15FDFC2F9A7C27C82F (void);
-// 0x00000080 System.Void DistanceCalculatorSimilarObj::Update()
+// 0x0000007C System.Void DistanceCalculatorSimilarObj::Update()
 extern void DistanceCalculatorSimilarObj_Update_m0CCC83711FBFFD2E1B7185A90A4D31D04A9769FE (void);
-// 0x00000081 System.Void DistanceCalculatorSimilarObj::.ctor()
+// 0x0000007D System.Void DistanceCalculatorSimilarObj::.ctor()
 extern void DistanceCalculatorSimilarObj__ctor_mB6DFD0FC734313BDEA184773FFFD83A3C223F2CB (void);
-// 0x00000082 System.Void DynamicBeam::Start()
+// 0x0000007E System.Void DynamicBeam::Start()
 extern void DynamicBeam_Start_m8334BB872FC8CD200A6E09DA20E4562B6FB9CF4B (void);
-// 0x00000083 System.Void DynamicBeam::Update()
+// 0x0000007F System.Void DynamicBeam::Update()
 extern void DynamicBeam_Update_mD0F6E3CA817A4647A4893BAB4347EDB83095FABA (void);
-// 0x00000084 System.Void DynamicBeam::.ctor()
+// 0x00000080 System.Void DynamicBeam::.ctor()
 extern void DynamicBeam__ctor_m33EDD16EE3B56B9925262DEF7E49C17F420AEEB1 (void);
+// 0x00000081 System.Void EyeTracking::Start()
+extern void EyeTracking_Start_m7EA35A08338281C78615CFA7E02801F8D1CE65C9 (void);
+// 0x00000082 System.Void EyeTracking::OnDisable()
+extern void EyeTracking_OnDisable_m1DC6F818F3AFB029E3492389DBC3BC7B254DC542 (void);
+// 0x00000083 System.Void EyeTracking::Update()
+extern void EyeTracking_Update_m081DE685D93D1388CEC343FEE6F0CF8D3582D0B1 (void);
+// 0x00000084 System.Void EyeTracking::.ctor()
+extern void EyeTracking__ctor_m046E27C12E645F7F0631322398D1FE9156E9AA41 (void);
 // 0x00000085 System.Void ImageTargetInfo::.ctor()
 extern void ImageTargetInfo__ctor_mEEBD0F458E8FE514529A99ED6520BCEFAAD7046F (void);
 // 0x00000086 System.Void ImageTrackingSystem::Awake()
@@ -2575,10 +2575,6 @@ static Il2CppMethodPointer s_methodPointers[1284] =
 	AuraControl_UpdateAura_m47A5CEFB448F39951AA27EC0534AAEDE9E4E5B59,
 	AuraControl_RevertAura_mDEB6883F1E5EBE63EA5A4CB93CBCEAED98E28D68,
 	AuraControl__ctor_m3C3A1909A039A66C55F69B48CD155CBF3DD42908,
-	EyeTracking_Start_m7EA35A08338281C78615CFA7E02801F8D1CE65C9,
-	EyeTracking_OnDisable_m1DC6F818F3AFB029E3492389DBC3BC7B254DC542,
-	EyeTracking_Update_m081DE685D93D1388CEC343FEE6F0CF8D3582D0B1,
-	EyeTracking__ctor_m046E27C12E645F7F0631322398D1FE9156E9AA41,
 	Triangulator__ctor_m09B7DD11A47B21877B3F5F55EB63191883E2FCD8,
 	Triangulator_Triangulate_m1EAA2FFE8D2F79453EAF8EA10FDF3666E7254957,
 	Triangulator_Area_m48AB236FC8A5108C6D7707BF48BD205AA9EB4A46,
@@ -2696,6 +2692,10 @@ static Il2CppMethodPointer s_methodPointers[1284] =
 	DynamicBeam_Start_m8334BB872FC8CD200A6E09DA20E4562B6FB9CF4B,
 	DynamicBeam_Update_mD0F6E3CA817A4647A4893BAB4347EDB83095FABA,
 	DynamicBeam__ctor_m33EDD16EE3B56B9925262DEF7E49C17F420AEEB1,
+	EyeTracking_Start_m7EA35A08338281C78615CFA7E02801F8D1CE65C9,
+	EyeTracking_OnDisable_m1DC6F818F3AFB029E3492389DBC3BC7B254DC542,
+	EyeTracking_Update_m081DE685D93D1388CEC343FEE6F0CF8D3582D0B1,
+	EyeTracking__ctor_m046E27C12E645F7F0631322398D1FE9156E9AA41,
 	ImageTargetInfo__ctor_mEEBD0F458E8FE514529A99ED6520BCEFAAD7046F,
 	ImageTrackingSystem_Awake_m7D886D98EAAC639A36B65ABBF96830ED1F9BC033,
 	ImageTrackingSystem_OnApplicationPause_mDAF6CD7D6384541E7F39DA55C65277B509FC0080,
@@ -3862,10 +3862,6 @@ static const int32_t s_InvokerIndices[1284] =
 	3229,
 	3229,
 	3229,
-	3229,
-	3229,
-	3229,
-	3229,
 	2580,
 	3177,
 	3204,
@@ -3978,6 +3974,10 @@ static const int32_t s_InvokerIndices[1284] =
 	3229,
 	2362,
 	2604,
+	3229,
+	3229,
+	3229,
+	3229,
 	3229,
 	3229,
 	3229,

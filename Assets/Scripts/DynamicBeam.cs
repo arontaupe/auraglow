@@ -7,15 +7,12 @@ public class DynamicBeam : MonoBehaviour
 {
     private MLInput.Controller controller;
     private LineRenderer beamLine;
-    public Color startColor;
-    public Color endColor;
+
     // Start is called before the first frame update
     void Start()
     {
         controller = MLInput.GetController(MLInput.Hand.Left);
         beamLine = GetComponent<LineRenderer>();
-        beamLine.startColor = startColor;
-        beamLine.endColor = endColor;
     }
 
     // Update is called once per frame

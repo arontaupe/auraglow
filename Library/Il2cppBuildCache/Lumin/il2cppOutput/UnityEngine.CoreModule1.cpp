@@ -1508,7 +1508,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* Texture2D_GetRawTextureData_m60C0B5EF034F31
 IL2CPP_EXTERN_C const RuntimeMethod* Texture2D_Internal_CreateImpl_mBB51D7783B06B4DBD6C145E44165930206250814_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Texture2D_Internal_Create_mCB66B9492C9FA853834E3D86BA0344736C785869_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Texture2D_LoadRawTextureDataImplArray_m1466F03F81A7FE4AA81F45B7EF388969753F1D85_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* Texture2D_LoadRawTextureDataImpl_m62693BD5CB00C42253A640095380ED8892278D5D_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Texture2D_LoadRawTextureDataImpl_mA2B05049EA0592A0B304793874F201C7C7D5CC2E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Texture2D_LoadRawTextureData_m93A620CC97332F351305E3A93AD11CB2E0EFDAF4_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Texture2D_LoadRawTextureData_mC98EE7575456ACE2E7C3B4CDC1CE0A34FA22B24E_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* Texture2D_ResizeImpl_m484CD2126E70AA80396A6F7C1539A72CC03BA71C_RuntimeMethod_var;
@@ -6380,6 +6380,24 @@ public:
 	inline uint32_t get_m_value_0() const { return ___m_value_0; }
 	inline uint32_t* get_address_of_m_value_0() { return &___m_value_0; }
 	inline void set_m_value_0(uint32_t value)
+	{
+		___m_value_0 = value;
+	}
+};
+
+
+// System.UInt64
+struct UInt64_tEC57511B3E3CA2DBA1BEBD434C6983E31C943281 
+{
+public:
+	// System.UInt64 System.UInt64::m_value
+	uint64_t ___m_value_0;
+
+public:
+	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(UInt64_tEC57511B3E3CA2DBA1BEBD434C6983E31C943281, ___m_value_0)); }
+	inline uint64_t get_m_value_0() const { return ___m_value_0; }
+	inline uint64_t* get_address_of_m_value_0() { return &___m_value_0; }
+	inline void set_m_value_0(uint64_t value)
 	{
 		___m_value_0 = value;
 	}
@@ -16555,8 +16573,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Texture2D_SetPixelsImpl_m6F5B06278B956BF
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Texture2D_SetPixels_m39DFC67A52779E657C4B3AFA69FC586E2DB6AB50 (Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF * __this, int32_t ___x0, int32_t ___y1, int32_t ___blockWidth2, int32_t ___blockHeight3, ColorU5BU5D_t358DD89F511301E663AD9157305B94A2DEFF8834* ___colors4, int32_t ___miplevel5, const RuntimeMethod* method);
 // UnityEngine.Color UnityEngine.Texture2D::GetPixelBilinearImpl(System.Int32,System.Int32,System.Single,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  Texture2D_GetPixelBilinearImpl_m6FF35D87E48B444676F1B190F488AA8FF8F2E561 (Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF * __this, int32_t ___image0, int32_t ___mip1, float ___u2, float ___v3, const RuntimeMethod* method);
-// System.Boolean UnityEngine.Texture2D::LoadRawTextureDataImpl(System.IntPtr,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Texture2D_LoadRawTextureDataImpl_m62693BD5CB00C42253A640095380ED8892278D5D (Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF * __this, intptr_t ___data0, int32_t ___size1, const RuntimeMethod* method);
+// System.Boolean UnityEngine.Texture2D::LoadRawTextureDataImpl(System.IntPtr,System.UInt64)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Texture2D_LoadRawTextureDataImpl_mA2B05049EA0592A0B304793874F201C7C7D5CC2E (Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF * __this, intptr_t ___data0, uint64_t ___size1, const RuntimeMethod* method);
 // System.Boolean UnityEngine.Texture2D::LoadRawTextureDataImplArray(System.Byte[])
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Texture2D_LoadRawTextureDataImplArray_m1466F03F81A7FE4AA81F45B7EF388969753F1D85 (Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF * __this, ByteU5BU5D_tDBBEB0E8362242FA7223000D978B0DD19D4B0726* ___data0, const RuntimeMethod* method);
 // System.Void UnityEngine.Texture2D::ApplyImpl(System.Boolean,System.Boolean)
@@ -31343,55 +31361,56 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* StackTraceUtility_ExtractStackTrace
 	{
 		V_0 = ((int32_t)16384);
 		int32_t L_0 = V_0;
-		int8_t* L_1 = (int8_t*) alloca(((uintptr_t)L_0));
-		memset(L_1, 0, ((uintptr_t)L_0));
-		V_1 = (uint8_t*)(L_1);
-		uint8_t* L_2 = V_1;
-		int32_t L_3 = V_0;
+		uintptr_t L_1 = ((uintptr_t)L_0);
+		int8_t* L_2 = (int8_t*) (L_1 ? alloca(L_1) : NULL);
+		memset(L_2, 0, L_1);
+		V_1 = (uint8_t*)(L_2);
+		uint8_t* L_3 = V_1;
+		int32_t L_4 = V_0;
 		IL2CPP_RUNTIME_CLASS_INIT(StackTraceUtility_t1A2E0FBE43A568BD417C6D9DB78F5796F95506F8_il2cpp_TypeInfo_var);
-		String_t* L_4 = ((StackTraceUtility_t1A2E0FBE43A568BD417C6D9DB78F5796F95506F8_StaticFields*)il2cpp_codegen_static_fields_for(StackTraceUtility_t1A2E0FBE43A568BD417C6D9DB78F5796F95506F8_il2cpp_TypeInfo_var))->get_projectFolder_0();
+		String_t* L_5 = ((StackTraceUtility_t1A2E0FBE43A568BD417C6D9DB78F5796F95506F8_StaticFields*)il2cpp_codegen_static_fields_for(StackTraceUtility_t1A2E0FBE43A568BD417C6D9DB78F5796F95506F8_il2cpp_TypeInfo_var))->get_projectFolder_0();
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
-		int32_t L_5;
-		L_5 = Debug_ExtractStackTraceNoAlloc_m1FE9E4CF36EB7A67FF2091DFE8C7BB9E1ED04490((uint8_t*)(uint8_t*)L_2, L_3, L_4, /*hidden argument*/NULL);
-		V_2 = L_5;
-		int32_t L_6 = V_2;
-		V_5 = (bool)((((int32_t)L_6) > ((int32_t)0))? 1 : 0);
-		bool L_7 = V_5;
-		if (!L_7)
+		int32_t L_6;
+		L_6 = Debug_ExtractStackTraceNoAlloc_m1FE9E4CF36EB7A67FF2091DFE8C7BB9E1ED04490((uint8_t*)(uint8_t*)L_3, L_4, L_5, /*hidden argument*/NULL);
+		V_2 = L_6;
+		int32_t L_7 = V_2;
+		V_5 = (bool)((((int32_t)L_7) > ((int32_t)0))? 1 : 0);
+		bool L_8 = V_5;
+		if (!L_8)
 		{
 			goto IL_0035;
 		}
 	}
 	{
-		uint8_t* L_8 = V_1;
-		int32_t L_9 = V_2;
-		Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * L_10;
-		L_10 = Encoding_get_UTF8_mA1F9F8EACB3EEA1583247AA10DCE51C3A0A13469(/*hidden argument*/NULL);
-		String_t* L_11;
-		L_11 = String_CreateString_m9636360FEBE95705BBD46CF8D4DCDCFCDAE269A6(NULL, (int8_t*)(int8_t*)L_8, 0, L_9, L_10, /*hidden argument*/NULL);
-		V_6 = L_11;
+		uint8_t* L_9 = V_1;
+		int32_t L_10 = V_2;
+		Encoding_tE901442411E2E70039D2A4AE77FB81C3D6064827 * L_11;
+		L_11 = Encoding_get_UTF8_mA1F9F8EACB3EEA1583247AA10DCE51C3A0A13469(/*hidden argument*/NULL);
+		String_t* L_12;
+		L_12 = String_CreateString_m9636360FEBE95705BBD46CF8D4DCDCFCDAE269A6(NULL, (int8_t*)(int8_t*)L_9, 0, L_10, L_11, /*hidden argument*/NULL);
+		V_6 = L_12;
 		goto IL_004b;
 	}
 
 IL_0035:
 	{
-		StackTrace_t43C03122C6B2AAF0DCCF684B2D5FA6E673F02888 * L_12 = (StackTrace_t43C03122C6B2AAF0DCCF684B2D5FA6E673F02888 *)il2cpp_codegen_object_new(StackTrace_t43C03122C6B2AAF0DCCF684B2D5FA6E673F02888_il2cpp_TypeInfo_var);
-		StackTrace__ctor_mC8E812FCCD6BE794DE4B6DC5347E1B19AB379407(L_12, 1, (bool)1, /*hidden argument*/NULL);
-		V_3 = L_12;
-		StackTrace_t43C03122C6B2AAF0DCCF684B2D5FA6E673F02888 * L_13 = V_3;
+		StackTrace_t43C03122C6B2AAF0DCCF684B2D5FA6E673F02888 * L_13 = (StackTrace_t43C03122C6B2AAF0DCCF684B2D5FA6E673F02888 *)il2cpp_codegen_object_new(StackTrace_t43C03122C6B2AAF0DCCF684B2D5FA6E673F02888_il2cpp_TypeInfo_var);
+		StackTrace__ctor_mC8E812FCCD6BE794DE4B6DC5347E1B19AB379407(L_13, 1, (bool)1, /*hidden argument*/NULL);
+		V_3 = L_13;
+		StackTrace_t43C03122C6B2AAF0DCCF684B2D5FA6E673F02888 * L_14 = V_3;
 		IL2CPP_RUNTIME_CLASS_INIT(StackTraceUtility_t1A2E0FBE43A568BD417C6D9DB78F5796F95506F8_il2cpp_TypeInfo_var);
-		String_t* L_14;
-		L_14 = StackTraceUtility_ExtractFormattedStackTrace_m0CACC77073373398917C2F12F8DF64CE4D1FE87C(L_13, /*hidden argument*/NULL);
-		V_4 = L_14;
-		String_t* L_15 = V_4;
-		V_6 = L_15;
+		String_t* L_15;
+		L_15 = StackTraceUtility_ExtractFormattedStackTrace_m0CACC77073373398917C2F12F8DF64CE4D1FE87C(L_14, /*hidden argument*/NULL);
+		V_4 = L_15;
+		String_t* L_16 = V_4;
+		V_6 = L_16;
 		goto IL_004b;
 	}
 
 IL_004b:
 	{
-		String_t* L_16 = V_6;
-		return L_16;
+		String_t* L_17 = V_6;
+		return L_17;
 	}
 }
 // System.Void UnityEngine.StackTraceUtility::ExtractStringFromExceptionInternal(System.Object,System.String&,System.String&)
@@ -34466,20 +34485,20 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Texture2D_SetPixelsImpl_m6F5B06278B956BF
 	_il2cpp_icall_func = (Texture2D_SetPixelsImpl_m6F5B06278B956BFCCF360B135F73B19D4648AE92_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Texture2D::SetPixelsImpl(System.Int32,System.Int32,System.Int32,System.Int32,UnityEngine.Color[],System.Int32,System.Int32)");
 	_il2cpp_icall_func(__this, ___x0, ___y1, ___w2, ___h3, ___pixel4, ___miplevel5, ___frame6);
 }
-// System.Boolean UnityEngine.Texture2D::LoadRawTextureDataImpl(System.IntPtr,System.Int32)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Texture2D_LoadRawTextureDataImpl_m62693BD5CB00C42253A640095380ED8892278D5D (Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF * __this, intptr_t ___data0, int32_t ___size1, const RuntimeMethod* method)
+// System.Boolean UnityEngine.Texture2D::LoadRawTextureDataImpl(System.IntPtr,System.UInt64)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Texture2D_LoadRawTextureDataImpl_mA2B05049EA0592A0B304793874F201C7C7D5CC2E (Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF * __this, intptr_t ___data0, uint64_t ___size1, const RuntimeMethod* method)
 {
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Texture2D_LoadRawTextureDataImpl_m62693BD5CB00C42253A640095380ED8892278D5D_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Texture2D_LoadRawTextureDataImpl_mA2B05049EA0592A0B304793874F201C7C7D5CC2E_RuntimeMethod_var);
 		s_Il2CppMethodInitialized = true;
 	}
-	StackTraceSentry _stackTraceSentry(Texture2D_LoadRawTextureDataImpl_m62693BD5CB00C42253A640095380ED8892278D5D_RuntimeMethod_var);
-	typedef bool (*Texture2D_LoadRawTextureDataImpl_m62693BD5CB00C42253A640095380ED8892278D5D_ftn) (Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF *, intptr_t, int32_t);
-	static Texture2D_LoadRawTextureDataImpl_m62693BD5CB00C42253A640095380ED8892278D5D_ftn _il2cpp_icall_func;
+	StackTraceSentry _stackTraceSentry(Texture2D_LoadRawTextureDataImpl_mA2B05049EA0592A0B304793874F201C7C7D5CC2E_RuntimeMethod_var);
+	typedef bool (*Texture2D_LoadRawTextureDataImpl_mA2B05049EA0592A0B304793874F201C7C7D5CC2E_ftn) (Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF *, intptr_t, uint64_t);
+	static Texture2D_LoadRawTextureDataImpl_mA2B05049EA0592A0B304793874F201C7C7D5CC2E_ftn _il2cpp_icall_func;
 	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (Texture2D_LoadRawTextureDataImpl_m62693BD5CB00C42253A640095380ED8892278D5D_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Texture2D::LoadRawTextureDataImpl(System.IntPtr,System.Int32)");
+	_il2cpp_icall_func = (Texture2D_LoadRawTextureDataImpl_mA2B05049EA0592A0B304793874F201C7C7D5CC2E_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.Texture2D::LoadRawTextureDataImpl(System.IntPtr,System.UInt64)");
 	bool icallRetVal = _il2cpp_icall_func(__this, ___data0, ___size1);
 	return icallRetVal;
 }
@@ -35084,7 +35103,7 @@ IL_002a:
 	{
 		IL2CPP_RUNTIME_CLASS_INIT(Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var);
 		Debug_LogError_m8F0BF6D19FDEAA41F027A734D6EE2CA2E4BCA1B3(_stringLiteral5A47A1180382F3C4D23BA1B9A5A57E01273B8266, __this, /*hidden argument*/NULL);
-		goto IL_0057;
+		goto IL_0058;
 	}
 
 IL_003d:
@@ -35092,12 +35111,12 @@ IL_003d:
 		intptr_t L_7 = ___data0;
 		int32_t L_8 = ___size1;
 		bool L_9;
-		L_9 = Texture2D_LoadRawTextureDataImpl_m62693BD5CB00C42253A640095380ED8892278D5D(__this, (intptr_t)L_7, L_8, /*hidden argument*/NULL);
+		L_9 = Texture2D_LoadRawTextureDataImpl_mA2B05049EA0592A0B304793874F201C7C7D5CC2E(__this, (intptr_t)L_7, ((int64_t)((int64_t)L_8)), /*hidden argument*/NULL);
 		V_2 = (bool)((((int32_t)L_9) == ((int32_t)0))? 1 : 0);
 		bool L_10 = V_2;
 		if (!L_10)
 		{
-			goto IL_0057;
+			goto IL_0058;
 		}
 	}
 	{
@@ -35106,7 +35125,7 @@ IL_003d:
 		IL2CPP_RAISE_MANAGED_EXCEPTION(L_11, ((RuntimeMethod*)il2cpp_codegen_initialize_runtime_metadata_inline((uintptr_t*)&Texture2D_LoadRawTextureData_mC98EE7575456ACE2E7C3B4CDC1CE0A34FA22B24E_RuntimeMethod_var)));
 	}
 
-IL_0057:
+IL_0058:
 	{
 		return;
 	}

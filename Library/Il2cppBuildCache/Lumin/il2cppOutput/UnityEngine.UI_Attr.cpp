@@ -3007,12 +3007,12 @@ static void MaskableGraphic_t0DB59E37E3C8AD2F5A4FB7FB091630CB21370CCE_CustomAttr
 static void MaskableGraphic_t0DB59E37E3C8AD2F5A4FB7FB091630CB21370CCE_CustomAttributesCacheGenerator_m_IncludeForMasking(CustomAttributesCache* cache)
 {
 	{
-		ObsoleteAttribute_t14BAC1669C0409EB9F28D72D664FFA6764ACD671 * tmp = (ObsoleteAttribute_t14BAC1669C0409EB9F28D72D664FFA6764ACD671 *)cache->attributes[0];
-		ObsoleteAttribute__ctor_m058D2B798E9AB7E7778A6DB04C3FE7011C660F4C(tmp, il2cpp_codegen_string_new_wrapper("\x4E\x6F\x74\x20\x75\x73\x65\x64\x20\x61\x6E\x79\x6D\x6F\x72\x65\x2E"), true, NULL);
+		EditorBrowsableAttribute_tE201891FE727EB3FB75B488A2BF6D4DF3CB80614 * tmp = (EditorBrowsableAttribute_tE201891FE727EB3FB75B488A2BF6D4DF3CB80614 *)cache->attributes[0];
+		EditorBrowsableAttribute__ctor_mC77290C5157BDA154F1D03BD1551223B07A851D4(tmp, 1LL, NULL);
 	}
 	{
-		EditorBrowsableAttribute_tE201891FE727EB3FB75B488A2BF6D4DF3CB80614 * tmp = (EditorBrowsableAttribute_tE201891FE727EB3FB75B488A2BF6D4DF3CB80614 *)cache->attributes[1];
-		EditorBrowsableAttribute__ctor_mC77290C5157BDA154F1D03BD1551223B07A851D4(tmp, 1LL, NULL);
+		ObsoleteAttribute_t14BAC1669C0409EB9F28D72D664FFA6764ACD671 * tmp = (ObsoleteAttribute_t14BAC1669C0409EB9F28D72D664FFA6764ACD671 *)cache->attributes[1];
+		ObsoleteAttribute__ctor_m058D2B798E9AB7E7778A6DB04C3FE7011C660F4C(tmp, il2cpp_codegen_string_new_wrapper("\x4E\x6F\x74\x20\x75\x73\x65\x64\x20\x61\x6E\x79\x6D\x6F\x72\x65\x2E"), true, NULL);
 	}
 }
 static void MaskableGraphic_t0DB59E37E3C8AD2F5A4FB7FB091630CB21370CCE_CustomAttributesCacheGenerator_m_OnCullStateChanged(CustomAttributesCache* cache)
@@ -4684,12 +4684,12 @@ static void InputMode_tABD640D064CD823116744F702C9DD0836A7E8972_CustomAttributes
 static void TouchInputModule_tC92ADD4A36C73348565AD94F128327F6D44DBB9B_CustomAttributesCacheGenerator(CustomAttributesCache* cache)
 {
 	{
-		ObsoleteAttribute_t14BAC1669C0409EB9F28D72D664FFA6764ACD671 * tmp = (ObsoleteAttribute_t14BAC1669C0409EB9F28D72D664FFA6764ACD671 *)cache->attributes[0];
-		ObsoleteAttribute__ctor_mAC32A5CCD287DA84CDA9F08282C1C8B0DB7B9868(tmp, il2cpp_codegen_string_new_wrapper("\x54\x6F\x75\x63\x68\x49\x6E\x70\x75\x74\x4D\x6F\x64\x75\x6C\x65\x20\x69\x73\x20\x6E\x6F\x20\x6C\x6F\x6E\x67\x65\x72\x20\x72\x65\x71\x75\x69\x72\x65\x64\x20\x61\x73\x20\x54\x6F\x75\x63\x68\x20\x69\x6E\x70\x75\x74\x20\x69\x73\x20\x6E\x6F\x77\x20\x68\x61\x6E\x64\x6C\x65\x64\x20\x69\x6E\x20\x53\x74\x61\x6E\x64\x61\x6C\x6F\x6E\x65\x49\x6E\x70\x75\x74\x4D\x6F\x64\x75\x6C\x65\x2E"), NULL);
+		AddComponentMenu_t3477A931DC56E9A4F67FFA5745D657ADD2931100 * tmp = (AddComponentMenu_t3477A931DC56E9A4F67FFA5745D657ADD2931100 *)cache->attributes[0];
+		AddComponentMenu__ctor_m34CE7BDF93FA607429964AEF1D23436963EE8549(tmp, il2cpp_codegen_string_new_wrapper("\x45\x76\x65\x6E\x74\x2F\x54\x6F\x75\x63\x68\x20\x49\x6E\x70\x75\x74\x20\x4D\x6F\x64\x75\x6C\x65"), NULL);
 	}
 	{
-		AddComponentMenu_t3477A931DC56E9A4F67FFA5745D657ADD2931100 * tmp = (AddComponentMenu_t3477A931DC56E9A4F67FFA5745D657ADD2931100 *)cache->attributes[1];
-		AddComponentMenu__ctor_m34CE7BDF93FA607429964AEF1D23436963EE8549(tmp, il2cpp_codegen_string_new_wrapper("\x45\x76\x65\x6E\x74\x2F\x54\x6F\x75\x63\x68\x20\x49\x6E\x70\x75\x74\x20\x4D\x6F\x64\x75\x6C\x65"), NULL);
+		ObsoleteAttribute_t14BAC1669C0409EB9F28D72D664FFA6764ACD671 * tmp = (ObsoleteAttribute_t14BAC1669C0409EB9F28D72D664FFA6764ACD671 *)cache->attributes[1];
+		ObsoleteAttribute__ctor_mAC32A5CCD287DA84CDA9F08282C1C8B0DB7B9868(tmp, il2cpp_codegen_string_new_wrapper("\x54\x6F\x75\x63\x68\x49\x6E\x70\x75\x74\x4D\x6F\x64\x75\x6C\x65\x20\x69\x73\x20\x6E\x6F\x20\x6C\x6F\x6E\x67\x65\x72\x20\x72\x65\x71\x75\x69\x72\x65\x64\x20\x61\x73\x20\x54\x6F\x75\x63\x68\x20\x69\x6E\x70\x75\x74\x20\x69\x73\x20\x6E\x6F\x77\x20\x68\x61\x6E\x64\x6C\x65\x64\x20\x69\x6E\x20\x53\x74\x61\x6E\x64\x61\x6C\x6F\x6E\x65\x49\x6E\x70\x75\x74\x4D\x6F\x64\x75\x6C\x65\x2E"), NULL);
 	}
 }
 static void TouchInputModule_tC92ADD4A36C73348565AD94F128327F6D44DBB9B_CustomAttributesCacheGenerator_m_ForceModuleActive(CustomAttributesCache* cache)

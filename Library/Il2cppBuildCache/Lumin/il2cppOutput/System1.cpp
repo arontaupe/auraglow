@@ -341,8 +341,8 @@ struct RegexTree_t63A434601D42EC388D9B2DCA2913286CFC8811F3;
 struct RegexWriter_t958027B0548A09589F03657633037085BACFC7B5;
 // System.Runtime.InteropServices.SafeHandle
 struct SafeHandle_tC07DCA2CABF6988953342757EFB1547363E5A36B;
-// Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid
-struct SafeHandleZeroOrMinusOneIsInvalid_t0C690C7DC958D0C04E529E2BB0F6569956328B45;
+// Microsoft.Win32.SafeHandles.SafeHandleMinusOneIsInvalid
+struct SafeHandleMinusOneIsInvalid_t542F86CD15E22E871D725A162DF6EE305850ABC6;
 // System.Runtime.Serialization.SafeSerializationManager
 struct SafeSerializationManager_tDE44F029589A028F8A3053C5C06153FAB4AAE29F;
 // System.Net.Sockets.SafeSocketHandle
@@ -6897,8 +6897,8 @@ public:
 };
 
 
-// Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid
-struct SafeHandleZeroOrMinusOneIsInvalid_t0C690C7DC958D0C04E529E2BB0F6569956328B45  : public SafeHandle_tC07DCA2CABF6988953342757EFB1547363E5A36B
+// Microsoft.Win32.SafeHandles.SafeHandleMinusOneIsInvalid
+struct SafeHandleMinusOneIsInvalid_t542F86CD15E22E871D725A162DF6EE305850ABC6  : public SafeHandle_tC07DCA2CABF6988953342757EFB1547363E5A36B
 {
 public:
 
@@ -7839,7 +7839,7 @@ public:
 
 
 // System.Net.Sockets.SafeSocketHandle
-struct SafeSocketHandle_t5050671179FB886DA1763A0E4EFB3FCD072363C9  : public SafeHandleZeroOrMinusOneIsInvalid_t0C690C7DC958D0C04E529E2BB0F6569956328B45
+struct SafeSocketHandle_t5050671179FB886DA1763A0E4EFB3FCD072363C9  : public SafeHandleMinusOneIsInvalid_t542F86CD15E22E871D725A162DF6EE305850ABC6
 {
 public:
 	// System.Collections.Generic.List`1<System.Threading.Thread> System.Net.Sockets.SafeSocketHandle::blocking_threads
@@ -9149,8 +9149,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m2CD22B92BC86D731EC55
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m65D1D384B19FD8F7BD8BC71EE2B75E00488853DB (RuntimeObject* ___provider0, String_t* ___format1, RuntimeObject * ___arg02, const RuntimeMethod* method);
 // System.String System.String::Format(System.IFormatProvider,System.String,System.Object,System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m061EEC38D33A13CC1E98DBD6869E97A0C2989F88 (RuntimeObject* ___provider0, String_t* ___format1, RuntimeObject * ___arg02, RuntimeObject * ___arg13, const RuntimeMethod* method);
-// System.Void Microsoft.Win32.SafeHandles.SafeHandleZeroOrMinusOneIsInvalid::.ctor(System.Boolean)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SafeHandleZeroOrMinusOneIsInvalid__ctor_m2F9172D39B936E24C9E1772C6DC583CC889A3312 (SafeHandleZeroOrMinusOneIsInvalid_t0C690C7DC958D0C04E529E2BB0F6569956328B45 * __this, bool ___ownsHandle0, const RuntimeMethod* method);
+// System.Void Microsoft.Win32.SafeHandles.SafeHandleMinusOneIsInvalid::.ctor(System.Boolean)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SafeHandleMinusOneIsInvalid__ctor_mB312D95D8A092B2E9D4940E8AD1D55360A6A0FFA (SafeHandleMinusOneIsInvalid_t542F86CD15E22E871D725A162DF6EE305850ABC6 * __this, bool ___ownsHandle0, const RuntimeMethod* method);
 // System.Void System.Runtime.InteropServices.SafeHandle::SetHandle(System.IntPtr)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void SafeHandle_SetHandle_m3727BDA5C26E0220FA7BBE73C9E662774F5F1664_inline (SafeHandle_tC07DCA2CABF6988953342757EFB1547363E5A36B * __this, intptr_t ___handle0, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.Dictionary`2<System.Threading.Thread,System.Diagnostics.StackTrace>::.ctor()
@@ -28901,7 +28901,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void SafeSocketHandle__ctor_m98BFBB207C9D8D77
 	StackTraceSentry _stackTraceSentry(SafeSocketHandle__ctor_m98BFBB207C9D8D7750DEA3598051D21FFE784967_RuntimeMethod_var);
 	{
 		bool L_0 = ___ownsHandle1;
-		SafeHandleZeroOrMinusOneIsInvalid__ctor_m2F9172D39B936E24C9E1772C6DC583CC889A3312(__this, L_0, /*hidden argument*/NULL);
+		SafeHandleMinusOneIsInvalid__ctor_mB312D95D8A092B2E9D4940E8AD1D55360A6A0FFA(__this, L_0, /*hidden argument*/NULL);
 		intptr_t L_1 = ___preexistingHandle0;
 		SafeHandle_SetHandle_m3727BDA5C26E0220FA7BBE73C9E662774F5F1664_inline(__this, (intptr_t)L_1, /*hidden argument*/NULL);
 		IL2CPP_RUNTIME_CLASS_INIT(SafeSocketHandle_t5050671179FB886DA1763A0E4EFB3FCD072363C9_il2cpp_TypeInfo_var);

@@ -1160,8 +1160,8 @@ extern void Texture2D_GetPixelBilinearImpl_m6FF35D87E48B444676F1B190F488AA8FF8F2
 extern void Texture2D_ResizeWithFormatImpl_m0A2C1EDF44282998B107D541509BD196AEBF65C6 (void);
 // 0x00000264 System.Void UnityEngine.Texture2D::SetPixelsImpl(System.Int32,System.Int32,System.Int32,System.Int32,UnityEngine.Color[],System.Int32,System.Int32)
 extern void Texture2D_SetPixelsImpl_m6F5B06278B956BFCCF360B135F73B19D4648AE92 (void);
-// 0x00000265 System.Boolean UnityEngine.Texture2D::LoadRawTextureDataImpl(System.IntPtr,System.Int32)
-extern void Texture2D_LoadRawTextureDataImpl_m62693BD5CB00C42253A640095380ED8892278D5D (void);
+// 0x00000265 System.Boolean UnityEngine.Texture2D::LoadRawTextureDataImpl(System.IntPtr,System.UInt64)
+extern void Texture2D_LoadRawTextureDataImpl_mA2B05049EA0592A0B304793874F201C7C7D5CC2E (void);
 // 0x00000266 System.Boolean UnityEngine.Texture2D::LoadRawTextureDataImplArray(System.Byte[])
 extern void Texture2D_LoadRawTextureDataImplArray_m1466F03F81A7FE4AA81F45B7EF388969753F1D85 (void);
 // 0x00000267 System.Byte[] UnityEngine.Texture2D::GetRawTextureData()
@@ -4371,7 +4371,7 @@ static Il2CppMethodPointer s_methodPointers[1986] =
 	Texture2D_GetPixelBilinearImpl_m6FF35D87E48B444676F1B190F488AA8FF8F2E561,
 	Texture2D_ResizeWithFormatImpl_m0A2C1EDF44282998B107D541509BD196AEBF65C6,
 	Texture2D_SetPixelsImpl_m6F5B06278B956BFCCF360B135F73B19D4648AE92,
-	Texture2D_LoadRawTextureDataImpl_m62693BD5CB00C42253A640095380ED8892278D5D,
+	Texture2D_LoadRawTextureDataImpl_mA2B05049EA0592A0B304793874F201C7C7D5CC2E,
 	Texture2D_LoadRawTextureDataImplArray_m1466F03F81A7FE4AA81F45B7EF388969753F1D85,
 	Texture2D_GetRawTextureData_m60C0B5EF034F31FE1824B31AC1DE71042E2ACB55,
 	Texture2D_GetPixels32_mA4E2C09B4077716ECEFC0162ABEB8C3A66F623FA,
@@ -6899,7 +6899,7 @@ static const int32_t s_InvokerIndices[1986] =
 	291,
 	274,
 	81,
-	965,
+	966,
 	1886,
 	3177,
 	2312,
@@ -8570,8 +8570,7 @@ static const Il2CppRGCTXDefinition s_rgctxValues[215] =
 extern const CustomAttributesCacheGenerator g_UnityEngine_CoreModule_AttributeGenerators[];
 static TypeDefinitionIndex s_staticConstructorsToRunAtStartup[10] = 
 {
-	2131,
-	2289,
+	2132,
 	2290,
 	2291,
 	2292,
@@ -8579,6 +8578,7 @@ static TypeDefinitionIndex s_staticConstructorsToRunAtStartup[10] =
 	2294,
 	2295,
 	2296,
+	2297,
 	0,
 };
 IL2CPP_EXTERN_C const Il2CppCodeGenModule g_UnityEngine_CoreModule_CodeGenModule;

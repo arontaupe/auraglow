@@ -1,5 +1,5 @@
 ----IL2CPP Arguments----
---convert-to-cpp --emit-null-checks --enable-stacktrace --enable-array-bounds-check --dotnetprofile=unityaot --compile-cpp --libil2cpp-static --platform=Lumin --architecture=ARM64 --configuration=Release --outputpath=/Users/aron/auraglow/Library/Il2cppBuildCache/Lumin/Native/libil2cpp.so --cachedirectory=/Users/aron/auraglow/Assets/../Library/il2cpp_cache/il2cpp_cache --baselib-directory=/Applications/Unity/Hub/Editor/2020.3.42f1/PlaybackEngines/LuminSupport/Variations/il2cpp/Release/arm64 --avoid-dynamic-library-copy --verbose --enable-stats --stats-output-dir=/Users/aron/auraglow/Assets/../Library/il2cpp_stats --incremental-g-c-time-slice=3 --profiler-report --map-file-parser=/Applications/Unity/Hub/Editor/2020.3.42f1/Unity.app/Contents/Tools/MapFileParser/MapFileParser --directory=/Users/aron/auraglow/Temp/StagingArea/Data/Managed --generatedcppdir=/Users/aron/auraglow/Library/Il2cppBuildCache/Lumin/il2cppOutput --stats-output-dir=/Users/aron/auraglow/Library/Il2cppBuildCache/Lumin/il2cppStats
+--convert-to-cpp --emit-null-checks --enable-stacktrace --enable-array-bounds-check --dotnetprofile=unityaot --compile-cpp --libil2cpp-static --platform=Lumin --architecture=ARM64 --configuration=Release --outputpath=/Users/aron/auraglow/Library/Il2cppBuildCache/Lumin/Native/libil2cpp.so --cachedirectory=/Users/aron/auraglow/Assets/../Library/il2cpp_cache/il2cpp_cache --baselib-directory=/Applications/Unity/Hub/Editor/2020.3.44f1/PlaybackEngines/LuminSupport/Variations/il2cpp/Release/arm64 --avoid-dynamic-library-copy --verbose --enable-stats --stats-output-dir=/Users/aron/auraglow/Assets/../Library/il2cpp_stats --incremental-g-c-time-slice=3 --profiler-report --map-file-parser=/Applications/Unity/Hub/Editor/2020.3.44f1/Unity.app/Contents/Tools/MapFileParser/MapFileParser --directory=/Users/aron/auraglow/Temp/StagingArea/Data/Managed --generatedcppdir=/Users/aron/auraglow/Library/Il2cppBuildCache/Lumin/il2cppOutput --stats-output-dir=/Users/aron/auraglow/Library/Il2cppBuildCache/Lumin/il2cppStats
 
 ----Assemblies Converted-----
 	/Users/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.UnityAnalyticsModule.dll
@@ -55,53 +55,53 @@
 
 ----- il2cpp Statistics -----
 General:
-	Conversion Time: 19.464 s
+	Conversion Time: 11.979 s
 	Job Count: 8
 	Processor Count: 8
 	Files Written: 302
 	String Literals: 5830
 Methods:
-	Total Methods: 43769
-	Non-Generic Methods: 25065
+	Total Methods: 43772
+	Non-Generic Methods: 25068
 	Generic Type Methods: 15424
 	Generic Methods: 3280
 	Shared Methods: 18680
 	Methods with Tail Calls : 0
 Metadata:
-	Total: 3,339.29 kb
+	Total: 3,339.62 kb
 	String Literals: 45.55 kb
 	String Literal Data: 196.66 kb
-	Metadata Strings: 552.49 kb
+	Metadata Strings: 552.55 kb
 	Events: 6.47 kb
-	Properties: 89.65 kb
-	Methods: 862.19 kb
+	Properties: 89.67 kb
+	Methods: 862.28 kb
 	Parameter Default Values: 3.43 kb
 	Field Default Values: 71.71 kb
 	Field and Parameter Default Values Data: 82.79 kb
-	Field Marshaled Sizes: 15.32 kb
-	Parameters: 360.15 kb
-	Fields: 214.42 kb
+	Field Marshaled Sizes: 15.33 kb
+	Parameters: 360.16 kb
+	Fields: 214.41 kb
 	Generic Parameters: 15.00 kb
 	Generic Parameter Constraints: 0.59 kb
 	Generic Containers: 8.98 kb
 	Nested Types: 7.38 kb
 	Interfaces: 4.72 kb
-	VTables: 182.64 kb
-	Interface Offsets: 34.50 kb
-	Type Definitions: 413.96 kb
+	VTables: 182.67 kb
+	Interface Offsets: 34.51 kb
+	Type Definitions: 414.05 kb
 	Images: 1.95 kb
 	Assemblies: 3.12 kb
 	Field Refs: 0.91 kb
 	Referenced Assemblies: 1.05 kb
-	Attribute Types Ranges: 90.83 kb
-	Attribute Types: 55.67 kb
+	Attribute Types Ranges: 90.84 kb
+	Attribute Types: 55.68 kb
 	Unresolved Virtual Call Parameter Types: 8.39 kb
 	Unresolved Virtual Call Parameter Ranges: 5.33 kb
 	Windows Runtime type names: 0.00 kb
 	Windows Runtime strings: 0.00 kb
 	Exported Types: 3.44 kb
 Codegen:
-	NullChecks : 72465
+	NullChecks : 72462
 Interop:
 	Windows Runtime boxed types : 0
 	Windows Runtime types with names : 0
@@ -113,9 +113,9 @@ Interop:
 	COM callable wrapper methods that were forwarded to call base class method : 0
 Compilation:
 	Total Files: 334
-	Files Compiled: 5
-	Cache Hits: 329
-	Cache Hit %: 98
+	Files Compiled: 2
+	Cache Hits: 332
+	Cache Hit %: 99
 
 
 ----Assembly Conversion Times----
@@ -128,16 +128,16 @@ Compilation:
 
 ----Generated Files----
 Assembly-CSharp_Attr.cpp	464398
-Assembly-CSharp.cpp	2497447
-Assembly-CSharp1.cpp	2150456
-Assembly-CSharp2.cpp	2994994
-Assembly-CSharp3.cpp	1436492
+Assembly-CSharp.cpp	2495439
+Assembly-CSharp1.cpp	2151020
+Assembly-CSharp2.cpp	2995558
+Assembly-CSharp3.cpp	1437056
 GenericMethods.cpp	2843580
 GenericMethods1.cpp	2707110
 GenericMethods2.cpp	3522733
 GenericMethods3.cpp	2548583
 GenericMethods4.cpp	2760952
-GenericMethods5.cpp	3579828
+GenericMethods5.cpp	3580401
 Generics.cpp	2815906
 Generics1.cpp	1983915
 Generics10.cpp	2483471
@@ -164,12 +164,12 @@ Generics6.cpp	1700771
 Generics7.cpp	1745629
 Generics8.cpp	4995852
 Generics9.cpp	2760436
-Il2CppCCalculateFieldValues.cpp	7756349
-Il2CppCCalculateFieldValues1.cpp	3572033
-Il2CppCCalculateTypeValues.cpp	9249972
-Il2CppCCalculateTypeValues1.cpp	1565282
-Il2CppCCFieldValuesTable.cpp	256676
-Il2CppCCTypeValuesTable.cpp	455597
+Il2CppCCalculateFieldValues.cpp	7757223
+Il2CppCCalculateFieldValues1.cpp	3571203
+Il2CppCCalculateTypeValues.cpp	9249630
+Il2CppCCalculateTypeValues1.cpp	1565973
+Il2CppCCFieldValuesTable.cpp	256683
+Il2CppCCTypeValuesTable.cpp	455692
 Il2CppCodeRegistration.cpp	7895
 Il2CppGenericAdjustorThunkTable.cpp	840463
 Il2CppGenericComDefinitions.cpp	153
@@ -231,37 +231,37 @@ Il2CppGenericComDefinitions8.cpp	153
 Il2CppGenericComDefinitions9.cpp	153
 Il2CppGenericMethodPointerTable.cpp	4598020
 Il2CppInteropDataTable.cpp	406414
-Il2CppInvokerTable.cpp	6299340
+Il2CppInvokerTable.cpp	6299344
 Il2CppReversePInvokeWrapperTable.cpp	49000
 LuminUnity_Attr.cpp	1349364
-LuminUnity.cpp	3271255
-LuminUnity1.cpp	3252141
+LuminUnity.cpp	3271819
+LuminUnity1.cpp	3252705
 LuminUnity2.cpp	2665538
-LuminUnity3.cpp	3097087
+LuminUnity3.cpp	3097651
 LuminUnity4.cpp	3708852
-LuminUnity5.cpp	3716831
+LuminUnity5.cpp	3717395
 LuminUnity6.cpp	3466414
 LuminUnity7.cpp	2135945
 Mono.Security_Attr.cpp	32830
 Mono.Security.cpp	149037
-mscorlib_Attr.cpp	913133
+mscorlib_Attr.cpp	913819
 mscorlib.cpp	2408416
 mscorlib1.cpp	2608682
-mscorlib10.cpp	2149249
-mscorlib11.cpp	1946300
-mscorlib12.cpp	1622728
+mscorlib10.cpp	2144804
+mscorlib11.cpp	1954202
+mscorlib12.cpp	1622746
 mscorlib13.cpp	2283556
 mscorlib14.cpp	2210663
-mscorlib15.cpp	1674063
+mscorlib15.cpp	1673976
 mscorlib16.cpp	2295586
 mscorlib17.cpp	1393979
 mscorlib2.cpp	2236076
-mscorlib3.cpp	2197514
+mscorlib3.cpp	2197551
 mscorlib4.cpp	2393103
 mscorlib5.cpp	2362223
 mscorlib6.cpp	2382735
 mscorlib7.cpp	2355667
-mscorlib8.cpp	1965413
+mscorlib8.cpp	1965690
 mscorlib9.cpp	2474510
 System_Attr.cpp	123446
 System.Configuration_Attr.cpp	47781
@@ -271,11 +271,11 @@ System.Core.cpp	2807173
 System.Core1.cpp	2711279
 System.Core2.cpp	2783781
 System.Core3.cpp	984348
-System.cpp	1577438
+System.cpp	1577531
 System.Xml_Attr.cpp	52284
 System.Xml.cpp	5978
-System1.cpp	1644206
-System2.cpp	1276188
+System1.cpp	1644152
+System2.cpp	1276098
 System3.cpp	890230
 Unity.MagicLeap.Samples.InputProviders_Attr.cpp	19479
 Unity.MagicLeap.Samples.InputProviders.cpp	188795
@@ -284,12 +284,12 @@ Unity.MagicLeap.Samples.Rendering.cpp	18748
 Unity.Subsystem.Registration_Attr.cpp	10972
 Unity.Subsystem.Registration.cpp	39836
 Unity.TextMeshPro_Attr.cpp	255771
-Unity.TextMeshPro.cpp	2757716
-Unity.TextMeshPro1.cpp	2336352
-Unity.TextMeshPro2.cpp	3567346
-Unity.TextMeshPro3.cpp	2648134
-Unity.TextMeshPro4.cpp	2040307
-Unity.TextMeshPro5.cpp	1231902
+Unity.TextMeshPro.cpp	2758289
+Unity.TextMeshPro1.cpp	2336925
+Unity.TextMeshPro2.cpp	3567929
+Unity.TextMeshPro3.cpp	2648712
+Unity.TextMeshPro4.cpp	2040885
+Unity.TextMeshPro5.cpp	1232475
 Unity.XR.ARSubsystems_Attr.cpp	130416
 Unity.XR.ARSubsystems.cpp	891971
 Unity.XR.InteractionSubsystems_Attr.cpp	18360
@@ -307,9 +307,9 @@ UnityEngine.AssetBundleModule_Attr.cpp	84591
 UnityEngine.AssetBundleModule.cpp	38331
 UnityEngine.AudioModule_Attr.cpp	149156
 UnityEngine.AudioModule.cpp	168533
-UnityEngine.CoreModule_Attr.cpp	1122674
+UnityEngine.CoreModule_Attr.cpp	1122785
 UnityEngine.CoreModule.cpp	2545476
-UnityEngine.CoreModule1.cpp	2724713
+UnityEngine.CoreModule1.cpp	2725295
 UnityEngine.CoreModule2.cpp	226309
 UnityEngine.cpp	781
 UnityEngine.DirectorModule_Attr.cpp	89171
@@ -349,10 +349,10 @@ UnityEngine.TextRenderingModule.cpp	232377
 UnityEngine.TilemapModule_Attr.cpp	122307
 UnityEngine.TilemapModule.cpp	111964
 UnityEngine.UI_Attr.cpp	342757
-UnityEngine.UI.cpp	2599167
-UnityEngine.UI1.cpp	1694807
-UnityEngine.UI2.cpp	2100033
-UnityEngine.UI3.cpp	1624247
+UnityEngine.UI.cpp	2531580
+UnityEngine.UI1.cpp	1637005
+UnityEngine.UI2.cpp	2210820
+UnityEngine.UI3.cpp	1624811
 UnityEngine.UIElementsNativeModule_Attr.cpp	104845
 UnityEngine.UIElementsNativeModule.cpp	116251
 UnityEngine.UIModule_Attr.cpp	127187
