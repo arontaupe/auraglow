@@ -13,8 +13,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638071514320000000
-    m_Hash: 3186338565
+      ticks: 638103295850000000
+    m_Hash: 3880415088
 m_EmbeddedPackageManifests:
   m_ManifestsStatus:
     /Users/aron/auraglow/Packages/com.magicleap.unitysdk/package.json:
@@ -77,7 +77,7 @@ m_PackageAssets:
       - name: com.unity.modules.imgui
         version: 1.0.0
       - name: com.unity.xr.arsubsystems
-        version: 4.1.12
+        version: 4.1.13
       - name: com.unity.subsystemregistration
         version: 1.1.0
       - name: com.unity.xr.interactionsubsystems
@@ -956,7 +956,7 @@ m_PackageAssets:
       - name: com.unity.modules.imgui
         version: 1.0.0
       - name: com.unity.xr.arsubsystems
-        version: 4.1.12
+        version: 4.1.13
       - name: com.unity.subsystemregistration
         version: 1.1.0
       - name: com.unity.xr.interactionsubsystems
@@ -2768,12 +2768,12 @@ m_PackageAssets:
         url: 
         revision: 
         path: 
-    - packageId: com.unity.xr.arsubsystems@4.1.12
+    - packageId: com.unity.xr.arsubsystems@4.1.13
       testable: 0
       isDirectDependency: 0
-      version: 4.1.12
+      version: 4.1.13
       source: 1
-      resolvedPath: /Users/aron/auraglow/Library/PackageCache/com.unity.xr.arsubsystems@4.1.12
+      resolvedPath: /Users/aron/auraglow/Library/PackageCache/com.unity.xr.arsubsystems@4.1.13
       assetPath: Packages/com.unity.xr.arsubsystems
       name: com.unity.xr.arsubsystems
       displayName: AR Subsystems
@@ -2869,7 +2869,6 @@ m_PackageAssets:
         - 5.0.0-pre.13
         - 5.0.2
         compatible:
-        - 4.1.12
         - 4.1.13
         - 4.2.0-pre.2
         - 4.2.0-pre.3
@@ -2914,13 +2913,13 @@ m_PackageAssets:
       entitlements:
         isAllowed: 1
       isAssetStorePackage: 0
-      datePublishedTicks: 637986083480000000
+      datePublishedTicks: 638034141310000000
       documentationUrl: 
       hasRepository: 1
       repository:
         type: git
         url: https://github.cds.internal.unity3d.com/unity/arfoundation.git
-        revision: db4f6900632a046ea7d74fe28a424c4b5a2279bb
+        revision: 573f8ecf0267d568d1fd82da282e579932156999
         path: 
     - packageId: com.unity.xr.interactionsubsystems@1.0.1
       testable: 0
@@ -3071,7 +3070,7 @@ m_PackageAssets:
         - 4.2.0
         - 4.2.1
         - 4.3.1
-        verified: 4.2.1
+        verified: 4.3.1
       dependencies:
       - name: com.unity.modules.subsystems
         version: 1.0.0
@@ -3373,4 +3372,4 @@ m_PackageAssets:
         ticks: 0
       m_Hash: 0
 m_ProjectPath: /Users/aron/auraglow/Packages
-m_EditorVersion: 2020.3.42f1 (7ade1201f527)
+m_EditorVersion: 2020.3.44f1 (7f159b6136da)
