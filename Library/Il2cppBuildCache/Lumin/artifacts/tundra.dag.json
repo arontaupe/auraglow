@@ -18,6 +18,7 @@
       "DebugActionIndex": 0
     },
     {
+<<<<<<< Updated upstream
       "Annotation": "Il2Cpp /Users/aron/auraglow/Library/Il2cppBuildCache/Lumin/Native/libil2cpp.so",
       "Action": "\"/Applications/Unity/Hub/Editor/2020.3.44f1/Unity.app/Contents/il2cpp/build/deploy/netcoreapp3.1/il2cpp\" --convert-to-cpp --emit-null-checks --enable-stacktrace --enable-array-bounds-check --dotnetprofile=\"unityaot\" --compile-cpp --libil2cpp-static --platform=\"Lumin\" --architecture=\"ARM64\" --configuration=\"Release\" --outputpath=\"/Users/aron/auraglow/Library/Il2cppBuildCache/Lumin/Native/libil2cpp.so\" --cachedirectory=\"/Users/aron/auraglow/Assets/../Library/il2cpp_cache/il2cpp_cache\" --baselib-directory=\"/Applications/Unity/Hub/Editor/2020.3.44f1/PlaybackEngines/LuminSupport/Variations/il2cpp/Release/arm64\" --avoid-dynamic-library-copy --verbose --enable-stats --stats-output-dir=\"/Users/aron/auraglow/Assets/../Library/il2cpp_stats\" --incremental-g-c-time-slice=3 --profiler-report --map-file-parser=\"/Applications/Unity/Hub/Editor/2020.3.44f1/Unity.app/Contents/Tools/MapFileParser/MapFileParser\" --directory=\"/Users/aron/auraglow/Temp/StagingArea/Data/Managed\" --generatedcppdir=\"/Users/aron/auraglow/Library/Il2cppBuildCache/Lumin/il2cppOutput\" --stats-output-dir=\"/Users/aron/auraglow/Library/Il2cppBuildCache/Lumin/il2cppStats\"",
       "Inputs": [
@@ -75,9 +76,68 @@
         "/Applications/Unity/Hub/Editor/2020.3.44f1/Unity.app/Contents/Tools/MapFileParser/MapFileParser",
         "/Applications/Unity/Hub/Editor/2020.3.44f1/PlaybackEngines/LuminSupport/Variations/il2cpp/Release/arm64/baselib.a",
         "\"/Applications/Unity/Hub/Editor/2020.3.44f1/Unity.app/Contents/il2cpp/build/deploy/netcoreapp3.1/il2cpp\""
+=======
+      "Annotation": "Il2Cpp C:/Users/Marc1/Documents/GitHub/aron/auraglow/Library/Il2cppBuildCache/Lumin/Native/libil2cpp.so",
+      "Action": "\"C:\\Program Files\\Unity\\Hub\\Editor\\2020.3.44f1\\Editor\\Data\\il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\" --convert-to-cpp --emit-null-checks --enable-stacktrace --enable-array-bounds-check --dotnetprofile=\"unityaot\" --compile-cpp --libil2cpp-static --platform=\"Lumin\" --architecture=\"ARM64\" --configuration=\"Release\" --outputpath=\"C:\\Users\\Marc1\\Documents\\GitHub\\aron\\auraglow\\Library/Il2cppBuildCache/Lumin\\Native\\libil2cpp.so\" --cachedirectory=\"C:\\Users\\Marc1\\Documents\\GitHub\\aron\\auraglow\\Assets\\..\\Library\\il2cpp_cache/il2cpp_cache\" --baselib-directory=\"C:/Program Files/Unity/Hub/Editor/2020.3.44f1/Editor/Data/PlaybackEngines/LuminSupport\\Variations/il2cpp/Release/arm64\" --avoid-dynamic-library-copy --verbose --enable-stats --stats-output-dir=\"C:/Users/Marc1/Documents/GitHub/aron/auraglow/Assets/../Library/il2cpp_stats\" --incremental-g-c-time-slice=3 --profiler-report --map-file-parser=\"C:/Program Files/Unity/Hub/Editor/2020.3.44f1/Editor/Data/Tools/MapFileParser/MapFileParser.exe\" --directory=C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed --generatedcppdir=C:/Users/Marc1/Documents/GitHub/aron/auraglow/Library/Il2cppBuildCache/Lumin/il2cppOutput --stats-output-dir=C:/Users/Marc1/Documents/GitHub/aron/auraglow/Library/Il2cppBuildCache/Lumin/il2cppStats",
+      "Inputs": [
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/Assembly-CSharp.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/LuminUnity.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/Mono.Security.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/mscorlib.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/System.Configuration.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/System.Core.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/System.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/System.Xml.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/Unity.MagicLeap.Samples.InputProviders.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/Unity.MagicLeap.Samples.Rendering.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/Unity.Subsystem.Registration.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/Unity.TextMeshPro.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/Unity.XR.ARSubsystems.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/Unity.XR.InteractionSubsystems.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/Unity.XR.Management.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.AIModule.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.AndroidJNIModule.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.AnimationModule.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.AssetBundleModule.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.AudioModule.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.CoreModule.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.DirectorModule.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.GridModule.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.IMGUIModule.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.InputLegacyModule.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.InputModule.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.JSONSerializeModule.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.LuminModule.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.ParticleSystemModule.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.Physics2DModule.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.PhysicsModule.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.SharedInternalsModule.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.SpatialTracking.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.SpriteShapeModule.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.SubsystemsModule.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.TerrainModule.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.TextCoreModule.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.TextRenderingModule.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.TilemapModule.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.UI.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.UIElementsNativeModule.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.UIModule.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.UnityAnalyticsModule.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.UnityWebRequestModule.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.VFXModule.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.VideoModule.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.VRModule.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.XR.MagicLeap.dll",
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/UnityEngine.XRModule.dll",
+        "C:/Program Files/Unity/Hub/Editor/2020.3.44f1/Editor/Data/Tools/MapFileParser/MapFileParser.exe",
+        "C:/Program Files/Unity/Hub/Editor/2020.3.44f1/Editor/Data/PlaybackEngines/LuminSupport/Variations/il2cpp/Release/arm64/baselib.a",
+        "\"C:/Program Files/Unity/Hub/Editor/2020.3.44f1/Editor/Data/il2cpp/build/deploy/netcoreapp3.1/il2cpp.exe\""
+>>>>>>> Stashed changes
       ],
       "Outputs": [
-        "/Users/aron/auraglow/Library/Il2cppBuildCache/Lumin/Native/libil2cpp.so"
+        "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Library/Il2cppBuildCache/Lumin/Native/libil2cpp.so"
       ],
       "TargetDirectories": [],
       "PassIndex": 0,
@@ -92,10 +152,14 @@
   ],
   "FileSignatures": [
     {
+<<<<<<< Updated upstream
       "File": "../../../../../../Applications/Unity/Hub/Editor/2020.3.44f1/PlaybackEngines/LuminSupport/Variations/il2cpp/Release/arm64"
     },
     {
       "File": "../../../../Library"
+=======
+      "File": "../../../../../../../../../Program Files/Unity/Hub/Editor/2020.3.44f1/Editor/Data/PlaybackEngines/LuminSupport/Variations/il2cpp/Release/arm64"
+>>>>>>> Stashed changes
     },
     {
       "File": "../../../Temp/StagingArea/Data/Managed"
@@ -115,7 +179,11 @@
       "Path": "../../../Temp/StagingArea/Data/Managed"
     },
     {
+<<<<<<< Updated upstream
       "Path": "../../../../../../Applications/Unity/Hub/Editor/2020.3.44f1/PlaybackEngines/LuminSupport/Variations/il2cpp/Release/arm64",
+=======
+      "Path": "../../../../../../../../../Program Files/Unity/Hub/Editor/2020.3.44f1/Editor/Data/PlaybackEngines/LuminSupport/Variations/il2cpp/Release/arm64",
+>>>>>>> Stashed changes
       "Recurse": 1
     }
   ],

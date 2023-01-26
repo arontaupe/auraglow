@@ -28,7 +28,11 @@ const Il2CppMetadataRegistration g_MetadataRegistration =
 	g_Il2CppGenericInstTable,
 	21384,
 	g_Il2CppGenericMethodFunctions,
+<<<<<<< Updated upstream
 	12552,
+=======
+	12550,
+>>>>>>> Stashed changes
 	g_Il2CppTypeTable,
 	22792,
 	g_Il2CppMethodSpecTable,

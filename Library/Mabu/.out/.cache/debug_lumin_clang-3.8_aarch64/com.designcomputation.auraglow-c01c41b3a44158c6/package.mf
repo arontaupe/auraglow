@@ -1,0 +1,416 @@
+{
+ "entries": [
+  {
+   "compression": 8,
+   "hash": "ac8bc8afd31b150cea2409c19b94800e995b3f6d",
+   "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
+   "size": 3419080,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "9d84bb4e00c9d3456ebe8a995cbaf4e85dc12096",
+   "pkgpath": "bin/libil2cpp.so",
+   "size": 66612408,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Native/libil2cpp.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\Marc1\\Documents\\GitHub\\aron\\auraglow\\auraglow.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "dcb003fd3066856cf25752054eb3079f9a8161c9",
+   "xfrm_path": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.designcomputation.auraglow-c01c41b3a44158c6\\libil2cpp.so-cbe464f5574278ca",
+   "xfrm_size": 66613166
+  },
+  {
+   "compression": 8,
+   "hash": "5a26e2b548442557439e1ac426928512bb560fa2",
+   "pkgpath": "bin/UnityMagicLeap.so",
+   "size": 3981624,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Plugins/UnityMagicLeap.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\Marc1\\Documents\\GitHub\\aron\\auraglow\\auraglow.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "df624884f50961dbec89c5a25639f7c36f454864",
+   "xfrm_path": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.designcomputation.auraglow-c01c41b3a44158c6\\UnityMagicLeap.so-05542007d2ee6c58",
+   "xfrm_size": 3982382
+  },
+  {
+   "compression": 8,
+   "hash": "945947c240a70d048c370a4fa6b0dd415d6c3aab",
+   "pkgpath": "bin/libml_bluetoothle_plugin.so",
+   "size": 14136,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Plugins/libml_bluetoothle_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\Marc1\\Documents\\GitHub\\aron\\auraglow\\auraglow.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "be425d748a028aec73751e9c518fde9abaf825f9",
+   "xfrm_path": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.designcomputation.auraglow-c01c41b3a44158c6\\libml_bluetoothle_plugin.so-05542007d2ee6c58",
+   "xfrm_size": 14894
+  },
+  {
+   "compression": 8,
+   "hash": "bf7cac7093aef625f10e45548eabd2b4d3e5472a",
+   "pkgpath": "bin/libml_camera_plugin.so",
+   "size": 14184,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Plugins/libml_camera_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\Marc1\\Documents\\GitHub\\aron\\auraglow\\auraglow.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "61d148aa17814a3502ea51f692fc3f9829131be5",
+   "xfrm_path": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.designcomputation.auraglow-c01c41b3a44158c6\\libml_camera_plugin.so-05542007d2ee6c58",
+   "xfrm_size": 14942
+  },
+  {
+   "compression": 8,
+   "hash": "8d79ebf2b331aa9a6dafd21130fc2eea9d604408",
+   "pkgpath": "bin/libml_mediaplayer_plugin.so",
+   "size": 67616,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Plugins/libml_mediaplayer_plugin.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\Marc1\\Documents\\GitHub\\aron\\auraglow\\auraglow.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "5eff15c7fc2c19bdaf5eba47e79ccddfa53cd6fe",
+   "xfrm_path": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.designcomputation.auraglow-c01c41b3a44158c6\\libml_mediaplayer_plugin.so-05542007d2ee6c58",
+   "xfrm_size": 68374
+  },
+  {
+   "compression": 8,
+   "hash": "e6124da6073b916e29e013cf3ae3f58a4c5fdb0e",
+   "pkgpath": "Data/Resources/mscorlib.dll-resources.dat",
+   "size": 337563,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Resources/mscorlib.dll-resources.dat"
+  },
+  {
+   "compression": 8,
+   "hash": "66d849c70aa75c30c711d6a9954f7dd2305c8851",
+   "pkgpath": "Data/Resources/unity default resources",
+   "size": 4040832,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Resources/unity default resources"
+  },
+  {
+   "compression": 8,
+   "hash": "9e884135acbcb08014d53416d360a7a619e63e8d",
+   "pkgpath": "Data/Resources/unity_builtin_extra",
+   "size": 657576,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Resources/unity_builtin_extra"
+  },
+  {
+   "compression": 8,
+   "hash": "b7650b93627286aaffc5fabb67448cd242200376",
+   "pkgpath": "Data/RuntimeInitializeOnLoads.json",
+   "size": 1548,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/RuntimeInitializeOnLoads.json"
+  },
+  {
+   "compression": 8,
+   "hash": "7bc530373219eb4327477b87ef777623f7c85de6",
+   "pkgpath": "Data/ScriptingAssemblies.json",
+   "size": 2849,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/ScriptingAssemblies.json"
+  },
+  {
+   "compression": 8,
+   "hash": "778891100a8030ad6096db64784c6e5d67c28378",
+   "pkgpath": "Data/UnitySubsystems/UnityMagicLeap/UnitySubsystemsManifest.json",
+   "size": 417,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/UnitySubsystems/UnityMagicLeap/UnitySubsystemsManifest.json"
+  },
+  {
+   "compression": 8,
+   "hash": "4ee59e5921bfd8dcc0347cbbf587d6ca6b107f05",
+   "pkgpath": "Data/boot.config",
+   "size": 69,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/boot.config"
+  },
+  {
+   "compression": 8,
+   "hash": "f1d79b61d49a5a24901451609ad0a3b9fc67d993",
+   "pkgpath": "Data/globalgamemanagers",
+   "size": 64836,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/globalgamemanagers"
+  },
+  {
+   "compression": 8,
+   "hash": "a3147133a538e01a90b8fc4427efcd00c1ec2ea2",
+   "pkgpath": "Data/globalgamemanagers.assets",
+   "size": 117452,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/globalgamemanagers.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "71fa0c2ad70cfdf9b17b6c2e7370a8f5553617b7",
+   "pkgpath": "Data/globalgamemanagers.assets.resS",
+   "size": 2796224,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/globalgamemanagers.assets.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "a3aa89f24749570cd5a95b19fb7a2b17c72e7309",
+   "pkgpath": "Data/level0",
+   "size": 15876,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/level0"
+  },
+  {
+   "compression": 8,
+   "hash": "c77a24a974d1746525141bc4fa92926ee327c23c",
+   "pkgpath": "Data/level0.resS",
+   "size": 131232,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/level0.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "a25679bb59682787fa325cf31cad35eff2024d51",
+   "pkgpath": "Data/level1",
+   "size": 10448,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/level1"
+  },
+  {
+   "compression": 8,
+   "hash": "c77a24a974d1746525141bc4fa92926ee327c23c",
+   "pkgpath": "Data/level1.resS",
+   "size": 131232,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/level1.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "3234d72cde4f542bb56060fc2377a0ad254d7fcd",
+   "pkgpath": "Data/level2",
+   "size": 20244,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/level2"
+  },
+  {
+   "compression": 8,
+   "hash": "c77a24a974d1746525141bc4fa92926ee327c23c",
+   "pkgpath": "Data/level2.resS",
+   "size": 131232,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/level2.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "a26967f71ebe4e85c3c48a11b4eaaa8c32d7aa4d",
+   "pkgpath": "Data/level3",
+   "size": 12120,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/level3"
+  },
+  {
+   "compression": 8,
+   "hash": "c77a24a974d1746525141bc4fa92926ee327c23c",
+   "pkgpath": "Data/level3.resS",
+   "size": 131232,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/level3.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "31c12eb133c99ae2c53135ff6ffaceb4e948b202",
+   "pkgpath": "Data/level4",
+   "size": 12104,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/level4"
+  },
+  {
+   "compression": 8,
+   "hash": "c77a24a974d1746525141bc4fa92926ee327c23c",
+   "pkgpath": "Data/level4.resS",
+   "size": 131232,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/level4.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "537171796a91a40498ddd34c3436dc77a56dc648",
+   "pkgpath": "Data/level5",
+   "size": 16008,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/level5"
+  },
+  {
+   "compression": 8,
+   "hash": "c77a24a974d1746525141bc4fa92926ee327c23c",
+   "pkgpath": "Data/level5.resS",
+   "size": 131232,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/level5.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "117a78329267de079784dec713b96095fd0f3943",
+   "pkgpath": "Data/resources.assets",
+   "size": 761112,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/resources.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "35946c7be1030a83aa91e15bf53f5d377a107f06",
+   "pkgpath": "Data/resources.assets.resS",
+   "size": 1398128,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/resources.assets.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "47f05ada1f71f3314ab34ac76bff3c3896ddc372",
+   "pkgpath": "Data/sharedassets0.assets",
+   "size": 280932,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/sharedassets0.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "885610c49385c888ff64e6427c6807aa66250516",
+   "pkgpath": "Data/sharedassets0.assets.resS",
+   "size": 873920,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/sharedassets0.assets.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "2711af29b9be5b289f3b9cb51cd0f6769521641f",
+   "pkgpath": "Data/sharedassets1.assets",
+   "size": 15000160,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/sharedassets1.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "f6f21c91e23b57f8e4ae370e255a4732766c1261",
+   "pkgpath": "Data/sharedassets1.assets.resS",
+   "size": 262144,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/sharedassets1.assets.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "dd326a0cc18573dbd4d489fa7322ef200d17600c",
+   "pkgpath": "Data/sharedassets2.assets",
+   "size": 12031030,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/sharedassets2.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "9957ab31c0840315f9670ccf01a00924e8f691e0",
+   "pkgpath": "Data/sharedassets2.assets.resS",
+   "size": 699072,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/sharedassets2.assets.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "95eb60cc5eca1e67e9886d4f93d26a6066025ca9",
+   "pkgpath": "Data/sharedassets3.assets",
+   "size": 13092,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/sharedassets3.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "6ed83effdba538f227482db3240c3c8a84651162",
+   "pkgpath": "Data/sharedassets4.assets",
+   "size": 4565,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/sharedassets4.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "7054ec67d7502bcdf37880ba012c689cf16dcc55",
+   "pkgpath": "Data/sharedassets5.assets",
+   "size": 570740,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/sharedassets5.assets"
+  },
+  {
+   "compression": 8,
+   "hash": "3f8861522ff27cbeef9fc4e354afc4dfd0aa8929",
+   "pkgpath": "Data/sharedassets5.assets.resS",
+   "size": 22498144,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/sharedassets5.assets.resS"
+  },
+  {
+   "compression": 8,
+   "hash": "a54ecff47c5bc99af7065508946cb5f47c714525",
+   "pkgpath": "bin/Player.elf",
+   "size": 23167128,
+   "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Player.elf",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\Marc1\\Documents\\GitHub\\aron\\auraglow\\auraglow.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "ccce735f46d252737969496828fd3ace4444c98c",
+   "xfrm_path": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.designcomputation.auraglow-c01c41b3a44158c6\\Player.elf-43d7c082e2ef4917",
+   "xfrm_size": 23167886
+  },
+  {
+   "compression": 8,
+   "hash": "5925de9f4d7b83c65d1fd7b25ced5f0bf8c27e73",
+   "pkgpath": "bin/libc++_shared.so",
+   "size": 976832,
+   "src": "C:/Users/Marc1/MagicLeap/mlsdk/v0.26.0/lumin/stl/libc++/lib/libc++_shared.so",
+   "xfrm_flags": {
+    "signed": {
+     "cert": "C:\\Users\\Marc1\\Documents\\GitHub\\aron\\auraglow\\auraglow.cert"
+    },
+    "taildata": {
+     "debuggable": true,
+     "sbox": "USER",
+     "version": 3
+    }
+   },
+   "xfrm_hash": "957ec53aecf297f2c0623ac85dbf7e07a2de6a09",
+   "xfrm_path": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.designcomputation.auraglow-c01c41b3a44158c6\\libc++_shared.so-7f133171f96d7c49",
+   "xfrm_size": 977590
+  },
+  {
+   "compression": 8,
+   "hash": "d146093d9861f93d4477c4bee1aceeb9ac750654",
+   "pkgpath": "manifest.xml",
+   "size": 2866,
+   "src": "C:\\Users\\Marc1\\Documents\\GitHub\\aron\\auraglow\\Temp\\StagingArea\\manifest.xml",
+   "xfrm_flags": {
+    "manifest": {
+     "cert_hash": "0521c7c0359dceeaedbc6911c971da92e7b935fd",
+     "developer_id": "9b39936b-5c2a-4815-9fa9-75a4acd5e13c"
+    }
+   },
+   "xfrm_hash": "33adfa722b5c3f2cd6ef109e95e5fd3ccfd7f9e8",
+   "xfrm_path": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.designcomputation.auraglow-c01c41b3a44158c6\\manifest.xml-43d7c082e2ef4917",
+   "xfrm_size": 2878
+  }
+ ],
+ "pkgflags": {
+  "signed": {
+   "cert": "C:\\Users\\Marc1\\Documents\\GitHub\\aron\\auraglow\\auraglow.cert"
+  },
+  "taildata": {
+   "debuggable": true,
+   "devcert": "C:\\Users\\Marc1\\Documents\\GitHub\\aron\\auraglow\\auraglow.cert",
+   "sbox": "USER",
+   "version": 3
+  }
+ }
+}

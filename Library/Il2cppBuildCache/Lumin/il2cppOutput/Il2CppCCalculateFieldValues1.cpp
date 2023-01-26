@@ -39944,156 +39944,6 @@ public:
 };
 
 
-// AuraControl
-struct AuraControl_tE5CC119587856D9332CA4A1913A3BAC1E8722F80  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
-{
-public:
-	// UnityEngine.Material[] AuraControl::_auraMat
-	MaterialU5BU5D_t3AE4936F3CA08FB9EE182A935E665EA9CDA5E492* ____auraMat_4;
-	// UnityEngine.Color AuraControl::_AuraColor
-	Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  ____AuraColor_5;
-	// UnityEngine.Color AuraControl::_RimColor
-	Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  ____RimColor_6;
-	// UnityEngine.Texture2D AuraControl::_noiseTexture
-	Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF * ____noiseTexture_7;
-	// System.Single AuraControl::_auraWidth
-	float ____auraWidth_8;
-	// System.Single AuraControl::_AuraZ
-	float ____AuraZ_9;
-	// System.Single AuraControl::_noiseScale
-	float ____noiseScale_10;
-	// System.Single AuraControl::_speedX
-	float ____speedX_11;
-	// System.Single AuraControl::_speedY
-	float ____speedY_12;
-	// System.Single AuraControl::_noiseOpacity
-	float ____noiseOpacity_13;
-	// System.Single AuraControl::_brightness
-	float ____brightness_14;
-	// System.Single AuraControl::_rimEdge
-	float ____rimEdge_15;
-	// System.Single AuraControl::_rimPower
-	float ____rimPower_16;
-	// System.Boolean AuraControl::_editMode
-	bool ____editMode_17;
-
-public:
-	inline static int32_t get_offset_of__auraMat_4() { return static_cast<int32_t>(offsetof(AuraControl_tE5CC119587856D9332CA4A1913A3BAC1E8722F80, ____auraMat_4)); }
-	inline MaterialU5BU5D_t3AE4936F3CA08FB9EE182A935E665EA9CDA5E492* get__auraMat_4() const { return ____auraMat_4; }
-	inline MaterialU5BU5D_t3AE4936F3CA08FB9EE182A935E665EA9CDA5E492** get_address_of__auraMat_4() { return &____auraMat_4; }
-	inline void set__auraMat_4(MaterialU5BU5D_t3AE4936F3CA08FB9EE182A935E665EA9CDA5E492* value)
-	{
-		____auraMat_4 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____auraMat_4), (void*)value);
-	}
-
-	inline static int32_t get_offset_of__AuraColor_5() { return static_cast<int32_t>(offsetof(AuraControl_tE5CC119587856D9332CA4A1913A3BAC1E8722F80, ____AuraColor_5)); }
-	inline Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  get__AuraColor_5() const { return ____AuraColor_5; }
-	inline Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659 * get_address_of__AuraColor_5() { return &____AuraColor_5; }
-	inline void set__AuraColor_5(Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  value)
-	{
-		____AuraColor_5 = value;
-	}
-
-	inline static int32_t get_offset_of__RimColor_6() { return static_cast<int32_t>(offsetof(AuraControl_tE5CC119587856D9332CA4A1913A3BAC1E8722F80, ____RimColor_6)); }
-	inline Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  get__RimColor_6() const { return ____RimColor_6; }
-	inline Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659 * get_address_of__RimColor_6() { return &____RimColor_6; }
-	inline void set__RimColor_6(Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  value)
-	{
-		____RimColor_6 = value;
-	}
-
-	inline static int32_t get_offset_of__noiseTexture_7() { return static_cast<int32_t>(offsetof(AuraControl_tE5CC119587856D9332CA4A1913A3BAC1E8722F80, ____noiseTexture_7)); }
-	inline Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF * get__noiseTexture_7() const { return ____noiseTexture_7; }
-	inline Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF ** get_address_of__noiseTexture_7() { return &____noiseTexture_7; }
-	inline void set__noiseTexture_7(Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF * value)
-	{
-		____noiseTexture_7 = value;
-		Il2CppCodeGenWriteBarrier((void**)(&____noiseTexture_7), (void*)value);
-	}
-
-	inline static int32_t get_offset_of__auraWidth_8() { return static_cast<int32_t>(offsetof(AuraControl_tE5CC119587856D9332CA4A1913A3BAC1E8722F80, ____auraWidth_8)); }
-	inline float get__auraWidth_8() const { return ____auraWidth_8; }
-	inline float* get_address_of__auraWidth_8() { return &____auraWidth_8; }
-	inline void set__auraWidth_8(float value)
-	{
-		____auraWidth_8 = value;
-	}
-
-	inline static int32_t get_offset_of__AuraZ_9() { return static_cast<int32_t>(offsetof(AuraControl_tE5CC119587856D9332CA4A1913A3BAC1E8722F80, ____AuraZ_9)); }
-	inline float get__AuraZ_9() const { return ____AuraZ_9; }
-	inline float* get_address_of__AuraZ_9() { return &____AuraZ_9; }
-	inline void set__AuraZ_9(float value)
-	{
-		____AuraZ_9 = value;
-	}
-
-	inline static int32_t get_offset_of__noiseScale_10() { return static_cast<int32_t>(offsetof(AuraControl_tE5CC119587856D9332CA4A1913A3BAC1E8722F80, ____noiseScale_10)); }
-	inline float get__noiseScale_10() const { return ____noiseScale_10; }
-	inline float* get_address_of__noiseScale_10() { return &____noiseScale_10; }
-	inline void set__noiseScale_10(float value)
-	{
-		____noiseScale_10 = value;
-	}
-
-	inline static int32_t get_offset_of__speedX_11() { return static_cast<int32_t>(offsetof(AuraControl_tE5CC119587856D9332CA4A1913A3BAC1E8722F80, ____speedX_11)); }
-	inline float get__speedX_11() const { return ____speedX_11; }
-	inline float* get_address_of__speedX_11() { return &____speedX_11; }
-	inline void set__speedX_11(float value)
-	{
-		____speedX_11 = value;
-	}
-
-	inline static int32_t get_offset_of__speedY_12() { return static_cast<int32_t>(offsetof(AuraControl_tE5CC119587856D9332CA4A1913A3BAC1E8722F80, ____speedY_12)); }
-	inline float get__speedY_12() const { return ____speedY_12; }
-	inline float* get_address_of__speedY_12() { return &____speedY_12; }
-	inline void set__speedY_12(float value)
-	{
-		____speedY_12 = value;
-	}
-
-	inline static int32_t get_offset_of__noiseOpacity_13() { return static_cast<int32_t>(offsetof(AuraControl_tE5CC119587856D9332CA4A1913A3BAC1E8722F80, ____noiseOpacity_13)); }
-	inline float get__noiseOpacity_13() const { return ____noiseOpacity_13; }
-	inline float* get_address_of__noiseOpacity_13() { return &____noiseOpacity_13; }
-	inline void set__noiseOpacity_13(float value)
-	{
-		____noiseOpacity_13 = value;
-	}
-
-	inline static int32_t get_offset_of__brightness_14() { return static_cast<int32_t>(offsetof(AuraControl_tE5CC119587856D9332CA4A1913A3BAC1E8722F80, ____brightness_14)); }
-	inline float get__brightness_14() const { return ____brightness_14; }
-	inline float* get_address_of__brightness_14() { return &____brightness_14; }
-	inline void set__brightness_14(float value)
-	{
-		____brightness_14 = value;
-	}
-
-	inline static int32_t get_offset_of__rimEdge_15() { return static_cast<int32_t>(offsetof(AuraControl_tE5CC119587856D9332CA4A1913A3BAC1E8722F80, ____rimEdge_15)); }
-	inline float get__rimEdge_15() const { return ____rimEdge_15; }
-	inline float* get_address_of__rimEdge_15() { return &____rimEdge_15; }
-	inline void set__rimEdge_15(float value)
-	{
-		____rimEdge_15 = value;
-	}
-
-	inline static int32_t get_offset_of__rimPower_16() { return static_cast<int32_t>(offsetof(AuraControl_tE5CC119587856D9332CA4A1913A3BAC1E8722F80, ____rimPower_16)); }
-	inline float get__rimPower_16() const { return ____rimPower_16; }
-	inline float* get_address_of__rimPower_16() { return &____rimPower_16; }
-	inline void set__rimPower_16(float value)
-	{
-		____rimPower_16 = value;
-	}
-
-	inline static int32_t get_offset_of__editMode_17() { return static_cast<int32_t>(offsetof(AuraControl_tE5CC119587856D9332CA4A1913A3BAC1E8722F80, ____editMode_17)); }
-	inline bool get__editMode_17() const { return ____editMode_17; }
-	inline bool* get_address_of__editMode_17() { return &____editMode_17; }
-	inline void set__editMode_17(bool value)
-	{
-		____editMode_17 = value;
-	}
-};
-
-
 // MagicLeapTools.AxisVisualizer
 struct AxisVisualizer_t53439F29716AC12A887AA1F640CA6C2AB226FC5D  : public MonoBehaviour_t37A501200D970A8257124B0EAE00A0FF3DDC354A
 {
@@ -61494,6 +61344,7 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4586[2] =
 	0,
 	0,
 };
+<<<<<<< Updated upstream
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4587[14] = 
 {
 	AuraControl_tE5CC119587856D9332CA4A1913A3BAC1E8722F80::get_offset_of__auraMat_4(),
@@ -61510,6 +61361,13 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4587[14] =
 	AuraControl_tE5CC119587856D9332CA4A1913A3BAC1E8722F80::get_offset_of__rimEdge_15(),
 	AuraControl_tE5CC119587856D9332CA4A1913A3BAC1E8722F80::get_offset_of__rimPower_16(),
 	AuraControl_tE5CC119587856D9332CA4A1913A3BAC1E8722F80::get_offset_of__editMode_17(),
+=======
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4587[3] = 
+{
+	EyeTracking_t01D3E8E4DE7F04FEB8D06853003E62DD7DA821BA::get_offset_of_Camera_4(),
+	EyeTracking_t01D3E8E4DE7F04FEB8D06853003E62DD7DA821BA::get_offset_of__heading_5(),
+	EyeTracking_t01D3E8E4DE7F04FEB8D06853003E62DD7DA821BA::get_offset_of_focusObject_6(),
+>>>>>>> Stashed changes
 };
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable4588[1] = 
 {
