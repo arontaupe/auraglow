@@ -59,6 +59,9 @@ namespace MagicLeap.Core
                 transform.position = Vector3.SmoothDamp(transform.position, _marker.Position, ref velocity, smoothTime);
                 //transform.position = _marker.Position;
                 transform.rotation = _marker.Rotation;
+                TextMesh label = transform.Find("Label").GetComponent<TextMesh>();
+                label.text = MarkerId.ToString();
+
             }
         }
 

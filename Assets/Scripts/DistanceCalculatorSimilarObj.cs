@@ -10,8 +10,7 @@ public class DistanceCalculatorSimilarObj : MonoBehaviour
 {
     private Text DistanceSimilarText;
     private Text ColorText;
-    private ParticleSystem aura;
-    private ParticleSystem.MainModule mainModule;
+    private ParticleSystem ps;
     public float EmissionRateLimit = 10.0f;
     private GameObject[] similars;
     private float average = 1.0f;
@@ -19,8 +18,7 @@ public class DistanceCalculatorSimilarObj : MonoBehaviour
     
     // Start is called before the first frame update
     void Start(){
-        aura = GetComponent<ParticleSystem>();
-        mainModule = aura.main;
+        ps = GetComponent<ParticleSystem>();
         DistanceSimilarText = GameObject.Find("DistanceSimilar").GetComponent<Text>();
         ColorText = GameObject.Find("Color").GetComponent<Text> ();
     }
@@ -45,7 +43,9 @@ public class DistanceCalculatorSimilarObj : MonoBehaviour
 
     void SetValue(float hue = 1.0f){
         hue = Mathf.Clamp(hue, 0.0f, 5.0f) / 5.0f;
-        mainModule.startColor = Color.HSVToRGB(hue, 1.0f, 1.0f);
+
+        var main = ps.main;
+        main.startColor = Color.HSVToRGB(hue, 1.0f, 1.0f);
         ColorText.text = string.Format("hue {0} ", hue);
     }
     

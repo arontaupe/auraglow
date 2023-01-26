@@ -33,18 +33,10 @@ ScriptsOnlyBuild:
     Unity.XR.Management.dll:
     - UnityEngine.XR.Management.XRGeneralSettings
     - UnityEngine.XR.Management.XRManagerSettings
-    UnityEditor.Graphs.dll:
-    - UnityEditor.Graphs.AnimationBlendTree.Graph
-    - UnityEditor.Graphs.AnimationBlendTree.GraphGUI
-    - UnityEditor.Graphs.AnimationStateMachine.Graph
-    - UnityEditor.Graphs.AnimationStateMachine.GraphGUI
-    - UnityEditor.Graphs.AnimatorControllerTool
     UnityEditor.TestRunner.dll:
     - UnityEditor.TestTools.TestRunner.Api.CallbacksHolder
     - UnityEditor.TestTools.TestRunner.TestListCacheData
     - UnityEditor.TestTools.TestRunner.TestRun.TestJobDataHolder
-    UnityEditor.XR.MagicLeap.dll:
-    - UnityEditor.XR.MagicLeap.MagicLeapManifestSettings
     UnityEngine.SpatialTracking.dll:
     - UnityEngine.SpatialTracking.TrackedPoseDriver
     UnityEngine.UI.dll:
@@ -90,81 +82,43 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1592}
     - Class: 114
-<<<<<<< Updated upstream
       Script: {instanceID: 1594}
     - Class: 114
-      Script: {instanceID: 1642}
+      Script: {instanceID: 3090}
     - Class: 114
-      Script: {instanceID: 1894}
+      Script: {instanceID: 3338}
     - Class: 114
-      Script: {instanceID: 2250}
+      Script: {instanceID: 3690}
     - Class: 114
-      Script: {instanceID: 2384}
+      Script: {instanceID: 3820}
     - Class: 114
-      Script: {instanceID: 2524}
+      Script: {instanceID: 3954}
     - Class: 114
-      Script: {instanceID: 2690}
+      Script: {instanceID: 4116}
     - Class: 114
-      Script: {instanceID: 2850}
+      Script: {instanceID: 4266}
     - Class: 114
-      Script: {instanceID: 2880}
-    - Class: 114
-      Script: {instanceID: 3354}
-    - Class: 114
-      Script: {instanceID: 3442}
-    - Class: 114
-      Script: {instanceID: 3476}
-    - Class: 114
-      Script: {instanceID: 3672}
-    - Class: 114
-      Script: {instanceID: 3868}
-    - Class: 114
-      Script: {instanceID: 4238}
-    - Class: 114
-      Script: {instanceID: 4382}
+      Script: {instanceID: 4292}
     - Class: 114
       Script: {instanceID: 4752}
     - Class: 114
-      Script: {instanceID: 4936}
+      Script: {instanceID: 4836}
     - Class: 114
-      Script: {instanceID: 4966}
-=======
-      Script: {instanceID: 3088}
+      Script: {instanceID: 4868}
     - Class: 114
-      Script: {instanceID: 3336}
+      Script: {instanceID: 5058}
     - Class: 114
-      Script: {instanceID: 3688}
+      Script: {instanceID: 5250}
     - Class: 114
-      Script: {instanceID: 3818}
+      Script: {instanceID: 5604}
     - Class: 114
-      Script: {instanceID: 3952}
+      Script: {instanceID: 5744}
     - Class: 114
-      Script: {instanceID: 4114}
+      Script: {instanceID: 6094}
     - Class: 114
-      Script: {instanceID: 4264}
+      Script: {instanceID: 6276}
     - Class: 114
-      Script: {instanceID: 4290}
-    - Class: 114
-      Script: {instanceID: 4750}
-    - Class: 114
-      Script: {instanceID: 4834}
-    - Class: 114
-      Script: {instanceID: 4866}
-    - Class: 114
-      Script: {instanceID: 5056}
-    - Class: 114
-      Script: {instanceID: 5248}
-    - Class: 114
-      Script: {instanceID: 5602}
-    - Class: 114
-      Script: {instanceID: 5742}
-    - Class: 114
-      Script: {instanceID: 6092}
-    - Class: 114
-      Script: {instanceID: 6274}
-    - Class: 114
-      Script: {instanceID: 6304}
->>>>>>> Stashed changes
+      Script: {instanceID: 6306}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -227,65 +181,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1592}
     - Class: 114
-<<<<<<< Updated upstream
       Script: {instanceID: 1594}
     - Class: 114
-      Script: {instanceID: 1642}
+      Script: {instanceID: 3090}
     - Class: 114
-      Script: {instanceID: 2242}
+      Script: {instanceID: 3682}
     - Class: 114
-      Script: {instanceID: 2384}
+      Script: {instanceID: 3820}
     - Class: 114
-      Script: {instanceID: 2524}
-    - Class: 114
-      Script: {instanceID: 3354}
-    - Class: 114
-      Script: {instanceID: 3388}
-    - Class: 114
-      Script: {instanceID: 3476}
-    - Class: 114
-      Script: {instanceID: 3600}
-    - Class: 114
-      Script: {instanceID: 3868}
-    - Class: 114
-      Script: {instanceID: 3884}
-    - Class: 114
-      Script: {instanceID: 4382}
+      Script: {instanceID: 3954}
     - Class: 114
       Script: {instanceID: 4752}
     - Class: 114
-      Script: {instanceID: 4936}
+      Script: {instanceID: 4868}
     - Class: 114
-      Script: {instanceID: 4966}
-=======
-      Script: {instanceID: 3088}
+      Script: {instanceID: 4986}
     - Class: 114
-      Script: {instanceID: 3680}
+      Script: {instanceID: 5250}
     - Class: 114
-      Script: {instanceID: 3818}
+      Script: {instanceID: 5266}
     - Class: 114
-      Script: {instanceID: 3952}
+      Script: {instanceID: 5744}
     - Class: 114
-      Script: {instanceID: 4750}
+      Script: {instanceID: 6094}
     - Class: 114
-      Script: {instanceID: 4866}
+      Script: {instanceID: 6276}
     - Class: 114
-      Script: {instanceID: 4984}
+      Script: {instanceID: 6306}
     - Class: 114
-      Script: {instanceID: 5248}
-    - Class: 114
-      Script: {instanceID: 5264}
-    - Class: 114
-      Script: {instanceID: 5742}
-    - Class: 114
-      Script: {instanceID: 6092}
-    - Class: 114
-      Script: {instanceID: 6274}
-    - Class: 114
-      Script: {instanceID: 6304}
-    - Class: 114
-      Script: {instanceID: 22328}
->>>>>>> Stashed changes
+      Script: {instanceID: 22498}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -336,81 +260,43 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1592}
     - Class: 114
-<<<<<<< Updated upstream
       Script: {instanceID: 1594}
     - Class: 114
-      Script: {instanceID: 1642}
+      Script: {instanceID: 3090}
     - Class: 114
-      Script: {instanceID: 1894}
+      Script: {instanceID: 3338}
     - Class: 114
-      Script: {instanceID: 2250}
+      Script: {instanceID: 3690}
     - Class: 114
-      Script: {instanceID: 2384}
+      Script: {instanceID: 3820}
     - Class: 114
-      Script: {instanceID: 2524}
+      Script: {instanceID: 3954}
     - Class: 114
-      Script: {instanceID: 2690}
+      Script: {instanceID: 4116}
     - Class: 114
-      Script: {instanceID: 2698}
+      Script: {instanceID: 4124}
     - Class: 114
-      Script: {instanceID: 2850}
+      Script: {instanceID: 4266}
     - Class: 114
-      Script: {instanceID: 2880}
-    - Class: 114
-      Script: {instanceID: 3354}
-    - Class: 114
-      Script: {instanceID: 3476}
-    - Class: 114
-      Script: {instanceID: 3672}
-    - Class: 114
-      Script: {instanceID: 3868}
-    - Class: 114
-      Script: {instanceID: 4238}
-    - Class: 114
-      Script: {instanceID: 4382}
+      Script: {instanceID: 4292}
     - Class: 114
       Script: {instanceID: 4752}
     - Class: 114
-      Script: {instanceID: 4936}
+      Script: {instanceID: 4868}
     - Class: 114
-      Script: {instanceID: 4966}
-=======
-      Script: {instanceID: 3088}
+      Script: {instanceID: 5058}
     - Class: 114
-      Script: {instanceID: 3336}
+      Script: {instanceID: 5250}
     - Class: 114
-      Script: {instanceID: 3688}
+      Script: {instanceID: 5604}
     - Class: 114
-      Script: {instanceID: 3818}
+      Script: {instanceID: 5744}
     - Class: 114
-      Script: {instanceID: 3952}
+      Script: {instanceID: 6094}
     - Class: 114
-      Script: {instanceID: 4114}
+      Script: {instanceID: 6276}
     - Class: 114
-      Script: {instanceID: 4122}
-    - Class: 114
-      Script: {instanceID: 4264}
-    - Class: 114
-      Script: {instanceID: 4290}
-    - Class: 114
-      Script: {instanceID: 4750}
-    - Class: 114
-      Script: {instanceID: 4866}
-    - Class: 114
-      Script: {instanceID: 5056}
-    - Class: 114
-      Script: {instanceID: 5248}
-    - Class: 114
-      Script: {instanceID: 5602}
-    - Class: 114
-      Script: {instanceID: 5742}
-    - Class: 114
-      Script: {instanceID: 6092}
-    - Class: 114
-      Script: {instanceID: 6274}
-    - Class: 114
-      Script: {instanceID: 6304}
->>>>>>> Stashed changes
+      Script: {instanceID: 6306}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -459,69 +345,37 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1592}
     - Class: 114
-<<<<<<< Updated upstream
       Script: {instanceID: 1594}
     - Class: 114
-      Script: {instanceID: 1642}
+      Script: {instanceID: 3090}
     - Class: 114
-      Script: {instanceID: 1894}
+      Script: {instanceID: 3338}
     - Class: 114
-      Script: {instanceID: 2250}
+      Script: {instanceID: 3690}
     - Class: 114
-      Script: {instanceID: 2384}
+      Script: {instanceID: 3820}
     - Class: 114
-      Script: {instanceID: 2524}
+      Script: {instanceID: 3954}
     - Class: 114
-      Script: {instanceID: 2690}
+      Script: {instanceID: 4116}
     - Class: 114
-      Script: {instanceID: 2850}
+      Script: {instanceID: 4266}
     - Class: 114
-      Script: {instanceID: 3144}
-    - Class: 114
-      Script: {instanceID: 3354}
-    - Class: 114
-      Script: {instanceID: 3476}
-    - Class: 114
-      Script: {instanceID: 3868}
-    - Class: 114
-      Script: {instanceID: 4382}
+      Script: {instanceID: 4542}
     - Class: 114
       Script: {instanceID: 4752}
     - Class: 114
-      Script: {instanceID: 4936}
+      Script: {instanceID: 4868}
     - Class: 114
-      Script: {instanceID: 4966}
-=======
-      Script: {instanceID: 3088}
+      Script: {instanceID: 5250}
     - Class: 114
-      Script: {instanceID: 3336}
+      Script: {instanceID: 5744}
     - Class: 114
-      Script: {instanceID: 3688}
+      Script: {instanceID: 6094}
     - Class: 114
-      Script: {instanceID: 3818}
+      Script: {instanceID: 6276}
     - Class: 114
-      Script: {instanceID: 3952}
-    - Class: 114
-      Script: {instanceID: 4114}
-    - Class: 114
-      Script: {instanceID: 4264}
-    - Class: 114
-      Script: {instanceID: 4540}
-    - Class: 114
-      Script: {instanceID: 4750}
-    - Class: 114
-      Script: {instanceID: 4866}
-    - Class: 114
-      Script: {instanceID: 5248}
-    - Class: 114
-      Script: {instanceID: 5742}
-    - Class: 114
-      Script: {instanceID: 6092}
-    - Class: 114
-      Script: {instanceID: 6274}
-    - Class: 114
-      Script: {instanceID: 6304}
->>>>>>> Stashed changes
+      Script: {instanceID: 6306}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -572,67 +426,35 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1590}
     - Class: 114
-<<<<<<< Updated upstream
-      Script: {instanceID: 1642}
+      Script: {instanceID: 3090}
     - Class: 114
-      Script: {instanceID: 1736}
+      Script: {instanceID: 3182}
     - Class: 114
-      Script: {instanceID: 1894}
+      Script: {instanceID: 3338}
     - Class: 114
-      Script: {instanceID: 2170}
+      Script: {instanceID: 3610}
     - Class: 114
-      Script: {instanceID: 2250}
+      Script: {instanceID: 3690}
     - Class: 114
-      Script: {instanceID: 2524}
+      Script: {instanceID: 3954}
     - Class: 114
-      Script: {instanceID: 2690}
+      Script: {instanceID: 4116}
     - Class: 114
-      Script: {instanceID: 2850}
+      Script: {instanceID: 4266}
     - Class: 114
-      Script: {instanceID: 3166}
+      Script: {instanceID: 4564}
     - Class: 114
-      Script: {instanceID: 4178}
+      Script: {instanceID: 5546}
     - Class: 114
-      Script: {instanceID: 4206}
+      Script: {instanceID: 5574}
     - Class: 114
-      Script: {instanceID: 4382}
+      Script: {instanceID: 5744}
     - Class: 114
-      Script: {instanceID: 4492}
+      Script: {instanceID: 5848}
     - Class: 114
-      Script: {instanceID: 4752}
+      Script: {instanceID: 6094}
     - Class: 114
-      Script: {instanceID: 4966}
-=======
-      Script: {instanceID: 3088}
-    - Class: 114
-      Script: {instanceID: 3180}
-    - Class: 114
-      Script: {instanceID: 3336}
-    - Class: 114
-      Script: {instanceID: 3608}
-    - Class: 114
-      Script: {instanceID: 3688}
-    - Class: 114
-      Script: {instanceID: 3952}
-    - Class: 114
-      Script: {instanceID: 4114}
-    - Class: 114
-      Script: {instanceID: 4264}
-    - Class: 114
-      Script: {instanceID: 4562}
-    - Class: 114
-      Script: {instanceID: 5544}
-    - Class: 114
-      Script: {instanceID: 5572}
-    - Class: 114
-      Script: {instanceID: 5742}
-    - Class: 114
-      Script: {instanceID: 5846}
-    - Class: 114
-      Script: {instanceID: 6092}
-    - Class: 114
-      Script: {instanceID: 6304}
->>>>>>> Stashed changes
+      Script: {instanceID: 6306}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120
@@ -693,73 +515,39 @@ ScriptsOnlyBuild:
     - Class: 114
       Script: {instanceID: 1592}
     - Class: 114
-<<<<<<< Updated upstream
       Script: {instanceID: 1594}
     - Class: 114
-      Script: {instanceID: 1642}
+      Script: {instanceID: 3090}
     - Class: 114
-      Script: {instanceID: 1894}
+      Script: {instanceID: 3338}
     - Class: 114
-      Script: {instanceID: 2250}
+      Script: {instanceID: 3690}
     - Class: 114
-      Script: {instanceID: 2384}
+      Script: {instanceID: 3820}
     - Class: 114
-      Script: {instanceID: 2524}
+      Script: {instanceID: 3954}
     - Class: 114
-      Script: {instanceID: 2690}
+      Script: {instanceID: 4116}
     - Class: 114
-      Script: {instanceID: 2850}
-    - Class: 114
-      Script: {instanceID: 3354}
-    - Class: 114
-      Script: {instanceID: 3476}
-    - Class: 114
-      Script: {instanceID: 3636}
-    - Class: 114
-      Script: {instanceID: 3868}
-    - Class: 114
-      Script: {instanceID: 4382}
-    - Class: 114
-      Script: {instanceID: 4404}
+      Script: {instanceID: 4266}
     - Class: 114
       Script: {instanceID: 4752}
     - Class: 114
-      Script: {instanceID: 4936}
+      Script: {instanceID: 4868}
     - Class: 114
-      Script: {instanceID: 4966}
-=======
-      Script: {instanceID: 3088}
+      Script: {instanceID: 5022}
     - Class: 114
-      Script: {instanceID: 3336}
+      Script: {instanceID: 5250}
     - Class: 114
-      Script: {instanceID: 3688}
+      Script: {instanceID: 5744}
     - Class: 114
-      Script: {instanceID: 3818}
+      Script: {instanceID: 5766}
     - Class: 114
-      Script: {instanceID: 3952}
+      Script: {instanceID: 6094}
     - Class: 114
-      Script: {instanceID: 4114}
+      Script: {instanceID: 6276}
     - Class: 114
-      Script: {instanceID: 4264}
-    - Class: 114
-      Script: {instanceID: 4750}
-    - Class: 114
-      Script: {instanceID: 4866}
-    - Class: 114
-      Script: {instanceID: 5020}
-    - Class: 114
-      Script: {instanceID: 5248}
-    - Class: 114
-      Script: {instanceID: 5742}
-    - Class: 114
-      Script: {instanceID: 5764}
-    - Class: 114
-      Script: {instanceID: 6092}
-    - Class: 114
-      Script: {instanceID: 6274}
-    - Class: 114
-      Script: {instanceID: 6304}
->>>>>>> Stashed changes
+      Script: {instanceID: 6306}
     - Class: 115
       Script: {instanceID: 0}
     - Class: 120

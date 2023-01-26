@@ -5,8 +5,8 @@ m_ProjectFiles:
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638103453605065888
-    m_Hash: 2235578656
+      ticks: 638103467643962977
+    m_Hash: 640179139
   m_LockFileStatus:
     m_FilePath: C:/Users/Marc1/Documents/GitHub/aron/auraglow/Packages/packages-lock.json
     m_PathExists: 1
@@ -47,8 +47,14 @@ m_PackageAssets:
       status: 0
       errors: []
       versions:
-        all: []
-        compatible: []
+        all:
+        - 0.26.0
+        - 1.0.0
+        - 1.1.0
+        - 1.2.0
+        - 1.3.0
+        compatible:
+        - 0.26.0
         verified: 
       dependencies:
       - name: com.unity.xr.magicleap

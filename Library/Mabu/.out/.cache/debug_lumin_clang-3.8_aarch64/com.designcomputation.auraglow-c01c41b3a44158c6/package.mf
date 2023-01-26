@@ -2,16 +2,16 @@
  "entries": [
   {
    "compression": 8,
-   "hash": "ac8bc8afd31b150cea2409c19b94800e995b3f6d",
+   "hash": "c9168905273f93998d393803fd1e72a60fff1c38",
    "pkgpath": "Data/Managed/Metadata/global-metadata.dat",
-   "size": 3419080,
+   "size": 3419036,
    "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Managed/Metadata/global-metadata.dat"
   },
   {
    "compression": 8,
-   "hash": "9d84bb4e00c9d3456ebe8a995cbaf4e85dc12096",
+   "hash": "9e202fa76ad868a0dea8def922575967835fdd25",
    "pkgpath": "bin/libil2cpp.so",
-   "size": 66612408,
+   "size": 66612280,
    "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/Native/libil2cpp.so",
    "xfrm_flags": {
     "signed": {
@@ -23,9 +23,9 @@
      "version": 3
     }
    },
-   "xfrm_hash": "dcb003fd3066856cf25752054eb3079f9a8161c9",
+   "xfrm_hash": "11cc29cf9c360e26e798a8c8a2b1d4f8fc080581",
    "xfrm_path": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Library/Mabu/.out/.cache/debug_lumin_clang-3.8_aarch64/com.designcomputation.auraglow-c01c41b3a44158c6\\libil2cpp.so-cbe464f5574278ca",
-   "xfrm_size": 66613166
+   "xfrm_size": 66613038
   },
   {
    "compression": 8,
@@ -158,14 +158,14 @@
   },
   {
    "compression": 8,
-   "hash": "f1d79b61d49a5a24901451609ad0a3b9fc67d993",
+   "hash": "3679b249b8c1cb7cabe7193e478e315e1fe6f510",
    "pkgpath": "Data/globalgamemanagers",
-   "size": 64836,
+   "size": 64844,
    "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/globalgamemanagers"
   },
   {
    "compression": 8,
-   "hash": "a3147133a538e01a90b8fc4427efcd00c1ec2ea2",
+   "hash": "bb6392aea4a01857f756dfd7c5c9c5800c4dec28",
    "pkgpath": "Data/globalgamemanagers.assets",
    "size": 117452,
    "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/globalgamemanagers.assets"
@@ -179,9 +179,9 @@
   },
   {
    "compression": 8,
-   "hash": "a3aa89f24749570cd5a95b19fb7a2b17c72e7309",
+   "hash": "15c74d289bbcf272bfc9bd9d67d73342dab89f3b",
    "pkgpath": "Data/level0",
-   "size": 15876,
+   "size": 15844,
    "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/level0"
   },
   {
@@ -193,9 +193,9 @@
   },
   {
    "compression": 8,
-   "hash": "a25679bb59682787fa325cf31cad35eff2024d51",
+   "hash": "6542bc195b4f4a12f4dd28830019e5edf31734f7",
    "pkgpath": "Data/level1",
-   "size": 10448,
+   "size": 10416,
    "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/level1"
   },
   {
@@ -207,9 +207,9 @@
   },
   {
    "compression": 8,
-   "hash": "3234d72cde4f542bb56060fc2377a0ad254d7fcd",
+   "hash": "0d9542288ac6d61a9ddee162f993a040a0bd0449",
    "pkgpath": "Data/level2",
-   "size": 20244,
+   "size": 20212,
    "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/level2"
   },
   {
@@ -221,9 +221,9 @@
   },
   {
    "compression": 8,
-   "hash": "a26967f71ebe4e85c3c48a11b4eaaa8c32d7aa4d",
+   "hash": "2ce9e615ac37a399fa207ce95b82c8ceae32ef15",
    "pkgpath": "Data/level3",
-   "size": 12120,
+   "size": 20608,
    "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/level3"
   },
   {
@@ -235,9 +235,9 @@
   },
   {
    "compression": 8,
-   "hash": "31c12eb133c99ae2c53135ff6ffaceb4e948b202",
+   "hash": "a4f799e22bbe93c913486273c3aabb67a8e8270b",
    "pkgpath": "Data/level4",
-   "size": 12104,
+   "size": 12072,
    "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/level4"
   },
   {
@@ -249,9 +249,9 @@
   },
   {
    "compression": 8,
-   "hash": "537171796a91a40498ddd34c3436dc77a56dc648",
+   "hash": "3be302532f6f86ce599fa639f81d2e157c2fb56d",
    "pkgpath": "Data/level5",
-   "size": 16008,
+   "size": 12328,
    "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/level5"
   },
   {
@@ -277,7 +277,7 @@
   },
   {
    "compression": 8,
-   "hash": "47f05ada1f71f3314ab34ac76bff3c3896ddc372",
+   "hash": "239e6b218611e7f9df6a4c183bfc0a1595546aba",
    "pkgpath": "Data/sharedassets0.assets",
    "size": 280932,
    "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/sharedassets0.assets"
@@ -319,7 +319,7 @@
   },
   {
    "compression": 8,
-   "hash": "95eb60cc5eca1e67e9886d4f93d26a6066025ca9",
+   "hash": "23b22acd79383ff9487116d13daf932df5e04538",
    "pkgpath": "Data/sharedassets3.assets",
    "size": 13092,
    "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/sharedassets3.assets"
@@ -333,16 +333,16 @@
   },
   {
    "compression": 8,
-   "hash": "7054ec67d7502bcdf37880ba012c689cf16dcc55",
+   "hash": "41d0eb54c4943608f775e1b2ec6a43d343edc4ef",
    "pkgpath": "Data/sharedassets5.assets",
-   "size": 570740,
+   "size": 574396,
    "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/sharedassets5.assets"
   },
   {
    "compression": 8,
-   "hash": "3f8861522ff27cbeef9fc4e354afc4dfd0aa8929",
+   "hash": "2719a93ec39bdf263577edad70462715fa2395f6",
    "pkgpath": "Data/sharedassets5.assets.resS",
-   "size": 22498144,
+   "size": 25294368,
    "src": "C:/Users/Marc1/Documents/GitHub/aron/auraglow/Temp/StagingArea/Data/sharedassets5.assets.resS"
   },
   {
