@@ -8,6 +8,12 @@ TagManager:
   - aura
   - chair
   - overlay
+  - id0
+  - id1
+  - floor
+  - wall
+  - attractor
+  - distAttr
   layers:
   - Default
   - TransparentFX

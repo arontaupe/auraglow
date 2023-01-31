@@ -64,7 +64,7 @@ public class PlanesFinder : MonoBehaviour
            //newPlane.transform.rotation = planes[i].Rotation;
            //newPlane.transform.localScale = new Vector3(planes[i].Width, planes[i].Height, 1f); // Set plane scale
            _planeCache.Add(newPlane);
-           Debug.Log("Plane Object added");
+           Debug.Log(string.Format("Plane Aura added to {0}", QueryFlags));
        }
     }
 }

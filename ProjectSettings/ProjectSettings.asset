@@ -137,9 +137,7 @@ PlayerSettings:
     16:9: 1
     Others: 1
   bundleVersion: 0.1
-  preloadedAssets:
-  - {fileID: 11400000, guid: 988056e407635421486fb9f5b4c6af43, type: 2}
-  - {fileID: -5087756443507819914, guid: 3305b7792f8c44adeb138916a63b8659, type: 2}
+  preloadedAssets: []
   metroInputSource: 0
   wsaTransparentSwapchain: 0
   m_HolographicPauseOnTrackingLoss: 1
@@ -710,7 +708,7 @@ PlayerSettings:
     m_ModelFolderPath: Assets/Sources/Icon
     m_PortalFolderPath: 
   luminCert:
-    m_CertPath: /Users/aron/auraglow/auraglow.cert
+    m_CertPath: C:/Users/Marc/Documents/GitHub/aron/auraglow/auraglow.cert
     m_SignPackage: 1
   luminIsChannelApp: 0
   luminVersion:

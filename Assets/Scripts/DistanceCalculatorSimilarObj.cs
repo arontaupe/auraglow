@@ -12,20 +12,19 @@ public class DistanceCalculatorSimilarObj : MonoBehaviour
     private Text ColorText;
     private ParticleSystem ps;
     public float EmissionRateLimit = 10.0f;
+    public string searchtag = "aura";
     private GameObject[] similars;
     private float average = 1.0f;
 
-    
-    // Start is called before the first frame update
-    void Start(){
+    void Awake(){
         ps = GetComponent<ParticleSystem>();
         DistanceSimilarText = GameObject.Find("DistanceSimilar").GetComponent<Text>();
         ColorText = GameObject.Find("Color").GetComponent<Text> ();
     }
 
-    private float CalculateAvgDistance(string tag = "aura"){
+    private float CalculateAvgDistance(){
         if (similars == null){
-            similars = GameObject.FindGameObjectsWithTag(tag);
+            similars = GameObject.FindGameObjectsWithTag(searchtag);
         }
         
         if (similars.Any()){
@@ -49,7 +48,6 @@ public class DistanceCalculatorSimilarObj : MonoBehaviour
         ColorText.text = string.Format("hue {0} ", hue);
     }
     
-    // Update is called once per frame
     void Update(){
         average = CalculateAvgDistance();
         SetValue(average);
