@@ -418,6 +418,8 @@ struct TaskScheduler_t74FBEEEDBDD5E0088FF0EEC18F45CD866B098D5D;
 struct Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1;
 // UnityEngine.TextGenerator
 struct TextGenerator_t893F256D3587633108E00E5731CDC5A77AFF1B70;
+// UnityEngine.TextMesh
+struct TextMesh_t830C2452CE189A0D35CD9ED26B6B74D506B01273;
 // UnityEngine.Texture
 struct Texture_t9FE0218A1EEDF266E8C85879FE123265CACC95AE;
 // UnityEngine.Texture2D
@@ -826,6 +828,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteral1E5280653D5ABBE617B5C1771C943D29A4B892E6
 IL2CPP_EXTERN_C String_t* _stringLiteral1E8715D23AA181CE0CF7641BBE64C1F9AAB4970C;
 IL2CPP_EXTERN_C String_t* _stringLiteral20F7B137F9413A4CCCB6B6C94F585BBEB5F1FA55;
 IL2CPP_EXTERN_C String_t* _stringLiteral213B22B321C425174766CA1BEE14A5DDDFDBA954;
+IL2CPP_EXTERN_C String_t* _stringLiteral21C54BF860BF41F6CB5FA90618AD96345DB385CD;
 IL2CPP_EXTERN_C String_t* _stringLiteral23D66DDA5913DD5FCE27BE33515FA1ED8356F658;
 IL2CPP_EXTERN_C String_t* _stringLiteral2555B5C5B8E370A9CA85A69068B7F62A3C3C7F34;
 IL2CPP_EXTERN_C String_t* _stringLiteral267D171B1B5059D729007BFDC48FFF3738900287;
@@ -1083,6 +1086,7 @@ IL2CPP_EXTERN_C const RuntimeMethod* CircularBuffer_1_Create_mB51702AC1C12D0D9CF
 IL2CPP_EXTERN_C const RuntimeMethod* CircularBuffer_1_Get_m056483DD8A13A4B22FD764BA7F925EAD6827E76C_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* CircularBuffer_1_Get_m8FFEECB161349C6568ECA5029E9A5815E6C22B9B_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* CircularBuffer_1_Peek_m560C821FF432030BBDFA7E5B134F231D10017578_RuntimeMethod_var;
+IL2CPP_EXTERN_C const RuntimeMethod* Component_GetComponent_TisTextMesh_t830C2452CE189A0D35CD9ED26B6B74D506B01273_mCC9FD2C0BE9B8D38A7FAA28AD8C4228AC43D4860_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ConcurrentDictionary_2_Clear_m9BE0E2C43555E946639826D302AB3CD8C9310445_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ConcurrentDictionary_2_ContainsKey_m1D506EE3F8B737B63B52EC52F361607D4BB84AA5_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* ConcurrentDictionary_2_TryAdd_mD49194E39AC13D89A6C3746FA496B710023FA3E2_RuntimeMethod_var;
@@ -14417,6 +14421,15 @@ public:
 };
 
 
+// UnityEngine.TextMesh
+struct TextMesh_t830C2452CE189A0D35CD9ED26B6B74D506B01273  : public Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684
+{
+public:
+
+public:
+};
+
+
 // UnityEngine.Texture2D
 struct Texture2D_t9B604D0D8E28032123641A7E7338FA872E2698BF  : public Texture_t9FE0218A1EEDF266E8C85879FE123265CACC95AE
 {
@@ -17381,6 +17394,8 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Dictionary_2_get_Item_mD43F16
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void AsyncTaskMethodBuilder_Start_TisU3CGetResultsAsyncU3Ed__16_t078588F79CDD3ADB9FAE4CC9C22F17494FC7E2F1_mB99D2D619E16694483C87A39672B124C53F7E0F3_gshared (AsyncTaskMethodBuilder_t7A010673279CD8726E70047F1D15B3D17C56503B * __this, U3CGetResultsAsyncU3Ed__16_t078588F79CDD3ADB9FAE4CC9C22F17494FC7E2F1 * ___stateMachine0, const RuntimeMethod* method);
 // System.Void System.Collections.Generic.Dictionary`2<System.Int32,System.Object>::.ctor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Dictionary_2__ctor_mE7F9D51201F5A72BF4995CA0F3F0E866DB21E638_gshared (Dictionary_2_tE1E5B6327FFA2C7AE34A69E0011815C914771C2F * __this, const RuntimeMethod* method);
+// !!0 UnityEngine.Component::GetComponent<System.Object>()
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RuntimeObject * Component_GetComponent_TisRuntimeObject_m69D9C576D6DD024C709E29EEADBC8041299A3AA7_gshared (Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684 * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.XR.MagicLeap.MLAPISingleton`1<System.Object>::set_DllNotFoundError(System.String)
 IL2CPP_MANAGED_FORCE_INLINE IL2CPP_METHOD_ATTR void MLAPISingleton_1_set_DllNotFoundError_m4CFDD913DE0A6A40765859BDC4054B973167211E_gshared_inline (MLAPISingleton_1_t108AB922D935EE4D8DF51D3CA1260C1D4736ACAC * __this, String_t* ___value0, const RuntimeMethod* method);
 // T UnityEngine.XR.MagicLeap.MLAPISingleton`1<System.Object>::get_Instance()
@@ -18070,6 +18085,15 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_position_mB169E52D57EEAC1E
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4  Marker_get_Rotation_m2DD971F6956FA32B1348E608422E79E27F6E91BB (Marker_tB4470F9422724C3940282EDEB6A10E9E635D160B * __this, const RuntimeMethod* method);
 // System.Void UnityEngine.Transform::set_rotation(UnityEngine.Quaternion)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Transform_set_rotation_m1B5F3D4CE984AB31254615C9C71B0E54978583B4 (Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * __this, Quaternion_t6D28618CF65156D4A0AD747370DDFD0C514A31B4  ___value0, const RuntimeMethod* method);
+// UnityEngine.Transform UnityEngine.Transform::Find(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * Transform_Find_mB1687901A4FB0D562C44A93CC67CD35DCFCAABA1 (Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * __this, String_t* ___n0, const RuntimeMethod* method);
+// !!0 UnityEngine.Component::GetComponent<UnityEngine.TextMesh>()
+inline TextMesh_t830C2452CE189A0D35CD9ED26B6B74D506B01273 * Component_GetComponent_TisTextMesh_t830C2452CE189A0D35CD9ED26B6B74D506B01273_mCC9FD2C0BE9B8D38A7FAA28AD8C4228AC43D4860 (Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684 * __this, const RuntimeMethod* method)
+{
+	return ((  TextMesh_t830C2452CE189A0D35CD9ED26B6B74D506B01273 * (*) (Component_t62FBC8D2420DA4BE9037AFE430740F6B3EECA684 *, const RuntimeMethod*))Component_GetComponent_TisRuntimeObject_m69D9C576D6DD024C709E29EEADBC8041299A3AA7_gshared)(__this, method);
+}
+// System.Void UnityEngine.TextMesh::set_text(System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void TextMesh_set_text_m5879B13F5C9E4A1D05155839B89CCDB85BE28A04 (TextMesh_t830C2452CE189A0D35CD9ED26B6B74D506B01273 * __this, String_t* ___value0, const RuntimeMethod* method);
 // System.Void UnityEngine.XR.MagicLeap.MLArucoTracker/Marker::remove_OnStatusChange(UnityEngine.XR.MagicLeap.MLArucoTracker/Marker/OnStatusChangeDelegate)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Marker_remove_OnStatusChange_mBE1CCA918B2390D1514A8F5E5F33866F21DDBA0E (Marker_tB4470F9422724C3940282EDEB6A10E9E635D160B * __this, OnStatusChangeDelegate_tB759DCBD8294358E3A7B20C9ACA60322DF7DD04D * ___value0, const RuntimeMethod* method);
 // UnityEngine.Vector3 UnityEngine.Vector3::get_zero()
@@ -30598,7 +30622,9 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MLArucoTrackerBehavior_Update_m359390B4B
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Component_GetComponent_TisTextMesh_t830C2452CE189A0D35CD9ED26B6B74D506B01273_mCC9FD2C0BE9B8D38A7FAA28AD8C4228AC43D4860_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MLArucoTrackerBehavior_Update_m359390B4B7210E34CE6AFE4351F878789FA2F7E1_RuntimeMethod_var);
+		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral21C54BF860BF41F6CB5FA90618AD96345DB385CD);
 		s_Il2CppMethodInitialized = true;
 	}
 	StackTraceSentry _stackTraceSentry(MLArucoTrackerBehavior_Update_m359390B4B7210E34CE6AFE4351F878789FA2F7E1_RuntimeMethod_var);
@@ -30609,7 +30635,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MLArucoTrackerBehavior_Update_m359390B4B
 		Marker_tB4470F9422724C3940282EDEB6A10E9E635D160B * L_0 = __this->get__marker_7();
 		if (L_0)
 		{
-			goto IL_006a;
+			goto IL_006d;
 		}
 	}
 	{
@@ -30620,7 +30646,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MLArucoTrackerBehavior_Update_m359390B4B
 		int32_t L_3 = __this->get_MarkerDictionary_5();
 		if ((!(((uint32_t)L_2) == ((uint32_t)L_3))))
 		{
-			goto IL_00b2;
+			goto IL_00da;
 		}
 	}
 	{
@@ -30633,7 +30659,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MLArucoTrackerBehavior_Update_m359390B4B
 		Marker_tB4470F9422724C3940282EDEB6A10E9E635D160B * L_6 = __this->get__marker_7();
 		if (!L_6)
 		{
-			goto IL_00b2;
+			goto IL_00da;
 		}
 	}
 	{
@@ -30644,14 +30670,14 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MLArucoTrackerBehavior_Update_m359390B4B
 		if (L_8)
 		{
 			G_B5_0 = L_8;
-			goto IL_0042;
+			goto IL_0045;
 		}
 	}
 	{
-		goto IL_0058;
+		goto IL_005b;
 	}
 
-IL_0042:
+IL_0045:
 	{
 		Marker_tB4470F9422724C3940282EDEB6A10E9E635D160B * L_9 = __this->get__marker_7();
 		Marker_tB4470F9422724C3940282EDEB6A10E9E635D160B * L_10 = __this->get__marker_7();
@@ -30662,7 +30688,7 @@ IL_0042:
 		OnStatusChangeDelegate_Invoke_m226031F952833BD93080DBFC9F17D943E72899CA(G_B5_0, L_9, L_11, /*hidden argument*/NULL);
 	}
 
-IL_0058:
+IL_005b:
 	{
 		// _marker.OnStatusChange += OnMarkerStatusChange;
 		Marker_tB4470F9422724C3940282EDEB6A10E9E635D160B * L_12 = __this->get__marker_7();
@@ -30673,7 +30699,7 @@ IL_0058:
 		return;
 	}
 
-IL_006a:
+IL_006d:
 	{
 		// transform.position = Vector3.SmoothDamp(transform.position, _marker.Position, ref velocity, smoothTime);
 		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_14;
@@ -30702,9 +30728,24 @@ IL_006a:
 		L_24 = Marker_get_Rotation_m2DD971F6956FA32B1348E608422E79E27F6E91BB(L_23, /*hidden argument*/NULL);
 		NullCheck(L_22);
 		Transform_set_rotation_m1B5F3D4CE984AB31254615C9C71B0E54978583B4(L_22, L_24, /*hidden argument*/NULL);
+		// TextMesh label = transform.Find("Label").GetComponent<TextMesh>();
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_25;
+		L_25 = Component_get_transform_mE8496EBC45BEB1BADB5F314960F1DF1C952FA11F(__this, /*hidden argument*/NULL);
+		NullCheck(L_25);
+		Transform_tA8193BB29D4D2C7EC04918F3ED1816345186C3F1 * L_26;
+		L_26 = Transform_Find_mB1687901A4FB0D562C44A93CC67CD35DCFCAABA1(L_25, _stringLiteral21C54BF860BF41F6CB5FA90618AD96345DB385CD, /*hidden argument*/NULL);
+		NullCheck(L_26);
+		TextMesh_t830C2452CE189A0D35CD9ED26B6B74D506B01273 * L_27;
+		L_27 = Component_GetComponent_TisTextMesh_t830C2452CE189A0D35CD9ED26B6B74D506B01273_mCC9FD2C0BE9B8D38A7FAA28AD8C4228AC43D4860(L_26, /*hidden argument*/Component_GetComponent_TisTextMesh_t830C2452CE189A0D35CD9ED26B6B74D506B01273_mCC9FD2C0BE9B8D38A7FAA28AD8C4228AC43D4860_RuntimeMethod_var);
+		// label.text = MarkerId.ToString();
+		int32_t* L_28 = __this->get_address_of_MarkerId_6();
+		String_t* L_29;
+		L_29 = Int32_ToString_m340C0A14D16799421EFDF8A81C8A16FA76D48411((int32_t*)L_28, /*hidden argument*/NULL);
+		NullCheck(L_27);
+		TextMesh_set_text_m5879B13F5C9E4A1D05155839B89CCDB85BE28A04(L_27, L_29, /*hidden argument*/NULL);
 	}
 
-IL_00b2:
+IL_00da:
 	{
 		// }
 		return;

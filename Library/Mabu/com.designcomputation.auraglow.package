@@ -2,7 +2,7 @@
 
 
 USES = \
-	C:\Users\Marc1\Documents\GitHub\aron\auraglow\Temp/StagingArea\assets \
+	/Users/aron/auraglow/Temp/StagingArea/assets \
 
 
 ######### DO NOT EDIT ABOVE #########

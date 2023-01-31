@@ -449,13 +449,11 @@ IL2CPP_EXTERN_C RuntimeClass* Action_2_t74F990DB9E1F0E1CF9E857FC9AA728DDBF7105A2
 IL2CPP_EXTERN_C RuntimeClass* Action_2_tAAD0BEC4731D3D38FAEF5F55FEF3A0D905B55D30_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_2_tD0D022E7A0A81B3519F114B7CB030FF3E86949A1_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Action_tAF41423D285AE0862865348CF6CE51CD085ABBA6_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* Camera_t837BC33A05EB1F62D88A3EBBDB423F44430441EE_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* CharU5BU5D_t7B7FC5BC8091AA3B9CB0B29CDD80B5EE9254AA34_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Char_tFF60D8E7E89A20BE2294A003734341BD1DF43E14_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* CollisionEvent_t68F468D594648A1AF0F287C9EC193206B50E1AE2_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* ControllerButtonDelegate_tACB2AE1B495E3E96808BB4142C091CA32C97CA28_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Debug_tEB68BCBEB8EFD60F8043C67146DC05E7F50F374B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Dictionary_2_tD1D5E6A0E203AEE5653A42DD7D14335221190884_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* GameObject_tC000A2E1A7CF1E10FD7BA08863287C072207C319_il2cpp_TypeInfo_var;
@@ -504,7 +502,6 @@ IL2CPP_EXTERN_C RuntimeClass* SortedDictionary_2_t2721E15C0DA85C8D62F913F0F52A5F
 IL2CPP_EXTERN_C RuntimeClass* State_tEED4D34271198FE9B4926EF5014A657F8E043A25_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* StringU5BU5D_tACEBFEDE350025B554CD507C9AE8FFE49359549A_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* SurfaceDetails_tDF6AAB98DEB8FCD0AB1AA193353D7027D68EC8B3_il2cpp_TypeInfo_var;
-IL2CPP_EXTERN_C RuntimeClass* TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TransformUtilities_t3FACA53E00B2C78DB8AB47FCBF1D585AC9178E9B_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* Triangulator_tFBAA93A15B59B79973EB7C517573696A5F450B50_il2cpp_TypeInfo_var;
 IL2CPP_EXTERN_C RuntimeClass* TriggerDelegate_tB3759089CC1BA5C227797CFED86C2F051B577EF3_il2cpp_TypeInfo_var;
@@ -535,13 +532,11 @@ IL2CPP_EXTERN_C String_t* _stringLiteral216C364A4CA2655B14A9621699F0F2FDB00D6B32
 IL2CPP_EXTERN_C String_t* _stringLiteral21EDBA16C9B86E8014A6CD12D7FE62ED89B36D37;
 IL2CPP_EXTERN_C String_t* _stringLiteral26E8ED5DAD6C98A8906F06BFBE51CC6C5B3E25C8;
 IL2CPP_EXTERN_C String_t* _stringLiteral2ADBB572AB0A5EEC655F98F8092A4A14D8E76409;
-IL2CPP_EXTERN_C String_t* _stringLiteral2F241DD9164CC02CC6F0587B97CC7246DA50CE5F;
 IL2CPP_EXTERN_C String_t* _stringLiteral334AF687F6F5C6D050BCF2519600F5881FCACD05;
 IL2CPP_EXTERN_C String_t* _stringLiteral3956FCF1FEAABE38BF221C842222C1047AAB79A5;
 IL2CPP_EXTERN_C String_t* _stringLiteral3D511B88FC3717F25B350E535EABC5D80C134CB9;
 IL2CPP_EXTERN_C String_t* _stringLiteral483161C70E4985366DE6D57C3ADA7A99666CAD01;
 IL2CPP_EXTERN_C String_t* _stringLiteral4BA9DB51E126CB832B74D965E2416C94971E04AE;
-IL2CPP_EXTERN_C String_t* _stringLiteral67035B0CB0E35BE4955E3C08F55F9B7BBE119E87;
 IL2CPP_EXTERN_C String_t* _stringLiteral6F7B120F9F9D58152C3E8B4D2294D1AF774E8095;
 IL2CPP_EXTERN_C String_t* _stringLiteral8484AA4C03FEC915FE3A95DA7EE038C96536E840;
 IL2CPP_EXTERN_C String_t* _stringLiteral8BE5AC5D35E3030FD8839453449F54CC4C4CF2A3;
@@ -555,9 +550,7 @@ IL2CPP_EXTERN_C String_t* _stringLiteralAFDA060337E0C31ADFDC70CD5E859E901123EAB8
 IL2CPP_EXTERN_C String_t* _stringLiteralB3F14BF976EFD974E34846B742502C802FABAE9D;
 IL2CPP_EXTERN_C String_t* _stringLiteralBC67D2F167F955EA34DFECDA141134BF17D044D9;
 IL2CPP_EXTERN_C String_t* _stringLiteralC3B3CB84CE121EEAF262795900CB4C25CAC62C9B;
-IL2CPP_EXTERN_C String_t* _stringLiteralD67E1EB751C6631FF46F12A109A9AB92D8744A82;
 IL2CPP_EXTERN_C String_t* _stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709;
-IL2CPP_EXTERN_C String_t* _stringLiteralDAAA1FD7A660AA933B9F16FF47B615FD5DA5D144;
 IL2CPP_EXTERN_C String_t* _stringLiteralDFE43898242EC63DD5F3DEC77D15681B97F85A46;
 IL2CPP_EXTERN_C String_t* _stringLiteralE71CEA2F4DC92DEB85E44E625E13F0973AA40B52;
 IL2CPP_EXTERN_C String_t* _stringLiteralE8827CA90EFCA06C05B5AD157B9EB629637374B6;
@@ -3614,40 +3607,6 @@ public:
 };
 
 
-// System.Double
-struct Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181 
-{
-public:
-	// System.Double System.Double::m_value
-	double ___m_value_0;
-
-public:
-	inline static int32_t get_offset_of_m_value_0() { return static_cast<int32_t>(offsetof(Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181, ___m_value_0)); }
-	inline double get_m_value_0() const { return ___m_value_0; }
-	inline double* get_address_of_m_value_0() { return &___m_value_0; }
-	inline void set_m_value_0(double value)
-	{
-		___m_value_0 = value;
-	}
-};
-
-struct Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181_StaticFields
-{
-public:
-	// System.Double System.Double::NegativeZero
-	double ___NegativeZero_7;
-
-public:
-	inline static int32_t get_offset_of_NegativeZero_7() { return static_cast<int32_t>(offsetof(Double_t42821932CB52DE2057E685D0E1AF3DE5033D2181_StaticFields, ___NegativeZero_7)); }
-	inline double get_NegativeZero_7() const { return ___NegativeZero_7; }
-	inline double* get_address_of_NegativeZero_7() { return &___NegativeZero_7; }
-	inline void set_NegativeZero_7(double value)
-	{
-		___NegativeZero_7 = value;
-	}
-};
-
-
 // System.Enum
 struct Enum_t23B90B40F60E677A8025267341651C94AE079CDA  : public ValueType_tDBF999C1B75C48C68621878250DBF6CDBCF51E52
 {
@@ -6461,80 +6420,6 @@ public:
 };
 
 
-// System.TimeSpan
-struct TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 
-{
-public:
-	// System.Int64 System.TimeSpan::_ticks
-	int64_t ____ticks_3;
-
-public:
-	inline static int32_t get_offset_of__ticks_3() { return static_cast<int32_t>(offsetof(TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203, ____ticks_3)); }
-	inline int64_t get__ticks_3() const { return ____ticks_3; }
-	inline int64_t* get_address_of__ticks_3() { return &____ticks_3; }
-	inline void set__ticks_3(int64_t value)
-	{
-		____ticks_3 = value;
-	}
-};
-
-struct TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203_StaticFields
-{
-public:
-	// System.TimeSpan System.TimeSpan::Zero
-	TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  ___Zero_0;
-	// System.TimeSpan System.TimeSpan::MaxValue
-	TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  ___MaxValue_1;
-	// System.TimeSpan System.TimeSpan::MinValue
-	TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  ___MinValue_2;
-	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.TimeSpan::_legacyConfigChecked
-	bool ____legacyConfigChecked_4;
-	// System.Boolean modreq(System.Runtime.CompilerServices.IsVolatile) System.TimeSpan::_legacyMode
-	bool ____legacyMode_5;
-
-public:
-	inline static int32_t get_offset_of_Zero_0() { return static_cast<int32_t>(offsetof(TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203_StaticFields, ___Zero_0)); }
-	inline TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  get_Zero_0() const { return ___Zero_0; }
-	inline TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 * get_address_of_Zero_0() { return &___Zero_0; }
-	inline void set_Zero_0(TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  value)
-	{
-		___Zero_0 = value;
-	}
-
-	inline static int32_t get_offset_of_MaxValue_1() { return static_cast<int32_t>(offsetof(TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203_StaticFields, ___MaxValue_1)); }
-	inline TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  get_MaxValue_1() const { return ___MaxValue_1; }
-	inline TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 * get_address_of_MaxValue_1() { return &___MaxValue_1; }
-	inline void set_MaxValue_1(TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  value)
-	{
-		___MaxValue_1 = value;
-	}
-
-	inline static int32_t get_offset_of_MinValue_2() { return static_cast<int32_t>(offsetof(TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203_StaticFields, ___MinValue_2)); }
-	inline TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  get_MinValue_2() const { return ___MinValue_2; }
-	inline TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203 * get_address_of_MinValue_2() { return &___MinValue_2; }
-	inline void set_MinValue_2(TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  value)
-	{
-		___MinValue_2 = value;
-	}
-
-	inline static int32_t get_offset_of__legacyConfigChecked_4() { return static_cast<int32_t>(offsetof(TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203_StaticFields, ____legacyConfigChecked_4)); }
-	inline bool get__legacyConfigChecked_4() const { return ____legacyConfigChecked_4; }
-	inline bool* get_address_of__legacyConfigChecked_4() { return &____legacyConfigChecked_4; }
-	inline void set__legacyConfigChecked_4(bool value)
-	{
-		____legacyConfigChecked_4 = value;
-	}
-
-	inline static int32_t get_offset_of__legacyMode_5() { return static_cast<int32_t>(offsetof(TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203_StaticFields, ____legacyMode_5)); }
-	inline bool get__legacyMode_5() const { return ____legacyMode_5; }
-	inline bool* get_address_of__legacyMode_5() { return &____legacyMode_5; }
-	inline void set__legacyMode_5(bool value)
-	{
-		____legacyMode_5 = value;
-	}
-};
-
-
 // MagicLeapTools.TransmissionAudience
 struct TransmissionAudience_tFE9E3E3624BC475965FCD5610A1C7A7D8C755C2D 
 {
@@ -6680,24 +6565,6 @@ public:
 
 public:
 	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(Hand_t3E8289E2F06B9BC6DCDF9E72B2FE138672C5EDB1, ___value___2)); }
-	inline int32_t get_value___2() const { return ___value___2; }
-	inline int32_t* get_address_of_value___2() { return &___value___2; }
-	inline void set_value___2(int32_t value)
-	{
-		___value___2 = value;
-	}
-};
-
-
-// UnityEngine.XR.MagicLeap.MLLightingTracking/Camera
-struct Camera_t837BC33A05EB1F62D88A3EBBDB423F44430441EE 
-{
-public:
-	// System.Int32 UnityEngine.XR.MagicLeap.MLLightingTracking/Camera::value__
-	int32_t ___value___2;
-
-public:
-	inline static int32_t get_offset_of_value___2() { return static_cast<int32_t>(offsetof(Camera_t837BC33A05EB1F62D88A3EBBDB423F44430441EE, ___value___2)); }
 	inline int32_t get_value___2() const { return ___value___2; }
 	inline int32_t* get_address_of_value___2() { return &___value___2; }
 	inline void set_value___2(int32_t value)
@@ -12661,32 +12528,16 @@ inline void MLAPISingleton_1_Stop_mDEA29482DA516590CE6329139C14B6950F251394 (con
 }
 // System.UInt16[] UnityEngine.XR.MagicLeap.MLLightingTracking::get_AmbientCameraLuminance()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR UInt16U5BU5D_t42D35C587B07DCDBCFDADF572C6D733AE85B2A67* MLLightingTracking_get_AmbientCameraLuminance_mA66226A1C2D9ED15C393BC49E3FD2EAFF4DD3AFF (const RuntimeMethod* method);
-// System.Double UnityEngine.XR.MagicLeap.MLLightingTracking::get_AmbientCameraLuminanceAgeSeconds()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double MLLightingTracking_get_AmbientCameraLuminanceAgeSeconds_m311CB5D764D927C1C72EA7DBAFD6B453485CDBE5 (const RuntimeMethod* method);
-// System.TimeSpan System.TimeSpan::FromSeconds(System.Double)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  TimeSpan_FromSeconds_m5C1E03DD4DAAACCA1729EC3AD5B7B1E4C497EF55 (double ___value0, const RuntimeMethod* method);
-// System.DateTime System.DateTime::Add(System.TimeSpan)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  DateTime_Add_m317E517C3818A7EF09BB4D0E5547FF791814777D (DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 * __this, TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  ___value0, const RuntimeMethod* method);
-// System.String System.DateTime::ToString(System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* DateTime_ToString_m19ECEFF7BA22ED4425F7562A82A1C2308E934204 (DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 * __this, String_t* ___format0, const RuntimeMethod* method);
-// System.String System.String::Concat(System.String,System.String)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m10758B01687A2181C8727AD9FD9CCF5325C61C2A (String_t* ___str00, String_t* ___str11, const RuntimeMethod* method);
-// System.String System.String::Format(System.String,System.Object,System.Object)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m8464C6DD7299114954DA87FC39FCD129F3E2ACA2 (String_t* ___format0, RuntimeObject * ___arg01, RuntimeObject * ___arg12, const RuntimeMethod* method);
 // System.UInt16 UnityEngine.XR.MagicLeap.MLLightingTracking::get_AverageLuminance()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t MLLightingTracking_get_AverageLuminance_m2AAC3CDD81028255132331C364F1C758781C555B (const RuntimeMethod* method);
 // System.String System.String::Format(System.String,System.Object)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Format_m5A16F3ABC59A3E9804E0CB2636849CCD74CEC994 (String_t* ___format0, RuntimeObject * ___arg01, const RuntimeMethod* method);
-// System.Double UnityEngine.XR.MagicLeap.MLLightingTracking::get_GlobalTemperatureAgeSeconds()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR double MLLightingTracking_get_GlobalTemperatureAgeSeconds_m177B2A68430EE45F4305414811FC132B350B28F7 (const RuntimeMethod* method);
+// System.String System.String::Concat(System.String,System.String)
+IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* String_Concat_m10758B01687A2181C8727AD9FD9CCF5325C61C2A (String_t* ___str00, String_t* ___str11, const RuntimeMethod* method);
 // System.UInt16 UnityEngine.XR.MagicLeap.MLLightingTracking::get_GlobalTemperature()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR uint16_t MLLightingTracking_get_GlobalTemperature_m8F4FA62F999498E81C2218BF1202F9E4F39989AB (const RuntimeMethod* method);
 // UnityEngine.Color UnityEngine.XR.MagicLeap.MLLightingTracking::get_GlobalTemperatureColor()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  MLLightingTracking_get_GlobalTemperatureColor_mED4F3839A9AAAAA9F09997C0376C80F72DEB35BC (const RuntimeMethod* method);
-// UnityEngine.Vector3 UnityEngine.XR.MagicLeap.MLLightingTracking::get_RawPixelColorAverage()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  MLLightingTracking_get_RawPixelColorAverage_mB2E6A900F24953BCA9FD071921D99A6C9034C66A (const RuntimeMethod* method);
-// UnityEngine.Vector3 UnityEngine.XR.MagicLeap.MLLightingTracking::get_TristimulusValues()
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  MLLightingTracking_get_TristimulusValues_m73FB5F6A82D47362921BA08310E79FC5BCF1238F (const RuntimeMethod* method);
 // UnityEngine.Color UnityEngine.Color::op_Multiply(UnityEngine.Color,System.Single)
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  Color_op_Multiply_m1D042E3A39D767771696AB7CD0FC055B56330EA9 (Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  ___a0, float ___b1, const RuntimeMethod* method);
 // UnityEngine.LineRenderer MagicLeapTools.Lines::VerifyLine(System.String)
@@ -16732,33 +16583,18 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightTracking_Update_m1E9015EE0DBC84FEC2
 	static bool s_Il2CppMethodInitialized;
 	if (!s_Il2CppMethodInitialized)
 	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Camera_t837BC33A05EB1F62D88A3EBBDB423F44430441EE_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&LightTracking_Update_m1E9015EE0DBC84FEC2A3880A2D460B8E041CDA93_RuntimeMethod_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&MLLightingTracking_tD258DF66D1DF6AC469370A95E7475AA77AD4F4CB_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203_il2cpp_TypeInfo_var);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&UInt16_t894EA9D4FB7C799B244E7BBF2DF0EEEDBC77A8BD_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E_il2cpp_TypeInfo_var);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral2F241DD9164CC02CC6F0587B97CC7246DA50CE5F);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral483161C70E4985366DE6D57C3ADA7A99666CAD01);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteral67035B0CB0E35BE4955E3C08F55F9B7BBE119E87);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralACE726F9C2EF8DCC96801C1BBA88CC8D0E2AEAA7);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralD67E1EB751C6631FF46F12A109A9AB92D8744A82);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDA39A3EE5E6B4B0D3255BFEF95601890AFD80709);
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralDAAA1FD7A660AA933B9F16FF47B615FD5DA5D144);
 		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&_stringLiteralE8827CA90EFCA06C05B5AD157B9EB629637374B6);
 		s_Il2CppMethodInitialized = true;
 	}
 	StackTraceSentry _stackTraceSentry(LightTracking_Update_m1E9015EE0DBC84FEC2A3880A2D460B8E041CDA93_RuntimeMethod_var);
-	UInt16U5BU5D_t42D35C587B07DCDBCFDADF572C6D733AE85B2A67* V_0 = NULL;
-	TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  V_1;
-	memset((&V_1), 0, sizeof(V_1));
-	DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  V_2;
-	memset((&V_2), 0, sizeof(V_2));
-	float V_3 = 0.0f;
-	DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  V_4;
-	memset((&V_4), 0, sizeof(V_4));
+	float V_0 = 0.0f;
 	{
 		// LightTrackingStatus.text = "";
 		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_0 = __this->get_LightTrackingStatus_4();
@@ -16768,234 +16604,69 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void LightTracking_Update_m1E9015EE0DBC84FEC2
 		IL2CPP_RUNTIME_CLASS_INIT(MLLightingTracking_tD258DF66D1DF6AC469370A95E7475AA77AD4F4CB_il2cpp_TypeInfo_var);
 		UInt16U5BU5D_t42D35C587B07DCDBCFDADF572C6D733AE85B2A67* L_1;
 		L_1 = MLLightingTracking_get_AmbientCameraLuminance_mA66226A1C2D9ED15C393BC49E3FD2EAFF4DD3AFF(/*hidden argument*/NULL);
-		V_0 = L_1;
-		// TimeSpan timeSpan = TimeSpan.FromSeconds(MLLightingTracking.AmbientCameraLuminanceAgeSeconds);
-		double L_2;
-		L_2 = MLLightingTracking_get_AmbientCameraLuminanceAgeSeconds_m311CB5D764D927C1C72EA7DBAFD6B453485CDBE5(/*hidden argument*/NULL);
-		IL2CPP_RUNTIME_CLASS_INIT(TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203_il2cpp_TypeInfo_var);
-		TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  L_3;
-		L_3 = TimeSpan_FromSeconds_m5C1E03DD4DAAACCA1729EC3AD5B7B1E4C497EF55(L_2, /*hidden argument*/NULL);
-		V_1 = L_3;
-		// DateTime dateTime = DateTime.MinValue.Add(timeSpan);
-		IL2CPP_RUNTIME_CLASS_INIT(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_il2cpp_TypeInfo_var);
-		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_4 = ((DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_StaticFields*)il2cpp_codegen_static_fields_for(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_il2cpp_TypeInfo_var))->get_MinValue_31();
-		V_4 = L_4;
-		TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  L_5 = V_1;
-		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_6;
-		L_6 = DateTime_Add_m317E517C3818A7EF09BB4D0E5547FF791814777D((DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 *)(&V_4), L_5, /*hidden argument*/NULL);
-		V_2 = L_6;
-		// LightTrackingStatus.text += dateTime.ToString("MM/dd/yyyy hh:mm:ss.fff tt\n\n");
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_7 = __this->get_LightTrackingStatus_4();
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_8 = L_7;
-		NullCheck(L_8);
-		String_t* L_9;
-		L_9 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_8);
-		String_t* L_10;
-		L_10 = DateTime_ToString_m19ECEFF7BA22ED4425F7562A82A1C2308E934204((DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 *)(&V_2), _stringLiteral2F241DD9164CC02CC6F0587B97CC7246DA50CE5F, /*hidden argument*/NULL);
-		String_t* L_11;
-		L_11 = String_Concat_m10758B01687A2181C8727AD9FD9CCF5325C61C2A(L_9, L_10, /*hidden argument*/NULL);
-		NullCheck(L_8);
-		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_8, L_11);
-		// LightTrackingStatus.text += string.Format("{0} Luminance: {1}\n", MLLightingTracking.Camera.FarLeft, cameraLuminance[(int)MLLightingTracking.Camera.FarLeft]);
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_12 = __this->get_LightTrackingStatus_4();
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_13 = L_12;
-		NullCheck(L_13);
-		String_t* L_14;
-		L_14 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_13);
-		int32_t L_15 = 2;
-		RuntimeObject * L_16 = Box(Camera_t837BC33A05EB1F62D88A3EBBDB423F44430441EE_il2cpp_TypeInfo_var, &L_15);
-		UInt16U5BU5D_t42D35C587B07DCDBCFDADF572C6D733AE85B2A67* L_17 = V_0;
-		NullCheck(L_17);
-		int32_t L_18 = 2;
-		uint16_t L_19 = (L_17)->GetAt(static_cast<il2cpp_array_size_t>(L_18));
-		uint16_t L_20 = L_19;
-		RuntimeObject * L_21 = Box(UInt16_t894EA9D4FB7C799B244E7BBF2DF0EEEDBC77A8BD_il2cpp_TypeInfo_var, &L_20);
-		String_t* L_22;
-		L_22 = String_Format_m8464C6DD7299114954DA87FC39FCD129F3E2ACA2(_stringLiteralDAAA1FD7A660AA933B9F16FF47B615FD5DA5D144, L_16, L_21, /*hidden argument*/NULL);
-		String_t* L_23;
-		L_23 = String_Concat_m10758B01687A2181C8727AD9FD9CCF5325C61C2A(L_14, L_22, /*hidden argument*/NULL);
-		NullCheck(L_13);
-		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_13, L_23);
-		// LightTrackingStatus.text += string.Format("{0} Luminance: {1}\n", MLLightingTracking.Camera.Left, cameraLuminance[(int)MLLightingTracking.Camera.Left]);
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_24 = __this->get_LightTrackingStatus_4();
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_25 = L_24;
-		NullCheck(L_25);
-		String_t* L_26;
-		L_26 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_25);
-		int32_t L_27 = 0;
-		RuntimeObject * L_28 = Box(Camera_t837BC33A05EB1F62D88A3EBBDB423F44430441EE_il2cpp_TypeInfo_var, &L_27);
-		UInt16U5BU5D_t42D35C587B07DCDBCFDADF572C6D733AE85B2A67* L_29 = V_0;
-		NullCheck(L_29);
-		int32_t L_30 = 0;
-		uint16_t L_31 = (L_29)->GetAt(static_cast<il2cpp_array_size_t>(L_30));
-		uint16_t L_32 = L_31;
-		RuntimeObject * L_33 = Box(UInt16_t894EA9D4FB7C799B244E7BBF2DF0EEEDBC77A8BD_il2cpp_TypeInfo_var, &L_32);
-		String_t* L_34;
-		L_34 = String_Format_m8464C6DD7299114954DA87FC39FCD129F3E2ACA2(_stringLiteralDAAA1FD7A660AA933B9F16FF47B615FD5DA5D144, L_28, L_33, /*hidden argument*/NULL);
-		String_t* L_35;
-		L_35 = String_Concat_m10758B01687A2181C8727AD9FD9CCF5325C61C2A(L_26, L_34, /*hidden argument*/NULL);
-		NullCheck(L_25);
-		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_25, L_35);
-		// LightTrackingStatus.text += string.Format("{0} Luminance: {1}\n", MLLightingTracking.Camera.Right, cameraLuminance[(int)MLLightingTracking.Camera.Right]);
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_36 = __this->get_LightTrackingStatus_4();
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_37 = L_36;
-		NullCheck(L_37);
-		String_t* L_38;
-		L_38 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_37);
-		int32_t L_39 = 1;
-		RuntimeObject * L_40 = Box(Camera_t837BC33A05EB1F62D88A3EBBDB423F44430441EE_il2cpp_TypeInfo_var, &L_39);
-		UInt16U5BU5D_t42D35C587B07DCDBCFDADF572C6D733AE85B2A67* L_41 = V_0;
-		NullCheck(L_41);
-		int32_t L_42 = 1;
-		uint16_t L_43 = (L_41)->GetAt(static_cast<il2cpp_array_size_t>(L_42));
-		uint16_t L_44 = L_43;
-		RuntimeObject * L_45 = Box(UInt16_t894EA9D4FB7C799B244E7BBF2DF0EEEDBC77A8BD_il2cpp_TypeInfo_var, &L_44);
-		String_t* L_46;
-		L_46 = String_Format_m8464C6DD7299114954DA87FC39FCD129F3E2ACA2(_stringLiteralDAAA1FD7A660AA933B9F16FF47B615FD5DA5D144, L_40, L_45, /*hidden argument*/NULL);
-		String_t* L_47;
-		L_47 = String_Concat_m10758B01687A2181C8727AD9FD9CCF5325C61C2A(L_38, L_46, /*hidden argument*/NULL);
-		NullCheck(L_37);
-		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_37, L_47);
-		// LightTrackingStatus.text += string.Format("{0} Luminance: {1}\n", MLLightingTracking.Camera.FarRight, cameraLuminance[(int)MLLightingTracking.Camera.FarRight]);
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_48 = __this->get_LightTrackingStatus_4();
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_49 = L_48;
-		NullCheck(L_49);
-		String_t* L_50;
-		L_50 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_49);
-		int32_t L_51 = 3;
-		RuntimeObject * L_52 = Box(Camera_t837BC33A05EB1F62D88A3EBBDB423F44430441EE_il2cpp_TypeInfo_var, &L_51);
-		UInt16U5BU5D_t42D35C587B07DCDBCFDADF572C6D733AE85B2A67* L_53 = V_0;
-		NullCheck(L_53);
-		int32_t L_54 = 3;
-		uint16_t L_55 = (L_53)->GetAt(static_cast<il2cpp_array_size_t>(L_54));
-		uint16_t L_56 = L_55;
-		RuntimeObject * L_57 = Box(UInt16_t894EA9D4FB7C799B244E7BBF2DF0EEEDBC77A8BD_il2cpp_TypeInfo_var, &L_56);
-		String_t* L_58;
-		L_58 = String_Format_m8464C6DD7299114954DA87FC39FCD129F3E2ACA2(_stringLiteralDAAA1FD7A660AA933B9F16FF47B615FD5DA5D144, L_52, L_57, /*hidden argument*/NULL);
-		String_t* L_59;
-		L_59 = String_Concat_m10758B01687A2181C8727AD9FD9CCF5325C61C2A(L_50, L_58, /*hidden argument*/NULL);
-		NullCheck(L_49);
-		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_49, L_59);
 		// LightTrackingStatus.text += string.Format("Average Luminance: {0}\n\n", MLLightingTracking.AverageLuminance);
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_60 = __this->get_LightTrackingStatus_4();
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_61 = L_60;
-		NullCheck(L_61);
-		String_t* L_62;
-		L_62 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_61);
-		uint16_t L_63;
-		L_63 = MLLightingTracking_get_AverageLuminance_m2AAC3CDD81028255132331C364F1C758781C555B(/*hidden argument*/NULL);
-		uint16_t L_64 = L_63;
-		RuntimeObject * L_65 = Box(UInt16_t894EA9D4FB7C799B244E7BBF2DF0EEEDBC77A8BD_il2cpp_TypeInfo_var, &L_64);
-		String_t* L_66;
-		L_66 = String_Format_m5A16F3ABC59A3E9804E0CB2636849CCD74CEC994(_stringLiteralE8827CA90EFCA06C05B5AD157B9EB629637374B6, L_65, /*hidden argument*/NULL);
-		String_t* L_67;
-		L_67 = String_Concat_m10758B01687A2181C8727AD9FD9CCF5325C61C2A(L_62, L_66, /*hidden argument*/NULL);
-		NullCheck(L_61);
-		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_61, L_67);
-		// timeSpan = TimeSpan.FromSeconds(MLLightingTracking.GlobalTemperatureAgeSeconds);
-		double L_68;
-		L_68 = MLLightingTracking_get_GlobalTemperatureAgeSeconds_m177B2A68430EE45F4305414811FC132B350B28F7(/*hidden argument*/NULL);
-		TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  L_69;
-		L_69 = TimeSpan_FromSeconds_m5C1E03DD4DAAACCA1729EC3AD5B7B1E4C497EF55(L_68, /*hidden argument*/NULL);
-		V_1 = L_69;
-		// dateTime = DateTime.MinValue.Add(timeSpan);
-		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_70 = ((DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_StaticFields*)il2cpp_codegen_static_fields_for(DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405_il2cpp_TypeInfo_var))->get_MinValue_31();
-		V_4 = L_70;
-		TimeSpan_t4F6A0E13E703B65365CFCAB58E05EE0AF3EE6203  L_71 = V_1;
-		DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405  L_72;
-		L_72 = DateTime_Add_m317E517C3818A7EF09BB4D0E5547FF791814777D((DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 *)(&V_4), L_71, /*hidden argument*/NULL);
-		V_2 = L_72;
-		// LightTrackingStatus.text += dateTime.ToString("MM/dd/yyyy hh:mm:ss.fff tt\n\n");
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_73 = __this->get_LightTrackingStatus_4();
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_74 = L_73;
-		NullCheck(L_74);
-		String_t* L_75;
-		L_75 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_74);
-		String_t* L_76;
-		L_76 = DateTime_ToString_m19ECEFF7BA22ED4425F7562A82A1C2308E934204((DateTime_tEAF2CD16E071DF5441F40822E4CFE880E5245405 *)(&V_2), _stringLiteral2F241DD9164CC02CC6F0587B97CC7246DA50CE5F, /*hidden argument*/NULL);
-		String_t* L_77;
-		L_77 = String_Concat_m10758B01687A2181C8727AD9FD9CCF5325C61C2A(L_75, L_76, /*hidden argument*/NULL);
-		NullCheck(L_74);
-		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_74, L_77);
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_2 = __this->get_LightTrackingStatus_4();
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_3 = L_2;
+		NullCheck(L_3);
+		String_t* L_4;
+		L_4 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_3);
+		uint16_t L_5;
+		L_5 = MLLightingTracking_get_AverageLuminance_m2AAC3CDD81028255132331C364F1C758781C555B(/*hidden argument*/NULL);
+		uint16_t L_6 = L_5;
+		RuntimeObject * L_7 = Box(UInt16_t894EA9D4FB7C799B244E7BBF2DF0EEEDBC77A8BD_il2cpp_TypeInfo_var, &L_6);
+		String_t* L_8;
+		L_8 = String_Format_m5A16F3ABC59A3E9804E0CB2636849CCD74CEC994(_stringLiteralE8827CA90EFCA06C05B5AD157B9EB629637374B6, L_7, /*hidden argument*/NULL);
+		String_t* L_9;
+		L_9 = String_Concat_m10758B01687A2181C8727AD9FD9CCF5325C61C2A(L_4, L_8, /*hidden argument*/NULL);
+		NullCheck(L_3);
+		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_3, L_9);
 		// LightTrackingStatus.text += string.Format("Global Temperature: {0}K\n", MLLightingTracking.GlobalTemperature);
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_78 = __this->get_LightTrackingStatus_4();
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_79 = L_78;
-		NullCheck(L_79);
-		String_t* L_80;
-		L_80 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_79);
-		uint16_t L_81;
-		L_81 = MLLightingTracking_get_GlobalTemperature_m8F4FA62F999498E81C2218BF1202F9E4F39989AB(/*hidden argument*/NULL);
-		uint16_t L_82 = L_81;
-		RuntimeObject * L_83 = Box(UInt16_t894EA9D4FB7C799B244E7BBF2DF0EEEDBC77A8BD_il2cpp_TypeInfo_var, &L_82);
-		String_t* L_84;
-		L_84 = String_Format_m5A16F3ABC59A3E9804E0CB2636849CCD74CEC994(_stringLiteral483161C70E4985366DE6D57C3ADA7A99666CAD01, L_83, /*hidden argument*/NULL);
-		String_t* L_85;
-		L_85 = String_Concat_m10758B01687A2181C8727AD9FD9CCF5325C61C2A(L_80, L_84, /*hidden argument*/NULL);
-		NullCheck(L_79);
-		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_79, L_85);
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_10 = __this->get_LightTrackingStatus_4();
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_11 = L_10;
+		NullCheck(L_11);
+		String_t* L_12;
+		L_12 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_11);
+		uint16_t L_13;
+		L_13 = MLLightingTracking_get_GlobalTemperature_m8F4FA62F999498E81C2218BF1202F9E4F39989AB(/*hidden argument*/NULL);
+		uint16_t L_14 = L_13;
+		RuntimeObject * L_15 = Box(UInt16_t894EA9D4FB7C799B244E7BBF2DF0EEEDBC77A8BD_il2cpp_TypeInfo_var, &L_14);
+		String_t* L_16;
+		L_16 = String_Format_m5A16F3ABC59A3E9804E0CB2636849CCD74CEC994(_stringLiteral483161C70E4985366DE6D57C3ADA7A99666CAD01, L_15, /*hidden argument*/NULL);
+		String_t* L_17;
+		L_17 = String_Concat_m10758B01687A2181C8727AD9FD9CCF5325C61C2A(L_12, L_16, /*hidden argument*/NULL);
+		NullCheck(L_11);
+		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_11, L_17);
 		// LightTrackingStatus.text += string.Format("Global Temperature Color: {0}\n\n", MLLightingTracking.GlobalTemperatureColor);
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_86 = __this->get_LightTrackingStatus_4();
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_87 = L_86;
-		NullCheck(L_87);
-		String_t* L_88;
-		L_88 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_87);
-		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_89;
-		L_89 = MLLightingTracking_get_GlobalTemperatureColor_mED4F3839A9AAAAA9F09997C0376C80F72DEB35BC(/*hidden argument*/NULL);
-		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_90 = L_89;
-		RuntimeObject * L_91 = Box(Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659_il2cpp_TypeInfo_var, &L_90);
-		String_t* L_92;
-		L_92 = String_Format_m5A16F3ABC59A3E9804E0CB2636849CCD74CEC994(_stringLiteralACE726F9C2EF8DCC96801C1BBA88CC8D0E2AEAA7, L_91, /*hidden argument*/NULL);
-		String_t* L_93;
-		L_93 = String_Concat_m10758B01687A2181C8727AD9FD9CCF5325C61C2A(L_88, L_92, /*hidden argument*/NULL);
-		NullCheck(L_87);
-		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_87, L_93);
-		// LightTrackingStatus.text += string.Format("Raw Pixel Average: {0}\n", MLLightingTracking.RawPixelColorAverage);
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_94 = __this->get_LightTrackingStatus_4();
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_95 = L_94;
-		NullCheck(L_95);
-		String_t* L_96;
-		L_96 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_95);
-		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_97;
-		L_97 = MLLightingTracking_get_RawPixelColorAverage_mB2E6A900F24953BCA9FD071921D99A6C9034C66A(/*hidden argument*/NULL);
-		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_98 = L_97;
-		RuntimeObject * L_99 = Box(Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E_il2cpp_TypeInfo_var, &L_98);
-		String_t* L_100;
-		L_100 = String_Format_m5A16F3ABC59A3E9804E0CB2636849CCD74CEC994(_stringLiteralD67E1EB751C6631FF46F12A109A9AB92D8744A82, L_99, /*hidden argument*/NULL);
-		String_t* L_101;
-		L_101 = String_Concat_m10758B01687A2181C8727AD9FD9CCF5325C61C2A(L_96, L_100, /*hidden argument*/NULL);
-		NullCheck(L_95);
-		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_95, L_101);
-		// LightTrackingStatus.text += string.Format("CIE Tristimulus: {0}\n", MLLightingTracking.TristimulusValues);
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_102 = __this->get_LightTrackingStatus_4();
-		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_103 = L_102;
-		NullCheck(L_103);
-		String_t* L_104;
-		L_104 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_103);
-		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_105;
-		L_105 = MLLightingTracking_get_TristimulusValues_m73FB5F6A82D47362921BA08310E79FC5BCF1238F(/*hidden argument*/NULL);
-		Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E  L_106 = L_105;
-		RuntimeObject * L_107 = Box(Vector3_t65B972D6A585A0A5B63153CF1177A90D3C90D65E_il2cpp_TypeInfo_var, &L_106);
-		String_t* L_108;
-		L_108 = String_Format_m5A16F3ABC59A3E9804E0CB2636849CCD74CEC994(_stringLiteral67035B0CB0E35BE4955E3C08F55F9B7BBE119E87, L_107, /*hidden argument*/NULL);
-		String_t* L_109;
-		L_109 = String_Concat_m10758B01687A2181C8727AD9FD9CCF5325C61C2A(L_104, L_108, /*hidden argument*/NULL);
-		NullCheck(L_103);
-		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_103, L_109);
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_18 = __this->get_LightTrackingStatus_4();
+		Text_t6A2339DA6C05AE2646FC1A6C8FCC127391BE7FA1 * L_19 = L_18;
+		NullCheck(L_19);
+		String_t* L_20;
+		L_20 = VirtFuncInvoker0< String_t* >::Invoke(74 /* System.String UnityEngine.UI.Text::get_text() */, L_19);
+		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_21;
+		L_21 = MLLightingTracking_get_GlobalTemperatureColor_mED4F3839A9AAAAA9F09997C0376C80F72DEB35BC(/*hidden argument*/NULL);
+		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_22 = L_21;
+		RuntimeObject * L_23 = Box(Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659_il2cpp_TypeInfo_var, &L_22);
+		String_t* L_24;
+		L_24 = String_Format_m5A16F3ABC59A3E9804E0CB2636849CCD74CEC994(_stringLiteralACE726F9C2EF8DCC96801C1BBA88CC8D0E2AEAA7, L_23, /*hidden argument*/NULL);
+		String_t* L_25;
+		L_25 = String_Concat_m10758B01687A2181C8727AD9FD9CCF5325C61C2A(L_20, L_24, /*hidden argument*/NULL);
+		NullCheck(L_19);
+		VirtActionInvoker1< String_t* >::Invoke(75 /* System.Void UnityEngine.UI.Text::set_text(System.String) */, L_19, L_25);
 		// float normalizedLuminance = Mathf.Clamp( MLLightingTracking.AverageLuminance, 0.0f, LuminanceNormalizationFactor) / LuminanceNormalizationFactor;
-		uint16_t L_110;
-		L_110 = MLLightingTracking_get_AverageLuminance_m2AAC3CDD81028255132331C364F1C758781C555B(/*hidden argument*/NULL);
-		float L_111 = __this->get_LuminanceNormalizationFactor_5();
-		float L_112;
-		L_112 = Mathf_Clamp_m5EA831B060853D4246B8394A30599A0021F80AFF(((float)((float)L_110)), (0.0f), L_111, /*hidden argument*/NULL);
-		float L_113 = __this->get_LuminanceNormalizationFactor_5();
-		V_3 = ((float)((float)L_112/(float)L_113));
+		uint16_t L_26;
+		L_26 = MLLightingTracking_get_AverageLuminance_m2AAC3CDD81028255132331C364F1C758781C555B(/*hidden argument*/NULL);
+		float L_27 = __this->get_LuminanceNormalizationFactor_5();
+		float L_28;
+		L_28 = Mathf_Clamp_m5EA831B060853D4246B8394A30599A0021F80AFF(((float)((float)L_26)), (0.0f), L_27, /*hidden argument*/NULL);
+		float L_29 = __this->get_LuminanceNormalizationFactor_5();
+		V_0 = ((float)((float)L_28/(float)L_29));
 		// RenderSettings.ambientLight = MLLightingTracking.GlobalTemperatureColor * normalizedLuminance;
-		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_114;
-		L_114 = MLLightingTracking_get_GlobalTemperatureColor_mED4F3839A9AAAAA9F09997C0376C80F72DEB35BC(/*hidden argument*/NULL);
-		float L_115 = V_3;
-		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_116;
-		L_116 = Color_op_Multiply_m1D042E3A39D767771696AB7CD0FC055B56330EA9(L_114, L_115, /*hidden argument*/NULL);
-		RenderSettings_set_ambientLight_m12017A2BE2B1ED95C0626DD69F5A0C575784C0BD(L_116, /*hidden argument*/NULL);
+		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_30;
+		L_30 = MLLightingTracking_get_GlobalTemperatureColor_mED4F3839A9AAAAA9F09997C0376C80F72DEB35BC(/*hidden argument*/NULL);
+		float L_31 = V_0;
+		Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  L_32;
+		L_32 = Color_op_Multiply_m1D042E3A39D767771696AB7CD0FC055B56330EA9(L_30, L_31, /*hidden argument*/NULL);
+		RenderSettings_set_ambientLight_m12017A2BE2B1ED95C0626DD69F5A0C575784C0BD(L_32, /*hidden argument*/NULL);
 		// }
 		return;
 	}
