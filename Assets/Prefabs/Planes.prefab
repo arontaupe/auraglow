@@ -46,7 +46,11 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BBoxTransform: {fileID: 0}
   BBoxExtents: {x: 0, y: 0, z: 0}
-  PlaneGameObject: {fileID: 25901200661331521, guid: aaf0bae1b4fe202469a91f418e19fa04, type: 3}
+  PlaneGameObject: {fileID: 4723320549228866123, guid: c3d33025feae830418a2de3dd2ee738f, type: 3}
+  planeScaleFactor: 0.01
+  enableScaling: 0
+  maxPlanes: 10
+  cycleTime: 15
   QueryFlags: 128
 --- !u!114 &421525140560646327
 MonoBehaviour:
@@ -62,5 +66,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   BBoxTransform: {fileID: 0}
   BBoxExtents: {x: 0, y: 0, z: 0}
-  PlaneGameObject: {fileID: 466174982370493815, guid: 7577e3de9babd604d9880ded032d1752, type: 3}
-  QueryFlags: 1
+  PlaneGameObject: {fileID: 354152661666780138, guid: 2d34d079970a6b344865781aa8056f2a, type: 3}
+  planeScaleFactor: 0.05
+  enableScaling: 0
+  maxPlanes: 10
+  cycleTime: 15
+  QueryFlags: 256

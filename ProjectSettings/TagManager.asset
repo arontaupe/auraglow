@@ -14,6 +14,7 @@ TagManager:
   - wall
   - attractor
   - distAttr
+  - people
   layers:
   - Default
   - TransparentFX

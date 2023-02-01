@@ -1234,8 +1234,6 @@ IL2CPP_EXTERN_C const RuntimeMethod* RenderPipeline_InternalRender_mD6C2FEDA607A
 IL2CPP_EXTERN_C const RuntimeMethod* RenderPipeline_ProcessRenderRequests_m730AE65F326D6007A8C3D7C83CAF182C2DD21A11_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* RenderPipeline_get_disposed_m67EE9900399CE2E9783C5C69BFD1FF08DF521C34_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* RenderPipeline_set_disposed_mB375F2860E0C96CA5E7124154610CB67CE3F80CA_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* RenderSettings_set_ambientLight_Injected_mEE6A2C66E5C99C8D0DF2B7A455C1DC35F802EDC7_RuntimeMethod_var;
-IL2CPP_EXTERN_C const RuntimeMethod* RenderSettings_set_ambientLight_m12017A2BE2B1ED95C0626DD69F5A0C575784C0BD_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* RenderTargetIdentifier_Equals_m57C0226B891EA78C5A9387C7B2A225CE3E4A521A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* RenderTargetIdentifier_Equals_mFDF40A5663B058DA6026AAA920C0CFE6BAD05D1A_RuntimeMethod_var;
 IL2CPP_EXTERN_C const RuntimeMethod* RenderTargetIdentifier_GetHashCode_mB5C49CB1724A3086C19B504C1B659754D67AB967_RuntimeMethod_var;
@@ -16152,8 +16150,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderPipeline_InternalRenderWithRequest
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Object_op_Inequality_mDCB4E958808E725D0612CCABF340B284085F03D6 (Object_tF2F3778131EFF286AF62B7B013A170F95A91571A * ___x0, Object_tF2F3778131EFF286AF62B7B013A170F95A91571A * ___y1, const RuntimeMethod* method);
 // UnityEngine.Rendering.RenderPipeline UnityEngine.Rendering.RenderPipelineAsset::InternalCreatePipeline()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR RenderPipeline_t55376D7E1AF07ECAED806BE0AD967CD63B498AAA * RenderPipelineAsset_InternalCreatePipeline_mAE0E11E7E8D2D501F7F0F06D37DB484D37533406 (RenderPipelineAsset_tA4DBD0F0DD583DF3C9F85AF41F49308D167864EF * __this, const RuntimeMethod* method);
-// System.Void UnityEngine.RenderSettings::set_ambientLight_Injected(UnityEngine.Color&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderSettings_set_ambientLight_Injected_mEE6A2C66E5C99C8D0DF2B7A455C1DC35F802EDC7 (Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659 * ___value0, const RuntimeMethod* method);
 // System.String UnityEngine.Rendering.RenderTargetIdentifier::ToString()
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* RenderTargetIdentifier_ToString_m6A676BAE1AD75ADAE5134EE9E243325DBC23CC4D (RenderTargetIdentifier_t70F41F3016FFCC4AAF4D7C57F280818114534C13 * __this, const RuntimeMethod* method);
 // System.Int32 System.Int32::GetHashCode()
@@ -25378,37 +25374,6 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderPipelineManager__cctor_mC203950398
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// System.Void UnityEngine.RenderSettings::set_ambientLight(UnityEngine.Color)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderSettings_set_ambientLight_m12017A2BE2B1ED95C0626DD69F5A0C575784C0BD (Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659  ___value0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderSettings_set_ambientLight_m12017A2BE2B1ED95C0626DD69F5A0C575784C0BD_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	StackTraceSentry _stackTraceSentry(RenderSettings_set_ambientLight_m12017A2BE2B1ED95C0626DD69F5A0C575784C0BD_RuntimeMethod_var);
-	{
-		RenderSettings_set_ambientLight_Injected_mEE6A2C66E5C99C8D0DF2B7A455C1DC35F802EDC7((Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659 *)(&___value0), /*hidden argument*/NULL);
-		return;
-	}
-}
-// System.Void UnityEngine.RenderSettings::set_ambientLight_Injected(UnityEngine.Color&)
-IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void RenderSettings_set_ambientLight_Injected_mEE6A2C66E5C99C8D0DF2B7A455C1DC35F802EDC7 (Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659 * ___value0, const RuntimeMethod* method)
-{
-	static bool s_Il2CppMethodInitialized;
-	if (!s_Il2CppMethodInitialized)
-	{
-		il2cpp_codegen_initialize_runtime_metadata((uintptr_t*)&RenderSettings_set_ambientLight_Injected_mEE6A2C66E5C99C8D0DF2B7A455C1DC35F802EDC7_RuntimeMethod_var);
-		s_Il2CppMethodInitialized = true;
-	}
-	StackTraceSentry _stackTraceSentry(RenderSettings_set_ambientLight_Injected_mEE6A2C66E5C99C8D0DF2B7A455C1DC35F802EDC7_RuntimeMethod_var);
-	typedef void (*RenderSettings_set_ambientLight_Injected_mEE6A2C66E5C99C8D0DF2B7A455C1DC35F802EDC7_ftn) (Color_tF40DAF76C04FFECF3FE6024F85A294741C9CC659 *);
-	static RenderSettings_set_ambientLight_Injected_mEE6A2C66E5C99C8D0DF2B7A455C1DC35F802EDC7_ftn _il2cpp_icall_func;
-	if (!_il2cpp_icall_func)
-	_il2cpp_icall_func = (RenderSettings_set_ambientLight_Injected_mEE6A2C66E5C99C8D0DF2B7A455C1DC35F802EDC7_ftn)il2cpp_codegen_resolve_icall ("UnityEngine.RenderSettings::set_ambientLight_Injected(UnityEngine.Color&)");
-	_il2cpp_icall_func(___value0);
-}
 #ifdef __clang__
 #pragma clang diagnostic pop
 #endif

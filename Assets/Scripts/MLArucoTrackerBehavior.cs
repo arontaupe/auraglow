@@ -27,7 +27,8 @@ namespace MagicLeap.Core
 
         private MLArucoTracker.Marker _marker = null;
 
-        public float smoothTime = 0.3F;
+        public float smoothTime = 0.3f;
+        public bool displayLabel = false;
         private Vector3 velocity = Vector3.zero;
 
 
@@ -59,9 +60,12 @@ namespace MagicLeap.Core
                 transform.position = Vector3.SmoothDamp(transform.position, _marker.Position, ref velocity, smoothTime);
                 //transform.position = _marker.Position;
                 transform.rotation = _marker.Rotation;
-                TextMesh label = transform.Find("Label").GetComponent<TextMesh>();
+                if(displayLabel){
+                    TextMesh label = transform.Find("Label").GetComponent<TextMesh>();
                 label.text = MarkerId.ToString();
 
+                }
+                
             }
         }
 

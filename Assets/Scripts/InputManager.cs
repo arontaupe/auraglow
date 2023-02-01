@@ -13,7 +13,7 @@ public class InputManager : MonoBehaviour
 
     public GameObject controllerInput;
     public GameObject attractor;
-    private bool attractorCreated = false; //Did we already make a cube?
+    private bool attractorCreated = true; //Did we already make a cube?
 
     void Start()
     {
@@ -27,6 +27,7 @@ public class InputManager : MonoBehaviour
         Scene scene = SceneManager.GetActiveScene();
         Debug.Log(scene.name);
     }
+
 
     void OnButtonDown(byte controllerId, MLInput.Controller.Button button) {
     }

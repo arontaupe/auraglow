@@ -12,6 +12,30 @@ PrefabInstance:
       value: PlaneAura Floor Variant
       objectReference: {fileID: 0}
     - target: {fileID: 6371232222687688988, guid: ad3a4cc215d7f3f4e908b8d04c1eb089, type: 3}
+      propertyPath: ShapeModule.type
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6371232222687688988, guid: ad3a4cc215d7f3f4e908b8d04c1eb089, type: 3}
+      propertyPath: NoiseModule.separateAxes
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6371232222687688988, guid: ad3a4cc215d7f3f4e908b8d04c1eb089, type: 3}
+      propertyPath: ShapeModule.radius.value
+      value: 10
+      objectReference: {fileID: 0}
+    - target: {fileID: 6371232222687688988, guid: ad3a4cc215d7f3f4e908b8d04c1eb089, type: 3}
+      propertyPath: NoiseModule.strength.scalar
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6371232222687688988, guid: ad3a4cc215d7f3f4e908b8d04c1eb089, type: 3}
+      propertyPath: ShapeModule.radiusThickness
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 6371232222687688988, guid: ad3a4cc215d7f3f4e908b8d04c1eb089, type: 3}
+      propertyPath: NoiseModule.strengthZ.scalar
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 6371232222687688988, guid: ad3a4cc215d7f3f4e908b8d04c1eb089, type: 3}
       propertyPath: InitialModule.startColor.maxColor.b
       value: 0.15566039
       objectReference: {fileID: 0}
@@ -62,6 +86,10 @@ PrefabInstance:
     - target: {fileID: 7356655764051171993, guid: ad3a4cc215d7f3f4e908b8d04c1eb089, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 8742477027768810375, guid: ad3a4cc215d7f3f4e908b8d04c1eb089, type: 3}
+      propertyPath: m_Text
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 8742477029212911195, guid: ad3a4cc215d7f3f4e908b8d04c1eb089, type: 3}
       propertyPath: MarkerId

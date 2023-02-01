@@ -8,18 +8,18 @@ using System.Collections;
 public class LightTracking : MonoBehaviour
 {
     public Text LightTrackingStatus;
-    public float LuminanceNormalizationFactor = 30;
 
     public Transform camTransform;
     public GameObject luminancePrefab;
 
     private float avgLuminance = 0;
     private MLRaycast.QueryParams _raycastParams = new MLRaycast.QueryParams(); 
+
     private bool instantiated = false;
 
     public float smoothTime = 0.3F;
-    [Range(0.000f, 0.800f)]
-    public float decay = 0.01F;
+    [Range(0.000f, 0.01f)]
+    public float decay = 0.00001f;
     private Vector3 velocity = Vector3.zero;
     private GameObject lumInstance;
 
@@ -36,7 +36,7 @@ public class LightTracking : MonoBehaviour
             enabled = false;
             return;
         }
-        RenderSettings.ambientLight = Color.black;
+        StartCoroutine (CheckLuminance());
     }
  
     void OnDestroy()
@@ -45,38 +45,36 @@ public class LightTracking : MonoBehaviour
                // Stop raycasting.
         MLRaycast.Stop();
     }
+
  
     void Update(){
-        ushort[] cameraLuminance = MLLightingTracking.AmbientCameraLuminance;
- 
-        float normalizedLuminance = Mathf.Clamp( MLLightingTracking.AverageLuminance, 0.0f, LuminanceNormalizationFactor) / LuminanceNormalizationFactor;
-        RenderSettings.ambientLight = MLLightingTracking.GlobalTemperatureColor * normalizedLuminance;
+    
+    }
+    
+    private WaitForSeconds refreshIntervalWait = new WaitForSeconds(1);
+    IEnumerator CheckLuminance() 
+    {
+        while (true) {
+        float luminance = MLLightingTracking.AverageLuminance;
+        avgLuminance -= decay;
+            if(luminance > avgLuminance){
+                // Update the orientation data in the raycast parameters.
+                _raycastParams.Position = camTransform.position;
+                _raycastParams.Direction = camTransform.forward;
+                _raycastParams.UpVector = camTransform.up;
 
-        if(normalizedLuminance > avgLuminance){
-            // Update the orientation data in the raycast parameters.
-            _raycastParams.Position = camTransform.position;
-            _raycastParams.Direction = camTransform.forward;
-            _raycastParams.UpVector = camTransform.up;
-
-            // Make a raycast request using the raycast parameters 
-            MLRaycast.Raycast(_raycastParams, HandleOnReceiveRaycast);
-            Debug.Log(string.Format("Old: {0}  New: {1}", normalizedLuminance, avgLuminance));
-            avgLuminance = normalizedLuminance;
+                // Make a raycast request using the raycast parameters 
+                MLRaycast.Raycast(_raycastParams, HandleOnReceiveRaycast);
+                avgLuminance = luminance;
+            }    
+        yield return refreshIntervalWait;
         }
     }
 
-
-    private IEnumerator NormalMarker(Vector3 point, Vector3 normal) 
+    IEnumerator NormalMarker(Vector3 point) 
     {
-        Quaternion rotation = Quaternion.FromToRotation(Vector3.up, normal);
-
         lumInstance.transform.position = Vector3.Lerp(lumInstance.transform.position, point, smoothTime);
-        
-        Debug.Log("Moved Lum Aura");
-
-        // Wait 2 seconds then destroy the prefab.
-        yield return new WaitForSeconds(2);
-        //Destroy(go);
+        yield return 0;
     }
 
 
@@ -84,15 +82,15 @@ public class LightTracking : MonoBehaviour
                                 UnityEngine.Vector3 point, Vector3 normal, 
                                 float confidence) {
         if (state ==  MLRaycast.ResultState.HitObserved) {
-            Quaternion rotation = Quaternion.FromToRotation(Vector3.up, normal);
+
             // Instantiate the prefab at the given point.
             if(!instantiated){
-                lumInstance = Instantiate(luminancePrefab, point, rotation);
+                lumInstance = Instantiate(luminancePrefab, point, Quaternion.identity);
                 instantiated = true;
                 Debug.Log("Placed Lum Aura");
             }
             else{
-                StartCoroutine(NormalMarker(point, normal));
+                StartCoroutine(NormalMarker(point));
             }
         }
     }

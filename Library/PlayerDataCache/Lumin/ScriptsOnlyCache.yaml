@@ -8,6 +8,7 @@ ScriptsOnlyBuild:
     - DynamicBeam
     - InputManager
     - LightTracking
+    - MagicLeap.Core.MLArucoTrackerBehavior
     - MagicLeapTools.ControlInput
     - MagicLeapTools.KeepInFront
     - MagicLeapTools.RuntimeConsole
@@ -15,7 +16,6 @@ ScriptsOnlyBuild:
     - PlanesFinder
     - UIManager
     LuminUnity.dll:
-    - MagicLeap.Core.MLArucoTrackerBehavior
     - UnityEngine.XR.MagicLeap.MLHeadposeCanvasBehavior
     - UnityEngine.XR.MagicLeap.MLSceneOptimizerBehavior
     Unity.TextMeshPro.dll:
@@ -667,7 +667,7 @@ ScriptsOnlyBuild:
     className: GraphicRaycaster
   - hash:
       serializedVersion: 2
-      Hash: af8ab130c47fdf0ec1955b69d0e01364
+      Hash: 8840d1639d5110ec5310b0ed93d55dca
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DistanceCalculatorCamObj
@@ -763,7 +763,7 @@ ScriptsOnlyBuild:
     className: BeforeAfterTestCommandState
   - hash:
       serializedVersion: 2
-      Hash: 5c442a5a0a7372812dfdfb57c34808d0
+      Hash: e9db86373be87fb6dfac6ebf7f11cbc3
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: LightTracking
@@ -919,8 +919,8 @@ ScriptsOnlyBuild:
     className: PositionAsUV1
   - hash:
       serializedVersion: 2
-      Hash: a54c6a3e29f7b2b1bad4e6cdbeb22553
-    assemblyName: LuminUnity.dll
+      Hash: 867273a07ea76f6794ea07fb089e5d58
+    assemblyName: Assembly-CSharp.dll
     namespaceName: MagicLeap.Core
     className: MLArucoTrackerBehavior
   - hash:
@@ -1129,7 +1129,7 @@ ScriptsOnlyBuild:
     className: AxisVisualizer
   - hash:
       serializedVersion: 2
-      Hash: 52e749c241b009940fc005d33e35ab12
+      Hash: d28a62e72cc2c66547892e02db9fc876
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DistanceCalculatorSimilarObj
@@ -1159,7 +1159,7 @@ ScriptsOnlyBuild:
     className: HandAxisVisualizer
   - hash:
       serializedVersion: 2
-      Hash: af8ab130c47fdf0ec1955b69d0e01364
+      Hash: 4947a8302c32ce72e37f7bd8b9f86ccd
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: DistanceCalculatorAttrObj
@@ -1195,7 +1195,7 @@ ScriptsOnlyBuild:
     className: MLSceneOptimizerBehavior
   - hash:
       serializedVersion: 2
-      Hash: 37f9065fac79dd2c97d8495e1f4c29a6
+      Hash: 15e56c4f53ac3df539ca29c16226ef7e
     assemblyName: Assembly-CSharp.dll
     namespaceName: 
     className: PlanesFinder

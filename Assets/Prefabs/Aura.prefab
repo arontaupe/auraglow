@@ -26,7 +26,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 43349760}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 2, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2255058736833943068}
@@ -81,9 +81,9 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 43349760}
-  m_Text: ID
+  m_Text: 
   m_OffsetZ: 0
-  m_CharacterSize: 0.8
+  m_CharacterSize: 0.4
   m_LineSpacing: 1
   m_Anchor: 4
   m_Alignment: 1
@@ -121,7 +121,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 720869835468268905}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 4, z: 0}
+  m_LocalPosition: {x: 0, y: 2, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2255058736833943068}
@@ -176,9 +176,9 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 720869835468268905}
-  m_Text: D A
+  m_Text: 
   m_OffsetZ: 0
-  m_CharacterSize: 0.8
+  m_CharacterSize: 0.4
   m_LineSpacing: 1
   m_Anchor: 4
   m_Alignment: 1
@@ -217,7 +217,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4614399170846671743}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 5}
   m_LocalScale: {x: 0.05, y: 0.05, z: 0.05}
   m_Children:
@@ -229,7 +229,7 @@ Transform:
   - {fileID: 675434154648170539}
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!198 &2393853944757171609
 ParticleSystem:
   m_ObjectHideFlags: 0
@@ -238,7 +238,7 @@ ParticleSystem:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 4614399170846671743}
   serializedVersion: 7
-  lengthInSec: 3
+  lengthInSec: 5
   simulationSpeed: 0.2
   stopAction: 0
   cullingMode: 0
@@ -313,7 +313,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 2
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -366,7 +366,7 @@ ParticleSystem:
     startSpeed:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 0.5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -798,7 +798,7 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     randomizeRotationDirection: 0
-    maxNumParticles: 50
+    maxNumParticles: 100
     size3D: 0
     rotation3D: 0
     gravityModifier:
@@ -857,7 +857,7 @@ ParticleSystem:
   ShapeModule:
     serializedVersion: 6
     enabled: 1
-    type: 17
+    type: 0
     angle: 25
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
@@ -1063,7 +1063,7 @@ ParticleSystem:
     rateOverTime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 10
+      scalar: 20
       minScalar: 10
       maxCurve:
         serializedVersion: 2
@@ -3579,7 +3579,7 @@ ParticleSystem:
     range: {x: 0, y: 2}
     separateAxes: 0
   RotationBySpeedModule:
-    enabled: 1
+    enabled: 0
     x:
       serializedVersion: 2
       minMaxState: 0
@@ -5018,6 +5018,7 @@ MonoBehaviour:
   MarkerDictionary: 0
   MarkerId: 0
   smoothTime: 0
+  displayLabel: 0
 --- !u!114 &1418083042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5030,7 +5031,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eae42fbee033d436ab1b008993052c98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EmissionRateLimit: 10
+  EmissionRateLimit: 20
+  displayValues: 0
 --- !u!1 &5220146943525297302
 GameObject:
   m_ObjectHideFlags: 0
@@ -5058,7 +5060,7 @@ Transform:
   m_GameObject: {fileID: 5220146943525297302}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 0.4, y: 0.4, z: 0.4}
+  m_LocalScale: {x: 0.2, y: 0.2, z: 0.2}
   m_Children: []
   m_Father: {fileID: 2255058736833943068}
   m_RootOrder: 0
@@ -5138,7 +5140,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5773029205877248006}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 6, z: 0}
+  m_LocalPosition: {x: 0, y: 3, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2255058736833943068}
@@ -5193,9 +5195,9 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 5773029205877248006}
-  m_Text: E
+  m_Text: 
   m_OffsetZ: 0
-  m_CharacterSize: 0.8
+  m_CharacterSize: 0.4
   m_LineSpacing: 1
   m_Anchor: 4
   m_Alignment: 1
@@ -5233,7 +5235,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7495798729901813095}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 10, z: 0}
+  m_LocalPosition: {x: 0, y: 5, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2255058736833943068}
@@ -5288,9 +5290,9 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7495798729901813095}
-  m_Text: D C
+  m_Text: 
   m_OffsetZ: 0
-  m_CharacterSize: 0.8
+  m_CharacterSize: 0.4
   m_LineSpacing: 1
   m_Anchor: 4
   m_Alignment: 1
@@ -5328,7 +5330,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8729444472647087422}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 8, z: 0}
+  m_LocalPosition: {x: 0, y: 4, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 2255058736833943068}
@@ -5383,9 +5385,9 @@ TextMesh:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8729444472647087422}
-  m_Text: H
+  m_Text: 
   m_OffsetZ: 0
-  m_CharacterSize: 0.8
+  m_CharacterSize: 0.4
   m_LineSpacing: 1
   m_Anchor: 4
   m_Alignment: 1

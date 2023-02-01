@@ -142,8 +142,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7b856c7dadfe64eb7be311bbf5d4d479, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  startColor: {r: 0, g: 0, b: 0, a: 0}
-  endColor: {r: 0, g: 0, b: 0, a: 0}
 --- !u!1 &7560753205650765917
 GameObject:
   m_ObjectHideFlags: 0
@@ -188,4 +186,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a88f6569d7b804b9c896273e1ca80aa2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  controllerTransform: {fileID: 0}
   controllerInput: {fileID: 7560753204889732478}
+  attractor: {fileID: 0}
