@@ -405,7 +405,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   debugBuildsOnly: 0
-  showFPS: 1
+  showFPS: 0
   showStackTrace: 0
   logs: 1
   warnings: 1
@@ -429,7 +429,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 49a3c9783d85e704180bbe6ac2c4ce7a, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  offset: {x: 0, y: -0.17, z: 0.75}
+  offset: {x: 0, y: 0, z: 1}
   surfaceOffset: 0.07
   allowedDistance: 0
   minimumScale: 0.5

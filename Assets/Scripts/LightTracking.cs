@@ -66,21 +66,34 @@ public class LightTracking : MonoBehaviour
     }
 
 
+    private IEnumerator NormalMarker(Vector3 point, Vector3 normal) 
+    {
+        Quaternion rotation = Quaternion.FromToRotation(Vector3.up, normal);
+
+        lumInstance.transform.position = Vector3.Lerp(lumInstance.transform.position, point, smoothTime);
+        
+        Debug.Log("Moved Lum Aura");
+
+        // Wait 2 seconds then destroy the prefab.
+        yield return new WaitForSeconds(2);
+        //Destroy(go);
+    }
+
+
     void HandleOnReceiveRaycast( MLRaycast.ResultState state, 
                                 UnityEngine.Vector3 point, Vector3 normal, 
                                 float confidence) {
         if (state ==  MLRaycast.ResultState.HitObserved) {
-
             Quaternion rotation = Quaternion.FromToRotation(Vector3.up, normal);
             // Instantiate the prefab at the given point.
             if(!instantiated){
                 lumInstance = Instantiate(luminancePrefab, point, rotation);
                 instantiated = true;
+                Debug.Log("Placed Lum Aura");
             }
             else{
-                lumInstance.transform.position = Vector3.Lerp(lumInstance.transform.position, point, smoothTime);
+                StartCoroutine(NormalMarker(point, normal));
             }
-            Debug.Log("Placed Lum Aura");
         }
     }
 }

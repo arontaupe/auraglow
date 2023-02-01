@@ -35,7 +35,7 @@ public class InputManager : MonoBehaviour
 
         if (button == MLInput.Controller.Button.HomeTap)
         {
-            SceneManager.LoadScene("MainMenuScene");
+            SceneManager.LoadScene("MainMenuDemoScene");
             Scene scene = SceneManager.GetActiveScene();
             Debug.Log(scene.name);
         }

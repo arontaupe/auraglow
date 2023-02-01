@@ -37,6 +37,7 @@
   </PropertyGroup>
   <ItemGroup>
      <Compile Include="Assets\MagicLeap-Tools\Code\Input\Pointer\PointerReceiver.cs" />
+     <Compile Include="Assets\Scripts\AttractorManager.cs" />
      <Compile Include="Assets\MagicLeap-Tools\Code\Networking\Transmission\Messages\ColorArrayMessage.cs" />
      <Compile Include="Assets\MagicLeap-Tools\Code\Networking\Transmission\TransmissionObject.cs" />
      <Compile Include="Assets\MagicLeap-Tools\Code\Networking\Transmission\Messages\FloatArrayMessage.cs" />
@@ -123,6 +124,7 @@
      <Compile Include="Assets\MagicLeap-Tools\Code\Networking\Transmission\Messages\Internal\GlobalVector4RecapMessage.cs" />
      <Compile Include="Assets\Scripts\EyeTracking.cs" />
      <Compile Include="Assets\MagicLeap-Tools\Code\Bases\PercentageResponse.cs" />
+     <Compile Include="Assets\Scripts\MLArucoTrackerBehavior.cs" />
      <Compile Include="Assets\MagicLeap-Tools\Code\Input\Hands\Inputs\PushButton.cs" />
      <Compile Include="Assets\MagicLeap-Tools\Examples\ControlInput\Code\Logic\ControlInputExample.cs" />
      <Compile Include="Assets\MagicLeap-Tools\Code\Audio\SoundOnCollision.cs" />
@@ -149,6 +151,7 @@
      <Compile Include="Assets\Scripts\DistanceCalculatorSimilarObj.cs" />
      <Compile Include="Assets\MagicLeap-Tools\Code\Presentation\PlaceOnFloor\PlaceOnFloor.cs" />
      <Compile Include="Assets\MagicLeap-Tools\Code\Input\Hands\Visualizers\HandAxisVisualizer.cs" />
+     <Compile Include="Assets\Scripts\DistanceCalculatorAttrObj.cs" />
      <Compile Include="Assets\MagicLeap-Tools\Code\Utilities\TransformUtilities.cs" />
      <Compile Include="Assets\Scripts\PlanesFinder.cs" />
      <Compile Include="Assets\MagicLeap-Tools\Code\Networking\Transmission\Messages\Internal\DespawnMessage.cs" />
@@ -174,8 +177,6 @@
      <Compile Include="Assets\MagicLeap-Tools\Code\Utilities\NetworkUtilities.cs" />
      <Compile Include="Assets\MagicLeap-Tools\Examples\RuntimeConsole\Code\Logic\RuntimeConsoleExample.cs" />
      <Compile Include="Assets\MagicLeap-Tools\Code\Input\Hands\Visualizers\KeyPointVisualizer.cs" />
-     <Compile Include="Assets\AttractorManager.cs" />
-     <Compile Include="Assets\Scripts\DistanceCalculatorAttrObj.cs" />
      <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />
      <None Include="Assets\TextMesh Pro\Shaders\TMP_SDF-Mobile Overlay.shader" />
      <None Include="Assets\MagicLeap-Tools\Art\Shaders\RampLighting\RampTexture.shader" />

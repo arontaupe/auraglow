@@ -150,7 +150,6 @@
     <Compile Include="Packages\com.magicleap.unitysdk\APIs\ArucoTracker\MLArucoTrackerSettings.cs" />
     <Compile Include="Packages\com.magicleap.unitysdk\APIs\AppConnect\MLAppConnectNativeBindings.cs" />
     <Compile Include="Packages\com.magicleap.unitysdk\APIs\Persistence\API\IMLPCFBinding.cs" />
-    <Compile Include="Packages\com.magicleap.unitysdk\APIs\ArucoTracker\MLArucoTrackerBehavior.cs" />
     <Compile Include="Packages\com.magicleap.unitysdk\APIs\HandTracking\API\MLHandTrackingThumb.cs" />
     <Compile Include="Packages\com.magicleap.unitysdk\APIs\WebRTC\Bindings\MLWebRTCDataChannelNativeBindings.cs" />
     <Compile Include="Packages\com.magicleap.unitysdk\APIs\WebRTC\API\MLWebRTCFrame.cs" />
@@ -823,11 +822,11 @@
     <Reference Include="Unity.XR.Management">
       <HintPath>C:\Users\Marc\Documents\GitHub\aron\auraglow\Library\ScriptAssemblies\Unity.XR.Management.dll</HintPath>
     </Reference>
-    <Reference Include="UnityEditor.UI">
-      <HintPath>C:\Users\Marc\Documents\GitHub\aron\auraglow\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
-    </Reference>
     <Reference Include="UnityEngine.UI">
       <HintPath>C:\Users\Marc\Documents\GitHub\aron\auraglow\Library\ScriptAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEditor.UI">
+      <HintPath>C:\Users\Marc\Documents\GitHub\aron\auraglow\Library\ScriptAssemblies\UnityEditor.UI.dll</HintPath>
     </Reference>
   </ItemGroup>
   <ItemGroup></ItemGroup>
