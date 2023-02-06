@@ -3,31 +3,46 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.MagicLeap;
 
-public class EyeTracking : MonoBehaviour {
+public class EyeTracking : MonoBehaviour
+{
     #region Public Variables
     public GameObject Camera;
+    public Material FocusedMaterial, NonFocusedMaterial;
     #endregion
 
     #region Private Variables
     private Vector3 _heading;
-    public GameObject focusObject;
+    private MeshRenderer _meshRenderer;
     #endregion
 
     #region Unity Methods
-    void Start() {
+    void Start()
+    {
         MLEyes.Start();
-         Debug.Log("MLEyes Started");
-     
-    }    
-    private void OnDisable() {
+        transform.position = Camera.transform.position + Camera.transform.forward * 2.0f;
+        // Get the meshRenderer component
+        _meshRenderer = gameObject.GetComponent<MeshRenderer>();
+    }
+    private void OnDisable()
+    {
         MLEyes.Stop();
     }
-    void Update() {
-        if (MLEyes.IsStarted) {
-            Instantiate(focusObject, MLEyes.FixationPoint, Quaternion.identity);
-            Debug.Log("Fixation Locked");
+    void Update()
+    {
+        if (MLEyes.IsStarted)
+        {
+            RaycastHit rayHit;
+            _heading = MLEyes.FixationPoint - Camera.transform.position;
+            // Use the proper material
+            if (Physics.Raycast(Camera.transform.position, _heading, out rayHit, 10.0f))
+            {
+                _meshRenderer.material = FocusedMaterial;
+            }
+            else
+            {
+                _meshRenderer.material = NonFocusedMaterial;
+            }
         }
     }
     #endregion
 }
-

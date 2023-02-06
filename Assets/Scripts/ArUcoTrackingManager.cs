@@ -13,6 +13,8 @@ using System.Collections.Generic;
 
             //Add a prefab that will display when we've detected a marker
             public GameObject[] MLArucoMarkerPrefab;
+            
+            public bool showDebug = false;
 
             void Start(){
                 //Update the tracker settings and add the callback that will trigger on marker detection
@@ -74,7 +76,11 @@ using System.Collections.Generic;
                     arucoBehavior.MarkerDictionary = MLArucoTracker.TrackerSettings.Dictionary;
                     //Add the markerId so we don't do this again
                     _arucoMarkerIds.Add(marker.Id);
-                    Debug.Log(string.Format("Found ID {0}", marker.Id ));
+                if (showDebug)
+                {
+                    Debug.Log(string.Format("Found ID {0}", marker.Id));
+                }
+
                 }
                 else if (_arucoMarkerIds.Contains(marker.Id))
                 {

@@ -15,21 +15,11 @@ public class InputManager : MonoBehaviour
     public GameObject attractor;
     private bool attractorCreated = true; //Did we already make a cube?
 
-    void Start()
-    {
-        MLInput.Start();
+    void Start(){
         controller = MLInput.GetController(MLInput.Hand.Left);
-
-
-        MLInput.OnControllerButtonDown += OnButtonDown;
         MLInput.OnControllerButtonUp += OnButtonUp;
-
         Scene scene = SceneManager.GetActiveScene();
         Debug.Log(scene.name);
-    }
-
-
-    void OnButtonDown(byte controllerId, MLInput.Controller.Button button) {
     }
 
     void OnButtonUp(byte controllerId, MLInput.Controller.Button button) {
@@ -83,10 +73,5 @@ public class InputManager : MonoBehaviour
         {
             NormalMarker(point, normal);
         }
-    }
- 
-    private void OnDestroy()
-    {
-        MLInput.Stop();
     }
 }

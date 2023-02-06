@@ -78,6 +78,7 @@
     <Compile Include="Assets\MagicLeap-Tools\Code\Input\Hands\Feedback\PushButtonHoverResponse.cs" />
     <Compile Include="Assets\MagicLeap-Tools\Code\Input\Objects\HapticSetting.cs" />
     <Compile Include="Assets\MagicLeap-Tools\Code\Visuals\Lines.cs" />
+    <Compile Include="Assets\CollisionManager.cs" />
     <Compile Include="Assets\MagicLeap-Tools\Examples\Transmission\Code\Logic\TransmissionExample.cs" />
     <Compile Include="Assets\MagicLeap-Tools\Code\Input\InputRelay\InputReceiver.cs" />
     <Compile Include="Assets\Scripts\ButtonScript.cs" />
@@ -197,7 +198,8 @@
     <Compile Include="Assets\MagicLeap-Tools\Code\Utilities\NetworkUtilities.cs" />
     <Compile Include="Assets\MagicLeap-Tools\Examples\RuntimeConsole\Code\Logic\RuntimeConsoleExample.cs" />
     <Compile Include="Assets\MagicLeap-Tools\Code\Input\Hands\Visualizers\KeyPointVisualizer.cs" />
-    <Compile Include="Assets\CollisionManager.cs" />
+    <Compile Include="Assets\HandTrackingSnippet.cs" />
+    <Compile Include="Assets\Scripts\FixationFinder.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\TextMesh Pro\Shaders\TMPro.cginc" />

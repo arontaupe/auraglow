@@ -96,15 +96,7 @@ namespace MagicLeapTools
             OnReady?.Invoke();
         }
 
-        private void OnDestroy()
-        {
-            //turn off hand tracking:
-            if (MLHandTracking.IsStarted)
-            {
-                MLHandTracking.Stop();
-            }
-        }
-        
+
         //Loops:
         private void Update()
         {
