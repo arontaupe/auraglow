@@ -63,7 +63,6 @@ namespace MagicLeap.Core
                 if(displayLabel){
                     TextMesh label = transform.Find("Label").GetComponent<TextMesh>();
                 label.text = MarkerId.ToString();
-
                 }
                 
             }

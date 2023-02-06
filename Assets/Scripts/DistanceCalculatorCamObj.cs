@@ -4,16 +4,16 @@ using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.XR.MagicLeap;
 
-
+[RequireComponent(typeof(ParticleSystem))]
 public class DistanceCalculatorCamObj : MonoBehaviour
 {
-    private Text DistanceCamText;
     private TextMesh emissionRate;
     private TextMesh dist;
     private Transform CameraTransform;
     private ParticleSystem aura;
     private ParticleSystem.EmissionModule emissionModule;
     public float EmissionRateLimit = 20.0f;
+    public float EmissionRateMin = 1.0f;
     public bool displayValues= false;
 
     void Awake(){
@@ -26,7 +26,7 @@ public class DistanceCalculatorCamObj : MonoBehaviour
 
     void SetValue(float min = 0.0f, float max = 10.0f){
         emissionModule.rateOverTime = new ParticleSystem.MinMaxCurve(min, max);
-        emissionModule.rate = max;
+        //emissionModule.rate = max;
         if(displayValues){
             emissionRate.text = string.Format("min {0} max {1}.", emissionModule.rateOverTime.constantMin, emissionModule.rateOverTime.constantMax);
         }
@@ -38,6 +38,6 @@ public class DistanceCalculatorCamObj : MonoBehaviour
         if(displayValues){
             dist.text = distance.ToString() + " m";  
         }
-        SetValue(0.0f,max: EmissionRateLimit/distance );     
+        SetValue(EmissionRateMin, max: EmissionRateLimit/distance );     
     }
 }

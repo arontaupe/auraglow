@@ -203,6 +203,7 @@ GameObject:
   - component: {fileID: 467427227211302003}
   - component: {fileID: 1418083038}
   - component: {fileID: 1418083042}
+  - component: {fileID: 141031109890625522}
   m_Layer: 0
   m_Name: Aura
   m_TagString: aura
@@ -3811,13 +3812,12 @@ ParticleSystem:
     enabled: 1
     serializedVersion: 4
     type: 1
-    collisionMode: 1
-    colliderForce: 0
+    collisionMode: 0
+    colliderForce: 0.5
     multiplyColliderForceByParticleSize: 0
     multiplyColliderForceByParticleSpeed: 0
     multiplyColliderForceByCollisionAngle: 1
     m_Planes:
-    - {fileID: 0}
     - {fileID: 0}
     m_Dampen:
       serializedVersion: 2
@@ -3875,7 +3875,7 @@ ParticleSystem:
     m_Bounce:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.1
+      scalar: 1
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -3928,7 +3928,7 @@ ParticleSystem:
     m_EnergyLossOnCollision:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0
+      scalar: 1
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -3979,15 +3979,15 @@ ParticleSystem:
         m_PostInfinity: 2
         m_RotationOrder: 4
     minKillSpeed: 0
-    maxKillSpeed: 10000
+    maxKillSpeed: 100
     radiusScale: 1
     collidesWith:
       serializedVersion: 2
-      m_Bits: 33
+      m_Bits: 4294967295
     maxCollisionShapes: 256
-    quality: 0
-    voxelSize: 0.5
-    collisionMessages: 0
+    quality: 1
+    voxelSize: 1
+    collisionMessages: 1
     collidesWithDynamic: 1
     interiorCollisions: 0
   TriggerModule:
@@ -3999,7 +3999,8 @@ ParticleSystem:
     exit: 0
     colliderQueryMode: 0
     radiusScale: 1
-    primitives: []
+    primitives:
+    - {fileID: 0}
   SubModule:
     serializedVersion: 2
     enabled: 0
@@ -5032,8 +5033,21 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eae42fbee033d436ab1b008993052c98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EmissionRateLimit: 15
-  displayValues: 0
+  EmissionRateLimit: 12
+  EmissionRateMin: 1
+  displayValues: 1
+--- !u!114 &141031109890625522
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4614399170846671743}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 4b2038a9a05a7074498cd9584055b465, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &5220146943525297302
 GameObject:
   m_ObjectHideFlags: 0

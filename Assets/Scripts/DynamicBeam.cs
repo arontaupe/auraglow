@@ -10,31 +10,25 @@ public class DynamicBeam : MonoBehaviour
 
 
 #if PLATFORM_LUMIN
-    // Start is called before the first frame update
-    void Start()
-    {
+    void Start(){
         controller = MLInput.GetController(MLInput.Hand.Left);
         beamLine = GetComponent<LineRenderer>();
     }
 #endif
 
 #if PLATFORM_LUMIN
-    // Update is called once per frame
     void Update()
     {
         if(controller != null){
-            transform.position = controller.Position;
-            transform.rotation = controller.Orientation;
+            transform.SetPositionAndRotation(controller.Position, controller.Orientation);
 
             RaycastHit hit;
-            if (Physics.Raycast(transform.position, transform.forward, out hit))
-            {
+            if (Physics.Raycast(transform.position, transform.forward, out hit)){
                 beamLine.useWorldSpace = true;
                 beamLine.SetPosition(0, transform.position);
                 beamLine.SetPosition(1, hit.point);
             }
-            else
-            {
+            else{
                 beamLine.useWorldSpace = true;
                 beamLine.SetPosition(0, transform.position);
                 beamLine.SetPosition(1, transform.forward * 5);
