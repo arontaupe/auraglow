@@ -12,7 +12,7 @@ using System.Collections.Generic;
             private HashSet<int> _arucoMarkerIds = new HashSet<int>();
 
             //Add a prefab that will display when we've detected a marker
-            public GameObject MLArucoMarkerPrefab;
+            public GameObject[] MLArucoMarkerPrefab;
 
             void Start(){
                 //Update the tracker settings and add the callback that will trigger on marker detection
@@ -63,14 +63,18 @@ using System.Collections.Generic;
                     }
 
                     //Instantiate the prefab that will follow that marker -- note: the TrackerBehavior component will handle position and rotation.
-                    GameObject arucoMarker = Instantiate(MLArucoMarkerPrefab);
+
+                    GameObject arucoMarker = Instantiate(MLArucoMarkerPrefab[marker.Id]);
+
+
+                    
                     //Adjust the properties of the TrackerBehavior component to add the markerID and the dictionary we're comparing the marker to.
                     MLArucoTrackerBehavior arucoBehavior = arucoMarker.GetComponent<MLArucoTrackerBehavior>();
                     arucoBehavior.MarkerId = marker.Id;
                     arucoBehavior.MarkerDictionary = MLArucoTracker.TrackerSettings.Dictionary;
                     //Add the markerId so we don't do this again
                     _arucoMarkerIds.Add(marker.Id);
-                    Debug.Log(string.Format("Found Marker {0}", marker.Id ));
+                    Debug.Log(string.Format("Found ID {0}", marker.Id ));
                 }
                 else if (_arucoMarkerIds.Contains(marker.Id))
                 {

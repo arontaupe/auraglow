@@ -8,40 +8,36 @@ using UnityEngine.XR.MagicLeap;
 public class DistanceCalculatorCamObj : MonoBehaviour
 {
     private Text DistanceCamText;
-    private Text EmissionRate;
+    private TextMesh emissionRate;
+    private TextMesh dist;
     private Transform CameraTransform;
-    private Transform TargetTransform;
     private ParticleSystem aura;
     private ParticleSystem.EmissionModule emissionModule;
     public float EmissionRateLimit = 20.0f;
+    public bool displayValues= false;
 
-    
-    // Start is called before the first frame update
-    void Start()
-    {
+    void Awake(){
         aura = GetComponent<ParticleSystem>();
         emissionModule = aura.emission;
-        TargetTransform = gameObject.transform;
+        dist = transform.Find("DistanceCamera").GetComponent<TextMesh>();
         CameraTransform = GameObject.Find("Main Camera").transform;
-        DistanceCamText = GameObject.Find("DistanceCam").GetComponent<Text> ();
-        EmissionRate = GameObject.Find("EmissionRate").GetComponent<Text> ();
-        
+        emissionRate = transform.Find("EmissionRate").GetComponent<TextMesh> ();  
     }
 
-    void SetValue(float min = 0.0f, float max = 10.0f)
-    {
+    void SetValue(float min = 0.0f, float max = 10.0f){
         emissionModule.rateOverTime = new ParticleSystem.MinMaxCurve(min, max);
         emissionModule.rate = max;
-        EmissionRate.text = string.Format("min {0} max {1}.", emissionModule.rateOverTime.constantMin, emissionModule.rateOverTime.constantMax);
+        if(displayValues){
+            emissionRate.text = string.Format("min {0} max {1}.", emissionModule.rateOverTime.constantMin, emissionModule.rateOverTime.constantMax);
+        }
     }
     
-
-    // Update is called once per frame
-    void Update()
-    {
-        float distance = (TargetTransform.position - CameraTransform.position).magnitude;
+    void Update(){
+        float distance = (gameObject.transform.position - CameraTransform.position).magnitude;
         distance = Mathf.Round(distance * 10.0f) * 0.1f;
-        DistanceCamText.text = distance.ToString() + " m";  
+        if(displayValues){
+            dist.text = distance.ToString() + " m";  
+        }
         SetValue(0.0f,max: EmissionRateLimit/distance );     
     }
 }

@@ -2,15 +2,33 @@ using System;
 using UnityEngine;
 using UnityEngine.XR.MagicLeap;
 using UnityEngine.UI;
+using System.Collections;
 
  
 public class LightTracking : MonoBehaviour
 {
     public Text LightTrackingStatus;
-    public float LuminanceNormalizationFactor = 30;
+
+    public Transform camTransform;
+    public GameObject luminancePrefab;
+
+    private float avgLuminance = 0;
+    private MLRaycast.QueryParams _raycastParams = new MLRaycast.QueryParams(); 
+
+    private bool instantiated = false;
+
+    public float smoothTime = 0.3F;
+    [Range(0.000f, 0.01f)]
+    public float decay = 0.00001f;
+    private Vector3 velocity = Vector3.zero;
+    private GameObject lumInstance;
+
  
     void Start()
     {
+        // Start raycasting.
+        MLRaycast.Start();
+
         MLResult result = MLLightingTracking.Start();
         if (!result.IsOk)
         {
@@ -18,26 +36,63 @@ public class LightTracking : MonoBehaviour
             enabled = false;
             return;
         }
-        RenderSettings.ambientLight = Color.black;
+        StartCoroutine (CheckLuminance());
     }
  
     void OnDestroy()
     {
         MLLightingTracking.Stop();
+               // Stop raycasting.
+        MLRaycast.Stop();
     }
+
  
-    void Update()
+    void Update(){
+    
+    }
+    
+    private WaitForSeconds refreshIntervalWait = new WaitForSeconds(1);
+    IEnumerator CheckLuminance() 
     {
-        LightTrackingStatus.text = "";
- 
-        ushort[] cameraLuminance = MLLightingTracking.AmbientCameraLuminance;
- 
-        LightTrackingStatus.text += string.Format("Average Luminance: {0}\n\n", MLLightingTracking.AverageLuminance);
- 
-        LightTrackingStatus.text += string.Format("Global Temperature: {0}K\n", MLLightingTracking.GlobalTemperature);
-        LightTrackingStatus.text += string.Format("Global Temperature Color: {0}\n\n", MLLightingTracking.GlobalTemperatureColor);
- 
-        float normalizedLuminance = Mathf.Clamp( MLLightingTracking.AverageLuminance, 0.0f, LuminanceNormalizationFactor) / LuminanceNormalizationFactor;
-        RenderSettings.ambientLight = MLLightingTracking.GlobalTemperatureColor * normalizedLuminance;
+        while (true) {
+        float luminance = MLLightingTracking.AverageLuminance;
+        avgLuminance -= decay;
+            if(luminance > avgLuminance){
+                // Update the orientation data in the raycast parameters.
+                _raycastParams.Position = camTransform.position;
+                _raycastParams.Direction = camTransform.forward;
+                _raycastParams.UpVector = camTransform.up;
+
+                // Make a raycast request using the raycast parameters 
+                MLRaycast.Raycast(_raycastParams, HandleOnReceiveRaycast);
+                avgLuminance = luminance;
+            }    
+        yield return refreshIntervalWait;
+        }
+    }
+
+    IEnumerator NormalMarker(Vector3 point) 
+    {
+        lumInstance.transform.position = Vector3.Lerp(lumInstance.transform.position, point, smoothTime);
+        yield return 0;
+    }
+
+
+    void HandleOnReceiveRaycast( MLRaycast.ResultState state, 
+                                UnityEngine.Vector3 point, Vector3 normal, 
+                                float confidence) {
+        if (state ==  MLRaycast.ResultState.HitObserved) {
+
+            // Instantiate the prefab at the given point.
+            if(!instantiated){
+                lumInstance = Instantiate(luminancePrefab, point, Quaternion.identity);
+                instantiated = true;
+                Debug.Log("Placed Lum Aura");
+            }
+            else{
+                StartCoroutine(NormalMarker(point));
+            }
+        }
     }
 }
+

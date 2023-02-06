@@ -8,39 +8,44 @@ public class PlanesFinder : MonoBehaviour
     public Vector3 BBoxExtents;
     public GameObject PlaneGameObject;
 
+    [Range(0.0f, 1.0f)]
+    public float planeScaleFactor = 0.1f;
+
+    public bool enableScaling = false;
+
+    [Range(1, 30)]
+    public uint maxPlanes = 10;
+
+    [Range(1.0f, 30.0f)]
+    public float cycleTime = 15.0f;
+
     private MLPlanes.QueryParams _queryParams = new MLPlanes.QueryParams();
     public MLPlanes.QueryFlags QueryFlags;
 
-
-    private float timeout = 5f;
     private float timeSinceLastRequest = 0f;
     private List<GameObject> _planeCache = new List<GameObject>();
 
-    void Start()
-    {
+    void Start(){
         MLPlanes.Start();
     }
 
-    private void OnDestroy()
-    {
+    private void OnDestroy(){
         MLPlanes.Stop();
     }
-
 
     void Update()
     {
         timeSinceLastRequest += Time.deltaTime;
-        if (timeSinceLastRequest > timeout)
+        if (timeSinceLastRequest > cycleTime)
         {
             timeSinceLastRequest = 0f;
             RequestPlanes();
         }
     }
 
-    void RequestPlanes()
-    {
+    void RequestPlanes(){
         _queryParams.Flags = QueryFlags;
-        _queryParams.MaxResults = 100;
+        _queryParams.MaxResults = maxPlanes;
         _queryParams.BoundsCenter = BBoxTransform.position;
         _queryParams.BoundsRotation = BBoxTransform.rotation;
         _queryParams.BoundsExtents = BBoxExtents;
@@ -61,10 +66,15 @@ public class PlanesFinder : MonoBehaviour
        {
            newPlane = Instantiate(PlaneGameObject);
            newPlane.transform.position = planes[i].Center;
+
            //newPlane.transform.rotation = planes[i].Rotation;
-           //newPlane.transform.localScale = new Vector3(planes[i].Width, planes[i].Height, 1f); // Set plane scale
+            if(enableScaling){
+            newPlane.transform.localScale = new Vector3(planes[i].Width * planeScaleFactor, planes[i].Height * planeScaleFactor, planes[i].Width * planeScaleFactor); // Set plane scale
+           }
+           
            _planeCache.Add(newPlane);
-           Debug.Log("Plane Object added");
+           
        }
+       Debug.Log(string.Format("{0} {1} added", planes.Length, QueryFlags));
     }
 }

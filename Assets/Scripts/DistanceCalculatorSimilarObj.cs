@@ -12,20 +12,27 @@ public class DistanceCalculatorSimilarObj : MonoBehaviour
     private Text ColorText;
     private ParticleSystem ps;
     public float EmissionRateLimit = 10.0f;
+    [Range(0.0f,1.0f)]
+    public float hue = 0.15f;
+    public bool s_or_v = true;
+    public string searchtag = "aura";
     private GameObject[] similars;
     private float average = 1.0f;
+    public bool displayValues = false;
 
-    
-    // Start is called before the first frame update
-    void Start(){
+        [Range(1.0f, 30.0f)]
+    public float cycleTime = 1.0f;
+    private float timeSinceLastRequest = 0f;
+
+    void Awake(){
         ps = GetComponent<ParticleSystem>();
         DistanceSimilarText = GameObject.Find("DistanceSimilar").GetComponent<Text>();
         ColorText = GameObject.Find("Color").GetComponent<Text> ();
     }
 
-    private float CalculateAvgDistance(string tag = "aura"){
+    private float CalculateAvgDistance(){
         if (similars == null){
-            similars = GameObject.FindGameObjectsWithTag(tag);
+            similars = GameObject.FindGameObjectsWithTag(searchtag);
         }
         
         if (similars.Any()){
@@ -37,21 +44,34 @@ public class DistanceCalculatorSimilarObj : MonoBehaviour
                 distances.Add(distance);
             }
             average = distances.Average();
+            return average;
         }
-        return average;
+        return 1.0f;
     }
 
-    void SetValue(float hue = 1.0f){
-        hue = Mathf.Clamp(hue, 0.0f, 5.0f) / 5.0f;
+    void SetValue(float sat = 1.0f){
+        sat = Mathf.Clamp(sat, 0.0f, 5.0f) / 5.0f;
 
         var main = ps.main;
-        main.startColor = Color.HSVToRGB(hue, 1.0f, 1.0f);
-        ColorText.text = string.Format("hue {0} ", hue);
+        if(s_or_v){
+            main.startColor = Color.HSVToRGB( hue,sat,1.0f);
+        }
+        if(!s_or_v){
+            main.startColor = Color.HSVToRGB( hue,1.0f, sat);
+        }
+        if(displayValues){
+            ColorText.text = string.Format("sat {0} ", sat);
+        }
     }
     
-    // Update is called once per frame
     void Update(){
-        average = CalculateAvgDistance();
-        SetValue(average);
+
+        timeSinceLastRequest += Time.deltaTime;
+        if (timeSinceLastRequest > cycleTime)
+        {
+            average = CalculateAvgDistance();
+            SetValue(average);
+        }
+
     }
 }
