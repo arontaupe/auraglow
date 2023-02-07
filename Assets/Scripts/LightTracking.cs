@@ -39,18 +39,13 @@ public class LightTracking : MonoBehaviour
         StartCoroutine (CheckLuminance());
     }
  
-    void OnDestroy()
-    {
+    void OnDestroy(){
         MLLightingTracking.Stop();
                // Stop raycasting.
         MLRaycast.Stop();
     }
 
- 
-    void Update(){
-    
-    }
-    
+
     private WaitForSeconds refreshIntervalWait = new WaitForSeconds(1);
     IEnumerator CheckLuminance() 
     {
@@ -71,8 +66,7 @@ public class LightTracking : MonoBehaviour
         }
     }
 
-    IEnumerator NormalMarker(Vector3 point) 
-    {
+    IEnumerator NormalMarker(Vector3 point) {
         lumInstance.transform.position = Vector3.Lerp(lumInstance.transform.position, point, smoothTime);
         yield return 0;
     }

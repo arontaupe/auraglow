@@ -9,6 +9,7 @@ public class FixationFinder : MonoBehaviour
     #region Public Variables
     public GameObject fixPoint;
     public GameObject Camera;
+
     #endregion
 
     #region Private Variables
@@ -16,16 +17,19 @@ public class FixationFinder : MonoBehaviour
     #endregion
 
     #region Unity Methods
-    void Start()
-    {
+    void Start(){
         MLEyes.Start();
-
+        StartCoroutine(CheckFixation());
     }
-    void Update()
-    {
-        Destroy(Instantiate(fixPoint, MLEyes.FixationPoint, Quaternion.identity), 1.0f);
-        Debug.Log("Placed Fixpoint");
 
+    private WaitForSeconds refreshIntervalWait = new WaitForSeconds(0.1f);
+    IEnumerator CheckFixation(){
+        while (true){
+            Destroy(Instantiate(fixPoint, MLEyes.FixationPoint, Quaternion.identity), 0.2f);
+            Debug.Log("Placed Fixpoint");
+            yield return refreshIntervalWait;
+        }
+        
     }
     #endregion
 }

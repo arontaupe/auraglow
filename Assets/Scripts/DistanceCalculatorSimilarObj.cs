@@ -31,9 +31,8 @@ public class DistanceCalculatorSimilarObj : MonoBehaviour
     }
 
     private float CalculateAvgDistance(){
-        if (similars == null){
-            similars = GameObject.FindGameObjectsWithTag(searchtag);
-        }
+
+        similars ??= GameObject.FindGameObjectsWithTag(searchtag);
         
         if (similars.Any()){
             List<float> distances = new List<float>();

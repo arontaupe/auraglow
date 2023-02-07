@@ -204,6 +204,7 @@ GameObject:
   - component: {fileID: 1418083038}
   - component: {fileID: 1418083042}
   - component: {fileID: 141031109890625522}
+  - component: {fileID: 6822493398134397606}
   m_Layer: 0
   m_Name: Aura
   m_TagString: aura
@@ -5049,6 +5050,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 4b2038a9a05a7074498cd9584055b465, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &6822493398134397606
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4614399170846671743}
+  m_Enabled: 0
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ea50594b104b6694c954fe0afaf4155f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  fixPointPrefab: {fileID: 8901177280974650993, guid: 8888fa139f5bf69449593167011e4c6d, type: 3}
+  fixPoints: []
+  NumberOfFixPoints: 5
+  cycleTime: 1
 --- !u!1 &5220146943525297302
 GameObject:
   m_ObjectHideFlags: 0

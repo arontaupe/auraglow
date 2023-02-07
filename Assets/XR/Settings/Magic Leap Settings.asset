@@ -16,6 +16,6 @@ MonoBehaviour:
   m_ForceMultipass: 0
   m_FrameTimingHint: 2
   m_GLCacheSettings:
-    m_Enabled: 0
+    m_Enabled: 1
     m_MaxBlobSizeInBytes: 0
     m_MaxFileSizeInBytes: 0
