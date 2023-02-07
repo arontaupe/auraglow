@@ -25,8 +25,8 @@ public class FixationFinder : MonoBehaviour
     private WaitForSeconds refreshIntervalWait = new WaitForSeconds(0.1f);
     IEnumerator CheckFixation(){
         while (true){
-            Destroy(Instantiate(fixPoint, MLEyes.FixationPoint, Quaternion.identity), 0.2f);
-            Debug.Log("Placed Fixpoint");
+            Destroy(Instantiate(fixPoint, MLEyes.FixationPoint, Quaternion.identity), 0.1f);
+            //Debug.Log("Placed Fixpoint");
             yield return refreshIntervalWait;
         }
         

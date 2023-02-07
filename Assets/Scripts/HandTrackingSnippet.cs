@@ -5,7 +5,6 @@ using UnityEngine.XR.MagicLeap;
 public class HandTrackingSnippet : MonoBehaviour
 {
     public GameObject prefab;
-    public Material material;
 
     private List<MLHandTracking.KeyPoint> _keypoints = new List<MLHandTracking.KeyPoint>();
     private List<GameObject> _trackingPoints = new List<GameObject>();
@@ -33,7 +32,7 @@ public class HandTrackingSnippet : MonoBehaviour
         MLHandTracking.KeyPoseManager.SetPoseFilterLevel(MLHandTracking.PoseFilterLevel.ExtraRobust);
 
         // Enable keypose detection
-        MLHandTracking.KeyPoseManager.EnableKeyPoses(_keyPoses, true, true);
+        MLHandTracking.KeyPoseManager.EnableKeyPoses(_keyPoses, false, true);
 
         // Setup the keypoints and prefab spheres to visualize them.
         Setup();
@@ -52,22 +51,6 @@ public class HandTrackingSnippet : MonoBehaviour
         {
             _trackingPoints[i].transform.localPosition = _keypoints[i].Position;
         }
-
-        // Change the material color when keyPose on the list is detected
-        material.color = Color.cyan;
-        foreach (MLHandTracking.Hand hand in _hands)
-        {
-            if (hand.HandKeyPoseConfidence > _keyPoseConfidence)
-            {
-                foreach (MLHandTracking.HandKeyPose keyPose in _keyPoses)
-                {
-                    if (hand.KeyPose == keyPose)
-                    {
-                        material.color = Color.red;
-                    }
-                }
-            }
-        }
     }
     void Setup()
     {
@@ -85,9 +68,13 @@ public class HandTrackingSnippet : MonoBehaviour
         // Instantiate a prefab sphere for each keypoint
         for (int i = 0; i < _keypoints.Count; ++i)
         {
-            GameObject newObject = Instantiate(prefab, _keypoints[i].Position,
-                Quaternion.identity);
-            _trackingPoints.Add(newObject);
+            if (i == 14)
+            {
+                GameObject newObject = Instantiate(prefab, _keypoints[i].Position,
+    Quaternion.identity);
+                _trackingPoints.Add(newObject);
+            }
+
         }
     }
 }

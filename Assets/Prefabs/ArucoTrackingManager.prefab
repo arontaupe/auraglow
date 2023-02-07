@@ -52,3 +52,4 @@ MonoBehaviour:
   - {fileID: 6098621021637659935, guid: ea634e1b96c181b4eb05c462ec7eb943, type: 3}
   - {fileID: 7496747777769814864, guid: 0c52913966ca3d545979ef59c4f7f98d, type: 3}
   - {fileID: 2553807595933631801, guid: b7c272c65c4b2224cbf64532d192ae0b, type: 3}
+  showDebug: 1

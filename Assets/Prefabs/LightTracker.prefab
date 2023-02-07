@@ -46,5 +46,5 @@ MonoBehaviour:
   LightTrackingStatus: {fileID: 0}
   camTransform: {fileID: 0}
   luminancePrefab: {fileID: 826511970754073395, guid: 60ce12748c2147448bc2e43e0eb437be, type: 3}
-  smoothTime: 0.3
+  smoothTime: 0.5
   decay: 0.01

@@ -26,63 +26,34 @@ public class UIManager : MonoBehaviour
     {
         if(controller.TriggerValue > 0.5f){
             RaycastHit hit;
-            if(Physics.Raycast(controllerInput.transform.position,      controllerInput.transform.forward, out hit)){
+            if(Physics.Raycast(controllerInput.transform.position, controllerInput.transform.forward, out hit)){
                 
-                if(hit.transform.gameObject.name == "StartButton"){
+                if(hit.transform.gameObject.name == "PlayButton"){
                     StartApp();
                 }
-                if(hit.transform.gameObject.name == "MarkerButton"){
-                    StartMarker();
+                if(hit.transform.gameObject.name == "GalleryButton"){
+                    StartGallery();
                 }
-
-                if(hit.transform.gameObject.name == "RecognitionButton"){
-                    StartRecognition();
-                }
-                
-                if(hit.transform.gameObject.name == "LightningButton"){
-                    StartLuminance();
-                }
-
                 if(hit.transform.gameObject.name == "QuitButton"){
                     QuitApp();
-                }
-                                if(hit.transform.gameObject.name == "PlanesButton"){
-                    StartPlanes();
-                }
+                }                             
             }
         }
     }
-    void StartPlanes(){
+
+    void StartGallery(){
         HeadlockedCanvas.SetActive(false);
-        SceneManager.LoadScene("PlanesScene");
-        Scene scene = SceneManager.GetActiveScene();
-        Debug.Log(scene.name);
-    }
-    void StartMarker(){
-        HeadlockedCanvas.SetActive(false);
-        SceneManager.LoadScene("ArUcoTrackingScene");
-        Scene scene = SceneManager.GetActiveScene();
-        Debug.Log(scene.name);
-    }
-        void StartLuminance(){
-        HeadlockedCanvas.SetActive(false);
-        SceneManager.LoadScene("LightningScene");
-        Scene scene = SceneManager.GetActiveScene();
-        Debug.Log(scene.name);
-    }
-    void StartApp(){
-        HeadlockedCanvas.SetActive(false);
-        SceneManager.LoadScene("DemoScene");
-        Scene scene = SceneManager.GetActiveScene();
-        Debug.Log(scene.name);
-    }
-    void StartRecognition(){
-        HeadlockedCanvas.SetActive(false);
-        SceneManager.LoadScene("ImageTrackingScene");
+        SceneManager.LoadScene("GalleryScene");
         Scene scene = SceneManager.GetActiveScene();
         Debug.Log(scene.name);
     }
 
+    void StartApp(){
+        HeadlockedCanvas.SetActive(false);
+        SceneManager.LoadScene("FullAuraticScene");
+        Scene scene = SceneManager.GetActiveScene();
+        Debug.Log(scene.name);
+    }
     void QuitApp(){
         HeadlockedCanvas.SetActive(false);
         Application.Quit();

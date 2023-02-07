@@ -11,6 +11,7 @@ GameObject:
   - component: {fileID: 421525140560646324}
   - component: {fileID: 421525140560646325}
   - component: {fileID: 421525140560646327}
+  - component: {fileID: 4924413981267127410}
   m_Layer: 0
   m_Name: Planes
   m_TagString: Untagged
@@ -72,3 +73,23 @@ MonoBehaviour:
   maxPlanes: 10
   cycleTime: 15
   QueryFlags: 256
+--- !u!114 &4924413981267127410
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 421525140560646346}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c21cf3a9fc90f4ddcb070eb2b98dde50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  BBoxTransform: {fileID: 0}
+  BBoxExtents: {x: 0, y: 0, z: 0}
+  PlaneGameObject: {fileID: 8718013732825942828, guid: 1463037ea44cc3a4c8edc081b612fc62, type: 3}
+  planeScaleFactor: 0.1
+  enableScaling: 0
+  maxPlanes: 10
+  cycleTime: 15
+  QueryFlags: 64

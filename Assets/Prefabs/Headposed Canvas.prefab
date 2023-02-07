@@ -381,7 +381,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Marker Tracking active
+  m_text: Aura Detection on
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 9db95e0b9eb4b4e888e36fcd26f19946, type: 2}
   m_sharedMaterial: {fileID: 6952890087915566177, guid: 9db95e0b9eb4b4e888e36fcd26f19946, type: 2}
