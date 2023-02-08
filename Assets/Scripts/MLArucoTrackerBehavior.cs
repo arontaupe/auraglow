@@ -10,11 +10,14 @@
 // %BANNER_END%
 namespace MagicLeap.Core
 {
+    #region Imports
     using UnityEngine;
     using UnityEngine.XR.MagicLeap;
+    #endregion
 
     public class MLArucoTrackerBehavior : MonoBehaviour
     {
+        #region Variables
         public event MLArucoTracker.Marker.OnStatusChangeDelegate OnMarkerStatusChange = null;
         
         public MLArucoTracker.Marker Marker => _marker;
@@ -30,19 +33,17 @@ namespace MagicLeap.Core
         public float smoothTime = 0.3f;
         public bool displayLabel = false;
         private Vector3 velocity = Vector3.zero;
+        #endregion
+        #region Methods
 
-
-        void Start()
-        {
-#if PLATFORM_LUMIN
+        void Start(){
+            #if PLATFORM_LUMIN
             MLResult result = MLPrivileges.RequestPrivileges(MLPrivileges.Id.CameraCapture);
-#endif
+            #endif
         }
 
-        void Update()
-        {
-            if (_marker == null)
-            {
+        void Update(){
+            if (_marker == null){
                 #if PLATFORM_LUMIN
                 if(MLArucoTracker.TrackerSettings.Dictionary == MarkerDictionary)
                 {
@@ -55,8 +56,7 @@ namespace MagicLeap.Core
                 }
                 #endif
             }
-            else
-            {
+            else{
                 transform.position = Vector3.SmoothDamp(transform.position, _marker.Position, ref velocity, smoothTime);
                 //transform.position = _marker.Position;
                 transform.rotation = _marker.Rotation;
@@ -64,18 +64,16 @@ namespace MagicLeap.Core
                     TextMesh label = transform.Find("Label").GetComponent<TextMesh>();
                 label.text = MarkerId.ToString();
                 }
-                
             }
         }
 
-        void OnDestroy()
-        {
+        void OnDestroy(){
             #if PLATFORM_LUMIN
-            if (_marker != null)
-            {
+            if (_marker != null){
                 _marker.OnStatusChange -= OnMarkerStatusChange;
             }
             #endif
         }
     }
+    #endregion
 }

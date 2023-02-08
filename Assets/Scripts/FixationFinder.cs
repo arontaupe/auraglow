@@ -1,15 +1,16 @@
+#region Imports
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.XR.MagicLeap;
+#endregion
 
 public class FixationFinder : MonoBehaviour
 {
     #region Public Variables
     public GameObject fixPoint;
     public GameObject Camera;
-
     #endregion
 
     #region Private Variables
@@ -26,10 +27,8 @@ public class FixationFinder : MonoBehaviour
     IEnumerator CheckFixation(){
         while (true){
             Destroy(Instantiate(fixPoint, MLEyes.FixationPoint, Quaternion.identity), 0.1f);
-            //Debug.Log("Placed Fixpoint");
             yield return refreshIntervalWait;
         }
-        
     }
     #endregion
 }

@@ -1,12 +1,16 @@
+#region Imports
 using System.Collections.Generic;
         using UnityEngine;
         using UnityEngine.XR.MagicLeap;
         using MagicLeap.Core;
+#endregion
 
-        public class ArUcoTrackingManager : MonoBehaviour
-        {
-            //Add Magic Leap's ArUcoTracker Settings to the inspector so we can select our markers.
-            public MLArucoTracker.Settings trackerSettings = MLArucoTracker.Settings.Create();
+public class ArUcoTrackingManager : MonoBehaviour
+    {
+    #region Variables
+
+    //Add Magic Leap's ArUcoTracker Settings to the inspector so we can select our markers.
+    public MLArucoTracker.Settings trackerSettings = MLArucoTracker.Settings.Create();
 
             //Create a variable to hold the markerIds the tracker tracks.
             private HashSet<int> _arucoMarkerIds = new HashSet<int>();
@@ -15,30 +19,28 @@ using System.Collections.Generic;
             public GameObject[] MLArucoMarkerPrefab;
             
             public bool showDebug = false;
-
-            void Start(){
+    #endregion
+    #region Private Methods
+    void Start(){
                 //Update the tracker settings and add the callback that will trigger on marker detection
                 MLArucoTracker.UpdateSettings(trackerSettings);
                 MLArucoTracker.OnMarkerStatusChange += OnMarkerStatusChange;
             }
 
             void OnApplicationPause(bool pause){
-                if (pause)
-                {
+                if (pause){
                     DisableAruco();
                 }
                 else
                 {
-                    if (MLPrivileges.RequestPrivilege(MLPrivileges.Id.CameraCapture).Result == MLResult.Code.PrivilegeGranted)
-                    {
+                    if (MLPrivileges.RequestPrivilege(MLPrivileges.Id.CameraCapture).Result == MLResult.Code.PrivilegeGranted){
                         EnableAruco();
                     }
                 }
             }
 
             void OnDestroy(){
-                if (MLArucoTracker.IsStarted)
-                {
+                if (MLArucoTracker.IsStarted){
                     MLArucoTracker.OnMarkerStatusChange -= OnMarkerStatusChange;
                 }
             }
@@ -67,8 +69,6 @@ using System.Collections.Generic;
                     //Instantiate the prefab that will follow that marker -- note: the TrackerBehavior component will handle position and rotation.
 
                     GameObject arucoMarker = Instantiate(MLArucoMarkerPrefab[marker.Id]);
-
-
                     
                     //Adjust the properties of the TrackerBehavior component to add the markerID and the dictionary we're comparing the marker to.
                     MLArucoTrackerBehavior arucoBehavior = arucoMarker.GetComponent<MLArucoTrackerBehavior>();
@@ -76,11 +76,9 @@ using System.Collections.Generic;
                     arucoBehavior.MarkerDictionary = MLArucoTracker.TrackerSettings.Dictionary;
                     //Add the markerId so we don't do this again
                     _arucoMarkerIds.Add(marker.Id);
-                if (showDebug)
-                {
-                    Debug.Log(string.Format("Found ID {0}", marker.Id));
-                }
-
+                    if (showDebug){
+                        Debug.Log(string.Format("Found ID {0}", marker.Id));
+                    }
                 }
                 else if (_arucoMarkerIds.Contains(marker.Id))
                 {
@@ -88,4 +86,5 @@ using System.Collections.Generic;
                     _arucoMarkerIds.Remove(marker.Id);
                 }
             }
-        }
+    #endregion
+}

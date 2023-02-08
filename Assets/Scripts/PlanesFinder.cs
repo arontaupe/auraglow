@@ -1,20 +1,21 @@
+#region Imports
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.MagicLeap;
+#endregion
 
 public class PlanesFinder : MonoBehaviour
 {
+    #region Variables
     public Transform BBoxTransform;
     public Vector3 BBoxExtents;
     public GameObject PlaneGameObject;
-
     [Range(0.0f, 1.0f)]
     public float planeScaleFactor = 0.1f;
-
     public bool enableScaling = false;
-
     [Range(1, 30)]
     public uint maxPlanes = 10;
+    public bool showDebug = false;
 
     [Range(1.0f, 30.0f)]
     public float cycleTime = 15.0f;
@@ -24,6 +25,9 @@ public class PlanesFinder : MonoBehaviour
 
     private float timeSinceLastRequest = 0f;
     private List<GameObject> _planeCache = new List<GameObject>();
+    #endregion
+
+    #region Methods
 
     void Start(){
         MLPlanes.Start();
@@ -33,11 +37,9 @@ public class PlanesFinder : MonoBehaviour
         MLPlanes.Stop();
     }
 
-    void Update()
-    {
+    void Update(){
         timeSinceLastRequest += Time.deltaTime;
-        if (timeSinceLastRequest > cycleTime)
-        {
+        if (timeSinceLastRequest > cycleTime){
             timeSinceLastRequest = 0f;
             RequestPlanes();
         }
@@ -62,19 +64,19 @@ public class PlanesFinder : MonoBehaviour
        }
 
        GameObject newPlane;
-       for (int i = 0; i < planes.Length; ++i)
-       {
+       for (int i = 0; i < planes.Length; ++i){
            newPlane = Instantiate(PlaneGameObject);
            newPlane.transform.position = planes[i].Center;
-
+            // rotation disabled
            //newPlane.transform.rotation = planes[i].Rotation;
-            if(enableScaling){
-            newPlane.transform.localScale = new Vector3(planes[i].Width * planeScaleFactor, planes[i].Height * planeScaleFactor, planes[i].Width * planeScaleFactor); // Set plane scale
+           if(enableScaling){
+                newPlane.transform.localScale = new Vector3(planes[i].Width * planeScaleFactor, planes[i].Height * planeScaleFactor, planes[i].Width * planeScaleFactor); // Set plane scale
            }
-           
            _planeCache.Add(newPlane);
-           
        }
-       Debug.Log(string.Format("{0} {1} added", planes.Length, QueryFlags));
+       if (showDebug){
+            Debug.Log(string.Format("{0} {1} added", planes.Length, QueryFlags));
+       }
     }
+    #endregion
 }
