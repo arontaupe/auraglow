@@ -9,7 +9,7 @@ Material:
   m_PrefabAsset: {fileID: 0}
   m_Name: ID3_mat
   m_Shader: {fileID: 4800000, guid: 1d4a9c916d62a324e90c32798caf3f13, type: 3}
-  m_ShaderKeywords: _USEBLACK_ON
+  m_ShaderKeywords: 
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -67,7 +67,7 @@ Material:
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
     - _Emission: 1
-    - _Frequency: 14
+    - _Frequency: 3
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
@@ -81,7 +81,7 @@ Material:
     - _SrcBlend: 1
     - _StartFrequency: 4
     - _UVSec: 0
-    - _Useblack: 1
+    - _Useblack: 0
     - _Usedepth: 0
     - _ZWrite: 1
     - __dirty: 1

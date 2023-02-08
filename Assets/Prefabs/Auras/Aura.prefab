@@ -3927,7 +3927,7 @@ ParticleSystem:
     m_EnergyLossOnCollision:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.05
+      scalar: 0
       minScalar: 0
       maxCurve:
         serializedVersion: 2
@@ -4127,7 +4127,7 @@ ParticleSystem:
   TrailModule:
     enabled: 1
     mode: 0
-    ratio: 0.1
+    ratio: 0.05
     lifetime:
       serializedVersion: 2
       minMaxState: 0
@@ -4181,14 +4181,14 @@ ParticleSystem:
         m_PreInfinity: 2
         m_PostInfinity: 2
         m_RotationOrder: 4
-    minVertexDistance: 0.01
+    minVertexDistance: 0.005
     textureMode: 0
     ribbonCount: 1
     shadowBias: 0.5
     worldSpace: 0
     dieWithParticles: 1
-    sizeAffectsWidth: 1
-    sizeAffectsLifetime: 1
+    sizeAffectsWidth: 0
+    sizeAffectsLifetime: 0
     inheritParticleColor: 1
     generateLightingData: 0
     splitSubEmitterRibbons: 0
@@ -4959,7 +4959,7 @@ ParticleSystemRenderer:
   m_RendererPriority: 0
   m_Materials:
   - {fileID: 2100000, guid: 20e729147a4dad247abfc2305c3dd963, type: 2}
-  - {fileID: 2100000, guid: 3632881d102df0f47864d899fa15a49d, type: 2}
+  - {fileID: 2100000, guid: 55d7b3d1aae6948abb01951599a5c698, type: 2}
   m_StaticBatchInfo:
     firstSubMesh: 0
     subMeshCount: 0
@@ -5017,8 +5017,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eae42fbee033d436ab1b008993052c98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EmissionRateLimit: 15
-  EmissionRateMin: 3
+  EmissionRateLimit: 18
+  EmissionRateMin: 5
   displayValues: 0
   cycleTime: 0.1
 --- !u!114 &6822493398134397606
@@ -5035,8 +5035,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fixPointPrefab: {fileID: 8901177280974650993, guid: 8888fa139f5bf69449593167011e4c6d, type: 3}
   fixPoints: []
-  NumberOfFixPoints: 5
-  cycleTime: 0.05
+  NumberOfFixPoints: 3
+  noiseMultiplier: 4
+  cycleTime: 0.01
 --- !u!1 &5220146943525297302
 GameObject:
   m_ObjectHideFlags: 0

@@ -15,8 +15,11 @@ public class FixationCalculator : MonoBehaviour
     public List<GameObject> fixPoints;
     [Range(1, 50)]
     public int NumberOfFixPoints = 10;
+    [Range(1, 5)]
+    public int noiseMultiplier = 10;
     [Range(0.01f, 2.0f)]
     public float cycleTime = 0.2f;
+
 
     #endregion
 
@@ -25,6 +28,7 @@ public class FixationCalculator : MonoBehaviour
     private float timeSinceLastRequest = 0f;
     private ParticleSystem ps;
     private ParticleSystem.NoiseModule noiseModule;
+
 
 
     private float average = 1.0f;
@@ -53,9 +57,9 @@ public class FixationCalculator : MonoBehaviour
     }
 
     void SetValue(float dist = 1.0f){
-        dist = Mathf.Clamp(dist, 0.0f, 2.0f) / 2.0f;
+        dist = Mathf.Clamp(dist, 0.0f, 3.0f) / 3.0f;
 
-        noiseModule.strength = new ParticleSystem.MinMaxCurve(0.5f, dist * 2.0f);
+        noiseModule.strength = new ParticleSystem.MinMaxCurve(0.5f, dist * noiseMultiplier);
         //Debug.Log(String.Format("Set Noise to {0}", dist));
     }
 

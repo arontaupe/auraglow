@@ -26,7 +26,7 @@ public class InputManager : MonoBehaviour
     }
     void Update(){
         if(controller.TriggerValue > 0.5f){
-            console.SetActive (!console.activeInHierarchy);
+            console.SetActive(!console.activeInHierarchy);
             Debug.Log("Triggered Console");
         }
     }
