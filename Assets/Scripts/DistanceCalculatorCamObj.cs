@@ -1,4 +1,3 @@
-#region Imports
 using System;
 using System.Collections;
 using System.Collections.Generic;
@@ -6,7 +5,6 @@ using UnityEngine;
 using UnityEngine.TestTools;
 using UnityEngine.UI;
 using UnityEngine.XR.MagicLeap;
-#endregion
 
 
 [RequireComponent(typeof(ParticleSystem))]

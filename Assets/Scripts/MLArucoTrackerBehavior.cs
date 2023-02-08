@@ -10,10 +10,8 @@
 // %BANNER_END%
 namespace MagicLeap.Core
 {
-    #region Imports
     using UnityEngine;
     using UnityEngine.XR.MagicLeap;
-    #endregion
 
     public class MLArucoTrackerBehavior : MonoBehaviour
     {

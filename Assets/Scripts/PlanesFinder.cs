@@ -1,8 +1,6 @@
-#region Imports
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.MagicLeap;
-#endregion
 
 public class PlanesFinder : MonoBehaviour
 {

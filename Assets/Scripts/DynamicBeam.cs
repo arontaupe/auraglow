@@ -1,9 +1,7 @@
-#region Imports
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.MagicLeap;
-#endregion
 
 [RequireComponent(typeof(LineRenderer))]
 public class DynamicBeam : MonoBehaviour

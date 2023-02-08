@@ -1,10 +1,8 @@
-#region Imports
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UIElements;
 using UnityEngine.XR.MagicLeap;
-#endregion
 
 public class FixationFinder : MonoBehaviour
 {
@@ -18,6 +16,7 @@ public class FixationFinder : MonoBehaviour
     #endregion
 
     #region Unity Methods
+#if PLATFORM_LUMIN
     void Start(){
         MLEyes.Start();
         StartCoroutine(CheckFixation());
@@ -30,5 +29,6 @@ public class FixationFinder : MonoBehaviour
             yield return refreshIntervalWait;
         }
     }
-    #endregion
+#endif
+#endregion
 }

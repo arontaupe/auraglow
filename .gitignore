@@ -130,3 +130,5 @@ $RECYCLE.BIN/
 *.lnk
 ProjectSettings/ProjectSettings.asset
 graph.png
+build.mpk
+ProjectSettings/ProjectSettings.asset

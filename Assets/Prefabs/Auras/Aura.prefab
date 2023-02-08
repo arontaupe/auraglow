@@ -5020,8 +5020,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MarkerDictionary: 0
   MarkerId: 0
-  smoothTime: 0
-  displayLabel: 1
+  smoothTime: 0.1
+  displayLabel: 0
 --- !u!114 &1418083042
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5034,9 +5034,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eae42fbee033d436ab1b008993052c98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EmissionRateLimit: 12
-  EmissionRateMin: 1
+  EmissionRateLimit: 15
+  EmissionRateMin: 3
   displayValues: 0
+  cycleTime: 0.1
 --- !u!114 &6822493398134397606
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5051,8 +5052,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fixPointPrefab: {fileID: 8901177280974650993, guid: 8888fa139f5bf69449593167011e4c6d, type: 3}
   fixPoints: []
-  NumberOfFixPoints: 3
-  cycleTime: 1
+  NumberOfFixPoints: 5
+  cycleTime: 0.05
 --- !u!1 &5220146943525297302
 GameObject:
   m_ObjectHideFlags: 0

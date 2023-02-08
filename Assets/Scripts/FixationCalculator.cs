@@ -31,8 +31,8 @@ public class FixationCalculator : MonoBehaviour
     #endregion
 
     #region Unity Methods
-    void Start()
-    {
+#if PLATFORM_LUMIN
+    void Start(){
         MLEyes.Start();
         StartCoroutine(CheckFixation());
     }
@@ -45,6 +45,7 @@ public class FixationCalculator : MonoBehaviour
             SetValue(average);
         }
     }
+#endif
     void Awake()
     {
         ps = GetComponent<ParticleSystem>();

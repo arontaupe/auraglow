@@ -8,8 +8,8 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Trails
-  m_Shader: {fileID: 46, guid: 0000000000000000f000000000000000, type: 0}
-  m_ShaderKeywords: 
+  m_Shader: {fileID: 4800000, guid: 1d4a9c916d62a324e90c32798caf3f13, type: 3}
+  m_ShaderKeywords: _USEBLACK_ON
   m_LightmapFlags: 4
   m_EnableInstancingVariants: 0
   m_DoubleSidedGI: 0
@@ -40,7 +40,7 @@ Material:
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MainTex:
-        m_Texture: {fileID: 0}
+        m_Texture: {fileID: 2800000, guid: c4f655f5d01f55547a23a546b58afd04, type: 3}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
     - _MetallicGlossMap:
@@ -55,23 +55,36 @@ Material:
         m_Texture: {fileID: 0}
         m_Scale: {x: 1, y: 1}
         m_Offset: {x: 0, y: 0}
+    - _tex3coord:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Floats:
+    - _Amplitude: 1
     - _BumpScale: 1
     - _Cutoff: 0.5
+    - _Depthpower: 1
     - _DetailNormalMapScale: 1
     - _DstBlend: 0
+    - _Emission: 1
+    - _Frequency: 10
     - _GlossMapScale: 1
     - _Glossiness: 0.5
     - _GlossyReflections: 1
     - _Metallic: 0
     - _Mode: 0
     - _OcclusionStrength: 1
+    - _Opacity: 1
     - _Parallax: 0.02
     - _SmoothnessTextureChannel: 0
     - _SpecularHighlights: 1
     - _SrcBlend: 1
+    - _StartFrequency: 2
     - _UVSec: 0
+    - _Useblack: 1
+    - _Usedepth: 0
     - _ZWrite: 1
+    - __dirty: 1
     m_Colors:
     - _Color: {r: 0.7843138, g: 0.7843138, b: 0.7843138, a: 1}
     - _EmissionColor: {r: 0, g: 0, b: 0, a: 1}

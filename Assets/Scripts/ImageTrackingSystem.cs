@@ -1,7 +1,5 @@
-#region Imports
 using UnityEngine;
 using UnityEngine.XR.MagicLeap;
-#endregion
 
 //This creates a class that exposes image target variables to the inspector
 [System.Serializable]

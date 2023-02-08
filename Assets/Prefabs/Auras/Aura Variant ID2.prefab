@@ -15,6 +15,14 @@ PrefabInstance:
       propertyPath: MarkerId
       value: 2
       objectReference: {fileID: 0}
+    - target: {fileID: 467427227211302003, guid: 72714d78d00924dfd92155afb66051c6, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 26daae6e9fad9064f9e6e085321f0f19, type: 2}
+    - target: {fileID: 467427227211302003, guid: 72714d78d00924dfd92155afb66051c6, type: 3}
+      propertyPath: m_Materials.Array.data[1]
+      value: 
+      objectReference: {fileID: 2100000, guid: 55d7b3d1aae6948abb01951599a5c698, type: 2}
     - target: {fileID: 2255058736833943068, guid: 72714d78d00924dfd92155afb66051c6, type: 3}
       propertyPath: m_RootOrder
       value: 0

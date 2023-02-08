@@ -1,4 +1,3 @@
-#region Imports
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -6,7 +5,6 @@ using UnityEngine.XR.MagicLeap;
 using UnityEngine.UI;
 using TMPro;
 using UnityEngine.SceneManagement;
-#endregion
 
 public class InputManager : MonoBehaviour
 {

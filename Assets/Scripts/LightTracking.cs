@@ -1,10 +1,8 @@
-#region Imports
 using System;
 using UnityEngine;
 using UnityEngine.XR.MagicLeap;
 using UnityEngine.UI;
 using System.Collections;
-#endregion
 
 
 public class LightTracking : MonoBehaviour

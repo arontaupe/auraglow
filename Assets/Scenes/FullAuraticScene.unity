@@ -551,6 +551,42 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 7522037145437590524, guid: a8c0ab4637dbd4feea1e72105c2afcc7, type: 3}
+      propertyPath: m_fontSize
+      value: 4.95
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522037145437590524, guid: a8c0ab4637dbd4feea1e72105c2afcc7, type: 3}
+      propertyPath: m_margin.w
+      value: 69.083565
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522037145437590524, guid: a8c0ab4637dbd4feea1e72105c2afcc7, type: 3}
+      propertyPath: m_margin.y
+      value: -24.060509
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522037145437590524, guid: a8c0ab4637dbd4feea1e72105c2afcc7, type: 3}
+      propertyPath: m_margin.z
+      value: 118.2699
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522037145437590524, guid: a8c0ab4637dbd4feea1e72105c2afcc7, type: 3}
+      propertyPath: m_fontSizeMax
+      value: 8
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522037145437590524, guid: a8c0ab4637dbd4feea1e72105c2afcc7, type: 3}
+      propertyPath: m_fontSizeMin
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522037145437590524, guid: a8c0ab4637dbd4feea1e72105c2afcc7, type: 3}
+      propertyPath: m_fontSizeBase
+      value: 5
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522037145437590524, guid: a8c0ab4637dbd4feea1e72105c2afcc7, type: 3}
+      propertyPath: m_enableAutoSizing
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522037145437590524, guid: a8c0ab4637dbd4feea1e72105c2afcc7, type: 3}
+      propertyPath: m_enableVertexGradient
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 7522037146696648048, guid: a8c0ab4637dbd4feea1e72105c2afcc7, type: 3}
       propertyPath: m_Camera
       value: 

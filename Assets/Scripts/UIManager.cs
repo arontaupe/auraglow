@@ -1,8 +1,7 @@
-#region Imports
 using UnityEngine;
 using UnityEngine.XR.MagicLeap;
 using UnityEngine.SceneManagement;
-#endregion
+
 public class UIManager : MonoBehaviour
 {
     #region Private Variables
