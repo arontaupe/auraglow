@@ -1,24 +1,28 @@
+#region Imports
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.XR.MagicLeap;
+#endregion
 
+[RequireComponent(typeof(LineRenderer))]
 public class DynamicBeam : MonoBehaviour
 {
+    #region Variables
     private MLInput.Controller controller;
     private LineRenderer beamLine;
+    #endregion
 
-
-#if PLATFORM_LUMIN
+    #region Methods
+    #if PLATFORM_LUMIN
     void Start(){
         controller = MLInput.GetController(MLInput.Hand.Left);
         beamLine = GetComponent<LineRenderer>();
     }
-#endif
+    #endif
 
-#if PLATFORM_LUMIN
-    void Update()
-    {
+    #if PLATFORM_LUMIN
+    void Update(){
         if(controller != null){
             transform.SetPositionAndRotation(controller.Position, controller.Orientation);
 
@@ -34,8 +38,7 @@ public class DynamicBeam : MonoBehaviour
                 beamLine.SetPosition(1, transform.forward * 5);
             }
         }
-       
     }
-#endif
-
+    #endif
+    #endregion
 }

@@ -1,20 +1,20 @@
-using System.Collections;
-using System.Collections.Generic;
+#region Imports
 using UnityEngine;
 using UnityEngine.XR.MagicLeap;
-using UnityEngine.UI;
-using TMPro;
 using UnityEngine.SceneManagement;
-
+#endregion
 public class UIManager : MonoBehaviour
 {
+    #region Private Variables
     private MLInput.Controller controller;
+    #endregion
+    #region Public Variables
     public GameObject HeadlockedCanvas;
     public GameObject controllerInput;
+    #endregion
 
-    // Start is called before the first frame update
-    void Start()
-    {
+    #region Private Methods
+    void Start(){
        MLInput.Start();
        controller = MLInput.GetController(MLInput.Hand.Left);
        Scene scene = SceneManager.GetActiveScene();
@@ -22,8 +22,7 @@ public class UIManager : MonoBehaviour
     }
 
     // Update is called once per frame
-    void Update()
-    {
+    void Update(){
         if(controller.TriggerValue > 0.5f){
             RaycastHit hit;
             if(Physics.Raycast(controllerInput.transform.position, controllerInput.transform.forward, out hit)){
@@ -58,8 +57,8 @@ public class UIManager : MonoBehaviour
         HeadlockedCanvas.SetActive(false);
         Application.Quit();
     }
-    private void OnDestroy()
-    {
+    private void OnDestroy(){
         MLInput.Stop();
     }
+    #endregion
 }

@@ -1,13 +1,17 @@
+#region Imports
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 using UnityEngine.XR.MagicLeap;
 using System.Linq;
+#endregion
 
 
+[RequireComponent(typeof(ParticleSystem))]
 public class DistanceCalculatorSimilarObj : MonoBehaviour
 {
+    #region Variables
     private Text DistanceSimilarText;
     private Text ColorText;
     private ParticleSystem ps;
@@ -19,11 +23,12 @@ public class DistanceCalculatorSimilarObj : MonoBehaviour
     private GameObject[] similars;
     private float average = 1.0f;
     public bool displayValues = false;
-
-        [Range(1.0f, 30.0f)]
+    [Range(0.01f, 10.0f)]
     public float cycleTime = 1.0f;
     private float timeSinceLastRequest = 0f;
+    #endregion
 
+    #region Methods
     void Awake(){
         ps = GetComponent<ParticleSystem>();
         DistanceSimilarText = GameObject.Find("DistanceSimilar").GetComponent<Text>();
@@ -64,13 +69,11 @@ public class DistanceCalculatorSimilarObj : MonoBehaviour
     }
     
     void Update(){
-
         timeSinceLastRequest += Time.deltaTime;
-        if (timeSinceLastRequest > cycleTime)
-        {
+        if (timeSinceLastRequest > cycleTime){
             average = CalculateAvgDistance();
             SetValue(average);
         }
-
     }
+    #endregion
 }

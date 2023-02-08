@@ -1,18 +1,18 @@
+#region Imports
 using UnityEngine;
 using UnityEngine.XR.MagicLeap;
+#endregion
 
 //This creates a class that exposes image target variables to the inspector
 [System.Serializable]
-public class ImageTargetInfo
-{
+public class ImageTargetInfo{
     public string Name;
     public Texture2D Image;
     public float LongerDimension;
 }
 
 //This contains the four possible statuses we can encounter while trying to use the tracker.
-public enum ImageTrackingStatus
-{
+public enum ImageTrackingStatus{
     Inactive,
     PrivilegeDenied,
     ImageTrackingActive,
@@ -20,8 +20,7 @@ public enum ImageTrackingStatus
 }
 
 //The main class containing our image tracking functions
-public class ImageTrackingSystem : MonoBehaviour
-{
+public class ImageTrackingSystem : MonoBehaviour{
     //The prefab that will pop up when we detect an image and follow it if it moves
     public GameObject TrackedImageFollower;
 
@@ -41,35 +40,27 @@ public class ImageTrackingSystem : MonoBehaviour
     public Quaternion ImageRot = Quaternion.identity;
 
     #region Unity Method
-    private void Awake()
-    {
+    private void Awake(){
         UpdateImageTrackingStatus(ImageTrackingStatus.Inactive);    
     }
 
-    private void OnApplicationPause(bool pauseStatus)
-    {
-        if (pauseStatus == true)
-        {
+    private void OnApplicationPause(bool pauseStatus){
+        if (pauseStatus == true){
             StopImageTracking(true);
         }
-        else
-        {
+        else{
             StartImageTracking();
         }
     }
 
-    private void OnDestroy()
-    {
+    private void OnDestroy(){
         StopImageTracking(false);
     }
 
-    private void Start()
-    {
+    private void Start(){
         // Request Privileges when the Image Tracker System is started
         ActivatePrivileges(); 
     }
-
-    //Update() was removed
     #endregion
 
     #region Privilege Methods
