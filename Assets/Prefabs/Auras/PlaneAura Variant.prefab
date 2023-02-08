@@ -7,14 +7,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 43349762, guid: 72714d78d00924dfd92155afb66051c6, type: 3}
-      propertyPath: m_Text
-      value: plane
-      objectReference: {fileID: 0}
-    - target: {fileID: 1418083038, guid: 72714d78d00924dfd92155afb66051c6, type: 3}
-      propertyPath: MarkerId
-      value: 0
-      objectReference: {fileID: 0}
     - target: {fileID: 2255058736833943068, guid: 72714d78d00924dfd92155afb66051c6, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -59,30 +51,9 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    - target: {fileID: 2393853944757171609, guid: 72714d78d00924dfd92155afb66051c6, type: 3}
-      propertyPath: ShapeModule.type
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2393853944757171609, guid: 72714d78d00924dfd92155afb66051c6, type: 3}
-      propertyPath: ShapeModule.radius.value
-      value: 10
-      objectReference: {fileID: 0}
-    - target: {fileID: 2393853944757171609, guid: 72714d78d00924dfd92155afb66051c6, type: 3}
-      propertyPath: ShapeModule.radiusThickness
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 2393853944757171609, guid: 72714d78d00924dfd92155afb66051c6, type: 3}
-      propertyPath: CollisionModule.m_Planes.Array.data[0]
-      value: 
-      objectReference: {fileID: 0}
     - target: {fileID: 4614399170846671743, guid: 72714d78d00924dfd92155afb66051c6, type: 3}
       propertyPath: m_Name
       value: PlaneAura Variant
       objectReference: {fileID: 0}
-    - target: {fileID: 4614399170846671743, guid: 72714d78d00924dfd92155afb66051c6, type: 3}
-      propertyPath: m_IsActive
-      value: 1
-      objectReference: {fileID: 0}
-    m_RemovedComponents:
-    - {fileID: 1418083038, guid: 72714d78d00924dfd92155afb66051c6, type: 3}
+    m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72714d78d00924dfd92155afb66051c6, type: 3}

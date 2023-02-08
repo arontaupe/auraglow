@@ -201,7 +201,6 @@ GameObject:
   - component: {fileID: 2255058736833943068}
   - component: {fileID: 2393853944757171609}
   - component: {fileID: 467427227211302003}
-  - component: {fileID: 1418083038}
   - component: {fileID: 1418083042}
   - component: {fileID: 6822493398134397606}
   m_Layer: 0
@@ -858,7 +857,7 @@ ParticleSystem:
   ShapeModule:
     serializedVersion: 6
     enabled: 1
-    type: 0
+    type: 10
     angle: 25
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
@@ -945,7 +944,7 @@ ParticleSystem:
     sphericalDirectionAmount: 0
     randomPositionAmount: 0
     radius:
-      value: 1
+      value: 10
       mode: 0
       spread: 0
       speed:
@@ -5006,22 +5005,6 @@ ParticleSystemRenderer:
   m_Mesh2: {fileID: 0}
   m_Mesh3: {fileID: 0}
   m_MaskInteraction: 0
---- !u!114 &1418083038
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 4614399170846671743}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a29ff5e3e15e547a797c670d6b4c6ac9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MarkerDictionary: 0
-  MarkerId: 0
-  smoothTime: 0.1
-  displayLabel: 0
 --- !u!114 &1418083042
 MonoBehaviour:
   m_ObjectHideFlags: 0

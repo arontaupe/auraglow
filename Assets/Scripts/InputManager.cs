@@ -14,6 +14,7 @@ public class InputManager : MonoBehaviour
     public GameObject controllerInput;
     public GameObject attractor;
     private bool attractorCreated = true; //Did we already make a cube?
+    private GameObject console;
     #endregion
     #region Methods
     void Start(){
@@ -21,6 +22,13 @@ public class InputManager : MonoBehaviour
         MLInput.OnControllerButtonUp += OnButtonUp;
         Scene scene = SceneManager.GetActiveScene();
         Debug.Log(scene.name);
+        console = GameObject.Find("RuntimeConsole");
+    }
+    void Update(){
+        if(controller.TriggerValue > 0.5f){
+            console.SetActive (!console.activeInHierarchy);
+            Debug.Log("Triggered Console");
+        }
     }
 
     void OnButtonUp(byte controllerId, MLInput.Controller.Button button) {
@@ -30,6 +38,7 @@ public class InputManager : MonoBehaviour
             Scene scene = SceneManager.GetActiveScene();
             Debug.Log(scene.name);
         }
+
 
         if (button == MLInput.Controller.Button.Bumper){
             //Get the orientation of the controller
