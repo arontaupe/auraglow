@@ -128,3 +128,5 @@ $RECYCLE.BIN/
 
 # Windows shortcuts
 *.lnk
+ProjectSettings/ProjectSettings.asset
+graph.png
