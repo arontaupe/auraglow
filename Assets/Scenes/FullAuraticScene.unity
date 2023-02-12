@@ -195,6 +195,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Attractor
       objectReference: {fileID: 0}
+    - target: {fileID: 4519645346883550519, guid: 86a4d9d42ebba5c418a94e28e4936981, type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 10303, guid: 0000000000000000f000000000000000, type: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 86a4d9d42ebba5c418a94e28e4936981, type: 3}
 --- !u!1001 &1107682577
@@ -204,6 +208,14 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1107682579, guid: 9b553d102dc4149fc9b8bd4f1ab8dfc8, type: 3}
+      propertyPath: camTransform
+      value: 
+      objectReference: {fileID: 4214549400932642}
+    - target: {fileID: 1107682579, guid: 9b553d102dc4149fc9b8bd4f1ab8dfc8, type: 3}
+      propertyPath: LightTrackingStatus
+      value: 
+      objectReference: {fileID: 7522037145256142478}
     - target: {fileID: 3003853963378174724, guid: 9b553d102dc4149fc9b8bd4f1ab8dfc8, type: 3}
       propertyPath: m_Name
       value: LightTracker

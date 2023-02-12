@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3003853963378174726}
   - component: {fileID: 3003853963378174725}
+  - component: {fileID: 1107682579}
   m_Layer: 0
   m_Name: LightTracker
   m_TagString: Untagged
@@ -46,5 +47,24 @@ MonoBehaviour:
   LightTrackingStatus: {fileID: 0}
   camTransform: {fileID: 0}
   luminancePrefab: {fileID: 826511970754073395, guid: 60ce12748c2147448bc2e43e0eb437be, type: 3}
-  lerpRatio: 0.3
+  lightAllergic: 0
+  lerpRatio: 0.2
+  decay: 0.01
+--- !u!114 &1107682579
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3003853963378174724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fe0a1338c167540ab96c45c63b9ac446, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  LightTrackingStatus: {fileID: 0}
+  camTransform: {fileID: 0}
+  luminancePrefab: {fileID: 725013071062972645, guid: 693e21a4d49214218a8e2dabf0d6eace, type: 3}
+  lightAllergic: 1
+  lerpRatio: 0.2
   decay: 0.01

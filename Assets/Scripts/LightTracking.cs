@@ -4,13 +4,13 @@ using UnityEngine.XR.MagicLeap;
 using UnityEngine.UI;
 using System.Collections;
 
-
 public class LightTracking : MonoBehaviour
 {
     #region Variables
     public Text LightTrackingStatus;
     public Transform camTransform;
     public GameObject luminancePrefab;
+    public bool lightAllergic = false;
     private float avgLuminance = 0;
     private MLRaycast.QueryParams _raycastParams = new MLRaycast.QueryParams(); 
     private bool instantiated = false;
@@ -43,12 +43,13 @@ public class LightTracking : MonoBehaviour
         MLRaycast.Stop();
     }
 
-    private WaitForSeconds refreshIntervalWait = new WaitForSeconds(0.5f);
+    private WaitForSeconds refreshIntervalWait = new WaitForSeconds(0.2f);
     IEnumerator CheckLuminance() 
     {
         while (true) {
         float luminance = MLLightingTracking.AverageLuminance;
-        avgLuminance -= decay;
+        if (!lightAllergic){
+            avgLuminance -= decay;
             if(luminance > avgLuminance){
                 // Update the orientation data in the raycast parameters.
                 _raycastParams.Position = camTransform.position;
@@ -59,6 +60,20 @@ public class LightTracking : MonoBehaviour
                 MLRaycast.Raycast(_raycastParams, HandleOnReceiveRaycast);
                 avgLuminance = luminance;
             }    
+        }
+        else{
+            avgLuminance += decay;
+            if(luminance < avgLuminance){
+                // Update the orientation data in the raycast parameters.
+                _raycastParams.Position = camTransform.position;
+                _raycastParams.Direction = camTransform.forward;
+                _raycastParams.UpVector = camTransform.up;
+
+                // Make a raycast request using the raycast parameters 
+                MLRaycast.Raycast(_raycastParams, HandleOnReceiveRaycast);
+                avgLuminance = luminance;
+            }    
+        }
         yield return refreshIntervalWait;
         }
     }

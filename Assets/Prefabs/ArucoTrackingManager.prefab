@@ -45,11 +45,19 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   trackerSettings:
     Dictionary: 0
-    MarkerLength: 0.05
+    MarkerLength: 0.055
     Enabled: 1
   MLArucoMarkerPrefab:
   - {fileID: 5946440943249265826, guid: 0c59d5d3da4b7374e9c1ab5062cda542, type: 3}
+  - {fileID: 9127840694627594303, guid: 344b465ec9eb24e5aa99d442275627d5, type: 3}
+  - {fileID: 4652887095197414245, guid: f00b7ae05f40d4fe68cd2999887b735f, type: 3}
+  - {fileID: 3673742762258639641, guid: ea4d8ea38bb3c4ccb89cab7122a95cdc, type: 3}
   - {fileID: 6098621021637659935, guid: ea634e1b96c181b4eb05c462ec7eb943, type: 3}
+  - {fileID: 4244965578773340721, guid: 0aed8c53640e043808ba874c12e9ef95, type: 3}
+  - {fileID: 8197056760926465493, guid: 36ffd759d77004b31b159b1b36edbfd0, type: 3}
   - {fileID: 7496747777769814864, guid: 0c52913966ca3d545979ef59c4f7f98d, type: 3}
   - {fileID: 2553807595933631801, guid: b7c272c65c4b2224cbf64532d192ae0b, type: 3}
-  showDebug: 1
+  - {fileID: 3122976595149475596, guid: d027ef17a1afc41a493240b15c2a675f, type: 3}
+  - {fileID: 1232647551279193610, guid: c109d7f89493c49d79b1d3a8aeb06080, type: 3}
+  - {fileID: 5008228804360800705, guid: 43fd11d1857d0474b847d0aaf2e7dc69, type: 3}
+  showDebug: 0

@@ -24,6 +24,7 @@ public class DistanceCalculatorCamObj : MonoBehaviour
     [Range(0.01f, 10.0f)]
     public float cycleTime = 1.0f;
     private float timeSinceLastRequest = 0f;
+    public bool invert = false;
     #endregion
 
     #region Methods
@@ -37,7 +38,6 @@ public class DistanceCalculatorCamObj : MonoBehaviour
 
     void SetValue(float min = 0.0f, float max = 10.0f){
         emissionModule.rateOverTime = new ParticleSystem.MinMaxCurve(min, max);
-        //emissionModule.rate = max;
         if(displayValues){
             emissionRate.text = string.Format("min {0} max {1}.", emissionModule.rateOverTime.constantMin, emissionModule.rateOverTime.constantMax);
         }
@@ -56,7 +56,15 @@ public class DistanceCalculatorCamObj : MonoBehaviour
         if (displayValues){
             dist.text = distance.ToString() + " m";
         }
-        SetValue(min: EmissionRateMin, max: EmissionRateLimit / distance);
+        if(!invert){
+            SetValue(min: EmissionRateMin, max: EmissionRateLimit / distance);
+        }
+        else
+        {
+            SetValue(min: EmissionRateMin, 
+            max: EmissionRateLimit * (1 / distance));
+        }
+        
     }
     #endregion
 }

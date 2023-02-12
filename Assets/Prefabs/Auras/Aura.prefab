@@ -2767,7 +2767,7 @@ ParticleSystem:
     magnitude:
       serializedVersion: 2
       minMaxState: 1
-      scalar: 5
+      scalar: 1
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -2775,22 +2775,22 @@ ParticleSystem:
         - serializedVersion: 3
           time: 0
           value: 1
-          inSlope: -0.55405056
-          outSlope: -0.55405056
+          inSlope: -1
+          outSlope: -1
           tangentMode: 34
           weightedMode: 0
           inWeight: 0
-          outWeight: 0.33333334
+          outWeight: 0
         - serializedVersion: 3
           time: 1
-          value: 0.44594947
-          inSlope: -0.55405056
-          outSlope: -0.55405056
+          value: 0
+          inSlope: -1
+          outSlope: -1
           tangentMode: 34
           weightedMode: 0
-          inWeight: 0.33333334
+          inWeight: 0
           outWeight: 0
-        m_PreInfinity: 0
+        m_PreInfinity: 1
         m_PostInfinity: 2
         m_RotationOrder: 4
       minCurve:
@@ -2819,13 +2819,13 @@ ParticleSystem:
         m_RotationOrder: 4
     separateAxis: 0
     inWorldSpace: 0
-    multiplyDragByParticleSize: 0
-    multiplyDragByParticleVelocity: 0
-    dampen: 0.01
+    multiplyDragByParticleSize: 1
+    multiplyDragByParticleVelocity: 1
+    dampen: 0.2
     drag:
       serializedVersion: 2
       minMaxState: 3
-      scalar: 0.1
+      scalar: 0.2
       minScalar: 0.01
       maxCurve:
         serializedVersion: 2
@@ -4131,7 +4131,7 @@ ParticleSystem:
     lifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 0.1
+      scalar: 0.05
       minScalar: 1
       maxCurve:
         serializedVersion: 2
@@ -5017,7 +5017,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eae42fbee033d436ab1b008993052c98, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EmissionRateLimit: 18
+  EmissionRateLimit: 25
   EmissionRateMin: 5
   displayValues: 0
   cycleTime: 0.1
@@ -5035,9 +5035,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   fixPointPrefab: {fileID: 8901177280974650993, guid: 8888fa139f5bf69449593167011e4c6d, type: 3}
   fixPoints: []
-  NumberOfFixPoints: 3
-  noiseMultiplier: 4
-  cycleTime: 0.01
+  NumberOfFixPoints: 10
+  noiseMultiplier: 2
+  cycleTime: 0.05
 --- !u!1 &5220146943525297302
 GameObject:
   m_ObjectHideFlags: 0

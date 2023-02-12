@@ -13,7 +13,9 @@ public class DistanceCalculatorSimilarObj : MonoBehaviour
     private Text DistanceSimilarText;
     private Text ColorText;
     private ParticleSystem ps;
+    [Range(5.0f,25.0f)]
     public float EmissionRateLimit = 10.0f;
+    public bool invert = false;
     [Range(0.0f,1.0f)]
     public float hue = 0.15f;
     public bool s_or_v = true;
@@ -53,16 +55,19 @@ public class DistanceCalculatorSimilarObj : MonoBehaviour
 
     void SetValue(float sat = 1.0f){
         sat = Mathf.Clamp(sat, 0.0f, 5.0f) / 5.0f;
+        if(invert){
+            sat = 1/sat;
+        }
 
         var main = ps.main;
         if(s_or_v){
-            main.startColor = Color.HSVToRGB( hue,sat,1.0f);
+            main.startColor = Color.HSVToRGB(hue,sat,1.0f);
         }
         if(!s_or_v){
-            main.startColor = Color.HSVToRGB( hue,1.0f, sat);
+            main.startColor = Color.HSVToRGB(hue,1.0f, sat );
         }
         if(displayValues){
-            ColorText.text = string.Format("sat {0} ", sat);
+            ColorText.text = string.Format("Color {0} ", sat);
         }
     }
     

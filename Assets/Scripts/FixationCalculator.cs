@@ -19,8 +19,8 @@ public class FixationCalculator : MonoBehaviour
     public int noiseMultiplier = 10;
     [Range(0.01f, 2.0f)]
     public float cycleTime = 0.2f;
-
-
+    public bool useFrequency = false;
+    public bool invert = false;
     #endregion
 
     #region Private Variables
@@ -28,9 +28,6 @@ public class FixationCalculator : MonoBehaviour
     private float timeSinceLastRequest = 0f;
     private ParticleSystem ps;
     private ParticleSystem.NoiseModule noiseModule;
-
-
-
     private float average = 1.0f;
     #endregion
 
@@ -46,12 +43,16 @@ public class FixationCalculator : MonoBehaviour
         if (timeSinceLastRequest > cycleTime)
         {
             average = CalculateAverageDistance();
-            SetValue(average);
+            if (invert){
+            SetValue(1/average);
+            }
+            else{
+                SetValue(average);
+            }
         }
     }
 #endif
-    void Awake()
-    {
+    void Awake(){
         ps = GetComponent<ParticleSystem>();
         noiseModule = ps.noise;
     }
@@ -59,8 +60,13 @@ public class FixationCalculator : MonoBehaviour
     void SetValue(float dist = 1.0f){
         dist = Mathf.Clamp(dist, 0.0f, 3.0f) / 3.0f;
 
-        noiseModule.strength = new ParticleSystem.MinMaxCurve(0.5f, dist * noiseMultiplier);
-        //Debug.Log(String.Format("Set Noise to {0}", dist));
+        if(!useFrequency){
+            noiseModule.strength = new ParticleSystem.MinMaxCurve(0.5f, dist * noiseMultiplier);
+        }
+
+        if (useFrequency){
+            noiseModule.frequency = dist;
+        }
     }
 
     private WaitForSeconds refreshIntervalWait = new WaitForSeconds(0.1f);
@@ -70,9 +76,7 @@ public class FixationCalculator : MonoBehaviour
         {
             Vector3 fixPoint = MLEyes.FixationPoint;
             GameObject fixInstance = Instantiate(fixPointPrefab, fixPoint, Quaternion.identity);
-            //Destroy(fixInstance, 0.2f);
            
-            //Debug.Log("Placed Fixpoint");
             fixPoints.Add(fixInstance);
 
             while(fixPoints.Count > NumberOfFixPoints)
@@ -84,10 +88,8 @@ public class FixationCalculator : MonoBehaviour
         }
     }
 
-    private float CalculateAverageDistance()
-    {
-        if(fixPoints.Any())
-        {
+    private float CalculateAverageDistance(){
+        if(fixPoints.Any()){
             List<float> distances = new List<float>();
 
             foreach (GameObject point in fixPoints)
