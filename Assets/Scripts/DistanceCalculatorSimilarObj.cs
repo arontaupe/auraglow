@@ -13,8 +13,6 @@ public class DistanceCalculatorSimilarObj : MonoBehaviour
     private Text DistanceSimilarText;
     private Text ColorText;
     private ParticleSystem ps;
-    [Range(5.0f,25.0f)]
-    public float EmissionRateLimit = 10.0f;
     public bool invert = false;
     [Range(0.0f,1.0f)]
     public float hue = 0.15f;

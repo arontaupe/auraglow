@@ -7,9 +7,29 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -8135932770945481137, guid: ad3a4cc215d7f3f4e908b8d04c1eb089, type: 3}
+      propertyPath: hue
+      value: 0.2
+      objectReference: {fileID: 0}
+    - target: {fileID: -8135932770945481137, guid: ad3a4cc215d7f3f4e908b8d04c1eb089, type: 3}
+      propertyPath: cycleTime
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: -8135932770945481137, guid: ad3a4cc215d7f3f4e908b8d04c1eb089, type: 3}
+      propertyPath: m_Enabled
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8135932770945481137, guid: ad3a4cc215d7f3f4e908b8d04c1eb089, type: 3}
+      propertyPath: searchtag
+      value: wall
+      objectReference: {fileID: 0}
     - target: {fileID: 4132658559979950074, guid: ad3a4cc215d7f3f4e908b8d04c1eb089, type: 3}
       propertyPath: m_Name
       value: PlaneAura Wall Variant
+      objectReference: {fileID: 0}
+    - target: {fileID: 4132658559979950074, guid: ad3a4cc215d7f3f4e908b8d04c1eb089, type: 3}
+      propertyPath: m_TagString
+      value: wall
       objectReference: {fileID: 0}
     - target: {fileID: 6371232222687688988, guid: ad3a4cc215d7f3f4e908b8d04c1eb089, type: 3}
       propertyPath: ShapeModule.type

@@ -87,6 +87,10 @@ PrefabInstance:
       propertyPath: m_TagString
       value: lover
       objectReference: {fileID: 0}
+    - target: {fileID: 6822493398134397606, guid: 72714d78d00924dfd92155afb66051c6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72714d78d00924dfd92155afb66051c6, type: 3}
 --- !u!1 &7496747777769814864 stripped
@@ -106,7 +110,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ab0659df13d0d4104aa403c95b98d1b6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  EmissionRateLimit: 20
   invert: 0
   hue: 0.15
   s_or_v: 0
@@ -127,5 +130,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MarkerDictionary: 0
   MarkerId: 7
-  smoothTime: 0.3
+  smoothTime: 0
   displayLabel: 0

@@ -8,6 +8,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 87750718651770398, guid: 43fd11d1857d0474b847d0aaf2e7dc69, type: 3}
+      propertyPath: s_or_v
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 87750718651770398, guid: 43fd11d1857d0474b847d0aaf2e7dc69, type: 3}
       propertyPath: searchtag
       value: hater
       objectReference: {fileID: 0}

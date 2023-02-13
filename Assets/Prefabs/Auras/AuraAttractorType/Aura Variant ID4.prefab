@@ -71,6 +71,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aura Variant ID4
       objectReference: {fileID: 0}
+    - target: {fileID: 6822493398134397606, guid: 72714d78d00924dfd92155afb66051c6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72714d78d00924dfd92155afb66051c6, type: 3}
 --- !u!1 &6098621021637659935 stripped

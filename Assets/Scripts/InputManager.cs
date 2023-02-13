@@ -9,17 +9,23 @@ using UnityEngine.SceneManagement;
 public class InputManager : MonoBehaviour
 {
     #region Variables
-    private MLInput.Controller controller;
     public Transform controllerTransform; //controller gameobject in scene
     public GameObject controllerInput;
     public GameObject attractor;
+
+
+    private MLInput.Controller controller;
     private bool attractorCreated = true; //Did we already make a cube?
     private GameObject console;
     #endregion
+
     #region Methods
     void Start(){
+        MLInput.Start();
         controller = MLInput.GetController(MLInput.Hand.Left);
+        Debug.Log(controller);
         MLInput.OnControllerButtonUp += OnButtonUp;
+
         Scene scene = SceneManager.GetActiveScene();
         Debug.Log(scene.name);
         console = GameObject.Find("RuntimeConsole");
@@ -29,6 +35,10 @@ public class InputManager : MonoBehaviour
             console.SetActive(!console.activeInHierarchy);
             Debug.Log("Triggered Console");
         }
+    }
+
+    private void OnDestroy(){
+        MLInput.Stop();
     }
 
     void OnButtonUp(byte controllerId, MLInput.Controller.Button button) {

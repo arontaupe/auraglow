@@ -48,7 +48,7 @@ MonoBehaviour:
   BBoxTransform: {fileID: 0}
   BBoxExtents: {x: 0, y: 0, z: 0}
   PlaneGameObject: {fileID: 4723320549228866123, guid: c3d33025feae830418a2de3dd2ee738f, type: 3}
-  planeScaleFactor: 0.02
+  planeScaleFactor: 0.03
   enableScaling: 0
   maxPlanes: 10
   showDebug: 0
@@ -73,7 +73,7 @@ MonoBehaviour:
   enableScaling: 0
   maxPlanes: 10
   showDebug: 0
-  cycleTime: 15
+  cycleTime: 16
   QueryFlags: 256
 --- !u!114 &4924413981267127410
 MonoBehaviour:
@@ -94,5 +94,5 @@ MonoBehaviour:
   enableScaling: 0
   maxPlanes: 10
   showDebug: 0
-  cycleTime: 15
+  cycleTime: 17
   QueryFlags: 64

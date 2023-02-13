@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.12731749, g: 0.13414757, b: 0.12107873, a: 1}
+  m_IndirectSpecularColor: {r: 0.12731689, g: 0.13414702, b: 0.1210784, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -291,6 +291,91 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6ac1904a2077704489f3b19c03ef4c28, type: 3}
+--- !u!1001 &4881095754388541773
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 5447188162867655870, guid: 3e3f2f07dc1ef4d4f9076f2e4b4ebca3, type: 3}
+      propertyPath: m_AnchorMax.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5447188162867655870, guid: 3e3f2f07dc1ef4d4f9076f2e4b4ebca3, type: 3}
+      propertyPath: m_AnchorMin.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5447188162867655870, guid: 3e3f2f07dc1ef4d4f9076f2e4b4ebca3, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5447188162867655870, guid: 3e3f2f07dc1ef4d4f9076f2e4b4ebca3, type: 3}
+      propertyPath: m_AnchoredPosition.x
+      value: 155
+      objectReference: {fileID: 0}
+    - target: {fileID: 5447188162867655870, guid: 3e3f2f07dc1ef4d4f9076f2e4b4ebca3, type: 3}
+      propertyPath: m_AnchoredPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5447188163056592466, guid: 3e3f2f07dc1ef4d4f9076f2e4b4ebca3, type: 3}
+      propertyPath: m_RootOrder
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 5447188163056592466, guid: 3e3f2f07dc1ef4d4f9076f2e4b4ebca3, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5447188163056592466, guid: 3e3f2f07dc1ef4d4f9076f2e4b4ebca3, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5447188163056592466, guid: 3e3f2f07dc1ef4d4f9076f2e4b4ebca3, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5447188163056592466, guid: 3e3f2f07dc1ef4d4f9076f2e4b4ebca3, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5447188163056592466, guid: 3e3f2f07dc1ef4d4f9076f2e4b4ebca3, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5447188163056592466, guid: 3e3f2f07dc1ef4d4f9076f2e4b4ebca3, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5447188163056592466, guid: 3e3f2f07dc1ef4d4f9076f2e4b4ebca3, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5447188163056592466, guid: 3e3f2f07dc1ef4d4f9076f2e4b4ebca3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5447188163056592466, guid: 3e3f2f07dc1ef4d4f9076f2e4b4ebca3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5447188163056592466, guid: 3e3f2f07dc1ef4d4f9076f2e4b4ebca3, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5447188163056592477, guid: 3e3f2f07dc1ef4d4f9076f2e4b4ebca3, type: 3}
+      propertyPath: m_Name
+      value: RuntimeConsole
+      objectReference: {fileID: 0}
+    - target: {fileID: 5447188163186740378, guid: 3e3f2f07dc1ef4d4f9076f2e4b4ebca3, type: 3}
+      propertyPath: m_SizeDelta.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5447188163186740378, guid: 3e3f2f07dc1ef4d4f9076f2e4b4ebca3, type: 3}
+      propertyPath: m_SizeDelta.y
+      value: 0
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 3e3f2f07dc1ef4d4f9076f2e4b4ebca3, type: 3}
 --- !u!1001 &5870809508122875524
 PrefabInstance:
   m_ObjectHideFlags: 0

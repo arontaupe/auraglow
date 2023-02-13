@@ -281,6 +281,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 5932000358860649576, guid: 031748c53ee4bd34d851d92f36026641, type: 3}
+      propertyPath: cycleTime
+      value: 0.1
+      objectReference: {fileID: 0}
     - target: {fileID: 5932000358860649577, guid: 031748c53ee4bd34d851d92f36026641, type: 3}
       propertyPath: m_RootOrder
       value: 8
@@ -558,6 +562,10 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 4454484278779972741, guid: 9597933f15613eb439340ab847c0a0f9, type: 3}
+      propertyPath: trackerSettings.MarkerLength
+      value: 0.049
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9597933f15613eb439340ab847c0a0f9, type: 3}
 --- !u!1001 &7522037145256142477
@@ -568,8 +576,12 @@ PrefabInstance:
     m_TransformParent: {fileID: 0}
     m_Modifications:
     - target: {fileID: 7522037145437590524, guid: a8c0ab4637dbd4feea1e72105c2afcc7, type: 3}
+      propertyPath: m_text
+      value: 
+      objectReference: {fileID: 0}
+    - target: {fileID: 7522037145437590524, guid: a8c0ab4637dbd4feea1e72105c2afcc7, type: 3}
       propertyPath: m_fontSize
-      value: 4.95
+      value: 5
       objectReference: {fileID: 0}
     - target: {fileID: 7522037145437590524, guid: a8c0ab4637dbd4feea1e72105c2afcc7, type: 3}
       propertyPath: m_margin.w

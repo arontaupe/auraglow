@@ -45,7 +45,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   controllerTransform: {fileID: 0}
-  controllerInput: {fileID: 5568559844664900137}
+  controllerInput: {fileID: 6569892503035571842}
   attractor: {fileID: 0}
 --- !u!1001 &4559116315674560504
 PrefabInstance:
@@ -128,11 +128,6 @@ GameObject:
 --- !u!4 &6569892503035571855 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 7235541112672725367, guid: 222bd9546a0294a4186782eaa063a280, type: 3}
-  m_PrefabInstance: {fileID: 4559116315674560504}
-  m_PrefabAsset: {fileID: 0}
---- !u!1 &5568559844664900137 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 8215202950104563153, guid: 222bd9546a0294a4186782eaa063a280, type: 3}
   m_PrefabInstance: {fileID: 4559116315674560504}
   m_PrefabAsset: {fileID: 0}
 --- !u!65 &7560753205736409421
