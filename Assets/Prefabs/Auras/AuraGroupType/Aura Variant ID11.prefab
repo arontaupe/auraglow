@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 450385160314594155, guid: d027ef17a1afc41a493240b15c2a675f, type: 3}
+      propertyPath: MarkerId
+      value: 11
+      objectReference: {fileID: 0}
     - target: {fileID: 3122976595149475596, guid: d027ef17a1afc41a493240b15c2a675f, type: 3}
       propertyPath: m_Name
       value: Aura Variant ID11
@@ -30,6 +34,10 @@ PrefabInstance:
     - target: {fileID: 5360977118026611178, guid: d027ef17a1afc41a493240b15c2a675f, type: 3}
       propertyPath: InitialModule.startColor.maxColor.r
       value: 0.65444326
+      objectReference: {fileID: 0}
+    - target: {fileID: 8061452037154824403, guid: d027ef17a1afc41a493240b15c2a675f, type: 3}
+      propertyPath: hue
+      value: 0.25
       objectReference: {fileID: 0}
     - target: {fileID: 8061452037154824403, guid: d027ef17a1afc41a493240b15c2a675f, type: 3}
       propertyPath: s_or_v

@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 627590618209224761, guid: 344b465ec9eb24e5aa99d442275627d5, type: 3}
+      propertyPath: MarkerId
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 2445079252738860380, guid: 344b465ec9eb24e5aa99d442275627d5, type: 3}
       propertyPath: m_RootOrder
       value: 0
@@ -51,9 +55,13 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 6033564010622164056, guid: 344b465ec9eb24e5aa99d442275627d5, type: 3}
+      propertyPath: MarkerId
+      value: 3
+      objectReference: {fileID: 0}
     - target: {fileID: 9127840694627594303, guid: 344b465ec9eb24e5aa99d442275627d5, type: 3}
       propertyPath: m_Name
-      value: Aura Variant ID0
+      value: Aura Variant ID3
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 344b465ec9eb24e5aa99d442275627d5, type: 3}

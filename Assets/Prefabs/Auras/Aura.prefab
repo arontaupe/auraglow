@@ -203,6 +203,7 @@ GameObject:
   - component: {fileID: 467427227211302003}
   - component: {fileID: 1418083042}
   - component: {fileID: 6822493398134397606}
+  - component: {fileID: 7862932938184896280}
   m_Layer: 0
   m_Name: Aura
   m_TagString: aura
@@ -5041,6 +5042,22 @@ MonoBehaviour:
   cycleTime: 0.1
   useFrequency: 0
   invert: 0
+--- !u!114 &7862932938184896280
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4614399170846671743}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a29ff5e3e15e547a797c670d6b4c6ac9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  MarkerDictionary: 0
+  MarkerId: 0
+  smoothTime: 0.3
+  displayLabel: 1
 --- !u!1 &5220146943525297302
 GameObject:
   m_ObjectHideFlags: 0

@@ -7,9 +7,13 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 2300457412072589182, guid: ea4d8ea38bb3c4ccb89cab7122a95cdc, type: 3}
+      propertyPath: MarkerId
+      value: 2
+      objectReference: {fileID: 0}
     - target: {fileID: 3673742762258639641, guid: ea4d8ea38bb3c4ccb89cab7122a95cdc, type: 3}
       propertyPath: m_Name
-      value: Aura Variant ID0
+      value: Aura Variant ID2
       objectReference: {fileID: 0}
     - target: {fileID: 7906616650531225210, guid: ea4d8ea38bb3c4ccb89cab7122a95cdc, type: 3}
       propertyPath: m_RootOrder

@@ -59,5 +59,9 @@ PrefabInstance:
       propertyPath: MarkerId
       value: 5
       objectReference: {fileID: 0}
+    - target: {fileID: 8770122290624438648, guid: ea634e1b96c181b4eb05c462ec7eb943, type: 3}
+      propertyPath: MarkerId
+      value: 5
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: ea634e1b96c181b4eb05c462ec7eb943, type: 3}

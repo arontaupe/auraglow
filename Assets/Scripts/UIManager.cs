@@ -7,6 +7,7 @@ public class UIManager : MonoBehaviour
     #region Private Variables
     private MLInput.Controller controller;
     private bool gestureactive = false;
+    private GameObject console;
     #endregion
 
     #region Public Variables
@@ -22,6 +23,9 @@ public class UIManager : MonoBehaviour
 
        Scene scene = SceneManager.GetActiveScene();
        Debug.Log(scene.name);
+
+       console = GameObject.Find("RuntimeConsole");
+       
     }
 
     void Update(){
@@ -40,7 +44,6 @@ public class UIManager : MonoBehaviour
                 }                             
             }
         }
-        
         
         if(controller.TouchpadGestureState.ToString() == "Start" && !gestureactive){
             Debug.Log(controller.TouchpadGestureState.ToString());
@@ -61,7 +64,10 @@ public class UIManager : MonoBehaviour
             if(controller.CurrentTouchpadGesture.Direction.ToString() == "Right"){
                 QuitApp();
             }
-            
+            if(controller.CurrentTouchpadGesture.Direction.ToString() == "Left"){
+                console.SetActive(!console.activeInHierarchy);
+            Debug.Log("Triggered Console");           
+            } 
         }
        
     }

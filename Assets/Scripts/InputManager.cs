@@ -17,6 +17,8 @@ public class InputManager : MonoBehaviour
     private MLInput.Controller controller;
     private bool attractorCreated = true; //Did we already make a cube?
     private GameObject console;
+    private bool gestureactive = false;
+    private bool lineactive = true;
     #endregion
 
     #region Methods
@@ -31,9 +33,26 @@ public class InputManager : MonoBehaviour
         console = GameObject.Find("RuntimeConsole");
     }
     void Update(){
-        if(controller.TriggerValue > 0.8f){
-            console.SetActive(!console.activeInHierarchy);
-            Debug.Log("Triggered Console");
+
+        if(controller.TouchpadGestureState.ToString() == "Start" && !gestureactive){
+            Debug.Log(controller.TouchpadGestureState.ToString());
+            gestureactive = true;
+        }
+
+        if(controller.TouchpadGestureState.ToString() == "End" && gestureactive){
+            Debug.Log(controller.CurrentTouchpadGesture.Direction.ToString());
+            gestureactive = false;
+
+            if(controller.CurrentTouchpadGesture.Direction.ToString() == "Left"){
+                console.SetActive(!console.activeInHierarchy);
+                Debug.Log("Triggered Console");           
+            } 
+
+            if(controller.CurrentTouchpadGesture.Direction.ToString() == "Up"){
+                lineactive = !lineactive;
+                controllerInput.GetComponent<LineRenderer>().enabled = lineactive;
+                Debug.Log("Triggered Line");           
+            } 
         }
     }
 

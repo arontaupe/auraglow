@@ -43,7 +43,7 @@ public class LightTracking : MonoBehaviour
         MLRaycast.Stop();
     }
 
-    private WaitForSeconds refreshIntervalWait = new WaitForSeconds(0.2f);
+    private WaitForSeconds refreshIntervalWait = new WaitForSeconds(0.3f);
     IEnumerator CheckLuminance() 
     {
         while (true) {

@@ -11,9 +11,13 @@ PrefabInstance:
       propertyPath: MarkerId
       value: 6
       objectReference: {fileID: 0}
+    - target: {fileID: 1728883026984521302, guid: 0aed8c53640e043808ba874c12e9ef95, type: 3}
+      propertyPath: MarkerId
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 4244965578773340721, guid: 0aed8c53640e043808ba874c12e9ef95, type: 3}
       propertyPath: m_Name
-      value: Aura Variant ID12
+      value: Aura Variant ID6
       objectReference: {fileID: 0}
     - target: {fileID: 7325973218387769170, guid: 0aed8c53640e043808ba874c12e9ef95, type: 3}
       propertyPath: m_RootOrder

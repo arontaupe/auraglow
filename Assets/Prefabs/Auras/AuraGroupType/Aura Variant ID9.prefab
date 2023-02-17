@@ -7,6 +7,10 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: -5999145300975741809, guid: 0c52913966ca3d545979ef59c4f7f98d, type: 3}
+      propertyPath: hue
+      value: 0.15
+      objectReference: {fileID: 0}
     - target: {fileID: 664494807228108214, guid: 0c52913966ca3d545979ef59c4f7f98d, type: 3}
       propertyPath: InitialModule.startColor.maxColor.g
       value: 0.42001882
@@ -54,6 +58,10 @@ PrefabInstance:
     - target: {fileID: 3984555381969366579, guid: 0c52913966ca3d545979ef59c4f7f98d, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 4980647084240525111, guid: 0c52913966ca3d545979ef59c4f7f98d, type: 3}
+      propertyPath: MarkerId
+      value: 9
       objectReference: {fileID: 0}
     - target: {fileID: 7496747777769814864, guid: 0c52913966ca3d545979ef59c4f7f98d, type: 3}
       propertyPath: m_Name

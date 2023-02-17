@@ -91,6 +91,14 @@ PrefabInstance:
       propertyPath: m_Enabled
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 7862932938184896280, guid: 72714d78d00924dfd92155afb66051c6, type: 3}
+      propertyPath: MarkerId
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 7862932938184896280, guid: 72714d78d00924dfd92155afb66051c6, type: 3}
+      propertyPath: smoothTime
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 72714d78d00924dfd92155afb66051c6, type: 3}
 --- !u!1 &7496747777769814864 stripped
@@ -116,19 +124,3 @@ MonoBehaviour:
   searchtag: lover
   displayValues: 0
   cycleTime: 1
---- !u!114 &8381136873162426163
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7496747777769814864}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: a29ff5e3e15e547a797c670d6b4c6ac9, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  MarkerDictionary: 0
-  MarkerId: 7
-  smoothTime: 0
-  displayLabel: 0
