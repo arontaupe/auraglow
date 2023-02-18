@@ -111,6 +111,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Aura Variant Luminance
       objectReference: {fileID: 0}
+    - target: {fileID: 7862932938184896280, guid: 72714d78d00924dfd92155afb66051c6, type: 3}
+      propertyPath: m_Enabled
+      value: 0
+      objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 1418083038, guid: 72714d78d00924dfd92155afb66051c6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 72714d78d00924dfd92155afb66051c6, type: 3}

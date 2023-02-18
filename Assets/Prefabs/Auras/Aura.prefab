@@ -5056,7 +5056,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   MarkerDictionary: 0
   MarkerId: 0
-  smoothTime: 0.3
+  smoothTime: 0
   displayLabel: 1
 --- !u!1 &5220146943525297302
 GameObject:
