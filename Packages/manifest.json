@@ -1,16 +1,16 @@
 {
-    "scopedRegistries": [
-        {
-            "name": "Magic Leap",
-            "url": "https://registry.npmjs.org",
-            "scopes": [
-                "com.magicleap"
-            ]
-        }
-    ],
-    "dependencies": {
+  "scopedRegistries": [
+    {
+      "name": "Magic Leap",
+      "url": "https://registry.npmjs.org",
+      "scopes": [
+        "com.magicleap"
+      ]
+    }
+  ],
+  "dependencies": {
     "com.magicleap.unitysdk": "file:/Users/aron/MagicLeap/tools/unity/v0.26.0/com.magicleap.unitysdk",
-    "com.unity.ide.visualstudio": "2.0.17",
+    "com.unity.ide.visualstudio": "2.0.18",
     "com.unity.ide.vscode": "1.2.5",
     "com.unity.test-framework": "1.1.33",
     "com.unity.textmeshpro": "3.0.6",
